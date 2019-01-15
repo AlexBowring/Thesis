@@ -1,0 +1,404 @@
+% warwickthesis.tex modified by M Hadley from utthesis.doc  Sept 96
+% Significant changes were made in 2009, first to work seemlessly with pdflatex
+% and secondly to use the setspace package to control linespacing -
+% removing some incompatibilities that existed before.
+% any comments or problems - contact me  <m.j.hadley@warwick.ac.uk>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% File: utthesis.doc, version 2.0, January 1995
+%%% =============================================
+%%% Copyright (c) 1995 by Dinesh Das.  All rights reserved.
+%%% This file is free and can be modified or distributed as long as
+%%% you meet the following conditions:
+%%%
+%%% (1) This copyright notice is kept intact on all modified copies.
+%%% (2) If you modify this file, you MUST NOT use the original file name.
+%%%
+%%% This file contains a template that can be used with the package
+%%% utthesis.sty and LaTeX2e to produce a th\citep that meets the requirements
+%%% of the Graduate School of The University of Texas at Austin.
+%%%
+%%% All of the commands defined by utthesis.sty have default values (see
+%%% the file
+%           warwickthesis.sty
+%%%                        for these values).  Thus, theoreticaldddly, you
+%%% don't need to define values for any of them; you can run this file
+%%% through LaTeX2e and produce an acceptable thesis, without any text.
+%%% However, you probably want to set at least some of the macros (like
+%%% \thesisauthor).  In that case, replace "..." with appropriate values,
+%%% and uncomment the line (by removing the leading %'s).
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% all comments starting with %! have been added by M Hadley as
+% part of the conversion for the university of warwick
+%
+%
+%\documentclass[11pt,a4paper,twoside]{report}      %% LaTeX2e document.
+%%* Removed twoside option which is no longer accepted - you might want to use it for drafts.
+\documentclass[11pt,a4paper]{report}      %% LaTeX2e document.
+\usepackage{thesis,setspace,graphicx}     %!  setspace is used to control linepacing
+\usepackage[round]{natbib}                    %! needed for Harvard style of references.
+
+\usepackage{afterpage} 
+
+\usepackage{boldline} 
+%\hlineB bold lines
+
+
+\usepackage{array}
+                                                %! for more notes see the bibliography section below
+\usepackage{enumerate}  %! used for the library form, but you might find it useful too.
+
+\usepackage{subfigure} %! subfigures 
+\usepackage{mathtools} %! use \MoveEqLeft
+
+
+\usepackage{tikz}
+\usetikzlibrary{matrix,arrows,shapes,snakes, positioning, calc}
+\usetikzlibrary{chains,positioning}
+
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{multirow}
+%\multirow{2}{*} { text}
+
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{amsmath, mathtools, amssymb, bbm, dsfont}
+ 
+\allowdisplaybreaks %! break equation into two pages
+
+
+% table width coloumn
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+% larger than \Bigg brackets
+\makeatletter
+\newcommand{\vast}{\bBigg@{4}}
+\newcommand{\Vast}{\bBigg@{5}}
+\makeatother
+
+% \mastersthesis                     %% Uncomment one of these; if you don't
+% \phdthesis                         %% use either, the default is \phdthesis.
+
+%\thesisdraft                       %% Uncomment this if you want a draft
+                                     %% version; this will print a timestamp
+                                     %% on each page of your thesis.
+
+% \leftchapter                       %% Uncomment one of these if you want
+% \centerchapter                     %% left-justified, centered or
+ \rightchapter                      %% right-justified chapter headings.
+                                     %% Chapter headings includes the
+                                     %% Contents, Acknowledgments, Lists
+                                     %% of Tables and Figures and the Vita.
+                                     %% The default is \centerchapter.
+
+%\renewcommand{\familydefault}{cmss}  %! removed April 2009 because the default times font reads more easily
+                                     %! for larger blocks of text.%!
+                                     %! Added March 2003.
+                                     %! This alternative is to use a sans serif font as in
+                                     %!  the Warwick Corporate style.
+                                     %! The default is Times, which is still acceptable.
+
+
+\onehalfspacing                      %! This is the default and gives an acceptable "double spaced" thesis
+                                     %! It is the minimum spacing accepted by the graduate school, and there is no reason to increase the spacing.
+% \singlespacing                     %! Uncomment if you want single-spacing,
+%\doublespacing                     %! uncomment if you want real double-spacing for some perverse reason.
+
+%\setlength{\textheight}{9.0in}      %! Uncomment this for a slightly
+                                     %! longer page. The default is now 8.5in (from Feb 2010)
+                                     %! regulations require page numbers to be at least 1.5cm into the page.
+                                     %! You can even try a longer page to save paper.
+
+%! Double sided printing is no longer allowed (March 2008), it caused too many problems at binding,
+                              %\setlength{\evensidemargin}{0.15in}  %! Uncomment this line for double sided printing
+                                      %! Double-sided printing has recently been
+                                      %! allowed by the Graduate School (March 2003)
+                                      %! The default is {0.7in} for single sided.
+%! Double sided printing is no longer allowed (March 2008), it caused too many problems at binding,
+
+\renewcommand{\thesisdepartmentname}{Nuffield Department of Population Health}    %! The name of
+                                                  %   the department
+
+%! \renewcommand{\thesissubmission}{Submitted to the University of Warwick\\
+%!              in partial fulfilment of the whererequirements\\
+%!                   for admission to the degree of\\}
+%!
+%!!!!!!!! default is:
+%!
+\renewcommand{\thesissubmission}{Submitted to the University of Oxford\\
+                        for the degree of}
+%!
+%! In the title page this wording will be preceeded by:  thesis\\
+%!                 and ended by:  Doctor of Philosophy   (or the
+%!                                               selected alternative names
+%! use \\ where you want a new line
+
+\renewcommand{\thesisauthor} {Alexander Bowring}    %% Your official name.
+\renewcommand{\thesisauthorno}{1139660}  %! your university number, used on the library copyright page.
+
+
+\renewcommand{\thesismonth}{October}     %% Your month of graduation.
+
+\renewcommand{\thesisyear}{2019}      %% Your year of graduation.
+
+\renewcommand{\thesistitle}{A Comparison of Neuroimaging Software Procedures and a Contour Inference Method for Group-level Task-fMRI Analysis}     %% The title of your thesis; use
+                                     %% mixed-case.
+
+%! \renewcommand{\thesistitletypesize}{\LARGE}   %! Put this in if you
+                                  %!   want a Large title the default is \large
+
+\renewcommand{\thesisauthorpreviousdegrees}{....}
+                                     %% Your previous degrees, abbreviated;
+                                     %% separate multiple degrees by commas.
+
+\renewcommand{\thesissupervisor}{Thomas E Nichols}
+                                     %% Your thesis supervisor; use mixed-case
+                                     %% and don't use any titles or degrees.
+
+\renewcommand{\thesisauthoraddress}{....}
+                                     %% Your permanent address; use "\\" for
+                                     %% linebreaks.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%! For the library declaration page only
+%! \renewcommand{\thesiscopyrightagree}{agree}
+                        %! agreement to allow single photocopies this is the default
+%! \renewcommand{\thesiscopyrightagree}{do not agree}
+                        %! refusal  to allow single photocopies
+
+%! \renewcommand{\thesiscopyrightagreewhen}{immediately.}
+                        %! that is the default to be used in all but the most exceptional circumstances
+%! \renewcommand{\thesiscopyrightagreewhen}{after an embargo period of ……….................... months/years as agreed by the Chair of the Board of Graduate Studies.}
+                         %! An alternative, if you have permission. Replace the .... month/years with approved period or change the wording to insert a date.
+
+%! \renewcommand{\thesisinternetagree}{thesis can be made publicly available online.}
+                         %! default online declaration for WRAP
+%! \renewcommand{\thesisinternetagree}{thesis cannot be made publicly available online.}
+                          %! use if necessary
+%! \renewcommand{\thesisinternetagree}{thesis can be made publicly available only after…..}
+                          %! conditional agreement, please put the date in place of the dots, ending with a fullstop.
+%! \renewcommand{\thesisinternetagree}{full thesis cannot be made publicly available online, but I am submitting a separately identified additional abridged version that can be made available online.}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% The following commands are all optional, but useful if your requirements
+%%% are different from the default values in utthesis.sty.  To use them,
+%%% simply uncomment (remove the leading %) the line(s).
+
+% \renewcommand{\thesisdegree}{...}  %% Uncomment this only if your thesis
+                                     %% degree is NOT "DOCTOR OF PHILOSOPHY"
+                                     %% for \phdthesis or "MASTER OF ARTS"
+                                     %% for \mastersthesis.  Provide the
+                                     %% correct FULL OFFICIAL name of
+                                     %% the degree.
+
+% \renewcommand{\thesisdegreeabbreviation}{...}
+                                     %% Use this if you also use the above
+                                     %% command; provide the OFFICIAL
+                                     %% abbreviation of your thesis degree.
+
+%\renewcommand{\thesistype}{Thesis}    %% Use this ONLY if your thesis type
+                                     %! is NOT "Thesis"
+                                     %% Provide the OFFICIAL type of the
+                                     %% thesis; use mixed-case.
+
+% \renewcommand{\thesistypist}{...}  %% Use this to specify the name of
+                                     %% the thesis typist if it is anything
+                                     %% other than "the author".
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%% My Packages
+
+\usepackage{latexsym,amsmath,amssymb,amsfonts,lineno,xcolor}
+\usepackage{graphicx,color,epsfig,fancyhdr}
+\usepackage{mathrsfs,bbm,dsfont}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{subfigure}
+%\newtheorem{def}{Definition}
+\usepackage{multirow}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{bbding}
+
+\usepackage{adjustbox}
+
+\usepackage{colortbl}
+\usepackage[round]{natbib}
+
+
+\usepackage{textcomp}
+% Color for the links, references and other parts if needed
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\usepackage{color}
+\definecolor{colorlink}{rgb}{0, 0, .6}  % dark blue
+\definecolor{colornew}{rgb}{0, .35, 0}  % dark green
+\hypersetup{colorlinks=true,citecolor=colorlink,filecolor=colorlink,linkcolor=colorlink,urlcolor=colorlink}
+
+\graphicspath{{Figs/}}
+
+
+%%Habib's modifications
+\newcommand{\cov}{\mathrm{cov}}
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\corr}{\mathrm{corr}}
+\newcommand{\var}{\mathrm{var}}
+%%%%
+
+%\input header.tex          %! Input declarations, new
+                              %theorems etc.
+
+%% ALEX's Modifications
+% Change default text to Lato
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+
+% Change chapter style
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\Large}
+  {\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+  {1ex}
+  {\titlerule\vspace{1ex}\filleft}[\vspace{1ex}\titlerule]
+
+
+\begin{document}
+
+%\thesiscopyrightpage                 %! Generate the copyright page for the library.
+%%%%%%%%%%% \thesiscopyrightpagehardcopyonly This only applies for a masters thesis that will not go online.
+
+%%* Uncomment a ttitle page.
+ \thesistitlepage                     %% Generate the title page.
+%\thesistitlecolourpage           %! Generates a COLOUR title page.
+
+%%* Start roman page numbering here for contents, etc
+\pagenumbering{roman} %! Begins roman numerals start from page i.
+
+\tableofcontents                     %% Generate table of contents.
+% \listoftables                      %% Uncomment this to generate list
+                                     %% of tables.
+% \listoffigures                     %% Uncomment this to generate list
+                                     %% of figures.
+
+\begin{thesisacknowledgments}        %% Use this to write your
+%  \input ack.tex                    %% acknowledgments; it can be anything
+                                     %% allowed in LaTeX2e par-mode.
+
+                                     %! This following is not needed, but you may like to add it.
+%This \lowercase\expandafter{\thesistype} was typeset with
+%\LaTeXe\footnote{\LaTeXe{} is an extension of \LaTeX. \LaTeX{} is
+%a collection of macros for \TeX. \TeX{} is a trademark of the
+%American Mathematical Society. The style package {\em warwickthesis} was
+%used.} by \thesistypist.
+
+\end{thesisacknowledgments}
+
+\begin{thesisdeclaration}        %! Use this to declare the extent of
+                 %! the original work,
+                 %! collaboration, other published
+                                 %! material etc.it can be anything
+                                 %% allowed in LaTeX2e par-mode.
+Replace this text with a declaration of the extent of the original work,
+collaboration, other published material etc. You can use any \LaTeX\
+constructs.
+
+\end{thesisdeclaration}
+
+
+%\begin{thesisabstract}               %% Use this to write your thesis
+%                                     %% abstract; it can be anything
+%                                     %% allowed in LaTeX2e par-mode.
+%%!  \begin{singlespace}       %! uncomment this if you need single spacing
+%%   \input abstract.tex       %!           don't forget the end spacing!
+%                                     %! It must fit on one page.
+%                                     %! single spacing and smaller
+%                                     %! font size
+%                                     %!  is allowed here.
+%%!   \end{singlespace}
+%
+\begin{thesisabstract}
+Heritability estimation has become an important tool for imaging genetics studies. The large number of voxel- and vertex-wise measurements in imaging genetics studies present a challenge both in terms of computational intensity and the need to account for elevated false positive risk because of the multiple testing problem. There is a gap in existing tools, as standard neuroimaging software cannot estimate heritability, and yet standard quantitative genetics tools cannot provide essential neuroimaging inferences, like family-wise error corrected voxel- wise or cluster-wise P-values. Moreover, available heritability tools rely on  P-values that can be inaccurate with usual parametric inference methods.
+ 
+In this work we develop fast estimation and inference procedures for voxel-wise heritability, drawing on recent methodological results that simplify heritability likelihood computations \citep{Blangero2013}. We review the family of score and Wald tests and propose novel inference methods based on explained sum of squares of an auxiliary linear model. To address problems with inaccuracies with the standard results used to find P-values, we propose four different permutation schemes to allow semi-parametric inference (parametric likelihood-based estimation, non-parametric sampling distribution). In total, we evaluate 5 different significance tests for heritability, with either asymptotic parametric or permutation-based P-value computations. We identify a number of tests that are both computationally efficient and powerful, making them ideal candidates for heritability studies in the massive data setting. We illustrate our method on fractional anisotropy measures in 859 subjects from the Genetics of Brain Structure study.
+There is a gap in existing tools, as standard neuroimaging software cannot estimate heritability, and yet standard quantitative genetics tools cannot provide essential neuroimaging inferences, like family-wise error corrected voxel- wise or cluster-wise P-values. Moreover, available heritability tools rely on  P-values that can be inaccurate with usual parametric inference methods.
+
+\end{thesisabstract}
+%\begin{thesisabbreviations}       %! Use this to give a list of
+                                   %! abbreviateons
+                                   %! It can be anything
+%\end{thesisabbreviations}         %! allowed in LaTeX2e par-mode.
+                                   %!The following may be useful':
+                     %!\begin{itemize}
+                     %!     \item[symbol]descriptive text..
+                     %!\end{itemize}
+
+%\end{thesisabbreviations}
+%!!!!!!!!!!!!!!!                     %% Begin your thesis text here; follow
+                                     %% the report style and group your text
+                                     %% in chapters, sections, etc. eg:
+%%* don't need this with one-sided printing
+%\newpage{\pagestyle{empty}\cleardoublepage} %! ensure that Chapter 1 starts on an odd
+                                           %! page when using double sided printing.
+%%* Start arabic numbering of main text here
+\pagenumbering{arabic} %! Begins arabic numerals start from page 1.
+
+
+\chapter{Introduction}
+%You would usually put the main content in separate files.
+\input introduction.tex
+\chapter{Background}\label{ch:review}
+%\input review.tex
+\chapter{Fast and Powerful Heritability Estimation and Inference }
+%\input FPHI.tex
+
+\chapter{Fast and Powerful Genome-wide Association Analysis}
+%\input GWA.tex
+\chapter{Bivariate Genetic Analysis}
+%\input Biv.tex
+\chapter{Conclusion and Future Work }
+%\input Conc.tex
+%% More chapters.
+%!
+%! There are a few variations of reference
+%\begin{verbatim}\citet[chap. 2]{ballentine82}|
+%\end{verbatim}
+%for a textual one, as \citet[chap. 2]{ballentine82}.\\
+% \\
+%\begin{verbatim}\citep{abraham_etal}
+% \end{verbatim}
+% for a parenthetical citation \citep{abraham_etal},\\
+%
+% \begin{verbatim}\citep*{MTW}
+% \end{verbatim}
+% for a full list of authors use a * parenthetical citation \citep*{MTW},\\
+% \\
+%!!!!!!!!!!!!!!!
+
+%  \appendix                            %% this will do the appendices
+%  \chapter{Proof of Fred's theorem}
+%  \input{app1.tex}
+%  \chapter{listing of Fred's program}
+%  \input{app2.tex}
+
+\bibliographystyle{RefNames}
+
+\bibliography{perm}            %% Start your bibliography here;
+                                 %! with sample.bib as your bibliography file. You can
+                               %% also use:
+                %! \begin{thebibliography}
+                %!    \bibitem{etc....
+                %! \end{thebibliography}
+                               %% to generate your bibliography.
+
+%\begin{thesisauthorvita}             %% Write your vita here; it can be
+%                                     %% anything in LaTeX2e par-mode.
+%\end{thesisauthorvita}               %%
+
+\end{document}                       %% Done.

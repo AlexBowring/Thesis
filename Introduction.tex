@@ -1,0 +1,89 @@
+%\section{Introduction}\noindent
+The discipline of neuroimaging comprises various techniques for recording the structure and function of the living human brain.  While some methods use electrical or magnetic signals emitted from the brain through the scalp EEG/MEG (Electroencephalography/Magnetoencephalography), and others rely on injection of radioactive tracers (PET) (Positron Emission Tomography), the most widely used methods are based on MRI (Magnetic Resonance Imaging).  MRI allows non-invasive 3-dimensional imaging of the brain based on the local magnetic properties of hydrogen atoms.  Functional MRI (fMRI) has become an indispensable tool of cognitive psychologists to map the brain regions responsible  for basic behaviour and thought.  Structural MRI provides high resolution images of the convoluted gray matter, white matter and subcortical structures that make up the brain; neurologists use subtle changes in gray matter track the progression of Alzheimer's disease and other disorders. And Diffusion Tensor Imaging (DTI) gives unique information on the white matter pathways that connect different parts of cortex.
+
+ As with any biomedical measurement, the overall goal of neuroimaging is to understand differences between populations of subjects and variation within populations.  In the last 5 years there has been considerable interest in explaining such variation with genetic markers, treating the brain imaging measure as a phenotype (see, e.g., \cite{Glahn2007}). A phenotype is strictly defined as a \emph{heritable trait} where a trait  can be defined as a observable physical or biochemical characteristic of an organism. In this sense, Heritability is the proportion of trait variance that can be explained by genetic sources (a formal definition follows in Chapter \ref{ch:review}). Significant and reproducible heritability has been established for many neuroimaging traits assessing brain structure and function, including, for instance, location and strength of  task-related brain activation \citep{Blokland2008,Koten2009,Matthews2007,Polk2007}, white matter integrity \citep{Kochunov2014a,Kochunov2014b,Jahanshad2013,Brouwer2010,Chiang2009,Chiang2011,
+Kochunov2010}, cortical and subcortical volumes, cortical thickness and density \citep{Winkler2010,Rimol2010,Kochunov2011a,Kochunov2011b,Kremen2010,Braber2013}.
+% There have been several investigations of the heritability of task-related brain activation \citep{Blokland2008,Koten2009,Matthews2007,Polk2007}.  A smaller number of studies have investigated the heritability of white matter integrity with Diffusion Tensor Imaging (DTI) \citep{Jahanshad2013,Brouwer2010,Chiang2009,Chiang2011,
+%Kochunov2010}. Other studies have explored the heritability of cortical thickness \citep{Winkler2010,Rimol2010,Kochunov2011a,Kochunov2011b}. \cite{Kremen2010} evaluated genetic and environmental effect for size of different areas in the brain. Moreover some studies just evaluated a specific region of interest in the brain: \cite{Matthews2007} explored the heritability of anterior cingulate response to conflict, while  \cite{Braber2013} explored the heritability of the volume of subcortical brain structures. 
+The aim of any heritability study is to find  aspects of the human brain structure and function that is under the overall genetic control using the expected genetic similarity among different types of related and unrelated individuals. 
+
+There has been growing interest in the field of imaging genetic to move from establishing heritable phenotypes to find genetic variants that influence brain structure and function in order  to better understand the biological basis of neurological and psychiatric illnesses in patients and healthy individuals \citep{Hibar2015,Stein2012,Stein2010a,Stein2010b,Potkin2009a,Potkin2009b}. Association studies address the effect of genetic variants including genes, single nucleotide polymorphisms (SNPs) or copy number variations (CNVs), on a variety of functional and structural brain imaging phenotypes. In brain imaging, evidence has accumulated over the past decade, showing that certain brain-relevant genes have an influence on brain structure and function.  For example, the Alzheimer‘s disease risk apolipoprotein E epsilon-4 allele (ApoE4) associated with reduced grey matter \citep{Burggren2008,Pievani2009} and white matter volumes \citep{Hua2008}.  However, the proportion of the variance in imaging phenotypes explained by these variants is generally very small, leaving a large proportion of the heritability of imaging phenotypes unaccounted for. Thus there remains intense interest to discover more genes that influence brain structure and function. 
+ 
+ %availability of large amount of genetic data  
+ %first generation of imaging genetic studies, which is the foundation of any genetic analysis,  , leads to the second generation of studies that try to specify genetic variants  
+% The next step in genetic analyses of imaging penotypes after stablishing area that are under the genetic contrrl, would be finding genetic markers including genes, SNP etc that affect the brain stuctre and function. 
+ 
+% Furthermore, the next generation of studies have been conducted to specify genetic polymorphisms that influence brain using whole genome data.   genome-wide association studies (GWAS) have been used to find the effect of genetic variations on variety of functional and structural brain imaging phenotypes   in order to better understand the biological basis of neurological and psychiatric illnesses in patients and healthy individuals. 
+ 
+Variance component models are the best-practice approach for deriving  heritability estimates based on familial data \citep{Almasy1998,Blangero1997,Amos1994,HOPPER1983}, for allowing great flexibility in modeling of genetic additive and dominance effects, as well as common and unique environmental influences.  Estimation of parameters typically uses maximum likelihood under the assumption that the additive error follows a multivariate normal distribution. The iterative optimization of the likelihood function requires computationally intensive procedures, that are  prone to convergence failures, something  particularly problematic when fitting data at every voxel/element; both the computation burden and the algorithmic fragility pose significant problems when applied to 100's of 1,000's of voxels. 
+
+Typically a likelihood ratio test (LRT) is used for heritability hypothesis testing. As the null hypothesis value is on the boundary of the parameter space, the asymptotic distribution of LRT is not $\chi^2$ with 1 degree of freedom (DF), but rather approximately as a $50:50$ mixture of  $\chi^2$ distributions with 1 and 0 DF, where a 0 DF $\chi^2$ is a point mass at 0 \citep{Chernoff1954,Self1987,Stram1994,Dominicus2006,Verbeke2003}.  
+ As with most statistical models, the quantitative genetic models used here are based on an assumption of multivariate Gaussianity, and this assumption is the basis of the estimation and hypothesis testing.  However, the heritability test statistic's null distribution may be inaccurate even when Gaussianity is perfectly satisfied, due to the limitations of the $50:50$ $\chi^2$ result (see section \ref{ch:review} for more details). Hence, there is a compelling need for alternative inference procedures that provide valid inference. 
+ 
+
+The genetic association analysis with the quantitative phenotypes from structural  (i.e. brain volume, cortical thickness, white matter integrity) or functional imaging modalities (brain response to particular cognitive task or resting state) at hundred thousand locations in the human brain present statistical challenges including correction for population structure, statistical power and intense multiple comparisons correction.
+
+While genomic data can be used to control for population stratification by including the top principal components as a fixed effect covariates in a linear regression model \citep{Price2006}, usually individuals with  close estimated relatedness  from identity-by-state (IBS) matrix  or different ancestry are  excluded from the study sample. This might not be a problem in genetic studies with 4 digits sample sizes, but may make substantial differences in GWA studies with neuroimaging phenotypes where sample size is much smaller.  Moreover, GWA studies with neuroimaging phenotypes require fitting a marginal model at each point (voxel/element) in the brain, the large number of measurements presents a challenge both in terms of computational intensity and the need to account for elevated false positive risk because of the multiple testing problems both in terms of number of elements and number of markers being tested. 
+
+
+Although the emergence of large scale neuroimaging consortia like ENIGMA or CHARGE can help to conduct well-powered genetic association studies through meta analysis framework, still it is crucial to use a powerful statistical method at site level. Hence, there is a compelling need for a analytical technique that addresses these challenges. 
+
+ 
+The linear mixed effect model (LMM) efficiency in controlling population structure in the genetic association analysis and possible boost in power inspires using it with high-dimensional imaging phenotypes. However fitting LMM at each voxel/ROI in the brain is computationally intensive or even intractable at the voxel level while variance component estimation relies on likelihood function optimisation using numerical methods. Despite many analytical techniques have been developed to accelerate the GWA with LMM, these advances do not eliminate problems related to numerical optimisation  nor multiple testing problem. 
+
+
+
+%Further, for neuroimaging spatial statistics, like family-wise error (FWE) corrected inference with either voxel- or cluster-wise inference, the relevant parametric null distributions are intractable. 
+
+
+In  current practice, practitioners usually extract  measures from imaging data, either voxel-by-voxel or by regions of interest (ROI), and submit the data, one voxel or ROI at a time, to widely used  quantitative genetics software.  A limitation of many neuroimaging heritability and gene-finding studies is the reliance on ROI's. While ROI's simplify the analysis by reducing the high dimensional image data to a few numbers, ROI definitions are problematic. Usually
+a standard atlas specifies the ROI's, but individual differences in brain shape or
+deficiencies in the atlas can result in ROI's missing the targeted brain structure. This motivates the use of voxel based genetic analyses. The opportunity is that, by working with images as whole (instead of voxel-by-voxel), we can consider spatially informed statistics , like cluster size, that will allow greater power to detect low levels of heritability and adjustable for family wise error rate. 
+
+While the statistical methods for estimating heritability on univariate traits are well-established \citep{Almasy1998,Blangero1997,Amos1994,HOPPER1983},  at present there are no established methods to estimate heritability for imaging data and provide the standard neuroimaging inferences, like voxel-wise and cluster-wise P-values, with family-wise error correction for searching the brain for significance.  Although random field theory \citep{Worsley1992a,Friston1994,Nichols2003} results exist for $\chi^2$ images \citep{Cao1999}, they are not directly applicable here as the test statistic image can not be expressed as a linear combination of component error fields. 
+
+
+
+Search for genetic association across the genome at different locations with imaging phenotypes requires intense multiple testing corrections both for number of elements in an image and number of markers.  Whether the association analysis is conducted at the reduced search space in the brain   i.e., summary measure from a region of interest or voxel level, naive application of bonferroni correction for number of hypothesis testing in the image with usual GWA P-value leads to invalid statistical inference procedure while it ignores complex spatial dependence between elements in the imaging phenotypes.   Moreover, parametric null distribution of cluster size \citep{Friston1994} or threshold free cluster enhancement (TFCE) statistics \citep{Smith2009} that are the most common and sensitive inference tools in imaging,  could be invalid due to untenable stationary assumption or in the later case be unknown. Familywise error rate (FWE) correction, controlling the chance of one or more false positives  across the whole set (family) of tests \citep{Nichols2003} requires the distribution the maximum statistic, can be  computed for either voxels/ROI or cluster size with permutation test \citep{Nichols2002}.
+
+
+The purpose of this work is to propose computationally efficient linear mixed effect model that provides fast methods for heritability and association analyses that are specifically oriented toward brain image data, explicitly accounting for the multiple testing problem. The remainder of this thesis is organised as follows.
+
+\begin{itemize}
+\item In the next section we review background on heritability, genome-wide association analyses methods that are largely drawn from quantitative genetic field. Then neueoimaging phenotypes, fundamentals of permutation test and multiple-testing corrections  following standard neuroimaging spatial statistics are described.
+
+\item  \textbf{Heritability}: In this chapter, I draw on recent results that simplify heritability likelihood computations, converting a correlated data problem into a independent but heteroscedastic one.  A suite of non-iterative estimation methods are proposed that are so fast as to be amenable to permutation, and thus allow arbitrary statistics like maximum voxel-wise and cluster-wise statistics, which provide spatial family-wise error control needed in brain imaging. Comprehensive simulation studies are conducted to compare the proposed methods. Also real data analysis is included, 
+
+\item \textbf{Genome-wide association analysis}: In this chapter,   two major contributions are introduced to reduce the complexity of LMM in the genetic association specifically with the imaging phenotypes.  First, variance component estimation step computational cost is reduced with building more accurate 1-step random effect estimator \citep{Ganjgahi2015}. Second, complexity of association testing is dramatically decreased with projecting the model and phenotype to a lower dimension space. The score, LRT and Wald statistics performance for hypothesis testing based on the permutation test and parametric framework are compared using simulation studies. Real data analysis is provided for the sake of evaluation.
+\item {Bivariate genetic modelling}: This chapter introduces a method to accelerate bivariate LMM likelihood function for  genetic correlation and association estimation and testing. 
+\item \textbf{Conclusions}: Presentation of main findings and open problems. 
+\end{itemize}
+
+ %  In the Methods we detail the statistical model used and describe each of our proposed methods, the simulation framework used to evaluate them, and the real data used for illustration.  We then present and interpret results, and offer concluding remarks. 
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+% \cite{Winkler2010} and \cite{Jahanshad2013} are two of the few studies which  have considered voxel based approach to cortical thickness and DTI heritabilities respectively. However, both of these works only provided false discovery rate (FDR; see Section \ref{sec:fdr}) control for multiple testing, and did not provide a means to control family wise error (FWE; see Section \ref{sec:fwe}). To our knowledge, only  \cite{Tian2012}  has developed a neuroimaging genetics method that offers FWE control; in that work, they developed random field theory, permutation test and least square kernel machines for inference on brain-gene associations searching over the whole brain and the entire genome, and in particular, did not consider heritability.  The motivation for this report is to develop voxel-by-voxel methods for estimating heritablity, and developing appropriate random field and permutation inference methods.  The structure of the remaining report is as follows, in chapter 2 neuroimaging phenotypes, basic genetic concept are introduced. In addition, multiple testing error and two popular method to correct this error are reviewed. In chapter 3, we are describing our simulations and their results to compare multiple testing error correction based on the random field theory and permutation test. Finally, we end up with conclusion and future work. 
+
+
+
+
+
+\newpage

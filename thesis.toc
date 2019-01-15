@@ -1,0 +1,9 @@
+\contentsline {chapter}{Acknowledgments}{ii}{chapter*.2}
+\contentsline {chapter}{Declarations}{iii}{chapter*.3}
+\contentsline {chapter}{Abstract}{iv}{chapter*.4}
+\contentsline {chapter}{Chapter{} \numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{Chapter{} \numberline {2}Background}{6}{chapter.2}
+\contentsline {chapter}{Chapter{} \numberline {3}Fast and Powerful Heritability Estimation and Inference }{7}{chapter.3}
+\contentsline {chapter}{Chapter{} \numberline {4}Fast and Powerful Genome-wide Association Analysis}{8}{chapter.4}
+\contentsline {chapter}{Chapter{} \numberline {5}Bivariate Genetic Analysis}{9}{chapter.5}
+\contentsline {chapter}{Chapter{} \numberline {6}Conclusion and Future Work }{10}{chapter.6}
