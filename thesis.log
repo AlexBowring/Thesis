@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  30 JAN 2019 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  31 JAN 2019 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,13 @@ is-used or mis-in-ter-preted such
 Chapter 1.
 (./introduction.tex [1
 
-]) [2]
+]
+Overfull \hbox (4.36072pt too wide) in paragraph at lines 11--12
+[]\T1/fla/m/n/10.95 The prob-lem is, with so many sta-tis-ti-cally valid method
+-olog-i-cal strate-gies avail-
+ []
+
+) [2]
 Chapter 2.
 (./Background.tex) [3
 
@@ -1264,7 +1270,7 @@ xmf-dist/fonts/type1/public/lato/Lato-Reg.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lato/Lato-RegIta.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on thesis.pdf (31 pages, 196436 bytes).
+Output written on thesis.pdf (31 pages, 197267 bytes).
 PDF statistics:
  854 PDF objects out of 1000 (max. 8388607)
  803 compressed objects within 9 object streams
