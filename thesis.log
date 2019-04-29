@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  27 APR 2019 17:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  29 APR 2019 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1197,7 +1197,19 @@ is-used or mis-in-ter-preted such
 Chapter 1.
 (./introduction.tex [1
 
-] [2] [3]
+] [2]
+Overfull \hbox (19.89746pt too wide) in paragraph at lines 15--16
+\T1/fla/m/n/10.95 the multiple-correction pro-ce-dures for clus-ter-wise in-fer
+-ences, in-flat-ing the false-positive
+ []
+
+
+Overfull \hbox (1.92488pt too wide) in paragraph at lines 15--16
+\T1/fla/m/n/10.95 rate to up to 70%. In a damn-ing blow to the field, the im-pl
+i-ca-tions of this study brought
+ []
+
+[3]
 Overfull \hbox (2.60541pt too wide) in paragraph at lines 29--30
 \T1/fla/m/n/10.95 de-ter-mined re-gions of ac-ti-va-tion be-tween the three sof
 t-ware's thresh-olded sta-
@@ -1214,7 +1226,7 @@ Chapter 2.
 (./Background.tex [7
 
 ]
-<Figures/1_Grays_Anatomy.png, id=583, 601.24625pt x 683.55376pt>
+<Figures/1_Grays_Anatomy.png, id=632, 601.24625pt x 683.55376pt>
 File: Figures/1_Grays_Anatomy.png Graphic file (type png)
 
 <use Figures/1_Grays_Anatomy.png>
@@ -1251,26 +1263,32 @@ Chapter 5.
 Chapter 6.
 (./thesis.bbl [15
 
-]) [16
+] [16
 
 ]
+Underfull \hbox (badness 2762) in paragraph at lines 78--84
+[]\T1/fla/m/n/10.95 Tatiana Fom-ina, Matthias Hohmann, Bern-hard Scholkopf, and
+ Moritz Grosse-
+ []
+
+[17] [18]) [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1F3F5540549BE15E3F1C63633BF6B17E;4783.
+(rerunfilecheck)             Checksum: 8F8F698A2DFA3189C4147F757C58EBAB;4795.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
  ) 
 Here is how much of TeX's memory you used:
- 23966 strings out of 493014
- 473262 string characters out of 6133351
- 555308 words of memory out of 5000000
- 26826 multiletter control sequences out of 15000+600000
+ 24133 strings out of 493014
+ 476844 string characters out of 6133351
+ 558099 words of memory out of 5000000
+ 26949 multiletter control sequences out of 15000+600000
  85302 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,80p,3676b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,80p,3676b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb></usr/local/texlive/2016
@@ -1279,10 +1297,10 @@ xmf-dist/fonts/type1/public/lato/Lato-Reg.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lato/Lato-RegIta.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on thesis.pdf (24 pages, 281881 bytes).
+Output written on thesis.pdf (27 pages, 299867 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 630 compressed objects within 7 object streams
- 101 named destinations out of 1000 (max. 500000)
+ 824 PDF objects out of 1000 (max. 8388607)
+ 776 compressed objects within 8 object streams
+ 145 named destinations out of 1000 (max. 500000)
  572 words of extra memory for PDF output out of 10000 (max. 10000000)
 

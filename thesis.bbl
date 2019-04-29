@@ -1,13 +1,300 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{42}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Adelman and {Others}(1987)]{Adelman1987-hs}
+George Adelman and {Others}.
+\newblock \emph{Encyclopedia of neuroscience}.
+\newblock Birkh{\"a}user, 1987.
+
+\bibitem[Alexander et~al.(2007)Alexander, Lee, Lazar, and
+  Field]{Alexander2007-ut}
+Andrew~L Alexander, Jee~Eun Lee, Mariana Lazar, and Aaron~S Field.
+\newblock Diffusion tensor imaging of the brain.
+\newblock \emph{Neurotherapeutics}, 4\penalty0 (3):\penalty0 316--329, July
+  2007.
+
+\bibitem[Azevedo et~al.(2009)Azevedo, Carvalho, Grinberg, Farfel, Ferretti,
+  Leite, Filho, Lent, and Herculano-Houzel]{Azevedo2009-qj}
+Frederico A~C Azevedo, Ludmila R~B Carvalho, Lea~T Grinberg, Jos{\'e}~Marcelo
+  Farfel, Renata E~L Ferretti, Renata E~P Leite, Wilson~Jacob Filho, Roberto
+  Lent, and Suzana Herculano-Houzel.
+\newblock Equal numbers of neuronal and nonneuronal cells make the human brain
+  an isometrically scaled-up primate brain.
+\newblock \emph{J. Comp. Neurol.}, 513\penalty0 (5):\penalty0 532--541, 2009.
+
+\bibitem[Bennett et~al.(1964)Bennett, Diamond, Krech, and
+  Rosenzweig]{Bennett1964-vx}
+E~L Bennett, M~C Diamond, D~Krech, and M~R Rosenzweig.
+\newblock {CHEMICAL} {AND} {ANATOMICAL} {PLASTICITY} {BRAIN}.
+\newblock \emph{Science}, 146\penalty0 (3644):\penalty0 610--619, October 1964.
+
+\bibitem[Brookes et~al.(2011)Brookes, Woolrich, Luckhoo, Price, Hale,
+  Stephenson, Barnes, Smith, and Morris]{Brookes2011-cj}
+Matthew~J Brookes, Mark Woolrich, Henry Luckhoo, Darren Price, Joanne~R Hale,
+  Mary~C Stephenson, Gareth~R Barnes, Stephen~M Smith, and Peter~G Morris.
+\newblock Investigating the electrophysiological basis of resting state
+  networks using magnetoencephalography.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 108\penalty0 (40):\penalty0
+  16783--16788, October 2011.
+
+\bibitem[Carp(2012)]{Carp2012-ph}
+Joshua Carp.
+\newblock On the plurality of (methodological) worlds: estimating the analytic
+  flexibility of {FMRI} experiments.
+\newblock \emph{Front. Neurosci.}, 6:\penalty0 149, October 2012.
+
+\bibitem[Carp(2013)]{Carp2013-cm}
+Joshua Carp.
+\newblock Optimizing the order of operations for movement scrubbing: Comment on
+  power et al.
+\newblock \emph{Neuroimage}, 76:\penalty0 436--438, August 2013.
+
+\bibitem[David et~al.(2013)David, Ware, Chu, Loftus, Fusar-Poli, Radua,
+  Munaf{\`o}, and Ioannidis]{David2013-iz}
+Sean~P David, Jennifer~J Ware, Isabella~M Chu, Pooja~D Loftus, Paolo
+  Fusar-Poli, Joaquim Radua, Marcus~R Munaf{\`o}, and John P~A Ioannidis.
+\newblock Potential reporting bias in {fMRI} studies of the brain.
+\newblock \emph{PLoS One}, 8\penalty0 (7):\penalty0 e70104, July 2013.
+
+\bibitem[Diamond et~al.(1964)Diamond, Krech, and Rosenzweig]{Diamond1964-cu}
+M~C Diamond, D~Krech, and M~R Rosenzweig.
+\newblock {THE} {EFFECTS} {OF} {AN} {ENRICHED} {ENVIRONMENT} {ON} {THE}
+  {HISTOLOGY} {OF} {THE} {RAT} {CEREBRAL} {CORTEX}.
+\newblock \emph{J. Comp. Neurol.}, 123:\penalty0 111--120, August 1964.
+
+\bibitem[Eklund et~al.(2016)Eklund, Nichols, and Knutsson]{Eklund2016-ak}
+Anders Eklund, Thomas~E Nichols, and Hans Knutsson.
+\newblock Cluster failure: Why {fMRI} inferences for spatial extent have
+  inflated false-positive rates.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 113\penalty0 (28):\penalty0
+  7900--7905, July 2016.
+
+\bibitem[Fomina et~al.(2015)Fomina, Hohmann, Scholkopf, and
+  Grosse-Wentrup]{Fomina2015-ha}
+Tatiana Fomina, Matthias Hohmann, Bernhard Scholkopf, and Moritz
+  Grosse-Wentrup.
+\newblock Identification of the default mode network with
+  electroencephalography.
+\newblock \emph{Conf. Proc. IEEE Eng. Med. Biol. Soc.}, 2015:\penalty0
+  7566--7569, 2015.
+
+\bibitem[Fox and Alterman(2015)]{Fox2015-ds}
+Michael~D Fox and Ron~L Alterman.
+\newblock Brain stimulation for torsion dystonia.
+\newblock \emph{JAMA Neurol.}, 72\penalty0 (6):\penalty0 713--719, June 2015.
+
+\bibitem[Glover(2011)]{Glover2011-at}
+Gary~H Glover.
+\newblock Overview of functional magnetic resonance imaging.
+\newblock \emph{Neurosurg. Clin. N. Am.}, 22\penalty0 (2):\penalty0 133--9,
+  vii, April 2011.
+
+\bibitem[Gonzalez-Castillo et~al.(2012)Gonzalez-Castillo, Saad, Handwerker,
+  Inati, Brenowitz, and Bandettini]{Gonzalez-Castillo2012-do}
+Javier Gonzalez-Castillo, Ziad~S Saad, Daniel~A Handwerker, Souheil~J Inati,
+  Noah Brenowitz, and Peter~A Bandettini.
+\newblock Whole-brain, time-locked activation with simple tasks revealed using
+  massive averaging and model-free analysis.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 109\penalty0 (14):\penalty0
+  5487--5492, April 2012.
+
+\bibitem[Gorgolewski and Poldrack(2016)]{Gorgolewski2016-fk}
+Krzysztof~J Gorgolewski and Russell~A Poldrack.
+\newblock A practical guide for improving transparency and reproducibility in
+  neuroimaging research.
+\newblock \emph{PLoS Biol.}, 14\penalty0 (7):\penalty0 e1002506, July 2016.
+
+\bibitem[Hargreaves and Klimas(2012)]{Hargreaves2012-dz}
+Richard~J Hargreaves and Michael Klimas.
+\newblock Imaging in drug development.
+\newblock In \emph{Principles of Clinical Pharmacology}, pages 327--341.
+  Elsevier, 2012.
+
 \bibitem[Ioannidis(2005)]{Ioannidis2005-sy}
 John P~A Ioannidis.
 \newblock Why most published research findings are false.
 \newblock \emph{PLoS Med.}, 2\penalty0 (8):\penalty0 e124, August 2005.
+
+\bibitem[Ioannidis et~al.(2014)Ioannidis, Munaf{\`o}, Fusar-Poli, Nosek, and
+  David]{Ioannidis2014-yn}
+John P~A Ioannidis, Marcus~R Munaf{\`o}, Paolo Fusar-Poli, Brian~A Nosek, and
+  Sean~P David.
+\newblock Publication and other reporting biases in cognitive sciences:
+  detection, prevalence, and prevention.
+\newblock \emph{Trends Cogn. Sci.}, 18\penalty0 (5):\penalty0 235--241, May
+  2014.
+
+\bibitem[Kalia et~al.(2013)Kalia, Sankar, and Lozano]{Kalia2013-bv}
+Suneil~K Kalia, Tejas Sankar, and Andres~M Lozano.
+\newblock Deep brain stimulation for parkinson's disease and other movement
+  disorders.
+\newblock \emph{Curr. Opin. Neurol.}, 26\penalty0 (4):\penalty0 374--380,
+  August 2013.
+
+\bibitem[Lee et~al.(2013)Lee, Smyser, and Shimony]{Lee2013-kn}
+M~H Lee, C~D Smyser, and J~S Shimony.
+\newblock Resting-state {fMRI}: a review of methods and clinical applications.
+\newblock \emph{AJNR Am. J. Neuroradiol.}, 34\penalty0 (10):\penalty0
+  1866--1872, October 2013.
+
+\bibitem[Lee et~al.(2012)Lee, Hacker, Snyder, Corbetta, Zhang, Leuthardt, and
+  Shimony]{Lee2012-di}
+Megan~H Lee, Carl~D Hacker, Abraham~Z Snyder, Maurizio Corbetta, Dongyang
+  Zhang, Eric~C Leuthardt, and Joshua~S Shimony.
+\newblock Clustering of resting state networks.
+\newblock \emph{PLoS One}, 7\penalty0 (7):\penalty0 e40370, July 2012.
+
+\bibitem[L{\'o}pez-Mu{\~n}oz et~al.(2006)L{\'o}pez-Mu{\~n}oz, Boya, and
+  Alamo]{Lopez-Munoz2006-zk}
+Francisco L{\'o}pez-Mu{\~n}oz, Jes{\'u}s Boya, and Cecilio Alamo.
+\newblock Neuron theory, the cornerstone of neuroscience, on the centenary of
+  the nobel prize award to santiago ram{\'o}n y cajal.
+\newblock \emph{Brain Res. Bull.}, 70\penalty0 (4-6):\penalty0 391--405,
+  October 2006.
+
+\bibitem[Lund et~al.(2005)Lund, N{\o}rgaard, Rostrup, Rowe, and
+  Paulson]{Lund2005-sf}
+Torben~E Lund, Minna~D N{\o}rgaard, Egill Rostrup, James~B Rowe, and Olaf~B
+  Paulson.
+\newblock Motion or activity: their role in intra- and inter-subject variation
+  in {fMRI}.
+\newblock \emph{Neuroimage}, 26\penalty0 (3):\penalty0 960--964, July 2005.
+
+\bibitem[Matthews et~al.(2006)Matthews, Honey, and Bullmore]{Matthews2006-sl}
+Paul~M Matthews, Garry~D Honey, and Edward~T Bullmore.
+\newblock Neuroimaging: Applications of {fMRI} in translational medicine and
+  clinical practice.
+\newblock \emph{Nat. Rev. Neurosci.}, 7\penalty0 (9):\penalty0 732, 2006.
+
+\bibitem[McEvoy et~al.(2009)McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler,
+  Holland, Karow, Pung, Brewer, and Dale]{McEvoy2009-zx}
+Linda~K McEvoy, Christine Fennema-Notestine, J~Cooper~Roddey, Donald~J Hagler,
+  Dominic Holland, David~S Karow, Christopher~J Pung, James~B Brewer, and
+  Anders~M Dale.
+\newblock Alzheimer disease: Quantitative structural neuroimaging for detection
+  and prediction of clinical and structural changes in mild cognitive
+  impairment, 2009.
+
+\bibitem[Mechelli et~al.(2005)Mechelli, Price, Friston, and
+  Ashburner]{Mechelli2005-dn}
+Andrea Mechelli, Cathy~J Price, Karl~J Friston, and John Ashburner.
+\newblock {Voxel-Based} morphometry of the human brain: Methods and
+  applications.
+\newblock \emph{Curr. Med. Imaging Rev.}, 1\penalty0 (2):\penalty0 105--113,
+  2005.
+
+\bibitem[Meehl(1967)]{Meehl1967-ij}
+Paul~E Meehl.
+\newblock {Theory-Testing} in psychology and physics: A methodological paradox.
+\newblock \emph{Philos. Sci.}, 34\penalty0 (2):\penalty0 103--115, June 1967.
+
+\bibitem[Mohamed(2014)]{Mohamed2014-gl}
+W~Mohamed.
+\newblock The edwin smith surgical papyrus: Neuroscience in ancient egypt.
+\newblock \emph{IBRO History of Neuroscience}, 2014.
+
+\bibitem[Moussa et~al.(2012)Moussa, Steen, Laurienti, and
+  Hayasaka]{Moussa2012-bl}
+Malaak~N Moussa, Matthew~R Steen, Paul~J Laurienti, and Satoru Hayasaka.
+\newblock Consistency of network modules in resting-state {FMRI} connectome
+  data.
+\newblock \emph{PLoS One}, 7\penalty0 (8):\penalty0 e44428, August 2012.
+
+\bibitem[{Open Science Collaboration}(2015)]{Open_Science_Collaboration2015-gr}
+{Open Science Collaboration}.
+\newblock Estimating the reproducibility of psychological science.
+\newblock \emph{Science}, 349\penalty0 (6251):\penalty0 aac4716, August 2015.
+
+\bibitem[Parker~Jones et~al.(2017)Parker~Jones, Voets, Adcock, Stacey, and
+  Jbabdi]{Parker_Jones2017-ld}
+O~Parker~Jones, N~L Voets, J~E Adcock, R~Stacey, and S~Jbabdi.
+\newblock Resting connectivity predicts task activation in pre-surgical
+  populations.
+\newblock \emph{NeuroImage: Clinical}, 13:\penalty0 378--385, January 2017.
+
+\bibitem[Poldrack et~al.(2017)Poldrack, Baker, Durnez, Gorgolewski, Matthews,
+  Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni]{Poldrack2017-rr}
+Russell~A Poldrack, Chris~I Baker, Joke Durnez, Krzysztof~J Gorgolewski, Paul~M
+  Matthews, Marcus~R Munaf{\`o}, Thomas~E Nichols, Jean-Baptiste Poline, Edward
+  Vul, and Tal Yarkoni.
+\newblock Scanning the horizon: towards transparent and reproducible
+  neuroimaging research.
+\newblock \emph{Nat. Rev. Neurosci.}, 18\penalty0 (2):\penalty0 115--126,
+  February 2017.
+
+\bibitem[Rozeboom(1960)]{Rozeboom1960-dp}
+William~W Rozeboom.
+\newblock The fallacy of the null-hypothesis significance test.
+\newblock \emph{Psychol. Bull.}, 57\penalty0 (5):\penalty0 416--428, 1960.
+
+\bibitem[Skudlarski et~al.(1999)Skudlarski, Constable, and
+  Gore]{Skudlarski1999-ao}
+P~Skudlarski, R~T Constable, and J~C Gore.
+\newblock {ROC} analysis of statistical methods used in functional {MRI}:
+  individual subjects.
+\newblock \emph{Neuroimage}, 9\penalty0 (3):\penalty0 311--329, March 1999.
+
+\bibitem[Smith et~al.(2009)Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini,
+  Watkins, Toro, Laird, and Beckmann]{Smith2009-dm}
+Stephen~M Smith, Peter~T Fox, Karla~L Miller, David~C Glahn, P~Mickle Fox,
+  Clare~E Mackay, Nicola Filippini, Kate~E Watkins, Roberto Toro, Angela~R
+  Laird, and Christian~F Beckmann.
+\newblock Correspondence of the brain's functional architecture during
+  activation and rest.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106\penalty0 (31):\penalty0
+  13040--13045, August 2009.
+
+\bibitem[Soares et~al.(2013)Soares, Marques, Alves, and Sousa]{Soares2013-mh}
+Jos{\'e}~M Soares, Paulo Marques, Victor Alves, and Nuno Sousa.
+\newblock A hitchhiker's guide to diffusion tensor imaging.
+\newblock \emph{Front. Neurosci.}, 7:\penalty0 31, March 2013.
+
+\bibitem[Sommerfeld et~al.(2018)Sommerfeld, Sain, and
+  Schwartzman]{Sommerfeld2018-zl}
+Max Sommerfeld, Stephan Sain, and Armin Schwartzman.
+\newblock Confidence regions for spatial excursion sets from repeated random
+  field observations, with an application to climate.
+\newblock \emph{J. Am. Stat. Assoc.}, 113\penalty0 (523):\penalty0 1327--1340,
+  July 2018.
+
+\bibitem[Sperling et~al.(2014)Sperling, Rentz, Johnson, Karlawish, Donohue,
+  Salmon, and Aisen]{Sperling2014-sy}
+Reisa~A Sperling, Dorene~M Rentz, Keith~A Johnson, Jason Karlawish, Michael
+  Donohue, David~P Salmon, and Paul Aisen.
+\newblock The {A4} study: stopping {AD} before symptoms begin?
+\newblock \emph{Sci. Transl. Med.}, 6\penalty0 (228):\penalty0 228fs13, March
+  2014.
+
+\bibitem[Stacey and Litt(2008)]{Stacey2008-qx}
+William~C Stacey and Brian Litt.
+\newblock Technology insight: neuroengineering and epilepsy-designing devices
+  for seizure control.
+\newblock \emph{Nat. Clin. Pract. Neurol.}, 4\penalty0 (4):\penalty0 190--201,
+  April 2008.
+
+\bibitem[Tavor et~al.(2016)Tavor, Parker~Jones, Mars, Smith, Behrens, and
+  Jbabdi]{Tavor2016-pd}
+I~Tavor, O~Parker~Jones, R~B Mars, S~M Smith, T~E Behrens, and S~Jbabdi.
+\newblock Task-free {MRI} predicts individual differences in brain activity
+  during task performance.
+\newblock \emph{Science}, 352\penalty0 (6282):\penalty0 216--220, April 2016.
+
+\bibitem[Woo et~al.(2014)Woo, Krishnan, and Wager]{Woo2014-ji}
+Choong-Wan Woo, Anjali Krishnan, and Tor~D Wager.
+\newblock Cluster-extent based thresholding in {fMRI} analyses: pitfalls and
+  recommendations.
+\newblock \emph{Neuroimage}, 91:\penalty0 412--419, May 2014.
+
+\bibitem[Woolrich et~al.(2001)Woolrich, Ripley, Brady, and
+  Smith]{Woolrich2001-tk}
+M~W Woolrich, B~D Ripley, M~Brady, and S~M Smith.
+\newblock Temporal autocorrelation in univariate linear modeling of {FMRI}
+  data.
+\newblock \emph{Neuroimage}, 14\penalty0 (6):\penalty0 1370--1386, December
+  2001.
 
 \end{thebibliography}
