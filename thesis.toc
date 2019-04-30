@@ -4,65 +4,65 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Study of Brain Function}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Functional Magnetic Resonance Imagery (fMRI)}{10}{section.2.2}
-\contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imagery (t-fMRI)}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Overview}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Pre-processing}{10}{subsection.2.3.2}
-\contentsline {section}{\numberline {2.4}Statistical Analysis: Subject-level}{10}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Parametric Methods}{10}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Nonparametric Methods}{10}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Statistical Analysis: Group-level}{10}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Parametric Methods}{10}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Nonparametric Methods}{10}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Reproducibility of fMRI Results}{10}{section.2.6}
-\contentsline {chapter}{\numberline {3}Exploring the Impact of Analysis Software on Task-fMRI Results}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{11}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{11}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{11}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Results}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{11}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Cross-Software Varaibility for Non-Parametric Inference}{11}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Non-Parametric}{11}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Reproducibility}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{11}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{11}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Discussion}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Limitations}{11}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Conclusion}{11}{section.3.5}
-\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Theory}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Overview}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit {k}}{13}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Method}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Simulations}{13}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{13}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{13}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{13}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{13}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Results}{13}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{13}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{13}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{13}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Discussion}{13}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Limitations}{13}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Conclusion}{13}{section.4.6}
-\contentsline {section}{\numberline {4.7}Toolbox}{13}{section.4.7}
-\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit {d}}{14}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theory}{14}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{14}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Method}{14}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{14}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{14}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{14}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Results}{14}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{14}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{14}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{14}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{14}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Discussion}{14}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Limitations}{14}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Conclusion}{14}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work }{15}{chapter.6}
+\contentsline {section}{\numberline {2.2}Blood Oxygenation Level Dependant (BOLD) Functional Magnetic Resonance Imagery (fMRI)}{10}{section.2.2}
+\contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imagery (t-fMRI)}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Overview}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Pre-processing}{11}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Statistical Analysis: Subject-level}{11}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Parametric Methods}{11}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Nonparametric Methods}{11}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Statistical Analysis: Group-level}{11}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Parametric Methods}{11}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Nonparametric Methods}{11}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Reproducibility of fMRI Results}{11}{section.2.6}
+\contentsline {chapter}{\numberline {3}Exploring the Impact of Analysis Software on Task-fMRI Results}{12}{chapter.3}
+\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{12}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{12}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{12}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{12}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{12}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Results}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Cross-Software Varaibility for Non-Parametric Inference}{12}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Non-Parametric}{12}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Reproducibility}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{12}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Discussion}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Limitations}{12}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Conclusion}{12}{section.3.5}
+\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}Theory}{14}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Overview}{14}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit {k}}{14}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Method}{14}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Simulations}{14}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{14}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{14}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{14}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{14}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Results}{14}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{14}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{14}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Discussion}{14}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Limitations}{14}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.6}Conclusion}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Toolbox}{14}{section.4.7}
+\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit {d}}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theory}{15}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{15}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Method}{15}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{15}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{15}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{15}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Results}{15}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{15}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{15}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{15}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{15}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Discussion}{15}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Limitations}{15}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Conclusion}{15}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work }{16}{chapter.6}

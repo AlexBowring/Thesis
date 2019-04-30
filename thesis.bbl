@@ -1,4 +1,4 @@
-\begin{thebibliography}{42}
+\begin{thebibliography}{48}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -25,6 +25,25 @@ Frederico A~C Azevedo, Ludmila R~B Carvalho, Lea~T Grinberg, Jos{\'e}~Marcelo
 \newblock Equal numbers of neuronal and nonneuronal cells make the human brain
   an isometrically scaled-up primate brain.
 \newblock \emph{J. Comp. Neurol.}, 513\penalty0 (5):\penalty0 532--541, 2009.
+
+\bibitem[Bandettini et~al.(1992)Bandettini, Wong, Hinks, Tikofsky, and
+  Hyde]{Bandettini1992-jt}
+P~A Bandettini, E~C Wong, R~S Hinks, R~S Tikofsky, and J~S Hyde.
+\newblock Time course {EPI} of human brain function during task activation.
+\newblock \emph{Magn. Reson. Med.}, 25\penalty0 (2):\penalty0 390--397, June
+  1992.
+
+\bibitem[Benjamini and Hochberg(1995)]{Benjamini1995-yy}
+Y~Benjamini and Y~Hochberg.
+\newblock Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing.
+\newblock \emph{J. R. Stat. Soc.}, 1995.
+
+\bibitem[Bennett et~al.(2009)Bennett, Miller, and Wolford]{Bennett2009-fh}
+Craig~M Bennett, Michael~B Miller, and George~L Wolford.
+\newblock Neural correlates of interspecies perspective taking in the
+  post-mortem atlantic salmon: an argument for multiple comparisons correction.
+\newblock \emph{Neuroimage}, 47\penalty0 (Suppl 1):\penalty0 S125, 2009.
 
 \bibitem[Bennett et~al.(1964)Bennett, Diamond, Krech, and
   Rosenzweig]{Bennett1964-vx}
@@ -135,6 +154,15 @@ Suneil~K Kalia, Tejas Sankar, and Andres~M Lozano.
 \newblock \emph{Curr. Opin. Neurol.}, 26\penalty0 (4):\penalty0 374--380,
   August 2013.
 
+\bibitem[Kwong et~al.(1992)Kwong, Belliveau, Chesler, Goldberg, Weisskoff,
+  Poncelet, Kennedy, Hoppel, Cohen, and Turner]{Kwong1992-uq}
+K~K Kwong, J~W Belliveau, D~A Chesler, I~E Goldberg, R~M Weisskoff, B~P
+  Poncelet, D~N Kennedy, B~E Hoppel, M~S Cohen, and R~Turner.
+\newblock Dynamic magnetic resonance imaging of human brain activity during
+  primary sensory stimulation.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 89\penalty0 (12):\penalty0
+  5675--5679, June 1992.
+
 \bibitem[Lee et~al.(2013)Lee, Smyser, and Shimony]{Lee2013-kn}
 M~H Lee, C~D Smyser, and J~S Shimony.
 \newblock Resting-state {fMRI}: a review of methods and clinical applications.
@@ -203,6 +231,21 @@ Malaak~N Moussa, Matthew~R Steen, Paul~J Laurienti, and Satoru Hayasaka.
 \newblock Consistency of network modules in resting-state {FMRI} connectome
   data.
 \newblock \emph{PLoS One}, 7\penalty0 (8):\penalty0 e44428, August 2012.
+
+\bibitem[Ogawa et~al.(1990)Ogawa, Lee, Kay, and Tank]{Ogawa1990-it}
+S~Ogawa, T~M Lee, A~R Kay, and D~W Tank.
+\newblock Brain magnetic resonance imaging with contrast dependent on blood
+  oxygenation.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 87\penalty0 (24):\penalty0
+  9868--9872, December 1990.
+
+\bibitem[Ogawa et~al.(1992)Ogawa, Tank, Menon, Ellermann, Kim, Merkle, and
+  Ugurbil]{Ogawa1992-af}
+S~Ogawa, D~W Tank, R~Menon, J~M Ellermann, S~G Kim, H~Merkle, and K~Ugurbil.
+\newblock Intrinsic signal changes accompanying sensory stimulation: functional
+  brain mapping with magnetic resonance imaging.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 89\penalty0 (13):\penalty0
+  5951--5955, July 1992.
 
 \bibitem[{Open Science Collaboration}(2015)]{Open_Science_Collaboration2015-gr}
 {Open Science Collaboration}.
