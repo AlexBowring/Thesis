@@ -22,15 +22,32 @@ In the context of this thesis, we will study brain function from a functional pe
 
 \section{Blood Oxygenation Level Dependant (BOLD) Functional Magnetic Resonance Imagery (fMRI)}
 
-Whereas structural MRI is concerned with the anatomy of the brain, functional MRI (fMRI) measures dynamic changes in blood flow in order to ultimately make inference on neuronal activation. This is possible due to the intrinsic relationship between local neuronal activity and subsequent changes in cerebral blood flow (CBF), a biological phenomenon known as neurovascular coupling. An increased supply of oxygen is carried by haemoglobin in red blood cells to provide energy to active neurons, and it is the magnetic properties of the haemoglobin that MRI takes advantage of. Specifically, as deoxygenated haemoglobin is more magnetic (paramagnetic) than oxygenated haemoglobin, MRI uses haemoglobin as an endogenous contrast agent from which to source the signal. Neurovascular coupling induces inhomogeneities in the local magnetic field, primarily due to a concentration of deoxygenated haemoglobin in activated brain regions, that lead to a detectable change in the MR signal.
+Whereas structural MRI is concerned with the anatomy of the brain, functional MRI (fMRI) measures dynamic changes in blood flow in order to ultimately make inference on neuronal activation. This is possible due to the intrinsic relationship between local neuronal activity and subsequent changes in cerebral blood flow (CBF), a biological phenomenon known as neurovascular coupling. An increased supply of oxygen is carried by haemoglobin in red blood cells to provide energy to active neurons, and it is the magnetic properties of the haemoglobin that MRI takes advantage of. Specifically, as deoxygenated haemoglobin is more magnetic (paramagnetic) than oxygenated haemoglobin, MRI uses haemoglobin as an endogenous contrast agent from which to source the signal. Neurovascular coupling induces inhomogeneities in the local magnetic field due to a decreased concentration of deoxygenated haemoglobin, that lead to a detectable change in the MR signal.
 
 The complete chain of events linking neuronal activity to a change in MRI signal is referred to as the Blood Oxygenation Level Dependant (BOLD) effect, and this type of imaging is known as BOLD fMRI.  Proof of concept of the BOLD effect was first provided in \citet*{Ogawa1990-it}, and the first use of BOLD fMRI for human brain mapping was carried out in 1992 \citep{Bandettini1992-jt, Kwong1992-uq, Ogawa1992-af}, leading to a large uptake of the method that has continued to this day. Alternative approaches to functional imaging exist, the most popular of which is functional Arterial Spin Labelling (fASL), that uses magnetically labelled arterial blood water to quantify changes in CSF. While fASL can offer some advantages over fMRI, and changes in CSF measured with the technique are more closely tied to neuronal activation than the BOLD signal, fASL suffers from a much lower signal-to-noise ratio that consequently has made fMRI the preferred imaging modality of choice. 
 
 \subsection{Physiology of the BOLD response}
 
+\begin{figure}[htbp]
+\centering
+	\includegraphics{2_Neuron.png}	
+\caption*{\textbf{Figure 2:} A schematic of the interaction between neurons. Image reused from Khan Academy (\href{https://creativecommons.org/licenses/by-nc-sa/3.0/us/}{CC BY-NC-SA 3.0 US}). Note: All Khan Academy content is available for free at (\href{https://www.khanacademy.org/}{www.khanacademy.org}).}
+\end{figure}
+
+Neuronal interaction transpires via a system of electrical and chemical activity. To send out information, an individual neuron -- the pre-synaptic cell -- emits an electrical signal known as an action potential, for the purpose of stimulating another target neuron -- the post-synaptic cell. The action potential travels along the axon of the sending cell, and is transmitted to the receiving cell at the synapse. Information is delivered from the output branches (or, \textit{axon terminals}) of the sending cell across the synapse to the input branches (or, \textit{dendrites}) of the receiving cell, involving the release of chemical \textit{neurotransmitters} alongside a number of other cellular processes. This may stimulate or inhibit the firing of action potentials at the target cell to communicate with other neurons, configuring a formation of neurons collectively processing and responding to information. 
+
+The electrical and chemical processes involved in neuronal activation require energy, which drives the neurovascular coupling. Blood vessels that flow into the capillaries pervading the neuronal tissue dilate and the rate of CBF increases to regulate a greater supply of oxygen and nutrients to localized regions of active neurons. Overall, the increases in CBF and cerebral blood volume (CBV) are many orders of magnitude greater than the increases in oxygen extraction (CMRO$_{2}$) caused by the neuronal activation. Thus, there is an overall net increase of oxygenated heamoglobin, and hence an increase in the BOLD signal. The expected BOLD response generated from a brief stimulus is characterized quantitatively by the Hemodynamic Response Function (HRF), based off of the individual changes in CBF, CBV and CMRO$_{2}$ induced by neuronal stimulation. 
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics{3_BOLD_response.jpg}	
+\caption*{\textbf{Figure 3:} Blah}
+\end{figure}
+
+
 \section{Task-based functional Magnetic Resonance Imagery (t-fMRI)}
 
-\subsection{Overview}
+\subsection{Overview} 
 
 \subsection{Pre-processing}
 
