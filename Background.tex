@@ -49,11 +49,24 @@ The electrical and chemical processes involved in neuronal activation require en
 
 The ultimate goal of a task-based functional Magnetic Resonance Imagery (t-fMRI) experiment is to understand the brain regions that are responsive to a particular task or stimulus the researcher has chosen to investigate. Explicitly, the researcher seeks to detect brain areas whose BOLD time series data is correlated to the task the participant is instructed to perform in the scanner. Researchers can choose from a wide range of possible tasks to explore how the brain processes in a variety of circumstances. For example, a cognitive task may be chosen to gain insight into how the brain processes decision-making or recognition, while a physiological task may be used to see how the brain reacts to a stimulus intended to cause pain or arousal, or how the brain functions when participants are told to hold their breath. In general, the experimenter is only limited in choice of task by the constraints that the task must be able to be conducted within the scanner, and that the task should not involve any sort of head movement which could corrupt the signal. 
 
-The MR signal measured in the scanner is noisy, and the hemodynamic response induced by a stimulus only causes fractional changes in the BOLD response, typically of around one percent. Therefore, in order to increase the signal-to-noise ratio (SNR) of the BOLD signal participants repeat the task several times in the scanner. The type of task used, alongside the timings for which the participant is instructed to perform the task inside the scanner, are together known as the \textit{task paradigm} or \textit{experimental design}. In theory many different task conditions could be investigated within one task paradigm, however, it is fundamental that at least two conditions are included. This is because BOLD data is not quantitative, insofar that we are unable to interpret the degree of neuronal activity from the absolute magnitude of the BOLD response in isolation. Instead, neuronal activity is inferred by statistically contrasting \textit{changes} in the MR signal between two conditions. Commonly, the BOLD response to a task condition is contrasted with a \textit{baseline} condition, where the participant is at rest within the scanner. 
+The MR signal measured in the scanner is noisy, and the heamodynamic response induced by a stimulus only causes fractional changes in the BOLD response, typically of around one percent. Therefore, in order to increase the signal-to-noise ratio (SNR) of the BOLD signal participants repeat the task several times in the scanner. The type of task used, alongside the timings for which the participant is instructed to perform the task inside the scanner, are together known as the \textit{task paradigm} or \textit{experimental design}. In theory many different task conditions could be investigated within one task paradigm, however, it is fundamental that at least two conditions are included. This is because BOLD data is not quantitative, insofar that we are unable to interpret the level of neuronal activity from the absolute magnitude of the BOLD response alone. Instead, neuronal activity is inferred by statistically contrasting \textit{changes} in the MR signal between two conditions. Commonly, the BOLD response to a task condition is contrasted with a \textit{baseline} condition, where the participant is at rest within the scanner. However, it is equally acceptable to contrast two separate task conditions. 
 
-\subsection{Overview} 
+An experimental design where the task condition is carried out for an extended period of time is said to have a \textit{block} design (or \textit{boxcar} design). One example of this could be a task paradigm where the participant is instructed to look at an animal photo for five seconds in each task repetition. Alternatively, in an \textit{event-related} design the task or stimulus takes the form of a discrete, rapid event, such as a study where the participant experiences a mild electric shock. A graphical representation of each of these task paradigms is shown in \textit{Figure BLAH}, along with the anticipated heamodynamic response from each type of stimulus. While block designs have greater statistical power, with a relatively larger BOLD response, the researcher has more control with respect to how the stimuli are delivered in an event-related design. 
 
-\subsection{Pre-processing}
+\begin{figure}[htbp]
+\centering
+	\includegraphics[height=4.0in]{4_Task_Paradigm.png}
+\caption*{\textbf{Figure 4:} Blah}
+\end{figure}
+
+\section{Overview of Analysis Pipeline}
+
+To analyse t-fMRI data, a series of analysis steps are performed on the data in succession. Together, the complete chain of analysis procedures carried out is known as the analysis \textit{pipeline}. Researchers have great flexibility as to how the analysis pipeline is comprised, with various options and adjustable parameters for each individual analysis step, as well as choices as to the order in which certain procedures are carried out. Nevertheless, a standard analysis pipeline of t-fMRI data can be partitioned into three main stages: preprocessing, modelling, and statistical analysis of the data.  
+
+ 
+Many neuroimaging software packages have been developed to implement   
+
+\section{Preprocessing}
 
 \section{Statistical Analysis: Subject-level}
 

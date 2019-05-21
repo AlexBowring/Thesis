@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  20 MAY 2019 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  21 MAY 2019 19:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,7 +1165,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 ...arametric Inference}{14}{subsection.3.2.1}
+l.26 ...arametric Inference}{15}{subsection.3.2.1}
                                                    [1
 
 ]
@@ -1265,30 +1265,43 @@ Overfull \hbox (3.0856pt too wide) in paragraph at lines 52--53
  the par-tic-i-pant is in-structed
  []
 
-[12 <./Figures/3_BOLD_response.jpg>]) [13]
+[12 <./Figures/3_BOLD_response.jpg>]
+Overfull \hbox (4.08482pt too wide) in paragraph at lines 54--55
+[]\T1/fla/m/n/10.95 An ex-per-i-men-tal de-sign where the task con-di-tion is c
+ar-ried out for an ex-tended
+ []
+
+<Figures/4_Task_Paradigm.png, id=770, 1332.98pt x 999.735pt>
+File: Figures/4_Task_Paradigm.png Graphic file (type png)
+
+<use Figures/4_Task_Paradigm.png>
+Package pdftex.def Info: Figures/4_Task_Paradigm.png used on input line 58.
+(pdftex.def)             Requested size: 385.43562pt x 289.07999pt.
+ [13 <./Figures/4_Task_Paradigm.png>])
+[14]
 Chapter 3.
-(./Software_Comparison.tex) [14
+(./Software_Comparison.tex) [15
 
 ]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [15
+) [16
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[16]
+[17]
 Chapter 5.
-(./Cohen.tex) [17
+(./Cohen.tex) [18
 
 ]
 Chapter 6.
-(./thesis.bbl [18
+(./thesis.bbl [19
 
-] [19
+] [20
 
 ]
 Underfull \hbox (badness 2762) in paragraph at lines 97--103
@@ -1296,21 +1309,21 @@ Underfull \hbox (badness 2762) in paragraph at lines 97--103
  Moritz Grosse-
  []
 
-[20] [21] [22]) [23]
+[21] [22] [23]) [24]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 39AEF6BBBD00F963B49E31505E75F608;4923.
+(rerunfilecheck)             Checksum: DD9EE0635951D2E1FFF8931530832578;4929.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
  ) 
 Here is how much of TeX's memory you used:
- 24177 strings out of 493014
- 477720 string characters out of 6133351
+ 24184 strings out of 493014
+ 477869 string characters out of 6133351
  558551 words of memory out of 5000000
- 26977 multiletter control sequences out of 15000+600000
+ 26981 multiletter control sequences out of 15000+600000
  85302 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,80p,3676b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1322,10 +1335,10 @@ xmf-dist/fonts/type1/public/lato/Lato-Reg.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lato/Lato-RegIta.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on thesis.pdf (31 pages, 381419 bytes).
+Output written on thesis.pdf (32 pages, 552134 bytes).
 PDF statistics:
- 880 PDF objects out of 1000 (max. 8388607)
- 822 compressed objects within 9 object streams
- 158 named destinations out of 1000 (max. 500000)
- 590 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 887 PDF objects out of 1000 (max. 8388607)
+ 826 compressed objects within 9 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 595 words of extra memory for PDF output out of 10000 (max. 10000000)
 
