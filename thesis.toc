@@ -9,6 +9,7 @@
 \contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imagery (t-fMRI)}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Overview of Analysis Pipeline}{14}{section.2.4}
 \contentsline {section}{\numberline {2.5}Preprocessing}{15}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Brain Extraction}{15}{subsection.2.5.1}
 \contentsline {section}{\numberline {2.6}Statistical Analysis: Subject-level}{15}{section.2.6}
 \contentsline {subsection}{\numberline {2.6.1}Parametric Methods}{15}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2}Nonparametric Methods}{15}{subsection.2.6.2}
