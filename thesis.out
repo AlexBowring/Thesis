@@ -11,7 +11,7 @@
 \BOOKMARK [1][-]{section.2.5}{Preprocessing}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.5.1}{Brain Extraction}{section.2.5}% 12
 \BOOKMARK [2][-]{subsection.2.5.2}{Distortion Correction}{section.2.5}% 13
-\BOOKMARK [2][-]{subsection.2.5.3}{Slice-timing Correction}{section.2.5}% 14
+\BOOKMARK [2][-]{subsection.2.5.3}{Slice timing Correction}{section.2.5}% 14
 \BOOKMARK [2][-]{subsection.2.5.4}{Realignment}{section.2.5}% 15
 \BOOKMARK [2][-]{subsection.2.5.5}{Registration}{section.2.5}% 16
 \BOOKMARK [2][-]{subsection.2.5.6}{Spatial Normalization}{section.2.5}% 17

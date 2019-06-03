@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -71,6 +71,13 @@ Joshua Carp.
 \newblock Optimizing the order of operations for movement scrubbing: Comment on
   power et al.
 \newblock \emph{Neuroimage}, 76:\penalty0 436--438, August 2013.
+
+\bibitem[Cox(1996)]{Cox1996-nu}
+R~W Cox.
+\newblock {AFNI}: software for analysis and visualization of functional
+  magnetic resonance neuroimages.
+\newblock \emph{Comput. Biomed. Res.}, 29\penalty0 (3):\penalty0 162--173, June
+  1996.
 
 \bibitem[David et~al.(2013)David, Ware, Chu, Loftus, Fusar-Poli, Radua,
   Munaf{\`o}, and Ioannidis]{David2013-iz}
@@ -146,6 +153,13 @@ John P~A Ioannidis, Marcus~R Munaf{\`o}, Paolo Fusar-Poli, Brian~A Nosek, and
   detection, prevalence, and prevention.
 \newblock \emph{Trends Cogn. Sci.}, 18\penalty0 (5):\penalty0 235--241, May
   2014.
+
+\bibitem[Jenkinson et~al.(2012)Jenkinson, Beckmann, Behrens, Woolrich, and
+  Smith]{Jenkinson2012-wh}
+Mark Jenkinson, Christian~F Beckmann, Timothy E~J Behrens, Mark~W Woolrich, and
+  Stephen~M Smith.
+\newblock {FSL}.
+\newblock \emph{Neuroimage}, 62\penalty0 (2):\penalty0 782--790, August 2012.
 
 \bibitem[Kalia et~al.(2013)Kalia, Sankar, and Lozano]{Kalia2013-bv}
 Suneil~K Kalia, Tejas Sankar, and Andres~M Lozano.
@@ -259,6 +273,14 @@ O~Parker~Jones, N~L Voets, J~E Adcock, R~Stacey, and S~Jbabdi.
   populations.
 \newblock \emph{NeuroImage: Clinical}, 13:\penalty0 378--385, January 2017.
 
+\bibitem[Penny et~al.(2011)Penny, Friston, Ashburner, Kiebel, and
+  Nichols]{Penny2011-uk}
+William~D Penny, Karl~J Friston, John~T Ashburner, Stefan~J Kiebel, and
+  Thomas~E Nichols.
+\newblock \emph{Statistical Parametric Mapping: The Analysis of Functional
+  Brain Images}.
+\newblock Elsevier, April 2011.
+
 \bibitem[Poldrack et~al.(2017)Poldrack, Baker, Durnez, Gorgolewski, Matthews,
   Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni]{Poldrack2017-rr}
 Russell~A Poldrack, Chris~I Baker, Joke Durnez, Krzysztof~J Gorgolewski, Paul~M
@@ -280,6 +302,12 @@ P~Skudlarski, R~T Constable, and J~C Gore.
 \newblock {ROC} analysis of statistical methods used in functional {MRI}:
   individual subjects.
 \newblock \emph{Neuroimage}, 9\penalty0 (3):\penalty0 311--329, March 1999.
+
+\bibitem[Smith(2002)]{Smith2002-vw}
+Stephen~M Smith.
+\newblock Fast robust automated brain extraction.
+\newblock \emph{Hum. Brain Mapp.}, 17\penalty0 (3):\penalty0 143--155, November
+  2002.
 
 \bibitem[Smith et~al.(2009)Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini,
   Watkins, Toro, Laird, and Beckmann]{Smith2009-dm}
