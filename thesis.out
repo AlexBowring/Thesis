@@ -13,7 +13,7 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{Distortion Correction}{section.2.5}% 13
 \BOOKMARK [2][-]{subsection.2.5.3}{Slice timing Correction}{section.2.5}% 14
 \BOOKMARK [2][-]{subsection.2.5.4}{Realignment}{section.2.5}% 15
-\BOOKMARK [2][-]{subsection.2.5.5}{Registration}{section.2.5}% 16
+\BOOKMARK [2][-]{subsection.2.5.5}{Coregistration}{section.2.5}% 16
 \BOOKMARK [2][-]{subsection.2.5.6}{Spatial Normalization}{section.2.5}% 17
 \BOOKMARK [2][-]{subsection.2.5.7}{Spatial Smoothing}{section.2.5}% 18
 \BOOKMARK [2][-]{subsection.2.5.8}{Temporal Filtering}{section.2.5}% 19
