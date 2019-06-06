@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  5 JUN 2019 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  6 JUN 2019 18:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1278,7 +1278,19 @@ File: Figures/4_Task_Paradigm.png Graphic file (type png)
 Package pdftex.def Info: Figures/4_Task_Paradigm.png used on input line 58.
 (pdftex.def)             Requested size: 385.43562pt x 289.07999pt.
  [13 <./Figures/4_Task_Paradigm.png>] [14]
-[15] [16] [17]) [18] [19]
+[15] [16] [17]
+Overfull \hbox (11.0243pt too wide) in paragraph at lines 112--113
+\T1/fla/m/n/10.95 by fil-ter-ing out high-frequency re-gions. In-tu-itively, th
+is works be-cause av-er-ag-ing should
+ []
+
+
+Overfull \hbox (6.49982pt too wide) in paragraph at lines 119--120
+\T1/fla/m/n/10.95 to mea-sure gen-er-ally have a con-sis-tent fre-quency range.
+ Tem-po-ral fil-ter-ing sup-presses
+ []
+
+[18]) [19]
 Chapter 3.
 (./Software_Comparison.tex) [20
 
@@ -1334,11 +1346,12 @@ e/2016/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb></usr/local/texlive/2016
 xmf-dist/fonts/type1/public/lato/Lato-Reg.pfb></usr/local/texlive/2016/texmf-di
 st/fonts/type1/public/lato/Lato-RegIta.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on thesis.pdf (37 pages, 566939 bytes).
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on thesis.pdf (37 pages, 575897 bytes).
 PDF statistics:
- 973 PDF objects out of 1000 (max. 8388607)
- 906 compressed objects within 10 object streams
+ 977 PDF objects out of 1000 (max. 8388607)
+ 909 compressed objects within 10 object streams
  178 named destinations out of 1000 (max. 500000)
  667 words of extra memory for PDF output out of 10000 (max. 10000000)
 
