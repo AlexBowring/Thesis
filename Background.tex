@@ -45,11 +45,12 @@ The electrical and chemical processes involved in neuronal activation require en
 \end{figure}
 
 
-\section{Task-based functional Magnetic Resonance Imagery (t-fMRI)}
+\section{Task-based functional Magnetic Resonance Imagery (t-fMRI)} 
+\label{sec:t-fMRI}
 
 The ultimate goal of a task-based functional Magnetic Resonance Imagery (t-fMRI) experiment is to understand the brain regions that are responsive to a particular task or stimulus the researcher has chosen to investigate. Explicitly, the researcher seeks to detect brain areas whose BOLD time series data is correlated to the task the participant is instructed to perform in the scanner. Researchers can choose from a wide range of possible tasks to explore how the brain processes in a variety of circumstances. For example, a cognitive task may be chosen to gain insight into how the brain processes decision-making or recognition, while a physiological task may be used to see how the brain reacts to a stimulus intended to cause pain or arousal, or how the brain functions when participants are told to hold their breath. In general, the experimenter is only limited in choice of task by the constraints that the task must be able to be conducted within the scanner, and that the task should not involve any sort of head movement which could corrupt the signal. 
 
-The MR signal measured in the scanner is noisy, and the heamodynamic response induced by a stimulus only causes fractional changes in the BOLD response, typically of around one percent. Therefore, in order to increase the signal-to-noise ratio (SNR) of the BOLD signal participants repeat the task several times in the scanner. The type of task used, alongside the timings for which the participant is instructed to perform the task inside the scanner, are together known as the \textit{task paradigm} or \textit{experimental design}. Many different task conditions can be investigated within one task paradigm, however, it is fundamental that at least two conditions are included. This is because BOLD data is not quantitative, insofar that we are unable to interpret the level of neuronal activity from the absolute magnitude of the BOLD response alone. Instead, neuronal activity is inferred by using \textit{contrasts} to measure the difference in the MR signal between two conditions. Commonly, the BOLD response to a task condition is contrasted with a \textit{baseline} condition, where the participant is at rest within the scanner. However, it is equally acceptable to contrast two separate task conditions depending on the aims of the investigation. 
+The MR signal measured in the scanner is noisy, and the heamodynamic response induced by a stimulus only causes fractional changes in the BOLD response, typically of around one percent. Therefore, in order to increase the signal-to-noise ratio (SNR) of the BOLD signal participants repeat the task several times in the scanner. The type of task used, alongside the timings for which the participant is instructed to perform the task inside the scanner, are together known as the \textit{task paradigm} or \textit{experimental design}. Many different task conditions can be investigated within one task paradigm, however, it is fundamental that at least two conditions are included. This is because BOLD data are not quantitative, insofar that we are unable to interpret the level of neuronal activity from the absolute magnitude of the BOLD response alone. Instead, neuronal activity is inferred by using \textit{contrasts} to measure the difference in the MR signal between two conditions. Commonly, the BOLD response to a task condition is contrasted with a \textit{baseline} condition, where the participant is at rest within the scanner. However, it is equally acceptable to contrast two separate task conditions depending on the aims of the investigation. 
 
 An experimental design where the task condition is carried out for an extended period of time is said to have a \textit{block} design (or \textit{boxcar} design). One example of this could be a task paradigm where the participant is instructed to look at an animal photo for five seconds in each task repetition. Alternatively, in an \textit{event-related} design the task or stimulus takes the form of a discrete, rapid event, such as a study where the participant experiences a mild electric shock. A graphical representation of each of these task paradigms is shown in \textit{Figure BLAH}, along with the anticipated heamodynamic response from each type of stimulus. While block designs have greater statistical power, with a relatively larger BOLD response, the researcher has more control with respect to how the stimuli are delivered in an event-related design. 
 
@@ -115,16 +116,107 @@ In practise, the functional data are convolved with a three-dimensional Gaussian
  
 
 \subsection{Temporal Filtering}
+\label{sec:temporal_filtering}
 
-\textit{Temporal Filtering} is another processing step that aims to increase the SNR of the functional data, by taking advantage of the fact that the BOLD signals fMRI sets out to measure generally have a consistent frequency range. Temporal filtering suppresses or removes frequencies outside of this range, implicitly eliminating any artefactual signals present in the data while leaving the neuronal signals of interest untouched.
+\textit{Temporal filtering} is another processing step that aims to increase the SNR of the functional data, by taking advantage of the fact that the BOLD signals fMRI sets out to measure generally have a consistent frequency range. Temporal filtering suppresses or removes frequencies outside of this range, implicitly eliminating any artefactual signals present in the data while leaving the neuronal signals of interest untouched.
 
-A well-known source of noise is slow drifts that occur due to imperfections in the scanning hardware. As components of the scanner heat up, this can induce a gradual change in the MR signal, resulting in low frequency trends of less than 0.01 Hz in the data. The expected frequency of the BOLD signal response to a task stimulus is around 0.2Hz. Therefore, a \textit{high-pass filter} can be applied, removing all frequencies below a set threshold to attenuate scanner-related drifts. Other forms of noise are caused by physiological effects such as respiratory and cardiac cycles. These artefacts have a frequency range higher than the expected BOLD response (respiratory frequencies are $\sim$0.3hz, cardiac frequencies $\sim$1.0hz), although they may also manifest in the data as lower frequencies due to the effects of \textit{aliasing}. A \textit{low-pass filter} may be used to cut off higher frequencies to subdue physiological noise. While a high-pass filter is commonly included as part of the preprocessing pipeline, low-pass filters are more controversial, since they can foster a higher degree of autocorrelation in the signal, violating the assumption of temporal independence made for statistical inference.
+A well-known source of noise is slow drifts that occur due to imperfections in the scanning hardware. As components of the scanner heat up, this can induce a gradual change in the MR signal resulting in low frequency trends of less than 0.01 Hz in the data. The expected frequency of the BOLD signal response to a task stimulus is around 0.2Hz. Therefore, a \textit{high-pass filter} can be applied, removing all frequencies below a set threshold to attenuate scanner-related drifts. Other forms of noise are caused by physiological effects such as respiratory and cardiac cycles. These artefacts have a frequency range higher than the expected BOLD response (respiratory frequencies are $\sim$0.3hz, cardiac frequencies $\sim$1.0hz), although they may also manifest in the data as lower frequencies due to the effects of \textit{aliasing}. A \textit{low-pass filter} may be used to cut off higher frequencies and subdue artefacts such as physiological noise. While a high-pass filter is commonly included as part of the preprocessing pipeline, low-pass filters are more controversial as they can cultivate autocorrelation in the signal, violating the assumption of temporal independence made for statistical inference. 
 
- 
+\subsection{Grand Mean Scaling}
 
-\subsection{Intensity Normalization}
+As touched on in \textit{\ref{sec:t-fMRI}}, BOLD t-fMRI data are not quantitative. Because of this, the fMRI scanner assigns arbitrary units to the signal intensities during the acquisition, and data can be scaled differently across scanning sessions. \textit{Grand mean scaling} (or \textit{intensity normalization}) is applied to rescale each individual's functional time series to increase the interpretability of the data across the group of participants. This is done by multiplying the functional time series (across all voxels and time points) by a constant so that the mean intensity takes a fixed value of, for example, 100. While grand mean scaling will not affect the statistical inference results, normalizing the data facilitates for comparability of the regression coefficient maps (i.e. \textit{beta} maps) obtained for each task condition at the modelling stage of analysis.  
+
+\section{Modelling of t-fMRI data with the General Linear Model}
+
+The \textit{General Linear Model} (GLM) is the most widely used approach to modelling BOLD t-fMRI time series data, and a crucial part of any neuroimaging analysis. The GLM generalises a broad class of models that estimate the observed response as a linear combination of experimental and confounding variables. A key strength of this framework is its flexibility, allowing for analyses of data both within and between individuals, and providing a foundation for which experimental hypotheses can be assessed with a variety of statistical tests, using either parametric or nonparametric statistics. In this section we provide an overview of the GLM in the context of brain imaging, before describing some of the most commonly used statistical tests performed within the GLM for analysing fMRI data.  
+
+
+\subsection{The GLM Set-up}
+To analyse voxelwise t-fMRI data, each voxel's time series is independently modelled within the GLM. This is commonly referred to as a \textit{mass-univariate} analysis -- the `mass' term specifies that the same analysis is performed many times, and `univariate' indicates that each analysis is performed separately at every brain voxel (as opposed to \textit{multivariate}, which considers many locations as part of one analysis). 
+
+Mathematically, for a compact domain $S \subset \mathcal{R}^{D}$ (in fMRI, $D$ = 3 and $S$ is the brain mask), the GLM at location (or brain voxel) $\bm{s} \in S$ is expressed as:
+\begin{equation}
+\label{eq:GLM}
+\bm{Y}(\bm{s}) = \bm{X}\bm{\beta}(\bm{s}) + \bm{\epsilon}(\bm{s}),
+\end{equation}
+where $\bm{Y}(\bm{s})$ is an $N \times 1$ vector of observations at $\bm{s}$, $\bm{X}$ is an $N \times p$ design matrix containing explanatory variables linking the observations in $\bm{Y}(\bm{s})$ to the effect sizes in $\bm{\beta}(\bm{s})$, $\bm{\beta}(\bm{s})$ is an $p \times 1$ vector of the unknown parameters, and $\bm{\epsilon}(\bm{s})$ is an $N \times 1$ vector of error terms. It is assumed that the errors are independently distributed conditional on $\bm{X}$ by a Gaussian distribution with mean zero.
+
+The aim of the regression is to find parameter estimates $\bm{\hat{\beta}}(\bm{s})$ that best fit the model to the data. The goodness of fit is determined by a method of \textit{least squares}, depending on additional constraints added to the model. The parameter estimates are then used at the inference stage to test hypotheses about the data expressed in terms of the unknown parameters contained in $\bm{\beta}(\bm{s})$.
+
+\subsection{Estimating the Parameters with Ordinary Least Squares (OLS)} 
+
+OLS is used to solve \ref{eq:GLM} with the assumption that the errors are \textit{spherical}, which means that there is no autocorrelation and that each error term has constant variance. Combined with the normality assumption stated in the previous section, this means:
+\begin{equation}
+\label{eq:OLS_errors}
+\bm{\epsilon}(\bm{s}) \mid \bm{X} \sim  \mathcal{N}(0, \sigma^{2}(\bm{s})\bm{I}_{N}),
+\end{equation}
+where $\bm{I}_{N}$ is the $N \times N$ identity matrix. OLS solves the GLM by minimizing the \textit{sum of squares} cost function $S$ given by:
+\begin{equation}
+\label{eq:OLS_cost}
+S(\bm{\beta}(s))  = \lVert \bm{Y}(\bm{s}) - \bm{X}\bm{\beta}(\bm{s}) \rVert^{2} = \sum_{i = 1}^{N} \lvert Y_i(\bm{s}) - \sum_{j = 1}^{p} X_{ij} \beta_j (\bm{s}) \rvert ^{2}.
+\end{equation}
+This gives the OLS estimates:
+\begin{equation}
+\label{eq:OLS_estimates}
+\hat{\bm{\beta}}(\bm{s}) = \argmin_{\bm{\beta}} S(\bm{\beta}(\bm{s})) = (\bm{X}^{\intercal}\bm{X})^{-1}\bm{X}^{\intercal}\bm{Y}(\bm{s}).
+\end{equation}
+By the Gauss-Markov Theorem, it can be shown that the OLS estimates are the Best Linear Unbiased Estimates (BLUE) of $\bm{\beta}(\bm{s})$ providing all the assumptions are satisfied. 
+
+\subsection{Prewhitening}
+
+The key assumption of OLS is that the errors are spherical, and it is only in this case that the OLS estimates are the BLUE of $\bm{\beta}(\bm{s})$. However, this assumption is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs (Woolrich, Temporal Autocorrelation in Univariate ...).
+
+If the data are correlated, the error terms have marginal distribution: 
+\begin{equation}
+\label{eq:correlated_errors}
+\bm{\epsilon}(\bm{s}) \mid \bm{X} \sim  \mathcal{N}(0, \sigma^{2}(\bm{s})\bm{V}(\bm{s})),
+\end{equation}
+where $\bm{V}(\bm{s})$ is the symmetric, positive-definite correlation matrix. By the Cholesky decomposition, there exists a lower triangular matrix $\bm{K}(\bm{s})$ such that \allowbreak $\bm{V}^{-1}(\bm{s}) = \bm{K}^{\intercal}(\bm{s})\bm{K}(\bm{s})$. Providing that $\bm{K}(\bm{s})$ can be accurately determined, the idea is to update the model by multiplying both sides of the GLM by $\bm{K}(\bm{s})$ so that the error terms are spherical. Denoting $\bm{Y}^{*}(\bm{s}) = \bm{K}(\bm{s})\bm{Y}(\bm{s})$, and defining $\bm{X}^{*}(\bm{s})$ and $\bm{\epsilon}^{*}(\bm{s})$ similarly, then for the updated GLM:
+\begin{equation}
+\label{eq:updated_GLM}
+\bm{Y}^{*}(\bm{s}) = \bm{X}^{*}(\bm{s}) + \bm{\epsilon}^{*}(\bm{s}),
+\end{equation}
+the conditional covariance of $\bm{\epsilon}^{*}(\bm{s})$ is:
+\begin{equation}
+\label{eq:updated_error_cov}
+\mathrm{Cov}(\bm{\epsilon}^{*}(\bm{s}) \mid \bm{X}) = \bm{K}(\bm{s})\mathrm{Cov}(\bm{\epsilon}(\bm{s}) \mid \bm{X})\bm{K}^{\intercal}(\bm{s}) = \sigma^{2}(\bm{s})\bm{I}_{N}.
+\end{equation}
+Therefore, the sphericity assumption is satisfied for the updated model, and OLS can be applied to obtain the BLUE of $\bm{\beta}(\bm{s})$.
+
+\subsection{Estimating the Variance}
+For statistical inference, the variance of the errors $\sigma^{2}(\bm{s})$ needs to be estimated. This can be done using the OLS estimates. The \textit{fitted values} given by the OLS estimates are $\hat{\bm{Y}}(\bm{s}) = \bm{X}\hat{\bm{\beta}}(\bm{s})$. The differences between the observed data points and the fitted values are known as the \textit{residuals}, denoted by $\hat{\bm{\epsilon}}(\bm{s}) = \bm{Y}(\bm{s}) - \hat{\bm{Y}}(\bm{s})$. The variance of the errors is estimated as the sum of squares of the residuals divided by the \textit{degrees of freedom} of the model: 
+\begin{equation}
+\label{eq:variance_estimator}
+\hat{\sigma}^{2}(\bm{s}) = \frac{\bm{\epsilon^{\intercal}}(\bm{s})\bm{\epsilon}(\bm{s})}{N - p};
+\end{equation}
+The degrees of freedom are $N - p$, since there are N observations $Y_{1}(\bm{s}), ..., Y_{N}(\bm{s})$, and $p$ parameters $\beta_{1}(\bm{s}), ... , \beta_{p}(\bm{s})$ to estimate.
+
+\subsection{Inference with Null-Hypothesis Significance Testing}
+The pay off from obtaining the parameter estimates using OLS is that it enables us to statistically test hypotheses about the unknown effect sizes. This form of inference is known as \textit{Null-Hypothesis Significance Testing}. Hypotheses are expressed using a contrast vector $\bm{c}$ to define a linear combination of the parameters. The null hypothesis is always expressed in the form $H_{0} : \bm{c}\bm{\beta}(\bm{s}) = 0$, although this covers a wide variety of tests. For example, in a GLM with two parameters, $\bm{\beta}(\bm{s}) = (\beta_{1}(\bm{s}), \beta_{2}(\bm{s}))$, the contrast $\bm{c} = (1, 0)$ would lead to the null-hypothesis $H_{0} : \beta_{1}(\bm{s}) = 0$, establishing a test to determine if the first parameter $\beta_{1}(\bm{s})$ is significantly different from zero. As well as this, we could also test for significant differences between the two parameters, using the contrast vector $\bm{c} = (1, -1)$ to form the null-hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s})$. 
+
+Under the sphericity assumption used for OLS, 
+
+%\subsection{Estimating the Parameters with Weighted Least Squares (WLS)} 
+%
+%WLS is a generalization of OLS used to solve \ref{eq:GLM} when the errors are assumed to be %\textit{heteroskedastic}. Unlike OLS, this means that the errors are not constrained to have constant variance. In this case, the errors have conditional distribution:
+%\begin{equation}
+%\label{eq:OLS_errors}
+%\bm{\epsilon}(\bm{s}) \mid \bm{X} \sim  \mathcal{N}(0, \bm{V}(\bm{s})),
+%\end{equation}
+%where $\bm{V}(\bm{s})$ is an $N \times N$ diagonal matrix such that $V_{ii}(\bm{s}) = \sigma_i^{2}(\bm{s})$, the variance of the $i$th observation. Note that since %the off-diagonal entries of $\bm{V}(\bm{s})$ are 0, the errors are still assumed have no autocorrelation. Defining $\bm{W}(\bm{s}) = \bm{V}^{-1}(\bm{s})$, so that $W_{ii}(\bm{s}) = \frac{1}{{\sigma}_{i}^{2}(\bm{s})}$, WLS solves the GLM by minimizing the \textit{weighted} sum of squares cost function $S^{WLS}$ given by:  \begin{equation}
+%\label{eq:WLS_cost}
+%S^{WLS}(\bm{\beta}(s))  = \lVert \bm{W}^{\frac{1}{2}}(\bm{s})(\bm{Y}(\bm{s}) - \bm{X}\bm{\beta}(\bm{s})) \rVert^{2} = \sum_{i = 1}^{N} W_{ii}(\bm{s}) \lvert Y_i(\bm{s}) - \sum_{j = 1}^{p} X_{ij} \beta_j (\bm{s}) \rvert ^{2}.
+%\end{equation}
+%This gives the WLS parameter estimates:
+%\begin{equation}
+%\label{eq:WLS_estimates}
+%\hat{\bm{\beta}}^{WLS} (\bm{s}) = \argmin_{\bm{\beta}} S^{WLS}(\bm{\beta}(s)) = (\bm{X}^{\intercal}\bm{W}(\bm{s})\bm{X})^{-1}\bm{X}^{\intercal}\bm{W}(\bm{s})\bm{Y}(\bm{s}).
+%\end{equation}
 
 \section{Statistical Analysis: Subject-level}
+ 
+\section{Statistical Analysis: Subject-level}
+
 
 \subsection{Parametric Methods}
 
