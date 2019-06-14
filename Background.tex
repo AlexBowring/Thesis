@@ -134,7 +134,7 @@ The \textit{General Linear Model} (GLM) is the most widely used approach to mode
 \subsection{The GLM Set-up}
 To analyse voxelwise t-fMRI data, each voxel's time series is independently modelled within the GLM. This is commonly referred to as a \textit{mass-univariate} analysis -- the `mass' term specifies that the same analysis is performed many times, and `univariate' indicates that each analysis is performed separately at every brain voxel (as opposed to \textit{multivariate}, which considers many locations as part of one analysis). 
 
-Mathematically, for a compact domain $S \subset \mathcal{R}^{D}$ (in fMRI, $D$ = 3 and $S$ is the brain mask), the GLM at location (or brain voxel) $\bm{s} \in S$ is expressed as:
+Mathematically, for a compact domain $S \subset \mathcal{R}^{D}$ (in fMRI, $D$ = 3 and $S$ is the brain mask), the GLM at location (or brain voxel) $\bm{s} \in S$ is expressed as
 \begin{equation}
 \label{eq:GLM}
 \bm{Y}(\bm{s}) = \bm{X}\bm{\beta}(\bm{s}) + \bm{\epsilon}(\bm{s}),
@@ -145,17 +145,17 @@ The aim of the regression is to find parameter estimates $\bm{\hat{\beta}}(\bm{s
 
 \subsection{Estimating the Parameters with Ordinary Least Squares (OLS)} 
 
-OLS is used to solve \ref{eq:GLM} with the assumption that the errors are \textit{spherical}, which means that there is no autocorrelation and that each error term has constant variance. Combined with the normality assumption stated in the previous section, this means:
+OLS is used to solve \ref{eq:GLM} with the assumption that the errors are \textit{spherical}, which means that there is no autocorrelation and that each error term has constant variance. Combined with the normality assumption stated in the previous section, this means
 \begin{equation}
 \label{eq:OLS_errors}
 \bm{\epsilon}(\bm{s}) \mid \bm{X} \sim  \mathcal{N}(0, \sigma^{2}(\bm{s})\bm{I}_{N}),
 \end{equation}
-where $\bm{I}_{N}$ is the $N \times N$ identity matrix. OLS solves the GLM by minimizing the \textit{sum of squares} cost function $S$ given by:
+where $\bm{I}_{N}$ is the $N \times N$ identity matrix. OLS solves the GLM by minimizing the \textit{sum of squares} cost function $S$ given by
 \begin{equation}
 \label{eq:OLS_cost}
 S(\bm{\beta}(s))  = \lVert \bm{Y}(\bm{s}) - \bm{X}\bm{\beta}(\bm{s}) \rVert^{2} = \sum_{i = 1}^{N} \lvert Y_i(\bm{s}) - \sum_{j = 1}^{p} X_{ij} \beta_j (\bm{s}) \rvert ^{2}.
 \end{equation}
-This gives the OLS estimates:
+This gives the OLS estimates
 \begin{equation}
 \label{eq:OLS_estimates}
 \hat{\bm{\beta}}(\bm{s}) = \argmin_{\bm{\beta}} S(\bm{\beta}(\bm{s})) = (\bm{X}^{\intercal}\bm{X})^{-1}\bm{X}^{\intercal}\bm{Y}(\bm{s}).
@@ -164,19 +164,19 @@ By the Gauss-Markov Theorem, it can be shown that the OLS estimates are the Best
 
 \subsection{Prewhitening}
 
-The key assumption of OLS is that the errors are spherical, and it is only in this case that the OLS estimates are the BLUE of $\bm{\beta}(\bm{s})$. However, this assumption is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs (Woolrich, Temporal Autocorrelation in Univariate ...).
+The key assumption of OLS is that the errors are spherical, however, this is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs (Woolrich, Temporal Autocorrelation in Univariate ...).
 
-If the data are correlated, the error terms have marginal distribution: 
+If the data are correlated, the error terms have marginal distribution 
 \begin{equation}
 \label{eq:correlated_errors}
 \bm{\epsilon}(\bm{s}) \mid \bm{X} \sim  \mathcal{N}(0, \sigma^{2}(\bm{s})\bm{V}(\bm{s})),
 \end{equation}
-where $\bm{V}(\bm{s})$ is the symmetric, positive-definite correlation matrix. By the Cholesky decomposition, there exists a lower triangular matrix $\bm{K}(\bm{s})$ such that \allowbreak $\bm{V}^{-1}(\bm{s}) = \bm{K}^{\intercal}(\bm{s})\bm{K}(\bm{s})$. Providing that $\bm{K}(\bm{s})$ can be accurately determined, the idea is to update the model by multiplying both sides of the GLM by $\bm{K}(\bm{s})$ so that the error terms are spherical. Denoting $\bm{Y}^{*}(\bm{s}) = \bm{K}(\bm{s})\bm{Y}(\bm{s})$, and defining $\bm{X}^{*}(\bm{s})$ and $\bm{\epsilon}^{*}(\bm{s})$ similarly, then for the updated GLM:
+where $\bm{V}(\bm{s})$ is the correlation matrix. Since $\bm{V}(\bm{s})$ is symmetric and positive-definite, $\bm{V}(\bm{s})$ satisfies the assumptions for the Cholesky decomposition, which means there exists a lower triangular matrix $\bm{K}(\bm{s})$ such that $\bm{V}^{-1}(\bm{s}) = \bm{K}^{\intercal}(\bm{s})\bm{K}(\bm{s})$. Providing that $\bm{K}(\bm{s})$ can be accurately determined, the idea is to update the model by multiplying both sides of the GLM by $\bm{K}(\bm{s})$ so that the error terms are spherical. Denoting $\bm{Y}^{*}(\bm{s}) = \bm{K}(\bm{s})\bm{Y}(\bm{s})$, and defining $\bm{X}^{*}(\bm{s})$ and $\bm{\epsilon}^{*}(\bm{s})$ similarly, then for the updated GLM
 \begin{equation}
 \label{eq:updated_GLM}
 \bm{Y}^{*}(\bm{s}) = \bm{X}^{*}(\bm{s}) + \bm{\epsilon}^{*}(\bm{s}),
 \end{equation}
-the conditional covariance of $\bm{\epsilon}^{*}(\bm{s})$ is:
+the conditional covariance of $\bm{\epsilon}^{*}(\bm{s})$ is
 \begin{equation}
 \label{eq:updated_error_cov}
 \mathrm{Cov}(\bm{\epsilon}^{*}(\bm{s}) \mid \bm{X}) = \bm{K}(\bm{s})\mathrm{Cov}(\bm{\epsilon}(\bm{s}) \mid \bm{X})\bm{K}^{\intercal}(\bm{s}) = \sigma^{2}(\bm{s})\bm{I}_{N}.
@@ -184,7 +184,7 @@ the conditional covariance of $\bm{\epsilon}^{*}(\bm{s})$ is:
 Therefore, the sphericity assumption is satisfied for the updated model, and OLS can be applied to obtain the BLUE of $\bm{\beta}(\bm{s})$.
 
 \subsection{Estimating the Variance}
-For statistical inference, the variance of the errors $\sigma^{2}(\bm{s})$ needs to be estimated. This can be done using the OLS estimates. The \textit{fitted values} given by the OLS estimates are $\hat{\bm{Y}}(\bm{s}) = \bm{X}\hat{\bm{\beta}}(\bm{s})$. The differences between the observed data points and the fitted values are known as the \textit{residuals}, denoted by $\hat{\bm{\epsilon}}(\bm{s}) = \bm{Y}(\bm{s}) - \hat{\bm{Y}}(\bm{s})$. The variance of the errors is estimated as the sum of squares of the residuals divided by the \textit{degrees of freedom} of the model: 
+For statistical inference, the variance of the errors $\sigma^{2}(\bm{s})$ needs to be estimated. This can be done using the OLS estimates. The \textit{fitted values} given by the OLS estimates are $\hat{\bm{Y}}(\bm{s}) = \bm{X}\hat{\bm{\beta}}(\bm{s})$. The differences between the observed data points and the fitted values are known as the \textit{residuals}, denoted by $\hat{\bm{\epsilon}}(\bm{s}) = \bm{Y}(\bm{s}) - \hat{\bm{Y}}(\bm{s})$. The variance of the errors is estimated as the sum of squares of the residuals divided by the \textit{degrees of freedom} of the model
 \begin{equation}
 \label{eq:variance_estimator}
 \hat{\sigma}^{2}(\bm{s}) = \frac{\bm{\epsilon^{\intercal}}(\bm{s})\bm{\epsilon}(\bm{s})}{N - p};
@@ -192,9 +192,42 @@ For statistical inference, the variance of the errors $\sigma^{2}(\bm{s})$ needs
 The degrees of freedom are $N - p$, since there are N observations $Y_{1}(\bm{s}), ..., Y_{N}(\bm{s})$, and $p$ parameters $\beta_{1}(\bm{s}), ... , \beta_{p}(\bm{s})$ to estimate.
 
 \subsection{Inference with Null-Hypothesis Significance Testing}
-The pay off from obtaining the parameter estimates using OLS is that it enables us to statistically test hypotheses about the unknown effect sizes. This form of inference is known as \textit{Null-Hypothesis Significance Testing}. Hypotheses are expressed using a contrast vector $\bm{c}$ to define a linear combination of the parameters. The null hypothesis is always expressed in the form $H_{0} : \bm{c}\bm{\beta}(\bm{s}) = 0$, although this covers a wide variety of tests. For example, in a GLM with two parameters, $\bm{\beta}(\bm{s}) = (\beta_{1}(\bm{s}), \beta_{2}(\bm{s}))$, the contrast $\bm{c} = (1, 0)$ would lead to the null-hypothesis $H_{0} : \beta_{1}(\bm{s}) = 0$, establishing a test to determine if the first parameter $\beta_{1}(\bm{s})$ is significantly different from zero. As well as this, we could also test for significant differences between the two parameters, using the contrast vector $\bm{c} = (1, -1)$ to form the null-hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s})$. 
+The pay off from obtaining the parameter estimates using OLS is that it enables us to statistically test hypotheses about the unknown effect sizes. This form of inference is known as \textit{Null-Hypothesis Significance Testing}. Hypotheses are expressed using a contrast vector $\bm{c}$ to define a linear combination of the parameters. The null hypothesis is always expressed in the form $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$, although this covers a wide variety of tests. For example, in a GLM with two parameters, $\bm{\beta}(\bm{s}) = (\beta_{1}(\bm{s}), \beta_{2}(\bm{s}))$, the contrast $\bm{c} = (1, 0)$ would lead to the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = 0$, establishing a test to determine if the first parameter $\beta_{1}(\bm{s})$ is significantly different from zero. However, one could also test for significant differences between the two parameters by choosing the contrast vector $\bm{c} = (1, -1)$ to form the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s})$. 
 
-Under the sphericity assumption used for OLS, 
+If the sphericity assumption is satisfied, then the distribution of $\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s})$ is 
+\begin{equation}
+\label{eq:contrast_distribution}
+\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s}) \sim \mathcal{N}(\bm{c}^{\intercal}\bm{\beta}(\bm{s}), \sigma^{2}(\bm{s})\bm{c}^{\intercal}(\bm{X}^{\intercal}\bm{X})^{-1}\bm{c}).
+\end{equation}
+Therefore, hypotheses about a contrast of the model parameters $\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s})$ can be assessed with a $t$-test, using the knowledge that
+\begin{equation}
+\label{eq:contrast_minus_param_distribution}
+\frac{\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s}) - \bm{c}^{\intercal}\bm{\beta}(\bm{s})}{\sqrt{\hat{\sigma}^{2}(\bm{s})\bm{c}^{\intercal}(\bm{X}^{\intercal}\bm{X})^{-1}\bm{c}}} \sim t_{N-p},
+\end{equation}
+where $t_{N-p}$ is a  Student's $t$-distribution with $N-p$ degrees of freedom. In practice, the hypothesis $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$ is tested by computing the $t$-statistic 
+\begin{equation}
+\label{eq:t_statistic}
+T(\bm{s}) = \frac{\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s})}{\sqrt{\hat{\sigma}^{2}(\bm{s})\bm{c}^{\intercal}(\bm{X}^{\intercal}\bm{X})^{-1}\bm{c}}}
+\end{equation}
+and then obtaining a $p$-\textit{value} by comparing $T(\bm{s})$ to a $t$-distribution with $N-p$ degrees of freedom. For a one-sided hypothesis test where the alternative hypothesis is given by $H_{A} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) > 0$, the $p$-value is computed as $p = \Pr(t_{N-p} \geq t)$. In fMRI, the \textit{statistical parametric map} (or \textit{unthresholded statistic map}) is an image containing the $p$-values computed at every voxel. A $p$-value is said to be \textit{statistically significant} when $p < \alpha$, where $\alpha$ is a predetermined \textit{significance level} set according to inference standards appropriate for the study (typically for fMRI, $\alpha$ is set at 5\% \textit{before} correction for multiple-comparisons). In this case, the conclusion of the test is that there is sufficient evidence to reject the null hypothesis in favour of the alternative. Thus, for the null $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$, a statistically significant $p$-value would suggest a non-zero effect size at location $\bm{s}$. A \textit{thresholded statistic map} is obtained by masking the statistical parametric map to show only voxels with a statistically significant $p$-value. 
+
+In addition to testing a single contrast, one may also wish to test multiple contrasts at once. For example, in the two-parameter GLM described above, the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s}) = 0$ could be chosen to test for a significant effect size in either of the parameters. In this case, the contrast $\bm{c}$ is given as a matrix
+\begin{equation}
+\label{eq:f_stat_contrast}
+\bm{c} = 
+\begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix},
+\end{equation}
+where each row corresponds to each of the hypotheses being tested (for this example, $\beta_{1}(\bm{s}) = 0$ and $\beta_{2}(\bm{s}) = 0$ respectively). This time, inference is carried out using an $F$-\textit{test}. The $F$-\textit{statistic} is computed as 
+\begin{equation}
+\label{eq:f_statistic}
+F(\bm{s}) = (\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s}))^{\intercal}[r\bm{c}^{\intercal}\widehat{\mathrm{Cov}}(\hat{\bm{\beta}}(\bm{s}))\bm{c}]^{-1}(\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s})),
+\end{equation}
+where $r$ is the rank of $\bm{c}$, and a $p$-value is obtained by comparing $F(\bm{s})$ to an $F$-distribution with $r$ numerator and $N-p$ denominator degrees of freedom. 
+
+
 
 %\subsection{Estimating the Parameters with Weighted Least Squares (WLS)} 
 %
