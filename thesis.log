@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  18 JUN 2019 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  18 JUN 2019 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1233,25 +1233,25 @@ Chapter 2.
 (./Background.tex [7
 
 ]
-<Figures/1_Grays_Anatomy.png, id=726, 601.24625pt x 683.55376pt>
-File: Figures/1_Grays_Anatomy.png Graphic file (type png)
+<Figures/Grays_Anatomy.png, id=726, 601.24625pt x 683.55376pt>
+File: Figures/Grays_Anatomy.png Graphic file (type png)
 
-<use Figures/1_Grays_Anatomy.png>
-Package pdftex.def Info: Figures/1_Grays_Anatomy.png used on input line 9.
+<use Figures/Grays_Anatomy.png>
+Package pdftex.def Info: Figures/Grays_Anatomy.png used on input line 9.
 (pdftex.def)             Requested size: 190.6963pt x 216.81pt.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <10> not available
 (Font)              Font shape `T1/fla/b/n' tried instead on input line 10.
- [8 <./Figures/1_Grays_Anatomy.png>] [9]
+ [8 <./Figures/Grays_Anatomy.png>] [9]
 Overfull \hbox (15.16495pt too wide) in paragraph at lines 25--26
 \T1/fla/m/n/10.95 the lo-cal mag-netic field due to a de-creased con-cen-tra-ti
 on of de-oxy-genated haemoglobin,
  []
 
-[10] <Figures/2_Neuron.png, id=831, 350.0277pt x 119.0046pt>
-File: Figures/2_Neuron.png Graphic file (type png)
+[10] <Figures/Neuron.png, id=831, 350.0277pt x 119.0046pt>
+File: Figures/Neuron.png Graphic file (type png)
 
-<use Figures/2_Neuron.png>
-Package pdftex.def Info: Figures/2_Neuron.png used on input line 33.
+<use Figures/Neuron.png>
+Package pdftex.def Info: Figures/Neuron.png used on input line 33.
 (pdftex.def)             Requested size: 350.02684pt x 119.00429pt.
 
 Overfull \hbox (3.55638pt too wide) in paragraph at lines 39--40
@@ -1259,12 +1259,12 @@ Overfull \hbox (3.55638pt too wide) in paragraph at lines 39--40
 ease of oxy-genated heamoglobin,
  []
 
-[11 <./Figures/2_Neuron.png>]
-<Figures/3_BOLD_response.jpg, id=844, 289.08pt x 113.223pt>
-File: Figures/3_BOLD_response.jpg Graphic file (type jpg)
+[11 <./Figures/Neuron.png>]
+<Figures/BOLD_response.jpg, id=844, 289.08pt x 113.223pt>
+File: Figures/BOLD_response.jpg Graphic file (type jpg)
 
-<use Figures/3_BOLD_response.jpg>
-Package pdftex.def Info: Figures/3_BOLD_response.jpg used on input line 43.
+<use Figures/BOLD_response.jpg>
+Package pdftex.def Info: Figures/BOLD_response.jpg used on input line 43.
 (pdftex.def)             Requested size: 289.07928pt x 113.22272pt.
 
 Overfull \hbox (19.89844pt too wide) in paragraph at lines 48--48
@@ -1278,19 +1278,19 @@ Overfull \hbox (3.0856pt too wide) in paragraph at lines 53--54
  the par-tic-i-pant is in-structed
  []
 
-[12 <./Figures/3_BOLD_response.jpg>]
+[12 <./Figures/BOLD_response.jpg>]
 Overfull \hbox (4.08482pt too wide) in paragraph at lines 55--56
 []\T1/fla/m/n/10.95 An ex-per-i-men-tal de-sign where the task con-di-tion is c
 ar-ried out for an ex-tended
  []
 
-<Figures/4_Task_Paradigm.png, id=850, 1332.98pt x 999.735pt>
-File: Figures/4_Task_Paradigm.png Graphic file (type png)
+<Figures/Task_Paradigm.png, id=850, 1332.98pt x 999.735pt>
+File: Figures/Task_Paradigm.png Graphic file (type png)
 
-<use Figures/4_Task_Paradigm.png>
-Package pdftex.def Info: Figures/4_Task_Paradigm.png used on input line 59.
-(pdftex.def)             Requested size: 385.43562pt x 289.07999pt.
- [13 <./Figures/4_Task_Paradigm.png>] [14]
+<use Figures/Task_Paradigm.png>
+Package pdftex.def Info: Figures/Task_Paradigm.png used on input line 59.
+(pdftex.def)             Requested size: 375.79465pt x 281.85255pt.
+ [13 <./Figures/Task_Paradigm.png>] [14]
 [15] [16] [17]
 Overfull \hbox (11.0243pt too wide) in paragraph at lines 113--114
 \T1/fla/m/n/10.95 by fil-ter-ing out high-frequency re-gions. In-tu-itively, th
@@ -1312,30 +1312,37 @@ m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m/n/10.95 )$ \T1/fla/m/n/10.95 to an $
 \OML/cmm/m/it/10.95 F$\T1/fla/m/n/10.95 -distribution
  []
 
-[23]) [24]
+[23] <Figures/HRF_convolution.png, id=942, 1332.98pt x 525.965pt>
+File: Figures/HRF_convolution.png Graphic file (type png)
+
+<use Figures/HRF_convolution.png>
+Package pdftex.def Info: Figures/HRF_convolution.png used on input line 256.
+(pdftex.def)             Requested size: 361.34999pt x 142.57423pt.
+) [24 <./Figures/HRF_convolution.png>]
+[25]
 Chapter 3.
-(./Software_Comparison.tex) [25
+(./Software_Comparison.tex) [26
 
 ]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [26
+) [27
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[27]
+[28]
 Chapter 5.
-(./Cohen.tex) [28
+(./Cohen.tex) [29
 
 ]
 Chapter 6.
-(./thesis.bbl [29
+(./thesis.bbl [30
 
-] [30
+] [31
 
 ]
 Underfull \hbox (badness 2762) in paragraph at lines 104--110
@@ -1343,7 +1350,7 @@ Underfull \hbox (badness 2762) in paragraph at lines 104--110
  Moritz Grosse-
  []
 
-[31] [32] [33]) [34]
+[32] [33] [34]) [35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 428.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
  (./thesis.aux)
@@ -1354,10 +1361,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
  ) 
 Here is how much of TeX's memory you used:
- 24361 strings out of 493014
- 480255 string characters out of 6133351
+ 24368 strings out of 493014
+ 480385 string characters out of 6133351
  562200 words of memory out of 5000000
- 27102 multiletter control sequences out of 15000+600000
+ 27106 multiletter control sequences out of 15000+600000
  88178 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,80p,3676b,522s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1378,10 +1385,10 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (42 pages, 669992 bytes).
+Output written on thesis.pdf (43 pages, 744202 bytes).
 PDF statistics:
- 1088 PDF objects out of 1200 (max. 8388607)
- 1006 compressed objects within 11 object streams
- 203 named destinations out of 1000 (max. 500000)
- 723 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1099 PDF objects out of 1200 (max. 8388607)
+ 1014 compressed objects within 11 object streams
+ 205 named destinations out of 1000 (max. 500000)
+ 728 words of extra memory for PDF output out of 10000 (max. 10000000)
 

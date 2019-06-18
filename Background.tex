@@ -6,7 +6,7 @@ In this chapter, we provide the context that forms the basis of our research. We
 
 \begin{figure}[htbp]
 \centering
-	\includegraphics[height=3in]{1_Grays_Anatomy.png}	
+	\includegraphics[height=3in]{Grays_Anatomy.png}	
 \caption*{\textbf{Figure 1:} An illustration showing the arteries at the base of the human brain from (Gray, 1918).}
 \end{figure}
 
@@ -30,7 +30,7 @@ The complete chain of events linking neuronal activity to a change in MRI signal
 
 \begin{figure}[htbp]
 \centering
-	\includegraphics{2_Neuron.png}	
+	\includegraphics{Neuron.png}	
 \caption*{\textbf{Figure 2:} A schematic of the interaction between neurons. Image reused from Khan Academy (\href{https://creativecommons.org/licenses/by-nc-sa/3.0/us/}{CC BY-NC-SA 3.0 US}). Note: All Khan Academy content is available for free at (\href{https://www.khanacademy.org/}{www.khanacademy.org}).}
 \end{figure}
 
@@ -40,7 +40,7 @@ The electrical and chemical processes involved in neuronal activation require en
 
 \begin{figure}[htbp]
 \centering
-	\includegraphics{3_BOLD_response.jpg}	
+	\includegraphics{BOLD_response.jpg}	
 \caption*{\textbf{Figure 3:} Blah}
 \end{figure}
 
@@ -52,11 +52,11 @@ The ultimate goal of a task-based functional Magnetic Resonance Imagery (t-fMRI)
 
 The MR signal measured in the scanner is noisy, and the heamodynamic response induced by a stimulus only causes fractional changes in the BOLD response, typically of around one percent. Therefore, in order to increase the signal-to-noise ratio (SNR) of the BOLD signal participants repeat the task several times in the scanner. The type of task used, alongside the timings for which the participant is instructed to perform the task inside the scanner, are together known as the \textit{task paradigm} or \textit{experimental design}. Many different task conditions can be investigated within one task paradigm, however, it is fundamental that at least two conditions are included. This is because BOLD data are not quantitative, insofar that we are unable to interpret the level of neuronal activity from the absolute magnitude of the BOLD response alone. Instead, neuronal activity is inferred by using \textit{contrasts} to measure the difference in the MR signal between two conditions. Commonly, the BOLD response to a task condition is contrasted with a \textit{baseline} condition, where the participant is at rest within the scanner. However, it is equally acceptable to contrast two separate task conditions depending on the aims of the investigation. 
 
-An experimental design where the task condition is carried out for an extended period of time is said to have a \textit{block} design (or \textit{boxcar} design). One example of this could be a task paradigm where the participant is instructed to look at an animal photo for five seconds in each task repetition. Alternatively, in an \textit{event-related} design the task or stimulus takes the form of a discrete, rapid event, such as a study where the participant experiences a mild electric shock. A graphical representation of each of these task paradigms is shown in \textit{Figure BLAH}, along with the anticipated response from each type of stimulus. While block designs have greater statistical power, with a relatively larger BOLD response, the researcher has more control with respect to how the stimuli are delivered in an event-related design. 
+An experimental design where the task condition is carried out for an extended period of time is said to have a \textit{block} design (or \textit{boxcar} design). One example of this could be a task paradigm where the participant is instructed to look at an animal photo for five seconds in each task repetition. Alternatively, in an \textit{event-related} design the task or stimulus takes the form of a discrete, rapid event, such as a study where the participant experiences a mild electric shock. A graphical representation of each of these task paradigms is shown in \textit{Figure BLAH}, showing the \textit{onset timing function} along with the anticipated response for both types of stimuli. While block designs have greater statistical power, with a relatively larger BOLD response, the researcher has more control with respect to how the stimuli are delivered in an event-related design. 
 
 \begin{figure}[htbp]
 \centering
-	\includegraphics[height=4.0in]{4_Task_Paradigm.png}
+	\includegraphics[height=3.9in]{Task_Paradigm.png}
 \caption*{\textbf{Figure 4:} Blah}
 \end{figure}
 
@@ -165,7 +165,7 @@ By the Gauss-Markov Theorem, it can be shown that the OLS estimates are the Best
 
 \subsection{Prewhitening}
 
-The key assumption of OLS is that the errors are spherical, however, this is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs (Woolrich, Temporal Autocorrelation in Univariate ...).
+The key assumption of OLS is that the errors are spherical, however, this is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs \citep{Woolrich2001-tk}.
 
 If the data are correlated, the error terms have marginal distribution 
 \begin{equation}
@@ -249,8 +249,13 @@ where $r$ is the rank of $\bm{c}$, and a $p$-value is obtained by comparing $F(\
 
 In a \textit{first-level} (or \textit{subject-level}) analysis, the GLM set-up in \ref{sec:GLM} is used to analyze and test hypotheses related to the t-fMRI data obtained from an individual in a single scanning session. 
 
-At each brain voxel $\bm{s}$, the $N \times 1$ observations vector $\bm{Y}(\bm{s})$ contains the BOLD signal response data recorded by the scanner across all $N$ sampled time-points during the session. The columns of the design matrix $\bm{X}(\bm{s})$  comprise of task-related and nuisance regressors to model the response in $\bm{Y}(\bm{s})$. The number of task-related regressors is dependent on the task paradigm and the statistical hypotheses the researcher wishes to test. For example, in the animal photo paradigm described at the end of \ref{sec:t-fMRI}, if a researcher wanted to test for activations when the individual was looking at any of the animal photos, then a single regressor could be used to model the signal component attributable to a photo being displayed. However, if instead the researcher wanted to test for a change in response when the participant looked at photos of dogs compared to when they looked at photos of cats, then multiple regressors would need to be used to model the signal for photos of each animal type. The predicted response of each task-related regressor is estimated by convolution of the onset timing function of the stimulus with the HRF. 
+At each brain voxel $\bm{s}$, the $N \times 1$ observations vector $\bm{Y}(\bm{s})$ contains the BOLD signal response data recorded by the scanner across all $N$ sampled time-points during the session. The columns of the design matrix $\bm{X}(\bm{s})$  comprise of task-related and nuisance regressors to model the response in $\bm{Y}(\bm{s})$. The number of task-related regressors is dependent on the task paradigm and the statistical hypotheses the researcher wishes to test. For example, in the animal photo paradigm described at the end of \ref{sec:t-fMRI}, if a researcher wanted to test for activations when the individual was looking at any of the animal photos, then a single regressor could be used to model the signal component attributable to a photo being displayed. However, if instead the researcher wanted to test for a change in response when the participant looked at photos of dogs compared to photos of cats, then multiple regressors would need to be used to model the signal component for photos of each animal type. The predicted response of each task-related regressor is estimated by convolution of the onset timing function for the stimulus with a HRF. There are a variety of ways to model the HRF: by default FSL and SPM use a single canonical HRF, however a basis set of smooth functions or a more flexible finite impulse response basis set could also be used.    
 
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=5in]{HRF_convolution.png}
+\caption*{\textbf{Figure 5:} Blah}
+\end{figure}
 
 The time-series of the motion parameters used for realignment are usually also included as nuissance regressors
 
