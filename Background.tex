@@ -145,6 +145,7 @@ where $\bm{Y}(\bm{s})$ is an $N \times 1$ vector of observations at $\bm{s}$, $\
 The aim of the regression is to find parameter estimates $\bm{\hat{\beta}}(\bm{s})$ that best fit the model to the data. The goodness of fit is determined by a method of \textit{least squares}, depending on additional constraints added to the model. The parameter estimates are then used at the inference stage to test hypotheses about the data expressed in terms of the unknown parameters contained in $\bm{\beta}(\bm{s})$.
 
 \subsection{Estimating the Parameters with Ordinary Least Squares (OLS)} 
+\label{sec:OLS}
 
 OLS is used to solve \ref{eq:GLM} with the assumption that the errors are \textit{spherical}, which means that there is no autocorrelation and that each error term has constant variance. Combined with the normality assumption stated in the previous section, this means
 \begin{equation}
@@ -164,6 +165,7 @@ This gives the OLS estimates
 By the Gauss-Markov Theorem, it can be shown that the OLS estimates are the Best Linear Unbiased Estimates (BLUE) of $\bm{\beta}(\bm{s})$ providing all the assumptions are satisfied. 
 
 \subsection{Prewhitening}
+\label{sec:prewhitening}
 
 The key assumption of OLS is that the errors are spherical, however, this is often violated for fMRI data. As discussed in \ref{sec:temporal_filtering}, functional data are characterized by slow drifts which induce temporal autocorrelation in the MR signal. While high-pass filtering can be applied in an attempt to remove the majority of low frequency components, another strategy is to estimate the autocorrelation directly and then remove it by \textit{prewhitening} the data. This can be more efficient than filtering for event-related designs \citep{Woolrich2001-tk}.
 
@@ -193,7 +195,8 @@ For statistical inference, the variance of the errors $\sigma^{2}(\bm{s})$ needs
 The degrees of freedom are $N - p$, since there are N observations $Y_{1}(\bm{s}), ..., Y_{N}(\bm{s})$, and $p$ parameters $\beta_{1}(\bm{s}), ... , \beta_{p}(\bm{s})$ to estimate.
 
 \subsection{Inference with Null-Hypothesis Significance Testing}
-The pay off from obtaining the parameter estimates using OLS is that it enables us to statistically test hypotheses about the unknown effect sizes. This form of inference is known as \textit{Null-Hypothesis Significance Testing}. Hypotheses are expressed using a contrast vector $\bm{c}$ to define a linear combination of the parameters. The null hypothesis is always expressed in the form $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$, although this covers a wide variety of tests. For example, in a GLM with two parameters, $\bm{\beta}(\bm{s}) = (\beta_{1}(\bm{s}), \beta_{2}(\bm{s}))$, the contrast $\bm{c} = (1, 0)$ would lead to the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = 0$, establishing a test to determine if the first parameter $\beta_{1}(\bm{s})$ is significantly different from zero. However, one could also test for significant differences between the two parameters by choosing the contrast vector $\bm{c} = (1, -1)$ to form the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s})$. 
+\label{sec:NHST}
+The pay off from obtaining the parameter estimates using OLS is that it enables us to statistically test hypotheses about the unknown effect sizes. This form of inference is known as \textit{Null-Hypothesis Significance Testing} (NHST). Hypotheses are expressed using a contrast vector $\bm{c}$ to define a linear combination of the parameters. The null hypothesis is always expressed in the form $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$, although this covers a wide variety of tests. For example, in a GLM with two parameters, $\bm{\beta}(\bm{s}) = (\beta_{1}(\bm{s}), \beta_{2}(\bm{s}))$, the contrast $\bm{c} = (1, 0)$ would lead to the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = 0$, establishing a test to determine if the first parameter $\beta_{1}(\bm{s})$ is significantly different from zero. However, one could also test for significant differences between the two parameters by choosing the contrast vector $\bm{c} = (1, -1)$ to form the null hypothesis $H_{0} : \beta_{1}(\bm{s}) = \beta_{2}(\bm{s})$. 
 
 If the sphericity assumption is satisfied, then the distribution of $\bm{c}^{\intercal}\bm{\hat{\beta}}(\bm{s})$ is 
 \begin{equation}
@@ -249,7 +252,9 @@ where $r$ is the rank of $\bm{c}$, and a $p$-value is obtained by comparing $F(\
 
 In a \textit{first-level} (or \textit{subject-level}) analysis, the GLM set-up in \ref{sec:GLM} is used to analyze and test hypotheses related to the t-fMRI data obtained from an individual in a single scanning session. 
 
-At each brain voxel $\bm{s}$, the $N \times 1$ observations vector $\bm{Y}(\bm{s})$ contains the BOLD signal response data recorded by the scanner across all $N$ sampled time-points during the session. The columns of the design matrix $\bm{X}(\bm{s})$  comprise of task-related and nuisance regressors to model the response in $\bm{Y}(\bm{s})$. The number of task-related regressors is dependent on the task paradigm and the statistical hypotheses the researcher wishes to test. For example, in the animal photo paradigm described at the end of \ref{sec:t-fMRI}, if a researcher wanted to test for activations when the individual was looking at any of the animal photos, then a single regressor could be used to model the signal component attributable to a photo being displayed. However, if instead the researcher wanted to test for a change in response when the participant looked at photos of dogs compared to photos of cats, then multiple regressors would need to be used to model the signal component for photos of each animal type. The predicted response of each task-related regressor is estimated by convolution of the onset timing function for the stimulus with a HRF. There are a variety of ways to model the HRF: by default FSL and SPM use a single canonical HRF, however a basis set of smooth functions or a more flexible finite impulse response basis set could also be used.    
+At each brain voxel $\bm{s}$, the $N \times 1$ observations vector $\bm{Y}(\bm{s})$ contains the BOLD signal response data recorded by the scanner across all $N$ sampled time-points during the session. The columns of the design matrix $\bm{X}(\bm{s})$  comprise of task-related and nuisance regressors to model the response in $\bm{Y}(\bm{s})$. The number of task-related regressors is dependent on the task paradigm and the statistical hypotheses the researcher wishes to test. For example, in the animal photo paradigm described at the end of \ref{sec:t-fMRI}, to test for activations when the participant was looking at any of the animal photos, a single regressor could be used to model the change in BOLD signal attributable to a photo being displayed. However, if instead the researcher wanted to test for changes in activation when the participant looked at photos of dogs compared to photos of cats, then multiple regressors would need to be used for pictures of each animal type. 
+
+The predicted response of each task-related regressor is estimated by convolution of the onset timing function for the stimulus with a HRF. \textit{Figure 5} shows how the predicted response is obtained for the block design used in the animal photo task. There are a variety of ways to model the HRF: by default FSL and SPM use a single canonical HRF, however alternative methods include use of a basis set of smooth functions \citep{Friston1998-jl} or a more flexible \textit{finite impulse response} basis set \citep{Goutte2000-vd}. For each task-related condition, temporal derivatives may be included as an additional regressor to account for differences between the actual and modelled HRF. See \citet{Lindquist2009-fs} for a comparison of different HRF models.
 
 \begin{figure}[htbp]
 \centering
@@ -257,9 +262,13 @@ At each brain voxel $\bm{s}$, the $N \times 1$ observations vector $\bm{Y}(\bm{s
 \caption*{\textbf{Figure 5:} Blah}
 \end{figure}
 
-The time-series of the motion parameters used for realignment are usually also included as nuissance regressors
+The time series of motion-related parameters (e.g. translations and rotations) used for realignment are commonly added to the GLM as nuisance regressors to compensate for any left-over motion artefacts in the signal after preprocessing. Further nuisance regressors may include cardiac and respiratory recordings to account for fluctuations in the BOLD signal caused by changes in heart rate and breathing patterns during the scan. 
+
+To remove temporal autocorrelation in the BOLD signal the data are whitened (as in \ref{sec:prewhitening}), after which unbiased estimators of the parameters in $\bm{\beta}(\bm{s})$ can be computed via OLS (as in \ref{sec:OLS}). Finally, changes in neuronal activity between the task conditions is tested by contrasting the task-related regressors with an appropriate contrast vector $\bm{c}$ under the null hypothesis $H_{0} : \bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0$, using the NHST procedure described in \ref{sec:NHST}.  
 
 \subsection{Second-Level (Group-Level) Analysis}
+
+The contrast parameter estimates obtained for each individual during the first-level analysis are combined in a \textit{second-level} (or \textit{group-level}) analysis to test whether results can be generalized to the larger population. The second-level model attempts to account for variation in quantity estimates within each individual's data, as well as variability \textit{between} the participants stemming from the biological differences of each subject. Fundamentally, this means that conclusions drawn from a second-level analysis can relate to the whole population from which the participants came from, rather than just the the specific cohort of individuals involved in the study. 
 
 
 \subsection{Parametric Methods}

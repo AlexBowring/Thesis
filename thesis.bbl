@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -113,6 +113,12 @@ Michael~D Fox and Ron~L Alterman.
 \newblock Brain stimulation for torsion dystonia.
 \newblock \emph{JAMA Neurol.}, 72\penalty0 (6):\penalty0 713--719, June 2015.
 
+\bibitem[Friston et~al.(1998)Friston, Fletcher, Josephs, Holmes, Rugg, and
+  Turner]{Friston1998-jl}
+K~J Friston, P~Fletcher, O~Josephs, A~Holmes, M~D Rugg, and R~Turner.
+\newblock Event-related {fMRI}: characterizing differential responses.
+\newblock \emph{Neuroimage}, 7\penalty0 (1):\penalty0 30--40, January 1998.
+
 \bibitem[Glover(2011)]{Glover2011-at}
 Gary~H Glover.
 \newblock Overview of functional magnetic resonance imaging.
@@ -133,6 +139,13 @@ Krzysztof~J Gorgolewski and Russell~A Poldrack.
 \newblock A practical guide for improving transparency and reproducibility in
   neuroimaging research.
 \newblock \emph{PLoS Biol.}, 14\penalty0 (7):\penalty0 e1002506, July 2016.
+
+\bibitem[Goutte et~al.(2000)Goutte, Nielsen, and Hansen]{Goutte2000-vd}
+C~Goutte, F~A Nielsen, and K~H Hansen.
+\newblock Modeling the hemodynamic response in {fMRI} using smooth {FIR}
+  filters.
+\newblock \emph{IEEE Trans. Med. Imaging}, 19\penalty0 (12):\penalty0
+  1188--1201, December 2000.
 
 \bibitem[Hargreaves and Klimas(2012)]{Hargreaves2012-dz}
 Richard~J Hargreaves and Michael Klimas.
@@ -189,6 +202,14 @@ Megan~H Lee, Carl~D Hacker, Abraham~Z Snyder, Maurizio Corbetta, Dongyang
   Zhang, Eric~C Leuthardt, and Joshua~S Shimony.
 \newblock Clustering of resting state networks.
 \newblock \emph{PLoS One}, 7\penalty0 (7):\penalty0 e40370, July 2012.
+
+\bibitem[Lindquist et~al.(2009)Lindquist, Meng~Loh, Atlas, and
+  Wager]{Lindquist2009-fs}
+Martin~A Lindquist, Ji~Meng~Loh, Lauren~Y Atlas, and Tor~D Wager.
+\newblock Modeling the hemodynamic response function in {fMRI}: efficiency,
+  bias and mis-modeling.
+\newblock \emph{Neuroimage}, 45\penalty0 (1 Suppl):\penalty0 S187--98, March
+  2009.
 
 \bibitem[L{\'o}pez-Mu{\~n}oz et~al.(2006)L{\'o}pez-Mu{\~n}oz, Boya, and
   Alamo]{Lopez-Munoz2006-zk}
