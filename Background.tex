@@ -268,8 +268,50 @@ To remove temporal autocorrelation in the BOLD signal the data are whitened (as 
 
 \subsection{Second-Level (Group-Level) Analysis}
 
-The contrast parameter estimates obtained for each individual during the first-level analysis are combined in a \textit{second-level} (or \textit{group-level}) analysis to test whether results can be generalized to the larger population. The second-level model attempts to account for variation in quantity estimates within each individual's data, as well as variability \textit{between} the participants stemming from the biological differences of each subject. Fundamentally, this means that conclusions drawn from a second-level analysis can relate to the whole population from which the participants came from, rather than just the the specific cohort of individuals involved in the study. 
+The contrast parameter estimates obtained for each individual during the first-level analysis are combined in a \textit{second-level} (or \textit{group-level}) analysis to test whether results can be generalized to the larger population. The second-level model aims to account for variation in quantity estimates within each individual's data, as well as variability \textit{between} the participants stemming from biological differences between each subject.  This is fundamental from a research perspective as it means that conclusions drawn from a second-level analysis can relate to the whole population from which the participants came from, rather than just the the specific cohort of individuals involved in the study. In this section, we will describe a simplified second-level model for a one-sample \textit{t}-test used to test for a consistent response in a first-level contrast effect across all individuals. However, within the GLM framework it is also possible to conduct a \textit{between}-groups analysis with a \textit{two-sample t-test} to assess activation differences between two distinct groups (e.g. a group of patients and a group of controls), and to incorporate other design types such as a \textit{paired t-test} or \textit{one-way analysis of variance}.   
 
+For the GLM set-up in \ref{sec:GLM}, at the group-level $N$ represents the total number of participants in the study cohort. Theoretically, for a pre-specified contrast, the $N \times 1$ observations vector $\bm{Y}(\bm{s})$ contains each subject's first-level contrast effect, i.e. $\bm{Y}(\bm{s}) = \bm{c}\bm{\beta}(\bm{s}) = [\bm{c}\beta_{1}(\bm{s}), ..., \bm{c}\beta_{N}(\bm{s})]^{\intercal}$. This gives the instance of the GLM 
+
+\begin{equation}
+\label{eq:theoretical_group_GLM}
+\bm{c}\bm{\beta}(\bm{s}) = \bm{X}\bm{\beta}_{G}(\bm{s}) + \bm{\epsilon}(\bm{s}),
+\end{equation}
+where the group-level parameters are notated with $\bm{\beta}_{G}(\bm{s})$ to distinguish from the subject-level parameters $\bm{\beta}(\bm{s})$. For a one-sample \textit{t}-test the first column of the design matrix $\bm{X}$ is an intercept where all elements are set equal to 1. Other columns of the design are covariates to be considered for the analysis, such as the age of each participant or a score to describe each individuals performance in the task carried out during the scanning session. For simplicity we will assume no covariates are included, so $\bm{X}(\bm{s})$ is a column vector of 1's. $\bm{\epsilon}(\bm{s})$ is the vector of group-level errors terms, assumed to have distribution
+
+\begin{equation}
+\label{eq:group_errors}
+\bm{\epsilon}(\bm{s}) \sim  \mathcal{N}(0, \sigma_{G}^{2}(\bm{s})\bm{I}_{N}),
+\end{equation}
+where $\sigma_{G}^{2}(\bm{s})$ is the between-subject variance for the group. 
+
+Of course, in any practical analysis scenario the true subject-level contrast effects $\bm{c}\bm{\beta}(\bm{s})$ are unknown, and therefore the contrast estimates obtained in the first-level analyses $\bm{c}\hat{\bm{\beta}}(\bm{s})$ must be used instead. This leads to the GLM formulation
+
+\begin{equation} 
+\label{eq:practical_group_GLM}
+\bm{c}\hat{\bm{\beta}}(\bm{s}) = \bm{X}\bm{\beta}_{G}(\bm{s}) + \bm{\epsilon}^{*}(\bm{s}),
+\end{equation}
+where the errors $\bm{\epsilon}^{*}(\bm{s})$ must now account for the within-subject variation caused by estimating each participant's parameter effect size as well as the between-subject variance. Rearranging \ref{eq:theoretical_group_GLM} and \ref{eq:practical_group_GLM}, 
+
+\begin{equation} 
+\label{eq:practical_group_errors}
+\bm{\epsilon}^{*}(\bm{s}) = \bm{c}\bm{\beta}(\bm{s}) - \bm{c}\hat{\bm{\beta}}(\bm{s}) + \bm{\epsilon}(\bm{s}),
+\end{equation}
+and therefore
+
+\begin{alignat}{4}
+&&\mathrm{Cov}(\bm{\epsilon}^{*}(\bm{s}))
+&= \mathrm{Cov}(\bm{c}\hat{\bm{\beta}}(\bm{s})) + \sigma_{G}^{2}(\bm{s})\bm{I}_{N} \notag\\
+&
+&
+&= \underbrace{\begin{pmatrix}
+\sigma_{1}^{2}(\bm{s}) & 0 & 0 \\
+0 & \ddots & 0 \\
+0 & 0 & \sigma_{N}^{2}(\bm{s})
+\end{pmatrix}}_{\text{within-subject variance}}
++ \underbrace{\sigma_{G}^{2}(\bm{s})\bm{I}_{N}}_{\text{between-subject variance}},
+\end{alignat}
+
+where $\sigma_{i}^{2}(\bm{s})$ is the within-subject variance for the $i$th subject. 
 
 \subsection{Parametric Methods}
 

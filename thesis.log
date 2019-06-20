@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  19 JUN 2019 19:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  20 JUN 2019 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,7 +1191,7 @@ LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <10.95> not available
  [3] [4
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+fla on input line 309.
+LaTeX Font Info:    Try loading font information for TS1+fla on input line 308.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lato/ts1fla.fd
@@ -1199,13 +1199,13 @@ File: ts1fla.fd 2011/12/25 Fontinst v1.933 font definitions for TS1/fla.
 ) [5
 
 ]
-Overfull \hbox (2.01613pt too wide) in paragraph at lines 348--349
+Overfull \hbox (2.01613pt too wide) in paragraph at lines 347--348
 \T1/fla/m/n/10.95 hen-sion about the re-pro-ducibil-ity of find-ings within the
  neu-roimag-ing lit-er-a-ture, amid
  []
 
 
-Overfull \hbox (2.66006pt too wide) in paragraph at lines 348--349
+Overfull \hbox (2.66006pt too wide) in paragraph at lines 347--348
 \T1/fla/m/n/10.95 con-cerns that cur-rent in-fer-ence pro-ce-dures are of-ten m
 is-used or mis-in-ter-preted such
  []
@@ -1324,30 +1324,30 @@ Overfull \hbox (0.61317pt too wide) in paragraph at lines 267--268
 nal the data are whitened
  []
 
-) [25]
+[25]) [26] [27]
 Chapter 3.
-(./Software_Comparison.tex) [26
+(./Software_Comparison.tex) [28
 
 ]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [27
+) [29
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[28]
+[30]
 Chapter 5.
-(./Cohen.tex) [29
+(./Cohen.tex) [31
 
 ]
 Chapter 6.
-(./thesis.bbl [30
+(./thesis.bbl [32
 
-] [31
+] [33
 
 ]
 Underfull \hbox (badness 2762) in paragraph at lines 104--110
@@ -1355,24 +1355,24 @@ Underfull \hbox (badness 2762) in paragraph at lines 104--110
  Moritz Grosse-
  []
 
-[32] [33] [34] [35]) [36]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 428.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 428.
+[34] [35] [36] [37]) [38]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 428.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 428.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 3C8DA37BA49F6BC7E050FBEB39AA5EEB;6207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 428.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 24384 strings out of 493014
- 480688 string characters out of 6133351
- 562646 words of memory out of 5000000
- 27118 multiletter control sequences out of 15000+600000
- 88178 words of font info for 101 fonts, out of 8000000 for 9000
+ 24400 strings out of 493014
+ 480934 string characters out of 6133351
+ 562918 words of memory out of 5000000
+ 27124 multiletter control sequences out of 15000+600000
+ 99456 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,80p,3676b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,24n,80p,3676b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb></usr/local/texlive/2016
@@ -1390,10 +1390,10 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (44 pages, 747702 bytes).
+Output written on thesis.pdf (46 pages, 753866 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 1029 compressed objects within 11 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 1132 PDF objects out of 1200 (max. 8388607)
+ 1044 compressed objects within 11 object streams
+ 216 named destinations out of 1000 (max. 500000)
  728 words of extra memory for PDF output out of 10000 (max. 10000000)
 
