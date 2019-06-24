@@ -365,15 +365,9 @@ satisfies the sphericity assumption, and can therefore be solved using OLS. The 
 
 In this presentation, we have assumed that the within- and between-subject variance components are known, when in practise they must be estimated. Usually, the within-subject variance estimates obtained from the first-level analyses are also used in the group-level model. There are many proposed methods for estimating the between-subject variance, several of which use an iterative procedure based on OLS or residual maximum likelihood estimates. For more, see \citep{Searle2009-ku, Woolrich2004-ng, Worsley2000-rb}. 
 
-\subsection{Parametric Methods}
+\section{The Multiple Comparisons Problem}
 
-\subsection{Nonparametric Methods}
-
-\section{Statistical Analysis: Group-level}
-
-\subsection{Parametric Methods}
-
-\subsection{Nonparametric Methods}
+A fundamental issue with the mass-univariate approach for fMRI inference is the \textit{multiple comparisons problem}. Because the GLM is applied at each voxel independently, across the entire brain mask this means thousands of statistical tests are performed simultaneously. The significance level for each test can be described as the probability of wrongly determining a `discovery' when the null-hypothesis of no activation is in fact true. The problem is, while a significance level of, for example, 5\%, may be appropriate for one test, as more inferences are carried out the probability of an erroneous inference also increases. To highlight this point, if 100 tests are performed independently, each with a significance level of 5\%, then the probability of at least one false discovery is 99.4\%. In the context of fMRI, where a typical brain mask contains over 100,000 voxels, this becomes even more severe -- if the significance level of 5\% is not corrected, we would expect over 5,000 brain voxels to incorrectly be determined as active in the thresholded statistical results. 
 
 \section{Reproducibility of fMRI Results}
 

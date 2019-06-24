@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  24 JUN 2019 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  24 JUN 2019 17:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,7 +1104,7 @@ LaTeX Info: Redefining \nameref on input line 274.
 \openout4 = `thesis.out'.
 
 
-<Oxford_University_Coat_Of_Arms.pdf, id=356, 240.90001pt x 286.81834pt>
+<Oxford_University_Coat_Of_Arms.pdf, id=340, 240.90001pt x 286.81834pt>
 File: Oxford_University_Coat_Of_Arms.pdf Graphic file (type pdf)
 
 <use Oxford_University_Coat_Of_Arms.pdf>
@@ -1153,7 +1153,7 @@ f>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=357, 462.72874pt x 142.5325pt>
+<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=341, 462.72874pt x 142.5325pt>
 File: ox_brand_cmyk_pos_rect-eps-converted-to.pdf Graphic file (type pdf)
 <use ox_brand_cmyk_pos_rect-eps-converted-to.pdf>
 Package pdftex.def Info: ox_brand_cmyk_pos_rect-eps-converted-to.pdf used on in
@@ -1183,7 +1183,7 @@ l.27 ...ect-Level) Analysis}{24}{subsection.2.6.6}
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fla/b/it' tried instead on input line 72.
+(Font)              Font shape `T1/fla/b/it' tried instead on input line 68.
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
@@ -1233,7 +1233,7 @@ Chapter 2.
 (./Background.tex [7
 
 ]
-<Figures/Grays_Anatomy.png, id=736, 601.24625pt x 683.55376pt>
+<Figures/Grays_Anatomy.png, id=715, 601.24625pt x 683.55376pt>
 File: Figures/Grays_Anatomy.png Graphic file (type png)
 
 <use Figures/Grays_Anatomy.png>
@@ -1247,7 +1247,7 @@ Overfull \hbox (15.16495pt too wide) in paragraph at lines 25--26
 on of de-oxy-genated haemoglobin,
  []
 
-[10] <Figures/Neuron.png, id=841, 350.0277pt x 119.0046pt>
+[10] <Figures/Neuron.png, id=821, 350.0277pt x 119.0046pt>
 File: Figures/Neuron.png Graphic file (type png)
 
 <use Figures/Neuron.png>
@@ -1260,7 +1260,7 @@ ease of oxy-genated heamoglobin,
  []
 
 [11 <./Figures/Neuron.png>]
-<Figures/BOLD_response.jpg, id=854, 289.08pt x 113.223pt>
+<Figures/BOLD_response.jpg, id=834, 289.08pt x 113.223pt>
 File: Figures/BOLD_response.jpg Graphic file (type jpg)
 
 <use Figures/BOLD_response.jpg>
@@ -1284,7 +1284,7 @@ Overfull \hbox (4.08482pt too wide) in paragraph at lines 55--56
 ar-ried out for an ex-tended
  []
 
-<Figures/Task_Paradigm.png, id=860, 1332.98pt x 999.735pt>
+<Figures/Task_Paradigm.png, id=840, 1332.98pt x 999.735pt>
 File: Figures/Task_Paradigm.png Graphic file (type png)
 
 <use Figures/Task_Paradigm.png>
@@ -1312,7 +1312,7 @@ m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m/n/10.95 )$ \T1/fla/m/n/10.95 to an $
 \OML/cmm/m/it/10.95 F$\T1/fla/m/n/10.95 -distribution
  []
 
-[23] <Figures/HRF_convolution.png, id=958, 1332.98pt x 525.965pt>
+[23] <Figures/HRF_convolution.png, id=938, 1332.98pt x 525.965pt>
 File: Figures/HRF_convolution.png Graphic file (type png)
 
 <use Figures/HRF_convolution.png>
@@ -1362,14 +1362,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 81A67146D2FEE8473228045BB8303B35;6426.
+(rerunfilecheck)             Checksum: 27BAFF7544B85468689019AE6992E8BD;6128.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 24430 strings out of 493014
- 481535 string characters out of 6133351
+ 24422 strings out of 493014
+ 481395 string characters out of 6133351
  563737 words of memory out of 5000000
- 27142 multiletter control sequences out of 15000+600000
+ 27138 multiletter control sequences out of 15000+600000
  99456 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,80p,3676b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1390,10 +1390,10 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (47 pages, 762040 bytes).
+Output written on thesis.pdf (47 pages, 762342 bytes).
 PDF statistics:
- 1172 PDF objects out of 1200 (max. 8388607)
- 1083 compressed objects within 11 object streams
- 228 named destinations out of 1000 (max. 500000)
- 744 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1152 PDF objects out of 1200 (max. 8388607)
+ 1063 compressed objects within 11 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 712 words of extra memory for PDF output out of 10000 (max. 10000000)
 
