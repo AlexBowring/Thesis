@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  21 JUN 2019 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  24 JUN 2019 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,7 +1324,7 @@ Overfull \hbox (0.61317pt too wide) in paragraph at lines 267--268
 nal the data are whitened
  []
 
-[25] [26]) [27] [28]
+[25] [26] [27]) [28]
 Chapter 3.
 (./Software_Comparison.tex) [29
 
@@ -1366,10 +1366,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 24416 strings out of 493014
- 481240 string characters out of 6133351
- 563424 words of memory out of 5000000
- 27132 multiletter control sequences out of 15000+600000
+ 24430 strings out of 493014
+ 481535 string characters out of 6133351
+ 563737 words of memory out of 5000000
+ 27142 multiletter control sequences out of 15000+600000
  99456 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,80p,3676b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1390,10 +1390,10 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (47 pages, 758513 bytes).
+Output written on thesis.pdf (47 pages, 762040 bytes).
 PDF statistics:
- 1159 PDF objects out of 1200 (max. 8388607)
- 1070 compressed objects within 11 object streams
- 224 named destinations out of 1000 (max. 500000)
+ 1172 PDF objects out of 1200 (max. 8388607)
+ 1083 compressed objects within 11 object streams
+ 228 named destinations out of 1000 (max. 500000)
  744 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -460,6 +460,12 @@ INPUT ./Figures/Task_Paradigm.png
 INPUT Figures/HRF_convolution.png
 INPUT ./Figures/HRF_convolution.png
 INPUT ./Figures/HRF_convolution.png
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-t1.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/lato/Lato-Reg-t1.vf
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-01.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-dotlessj.tfm
+INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-02.tfm
 INPUT Software_Comparison.tex
 INPUT Contour.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-BolIta-t1.tfm

@@ -313,11 +313,11 @@ and therefore
 \end{alignat}
 where $\sigma_{i}^{2}(\bm{s})$ is the within-subject variance for the $i$th subject. 
 
-From this point on, two approaches are frequently used in the fMRI literature. The first approach assumes that the within-subject variances are equal across individuals so that the errors are \textit{homoscedastic}, meaning that each error term has the same variance. The second approach relaxes this assumption, allowing the within-subject variances to differ between individuals. In this case, the variance of the error terms also differ, meaning that the error terms are \textit{hetroscedastic}.
+From this point on, two approaches are frequently used in the fMRI literature. The first approach assumes that the within-subject variances are equal across individuals so that the errors are \textit{homoscedastic}, meaning that each error term also has equal variance. The second approach relaxes this assumption, allowing the within-subject variances to differ between individuals. In this case, the variance of the error terms also differ, meaning that the error terms are \textit{hetroscedastic}.
 
 \subsection{Solving the Second-Level GLM with Homoscedastic Errors}
 
-Assuming that the within-subject variance terms are equal, $\sigma^{2}_{1}(\bm{s}) = ... = \sigma^{2}_{N}(\bm{s})$, and \ref{group_error_covariance} reduces to
+Assuming that the within-subject variance terms are equal, $\sigma^{2}_{1}(\bm{s}) = ... = \sigma^{2}_{N}(\bm{s})$, \ref{group_error_covariance} reduces to
 
 \begin{equation} 
 \label{eq:group_homoscedastic_errors_covariance}
@@ -335,7 +335,7 @@ where $\sigma_{S}^{2}(\bm{s})$ is the common within-subject variance. Since this
 Assuming that the within-subject variance terms are not equal, then the errors are hetroscedastic, and thus the sphericity assumption required for OLS is violated. In this case, a \textit{weighted least square} (WLS) approach is used to solve the GLM instead. Conceptually, the idea of WLS is to deweight the most variable subject-level parameter estimates contained in $\bm{c}^{\intercal}\hat{\bm{\beta}}(\bm{s})$. In practise, this is done by constructing a weight matrix $\bm{W}(\bm{s})$ equal to the inverse of the covariance matrix of the observations. In the context of the second-level analysis, \ref{group_error_covariance} leads to the weight matrix 
 
 \begin{equation}
-\bm{W}(\bm{s}) =
+\bm{W}(\bm{s}) = 
 \label{weight_matrix}
 \begin{pmatrix}
 (\sigma_{1}^{2}(\bm{s}) + \sigma_{G}^{2}(\bm{s}))^{-1} & 0 & 0 \\
@@ -354,6 +354,16 @@ which for the one-sample $t$-test example reduces to
 \label{eq:WLS_t_test}
 \hat{\bm{\beta}}_{WLS}(\bm{s}) = \Bigg(\sum_{i=1}^{N} \frac{1}{\sigma^{2}_{i}(\bm{s}) + \sigma^{2}_{G}(\bm{s})}\Bigg)^{-1}\sum_{j=1}^{N} \frac{\bm{c}^{\intercal}\hat{\bm{\beta}}_{j}(\bm{s})}{\sigma^{2}_{j}(\bm{s}) + \sigma^{2}_{G}(\bm{s})}.
 \end{equation}
+
+In the WLS approach to solving the GLM, the weight matrix $\bm{W}(\bm{s})$ effectively applies a whitening transformation to the data. In fact, it can be advantageous to simplify WLS using a similar procedure as described for Prewhitening in \ref{sec:prewhitening}. Using the same notation as \ref{sec:prewhitening}, the error terms in the group-level GLM can be whitened using the diagonal matrix $\bm{K}(\bm{s})$ where $K_{ii}(\bm{s}) = \sqrt{W_{ii}(\bm{s})}$.  The updated model
+
+\begin{equation} 
+\label{eq:whitened_group_model}
+\bm{K}(\bm{s})\bm{c}^{\intercal}\hat{\bm{\beta}}(\bm{s}) = \bm{K}(\bm{s})\bm{X}\bm{\beta}_{G}(\bm{s}) + \bm{K}(\bm{s})\bm{\epsilon}^{*}(\bm{s})
+\end{equation}
+satisfies the sphericity assumption, and can therefore be solved using OLS. The parameter estimates obtained with this method are equivalent to solving the original model directly with WLS. 
+
+In this presentation, we have assumed that the within- and between-subject variance components are known, when in practise they must be estimated. Usually, the within-subject variance estimates obtained from the first-level analyses are also used in the group-level model. There are many proposed methods for estimating the between-subject variance, several of which use an iterative procedure based on OLS or residual maximum likelihood estimates. For more, see \citep{Searle2009-ku, Woolrich2004-ng, Worsley2000-rb}. 
 
 \subsection{Parametric Methods}
 

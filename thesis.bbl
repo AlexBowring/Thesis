@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -317,6 +317,11 @@ William~W Rozeboom.
 \newblock The fallacy of the null-hypothesis significance test.
 \newblock \emph{Psychol. Bull.}, 57\penalty0 (5):\penalty0 416--428, 1960.
 
+\bibitem[Searle et~al.(2009)Searle, Casella, and McCulloch]{Searle2009-ku}
+Shayle~R Searle, George Casella, and Charles~E McCulloch.
+\newblock \emph{Variance Components}.
+\newblock John Wiley \& Sons, September 2009.
+
 \bibitem[Skudlarski et~al.(1999)Skudlarski, Constable, and
   Gore]{Skudlarski1999-ao}
 P~Skudlarski, R~T Constable, and J~C Gore.
@@ -388,5 +393,18 @@ M~W Woolrich, B~D Ripley, M~Brady, and S~M Smith.
   data.
 \newblock \emph{Neuroimage}, 14\penalty0 (6):\penalty0 1370--1386, December
   2001.
+
+\bibitem[Woolrich et~al.(2004)Woolrich, Behrens, Beckmann, Jenkinson, and
+  Smith]{Woolrich2004-ng}
+Mark~W Woolrich, Timothy E~J Behrens, Christian~F Beckmann, Mark Jenkinson, and
+  Stephen~M Smith.
+\newblock Multilevel linear modelling for {FMRI} group analysis using bayesian
+  inference.
+\newblock \emph{Neuroimage}, 21\penalty0 (4):\penalty0 1732--1747, April 2004.
+
+\bibitem[Worsley et~al.(2000)Worsley, Liao, Grabove, Petre, Ha, and
+  Evans]{Worsley2000-rb}
+K~J Worsley, C~Liao, M~Grabove, V~Petre, B~Ha, and A~C Evans.
+\newblock A general statistical analysis for {fMRI} data, 2000.
 
 \end{thebibliography}
