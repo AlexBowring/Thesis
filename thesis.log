@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  24 JUN 2019 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  27 JUN 2019 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,30 +1324,30 @@ Overfull \hbox (0.61317pt too wide) in paragraph at lines 267--268
 nal the data are whitened
  []
 
-[25] [26] [27]) [28]
+[25] [26] [27] [28]) [29]
 Chapter 3.
-(./Software_Comparison.tex) [29
+(./Software_Comparison.tex) [30
 
 ]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [30
+) [31
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[31]
+[32]
 Chapter 5.
-(./Cohen.tex) [32
+(./Cohen.tex) [33
 
 ]
 Chapter 6.
-(./thesis.bbl [33
+(./thesis.bbl [34
 
-] [34
+] [35
 
 ]
 Underfull \hbox (badness 2762) in paragraph at lines 104--110
@@ -1355,7 +1355,7 @@ Underfull \hbox (badness 2762) in paragraph at lines 104--110
  Moritz Grosse-
  []
 
-[35] [36] [37] [38]) [39]
+[36] [37] [38] [39]) [40]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
  (./thesis.aux)
@@ -1366,8 +1366,8 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 24422 strings out of 493014
- 481395 string characters out of 6133351
+ 24423 strings out of 493014
+ 481402 string characters out of 6133351
  563737 words of memory out of 5000000
  27138 multiletter control sequences out of 15000+600000
  99456 words of font info for 106 fonts, out of 8000000 for 9000
@@ -1390,10 +1390,10 @@ ts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
 e1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis.pdf (47 pages, 762342 bytes).
+Output written on thesis.pdf (48 pages, 764528 bytes).
 PDF statistics:
- 1152 PDF objects out of 1200 (max. 8388607)
- 1063 compressed objects within 11 object streams
- 224 named destinations out of 1000 (max. 500000)
+ 1156 PDF objects out of 1200 (max. 8388607)
+ 1066 compressed objects within 11 object streams
+ 225 named destinations out of 1000 (max. 500000)
  712 words of extra memory for PDF output out of 10000 (max. 10000000)
 
