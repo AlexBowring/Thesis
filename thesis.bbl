@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{59}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -118,6 +118,12 @@ Michael~D Fox and Ron~L Alterman.
 K~J Friston, P~Fletcher, O~Josephs, A~Holmes, M~D Rugg, and R~Turner.
 \newblock Event-related {fMRI}: characterizing differential responses.
 \newblock \emph{Neuroimage}, 7\penalty0 (1):\penalty0 30--40, January 1998.
+
+\bibitem[Genovese et~al.(2002)Genovese, Lazar, and Nichols]{Genovese2002-xm}
+Christopher~R Genovese, Nicole~A Lazar, and Thomas Nichols.
+\newblock Thresholding of statistical maps in functional neuroimaging using the
+  false discovery rate.
+\newblock \emph{Neuroimage}, 15\penalty0 (4):\penalty0 870--878, April 2002.
 
 \bibitem[Glover(2011)]{Glover2011-at}
 Gary~H Glover.

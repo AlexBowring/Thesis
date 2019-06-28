@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1561385228 "thesis.aux" "thesis.bbl" "thesis" 1561385230
+["bibtex thesis"] 1561728966 "thesis.aux" "thesis.bbl" "thesis" 1561728968
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "perm.bib" 1561385090 95129 aa8c38a22e8250cfa79491c5cc7ea674 ""
-  "thesis.aux" 1561385230 20394 ae090e297e578a99ac0f80cc2f6cbd5e ""
+  "perm.bib" 1561728615 96827 06df684bb99c725477298d55bcc1539f ""
+  "thesis.aux" 1561728968 20131 a665b2350ff312a7c9795655e0e382f2 ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
-  "thesis.blg"
   "thesis.bbl"
-["pdflatex"] 1561385228 "thesis.tex" "thesis.pdf" "thesis" 1561385230
+  "thesis.blg"
+["pdflatex"] 1561728966 "thesis.tex" "thesis.pdf" "thesis" 1561728968
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc" 1325370639 3195 3010184cc245c57bcbfd7157ad53a9bd ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc" 1325370639 3478 809e251ae9c3b936be35dca7f06b535d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -263,7 +263,7 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1489441081 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1489441121 3873397 19dc3102bfe45217f7f522616e7096b1 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Background.tex" 1561385207 55757 74cc8afa6b791402fe42b2dc6222ae59 ""
+  "Background.tex" 1561728893 60151 1b1555703a9a3217bf3f12058865d2f0 ""
   "Cohen.tex" 1547578303 422 2f51a57518a857a7d6d1fae4d9f6523a ""
   "Contour.tex" 1547578313 550 319da2955157f1842ef877fb5e105dad ""
   "Figures/BOLD_response.jpg" 1557510791 14772 12b22b6720bab227c2638fc2733597c8 ""
@@ -275,15 +275,15 @@
   "Software_Comparison.tex" 1547578354 585 5ca843bb0d7b8f9ba9c55f8ebcbd5695 ""
   "introduction.tex" 1560268301 14532 7fe9057c5927cd6bbe6b3cad9b31d7c8 ""
   "ox_brand_cmyk_pos_rect.eps" 1207651369 464876 55e754f68e1b4dec36a2ce49bcfb4879 ""
-  "thesis.aux" 1561385230 20394 ae090e297e578a99ac0f80cc2f6cbd5e ""
-  "thesis.bbl" 1561385228 18615 a51b4db1afe55be3aef6294c8467ff61 "bibtex thesis"
-  "thesis.out" 1561385230 6426 81a67146d2fee8473228045bb8303b35 ""
+  "thesis.aux" 1561728968 20131 a665b2350ff312a7c9795655e0e382f2 ""
+  "thesis.bbl" 1561728966 18934 c18b9bdb87aae7e12965142de8c2b8b6 "bibtex thesis"
+  "thesis.out" 1561728968 6128 27baff7544b85468689019ae6992e8bd ""
   "thesis.sty" 1547571723 45039 6f03b7b823ff3b062c06c92d213255b4 ""
-  "thesis.tex" 1561385223 23117 4164f13f2f3db4b7c095d629f524bdc3 ""
-  "thesis.toc" 1561385230 7749 7b18d6e07614470148084c832035ea95 ""
+  "thesis.tex" 1561728961 23100 da1ff53a88567fe24a095b0a2f304f89 ""
+  "thesis.toc" 1561728968 7385 314c30b6242cad3179f0fb2296265072 ""
   (generated)
   "thesis.toc"
   "thesis.log"
-  "thesis.aux"
   "thesis.pdf"
+  "thesis.aux"
   "thesis.out"
