@@ -379,17 +379,17 @@ FDR and FWE correction procedures can be applied for both voxelwise and clusterw
 
 \subsection{Random Field Theory for Voxelwise FWE Correction}
 
-Voxelwise FWE control is established using an intrinsic relationship linking the probability of making a false discovery with the distribution of the maximum $t$-statistic over the brain. Defining the global null hypothesis of no signal anywhere, $H_{0,G}: (\forall \bm{s} \in S :\bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0)$, then for a threshold $c$, 
+Voxelwise FWE control is established using an intrinsic relationship linking the probability of making a false discovery with the distribution of the maximum $t$-statistic over the brain. For a threshold $c$,
 
 \begin{equation}
 \label{eq:FWE_and_global_maximum}
-P(\text{Reject} \ H_{0,G} | H_{0,G} \ \text{true}) = P\Big(\max\limits_{\bm{s} \in S} T(\bm{s}) > c \Big)
+P(\text{Reject} \ H_{0} | H_{0} \ \text{true}) = P\Big(\max\limits_{\bm{s} \in S} T(\bm{s}) > c \Big)
 \end{equation}
-where $T(\bm{s})$ is the $t$-statistic map given in \ref{eq:t_statistic}. 
+where $T(\bm{s})$ is the $t$-statistic map given in \ref{eq:t_statistic} and $H_{0}$ is the null hypothesis of no activation.
 
-The intuition of RFT is that under the global null, $T(\bm{s})$ can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance over the same domain $S$. Note that this imposes the assumptions that the data are stationary and that the discretely sampled statistic image $T(\bm{s})$ is sufficiently smooth enough to be approximated by a continuous field. It is because of the latter that spatial smoothing of the data is essential during preprocessing.  Supposing that the model is valid, then the right-hand side of \ref{eq:FWE_and_global_maximum} is approximated by $P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big)$. Remarkably, this probability can be obtained with use of the \textit{Euler characteristic} (EC), a measure originating from algebraic topology to provide information about a shape's structure that is invariant under any continuous deformation applied to the shape. 
+The intuition of RFT is that under the \textit{global null} of no signal \textit{anywhere}, $T(\bm{s})$ can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance over the same domain $S$. Note that this imposes assumptions that the data are stationary and that the discretely sampled statistic image $T(\bm{s})$ is sufficiently smooth enough to be approximated by a continuous field. It is because of the latter that spatial smoothing of the data must be carried out during preprocessing.  Supposing that the model is valid, then the right-hand side of \ref{eq:FWE_and_global_maximum} is approximated by $P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big)$. Remarkably, this probability can be obtained with use of the \textit{Euler characteristic} (EC), a measure originating from algebraic topology to provide information about a shape's structure invariant of any continuous deformation applied to the shape. 
 
-For a threshold $c$, defining the \textit{excursion set} $A_{c}$ as the set of voxels where the random field exceeds $c$, i.e. $A_{c} = \Big\{ \bm{s} \in S : Z(\bm{s}) > c \Big\}$, the EC $\chi_{c}$ is characterized as counting the number of clusters, minus the number of `handles', plus the number of `holes' in $A_c$. If $c$ is chosen large enough then we expect the handles and holes to disappear, so the EC provides an approximation of the number of clusters. If $\max\limits_{\bm{s} \in S} Z(\bm{s}) > c$ then clearly there must be at least one suprathreshold cluster in the excursion. Putting all this information together,
+For a threshold $c$, defining the \textit{excursion set} $A_{c}$ as the set of voxels where the random field exceeds $c$, i.e. $A_{c} = \Big\{ \bm{s} \in S : Z(\bm{s}) > c \Big\}$, the EC $\chi_{c}$ can be characterized as counting the number of clusters minus the number of `handles' plus the number of `holes' in $A_c$. If $c$ is chosen large enough then we expect the handles and holes to disappear, so the EC provides an approximation of the number of clusters. This relates back to the maximum distribution because if $\max\limits_{\bm{s} \in S} Z(\bm{s}) > c$, then clearly there must be at least one suprathreshold cluster in the excursion. Putting all this information together,
 
 \begin{alignat}{4}
 \label{eq:prob_EC}
@@ -400,8 +400,19 @@ For a threshold $c$, defining the \textit{excursion set} $A_{c}$ as the set of v
 &\approx P\Big(\chi_{c} > 0\Big).
 \end{alignat}
 
-Finally, further increasing of the threshold $c$ will result in fewer voxels contained in the excursion set until $\chi_{c}$ will almost certainly take the value of 1 (if the excursion set is made up of one suprathreshold cluster) or 0 (if the excursion set is empty). 
+Finally, further increasing of the threshold $c$ will result in fewer voxels contained in the excursion set until $\chi_{c}$ will almost certainly take the value of 1 (if the excursion set is made up of one suprathreshold cluster) or 0 (if the excursion set is empty). In this case,
 
+\begin{equation}
+\label{eq:EC_high_threshold}
+P\Big(\chi_{c} > 0\Big) = \mathbb{E}\Big(\chi_{c} \Big).
+\end{equation}
+
+In practice, with a parametric approach the FWE-corrected $p$-value is always approximated using the expectation of the EC. When $S \subset \mathcal{R}^{3}$,  e.g. $S$ is the brain mask in a neuroimaging application, the expected EC has the closed-form solution 
+
+\begin{equation}
+\label{eq:EC_closed_form_approx}
+\mathbb{E}\Big(\chi_{c} \Big) \approx \lambda(S)|\Lambda|^{\frac{1}{2}}(c^{2} - 1)\exp{(- c^{2}/2)}/(2\pi)^{2}
+\end{equation}
 
 \subsection{Permutation Testing for Voxelwise FWE Correction}
 
