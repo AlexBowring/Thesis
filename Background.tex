@@ -375,13 +375,33 @@ In making a choice between FDR or FWE correction there is a trade-off. While FDR
 
 Multiple comparison correction procedures are carried out in fMRI at either the voxelwise or clusterwise level. Voxelwise inference is intuitive, once a corrected threshold has been determined via the FDR or FWE procedure, the thresholded statistical results are computed as all voxels whose \textit{t}-statistic value exceeds the corrected threshold. Clusterwise inference involves a two-step procedure. First, a primary voxelwise threshold $c$ is chosen, usually in correspondence with an uncorrected significance level such as $\alpha = 0.005$. Thresholding the statistic map at $c$ creates groups of contiguous voxels above $c$, or `clusters'. For this reason, $c$ is commonly referred to as the \textit{cluster-forming threshold}. Subsequently, a \textit{cluster-extent threshold} $k$ is determined based on the distribution of cluster sizes obtained under the null-hypothesis of no activation. The final thresholded results are computed as all suprathreshold clusters with a spatial extent larger than $k$. 
 
-FDR and FWE correction procedures can be applied for both voxelwise and clusterwise inference, with the key difference that voxelwise corrections are based on the sampling distribution of voxel intensities under the null-hypothesis of no signal, while clusterwise corrections use the sampling distribution of cluster size. In the remainder of this section, we consider two methods for obtaining FWE-corrected results at the voxelwise level. First, we present how the body of mathematics called \textit{Random Field Theory} (RFT) is used to treat FWE correction with a parametric approach. Then, we show how FWE correction may also be obtained using permutation methods with weakened assumptions about the data. While we will not consider FDR here, for more information a reader may refer to \citet*{Benjamini1995-yy} where the method was originally proposed, or \citet*{Genovese2002-xm} for a presentation of FDR in the context of functional neuroimaging. 
+FDR and FWE correction procedures can be applied for both voxelwise and clusterwise inference, with the key difference that voxelwise corrections are based on the sampling distribution of voxel intensities under the null-hypothesis of no signal, while clusterwise corrections use the sampling distribution of cluster size. In the remainder of this section, we consider two methods for obtaining FWE-corrected results at the voxelwise level. First, we present how the body of mathematics called \textit{Random Field Theory} (RFT) is used to treat FWE correction with a parametric approach. Then, we show how FWE correction may also be obtained with permutation methods that make weaker assumptions about the data. While we will not consider FDR here, for more information a reader may refer to \citet*{Benjamini1995-yy} where the method was originally proposed, or \citet*{Genovese2002-xm} for a presentation of FDR in the context of functional neuroimaging. 
 
 \subsection{Random Field Theory for Voxelwise FWE Correction}
 
-Voxelwise FWE control is established using an intrinsic relationship linking the probability of obtaining any false-positives with the distribution of the maximum of a statistic image. 
+Voxelwise FWE control is established using an intrinsic relationship linking the probability of making a false discovery with the distribution of the maximum $t$-statistic over the brain. Defining the global null hypothesis of no signal anywhere, $H_{0,G}: (\forall \bm{s} \in S :\bm{c}^{\intercal}\bm{\beta}(\bm{s}) = 0)$, then for a threshold $c$, 
 
-The intuition of Random Field Theory is that under the global null-hypothesis of no signal anywhere, the $t$-statistic image $T(\bm{s})$ given in \ref{eq:t_statistic} can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance. 
+\begin{equation}
+\label{eq:FWE_and_global_maximum}
+P(\text{Reject} \ H_{0,G} | H_{0,G} \ \text{true}) = P\Big(\max\limits_{\bm{s} \in S} T(\bm{s}) > c \Big)
+\end{equation}
+where $T(\bm{s})$ is the $t$-statistic map given in \ref{eq:t_statistic}. 
+
+The intuition of RFT is that under the global null, $T(\bm{s})$ can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance over the same domain $S$. Note that this imposes the assumptions that the data are stationary and that the discretely sampled statistic image $T(\bm{s})$ is sufficiently smooth enough to be approximated by a continuous field. It is because of the latter that spatial smoothing of the data is essential during preprocessing.  Supposing that the model is valid, then the right-hand side of \ref{eq:FWE_and_global_maximum} is approximated by $P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big)$. Remarkably, this probability can be obtained with use of the \textit{Euler characteristic} (EC), a measure originating from algebraic topology to provide information about a shape's structure that is invariant under any continuous deformation applied to the shape. 
+
+For a threshold $c$, defining the \textit{excursion set} $A_{c}$ as the set of voxels where the random field exceeds $c$, i.e. $A_{c} = \Big\{ \bm{s} \in S : Z(\bm{s}) > c \Big\}$, the EC $\chi_{c}$ is characterized as counting the number of clusters, minus the number of `handles', plus the number of `holes' in $A_c$. If $c$ is chosen large enough then we expect the handles and holes to disappear, so the EC provides an approximation of the number of clusters. If $\max\limits_{\bm{s} \in S} Z(\bm{s}) > c$ then clearly there must be at least one suprathreshold cluster in the excursion. Putting all this information together,
+
+\begin{alignat}{4}
+\label{eq:prob_EC}
+&&P\Big(\max\limits_{\bm{s} \in S} T(\bm{s}) > c \Big)
+&\approx P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big) \notag\\
+&
+&
+&\approx P\Big(\chi_{c} > 0\Big).
+\end{alignat}
+
+Finally, further increasing of the threshold $c$ will result in fewer voxels contained in the excursion set until $\chi_{c}$ will almost certainly take the value of 1 (if the excursion set is made up of one suprathreshold cluster) or 0 (if the excursion set is empty). 
+
 
 \subsection{Permutation Testing for Voxelwise FWE Correction}
 
