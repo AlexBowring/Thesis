@@ -249,6 +249,7 @@ where $r$ is the rank of $\bm{c}$, and a $p$-value is obtained by comparing $F(\
 %\end{equation}
 
 \subsection{First-Level (Subject-Level) Analysis}
+\label{sec:first_level}
 
 In a \textit{first-level} (or \textit{subject-level}) analysis, the GLM set-up in \ref{sec:GLM} is used to analyze and test hypotheses related to the t-fMRI data obtained from an individual in a single scanning session. 
 
@@ -371,7 +372,7 @@ A fundamental issue with the mass-univariate approach for fMRI inference is the 
 
 In the task-fMRI literature, two different approaches are commonly used to correct for the multiple comparisons problem. The \textit{false discovery rate} (FDR) procedure corrects the significance level to control the expected proportion of type I errors across all detected voxels in the thresholded statistical results. For example, if a 0.05 FDR procedure is applied for subject-level inference on 20 subjects data, in any individual's thresholded statistical image we expect 5\% of activations to be false-positives. The second approach is to employ a \textit{familywise error} (FWE) correction, used to control the expected frequency that \textit{any} type I errors are made across the whole brain. This is clearly a more stringent form of correction -- in the 20-subject example, using a 0.05 FWE procedure we expect only one individual's thresholded image to contain any false-positives. 
 
-In making a choice between FDR or FWE correction there is a trade-off. While FDR is more statistically powerful than FWE, the drawback is a greater risk of false activations. This has lead to criticism concerning the spatial specificity of FDR-corrected results; specifically, since the location of false activations in an FDR-thresholded map are unknown, it is not possible to say with certainty that any given voxel is activated. On the other hand, FWE correction has also come under fire for being too conservative.
+In making a choice between FDR or FWE correction there is a trade-off. While FDR is more statistically powerful than FWE, the drawback is a greater risk of false activations. This has lead to criticism concerning the spatial specificity of FDR-corrected results; particularly, since the location of false activations in an FDR-thresholded map are unknown, it is not possible to say with certainty that any given voxel is activated. On the other hand, FWE correction has also come under fire for being too conservative.
 
 Multiple comparison correction procedures are carried out in fMRI at either the voxelwise or clusterwise level. Voxelwise inference is intuitive, once a corrected threshold has been determined via the FDR or FWE procedure, the thresholded statistical results are computed as all voxels whose \textit{t}-statistic value exceeds the corrected threshold. Clusterwise inference involves a two-step procedure. First, a primary voxelwise threshold $c$ is chosen, usually in correspondence with an uncorrected significance level such as $\alpha = 0.005$. Thresholding the statistic map at $c$ creates groups of contiguous voxels above $c$, or `clusters'. For this reason, $c$ is commonly referred to as the \textit{cluster-forming threshold}. Subsequently, a \textit{cluster-extent threshold} $k$ is determined based on the distribution of cluster sizes obtained under the null-hypothesis of no activation. The final thresholded results are computed as all suprathreshold clusters with a spatial extent larger than $k$. 
 
@@ -387,7 +388,7 @@ P(\text{Reject} \ H_{0} | H_{0} \ \text{true}) = P\Big(\max\limits_{\bm{s} \in S
 \end{equation}
 where $T(\bm{s})$ is the $t$-statistic map given in \ref{eq:t_statistic} and $H_{0}$ is the null hypothesis of no activation.
 
-The intuition of RFT is that under the \textit{global null} of no signal \textit{anywhere}, $T(\bm{s})$ can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance over the same domain $S$. Note that this imposes assumptions that the data are stationary and that the discretely sampled statistic image $T(\bm{s})$ is sufficiently smooth enough to be approximated by a continuous field. It is because of the latter that spatial smoothing of the data must be carried out during preprocessing.  Supposing that the model is valid, then the right-hand side of \ref{eq:FWE_and_global_maximum} is approximated by $P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big)$. Remarkably, this probability can be obtained with use of the \textit{Euler characteristic} (EC), a measure originating from algebraic topology to provide information about a shape's structure invariant of any continuous deformation applied to the shape. 
+The intuition of RFT is that under the \textit{global null} of no signal \textit{anywhere}, $T(\bm{s})$ can be modelled by a stationary continuous Gaussian random field $Z(\bm{s})$ of mean zero and unit variance over the same domain $S$. Note that this imposes assumptions that the data are stationary and that the discretely sampled statistic image $T(\bm{s})$ is sufficiently smooth enough to be approximated by a continuous field. It is because of the latter that spatial smoothing of the data must be carried out during preprocessing.  Supposing that the model is valid, then the right-hand side of \ref{eq:FWE_and_global_maximum} is approximated by $P\Big(\max\limits_{\bm{s} \in S} Z(\bm{s}) > c \Big)$. Remarkably, this probability can be obtained with use of the \textit{Euler characteristic} (EC), a measure originating from algebraic topology that provides information about a shape's fundamental structure, regardless of ways in which the shape is distorted or deformed. 
 
 For a threshold $c$, defining the \textit{excursion set} $A_{c}$ as the set of voxels where the random field exceeds $c$, i.e. $A_{c} = \Big\{ \bm{s} \in S : Z(\bm{s}) > c \Big\}$, the EC $\chi_{c}$ can be characterized as counting the number of clusters minus the number of `handles' plus the number of `holes' in $A_c$. If $c$ is chosen large enough then we expect the handles and holes to disappear, so the EC provides an approximation of the number of clusters. This relates back to the maximum distribution because if $\max\limits_{\bm{s} \in S} Z(\bm{s}) > c$, then clearly there must be at least one suprathreshold cluster in the excursion. Putting all this information together,
 
@@ -411,10 +412,24 @@ In practice, with a parametric approach the FWE-corrected $p$-value is always ap
 
 \begin{equation}
 \label{eq:EC_closed_form_approx}
-\mathbb{E}\Big(\chi_{c} \Big) \approx \lambda(S)|\Lambda|^{\frac{1}{2}}(c^{2} - 1)\exp{(- c^{2}/2)}/(2\pi)^{2}
+\mathbb{E}\Big(\chi_{c} \Big) \approx \lambda(S)|\Lambda|^{\frac{1}{2}}(c^{2} - 1)\exp{(- c^{2}/2)}/(2\pi)^{2},
 \end{equation}
+where $\lambda(S)$ is the Lebesgue measure (i.e. the volume) of the brain mask, and $|\Lambda|$ is the determinant of the covariance matrix of the gradient of $Z(\bm{s})$,
+
+\begin{equation}
+\label{Lamda_determinant}
+|\Lambda| = \Bigg|\mathrm{Cov}\bigg(\bigg[\frac{\partial}{\partial x}Z(\bm{s}), \frac{\partial}{\partial y}Z(\bm{s}), \frac{\partial}{\partial z}Z(\bm{s})\bigg]\bigg)\Bigg|.
+\end{equation}
+Essentially, $|\Lambda|$ provides a measure of the smoothness of the random field $Z(\bm{s})$; for a less smooth process $Z(\bm{s})$, the determinant is  larger. 
+
 
 \subsection{Permutation Testing for Voxelwise FWE Correction}
+
+In the previous section, we showed that the crux of estimating the FWE-corrected $p$-value is to approximate the maximum distribution of the $t$-statistic $T(\bm{s})$. We demonstrated how this was carried out with a parametric approach by assuming that under the global null, $T(\bm{s})$ can be modelled by a Gaussian random field. However, this imposed strong assumptions on the data which in practice are seldom fulfilled. In particular, it has been shown that RFT estimates of the FWE $p$-value are conservative unless the data are extremely smooth with high degrees of freedom. To remediate these problems, nonparametric approaches have been proposed as an alternative.
+
+The principle idea of permutation testing for FWE correction is that if the global null hypothesis is true, and there is really no signal anywhere, then the labels of each observation are arbitrary and the data is \textit{exchangeable}. Therefore, the maximum distribution of $T(\bm{s})$ under the global null can be constructed empirically by creating a large number of surrogate realizations of the data, where on each realization the data points are permuted randomly and the maximum value is obtained from the corresponding statistic map. 
+
+In the first-level analysis model described in \ref{sec:first_level}, where the observations are fMRI time-series data from one individual, permutation testing is usually inappropriate; due to temporal correlation in the data, the exchangeability assumption is violated. 
 
 \section{Reproducibility of fMRI Results}
 
