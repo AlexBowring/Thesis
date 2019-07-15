@@ -1,8 +1,94 @@
 \section{Data and Analysis Methods}
 
 \subsection{Study Description and Data Source}
+We selected three t-fMRI studies for reanalysis from the publicly accessible OpenfMRI data repository: ds000001 (Revision: 2.0.4; \citep{Schonberg2012-oo}), ds000109 (Revision 2.0.2; \citep{Moran2012-cw}), and ds000120 (Revision 1.0.0; \citep{Padmanabhan2011-dc}). Each of the datasets have been organized in compliance with the Brain Imaging Data Structure (BIDS, RRID:SCR\_016124; \citep{Gorgolewski2016-nf}). These datasets were chosen following an extensive selection procedure (carried out between May 2016-November 2016), whereby we vetted the associated publication for each dataset stored in the repository. We sought studies with simple analysis pipelines and clearly reported regions of brain activation that would be easily comparable to our own results. Exclusion criteria included the use of custom software, activations defined using small volume correction, and application of more intricate methods such as region of interest and robust regression analysis, which we believed could be impractical to implement across all analysis software. A full description of the paradigm for each of our chosen studies is included in the respective publication; here we give a brief overview. 
+
+For the ds000001 study, 16 healthy adult subjects participated in a balloon analog risk task over three scanning sessions. On each trial, subjects were presented with a simulated balloon, and offered a monetary reward to `pump' the balloon. With each successive pump the money would accumulate, and at each stage of the trial subjects had a choice of whether they wished to pump again or cash-out. After a certain number of pumps, which varied between trials, the balloon exploded. If subjects had cashed-out before this point they were rewarded with all the money they had earned during the trial, however if the balloon exploded all money accumulated was lost. Three different coloured `reward' balloons were used between trials, each having a different explosion probability, as well as a gray `control' balloon, which had no monetary value and would disappear from the screen after a predetermined number of pumps. Here we reproduce the result contrasting the parametrically modulated activations of pumps of the reward balloons versus pumps of the control balloon, corresponding to Figure 3 and Table 2 in the original paper.
+
+The ds000109 study investigated the ability of people from different age-groups to understand the mental state of others. A total of 48 subjects were scanned, although 43 had acceptable data for the false belief task - 29 younger adults and 14 older adults. In this task participants listened to either a `false belief' or `false photo' story. A false belief story would entail an object being moved from one place to another, with certain characters witnessing the change in location while others were unaware. False photo stories were similar except involved some physical representation, such as a photo of an object in a location from which it had been subsequently removed. The task had a block design where stories were represented for ten seconds, after which participants had to answer a question about one of the character's perceptions of the location of the object. We reproduce the contrast map of false belief versus false photo activations for the young adults, corresponding to Figure 5a and Table 3 from the original publication.
+
+Finally, the ds000120 study explored reward processing across different age groups. fMRI results were reported on 30 subjects, with 10 participants belonging to each of the three age groups (children, adolescents and adults). Participants took part in an antisaccade task where a visual stimulus was presented in each trial and subjects were instructed to quickly fixate their gaze on the side of the screen opposite to the stimulus. Prior to a trial, subjects were given a visual cue to signal whether or not they had the potential to win a monetary reward based on their upcoming performance (a `reward' or `neutral' trial). We reproduce the main effect of time activation map -- an $F$-statistic for any non-zero coefficients in the sine HRF basis -- corresponding to Figure 3 and Table 1 in the original publication.  
 
 \subsection{Data Analyses}
+
+All data analyses were conducted using AFNI (version AFNI\_18.1.09), FSL (version 5.0.10), and SPM (version SPM12, v6906). Computation was performed on a cluster comprised of 12 Dell PowerEdge servers (6 R410, 12 core 2.40GHz processors, 6 R420, 12 core 2.80GHz processors) running CentOS 7.3.
+
+\subsubsection{Pipeline}
+
+A full decomposition of the pipelines implemented within the three packages for each study is presented in \textbf{TABLE 1}. Here, we give a brief description of the procedures. 
+
+In AFNI, preprocessing and subject-level analyses were conducted using the @SSwarper program and afni\_proc.py. For ds000001 and ds000109, we used the 3dMEMA program to perform a one-sample $t$-test, while for ds000120 we used the 3dMVM program at the second level to conduct a mixed-effects analysis, generating an $F$-statistic for the main effect of time. 
+
+In FSL, analyses were carried out using the FMRI Expert Analysis Tool (FEAT, v6.00). For each analysis, at the first level a separate .fsf file was created for each scanning session. Runs were then combined as part of a second level fixed-effects model, yielding results which were subsequently inputted into a group analysis. 
+
+In SPM, preprocessing, subject- and group-level analyses were conducted by selecting the relevant modules within SPM's Batch Editor. In particular, subject-level and group-level analyses were conducted using the Specify 1st-level and Specify 2nd-level modules respectively. 
+
+Once analyses were complete, the results for each software package were exported as NIDM-Results packs (FSL and SPM only, \citep{Maumet2016-se}) and uploaded to a public collection on the NeuroVault (RRID:SCR\_003806, \citep{Gorgolewski2015-vs}) online data repository. 
+
+\textbf{PUT TABLE 1 HERE}
+
+\subsubsection{Common Processing Steps}
+A number of processing steps for each package were included in all of our analyses, regardless of whether they had been implemented in the original study. While this meant deviating from an exact replication of the original pipeline, these processing steps were either fundamental to ensure that the results from each software package could be compared objectively, or steps that are widely accepted as best practices within the community. In this section we describe these steps.
+
+Successful coregistration of the functional data to the structural brain images, and subsequently, registration to the MNI template, was of paramount importance to us for fair comparability of the results. During our first attempt at analysing the ds000001 dataset we discovered that seven subjects had essential orientation information missing from the NIfTI header fields of their functional and structural data. As the source DICOM files were no longer available, the original position matrices for this dataset were unable to be retrieved. This caused coregistration to fail for several subjects across all three software packages in our initial analysis of this data. We rectified the issue by manually setting the origins of the functional and structural data. OpenfMRI released a revision (Revision: 2.0.4) of our amended dataset which we used for the analysis. Further to this, we also set a number of common preprocessing steps within each package to be applied in all our analyses.   
+
+Firstly, brain extraction was conducted on the structural image in all software. We did this to improve registration and segmentation. In AFNI, brain extraction was carried out using 3dskullstrip, that was called implicitly from within the @SSwarper program. The skull-stripped anatomical volume obtained here was inputted into our afni\_proc.py scripts where further preprocessing and first-level analyses were carried out.  In FSL, brain extraction was performed on both the functional and structural data. The Brain Extraction Tool (BET; \citep{Smith2002-vw}) was applied to each structural image from the command line before preprocessing, and to the functional data with the BET option within the Pre-stats module of FEAT. In SPM, brain extraction was implemented via the segmented structural images. Gray matter, white matter and CSF images were summed and binarised at 0.5 to create a brain mask, which was applied to the bias corrected structural image using the Image Calculator module. 
+
+Coregistration of the functional data to the anatomy was carried out for the most part using the default settings in each software. In AFNI, alignment of the data was conducted using the align\_epi\_anat.py program called implicitly from the align block within the afni\_proc.py scripts. We included the -volreg\_align\_e2a option within our scripts to specify alignment of the functional data onto the anatomy, as by default AFNI conducts the inverse transformation of anatomy onto functional. Further to this, we also added the -align\_opts\_aea program to all of our scripts with the -giant\_move and -check\_flip options to allow for larger transformations between the images. In FSL, coregistration was carried out within FEAT using the default linear registration methods with a Boundary-Based Registration (BBR) cost function. The default methods were also applied within SPM's Coregister: Estimate module, using a normalised mutual information cost function. 
+
+Registration of the structural and functional data to the anatomical template was executed using each packages nonlinear settings. In AFNI, nonlinear registration of the anatomical data to the MNI template was conducted as part of the @SSwarper program ran prior to the afni\_proc.py script. The warps computed by @SSwarper were passed to afni\_proc.py using the -tlrc\_NL\_warpred\_dsets option, and applied to the functional data within the tlrc block using the -volreg\_tlrc\_warp option. By default, the resampled functional data in MNI space has voxel size determined from the raw 4D data; we forced 2mm cubic voxels with the -volreg\_warp\_dxyz option for compatibility with FSL and SPM's 2mm default. In FSL, registration to the MNI template was conducted using FMRIB's Nonlinear Image Registration Tool (FNIRT; \citep{Andersson2007-lc}), controlling the degrees of freedom of the transformation with a warp resolution of 10mm. In SPM, the nonlinear deformations to MNI space were obtained as part of the Segment module and then applied to the structural and functional data within the Normalise: Write module. 
+
+As a form of quality control, we created mean and standard deviation images of the subject-level MNI-transformed anatomical and mean functional images. Alongside the subject-level data, these images were assessed to check that registration to MNI space had been successful. When intersubject registration failed remedial steps were taken within each software; these are described in the software implementation parts of the following study-specific analysis sections. 
+
+Across all software packages six motion regressors were included in the analysis design matrix to regress out motion-related fluctuations in the BOLD signal. Use of six or more derived motion regressors is commonly recommended as good practice, and we chose to use just six regressors as this could be easily implemented across software. 
+
+Finally, we note that each software package uses a different default connectivity criterion for determining significant clusters: 6-connectivity for AFNI, 18-connectivity for SPM, and 28-connectivity for FSL. Since these settings are not typically modified we have kept these defaults in all of our analyses to reflect standard practices carried out within each software. 
+
+We now describe the task-specific analysis procedures for each of the three studies as carried out in the original publications, and how these methods were implemented within each package. While we decided to keep the above steps of the analysis pipelines fixed, for all remaining procedures we attempted to remain true to the original study. Any further deviations necessitated are discussed in the software implementation sections. Notably, apart from the addition of six motion regressors, all of our common steps relate to preprocessing, and hence for first- and group-level analysis we attempt to exactly replicate the original study. 
+
+\subsubsection{ds000001 Analyses}
+In the publication associated with the ds000001 study all preprocessing and analysis was conducted within FSL (version 4.1.6). Data on all 16 subjects were available to us on OpenfMRI. In the original preprocessing, the first two volumes of the functional data were discarded and the highpass-filter was set to a sigma of 50.0s. Motion correction was conducted using MCFLIRT and brain extraction of the functional data was applied with BET, after which FSL’s standard three-step registration procedure was carried out to align the functional images to the structural scan. Spatial normalization was implemented with FMRIB’s Linear Image Registration Tool (FLIRT; \citep{Jenkinson2002-qf}), and data were smoothed using a 5mm full-width-half-maximum (FWHM) Gaussian kernel. At the run level, each of the events were convolved using a canonical double-gamma HRF; FEAT’s (then newly available) outlier de-weighting was used. Subject-level analysis of the functional data were conducted using a GLM within FEAT, where a selection of the regressors were orthogonalized. The three scanning sessions for each participant were carried out separately and then combined together at the second level. A pair of one-sided $t$-tests were conducted at the group-level to test for positive and negative effects separately. For each test, clusterwise inference was performed using an uncorrected cluster-forming threshold of $p < 0.01$, FWE-corrected clusterwise threshold of $p < 0.05$ using Gaussian random field theory.
+
+We opted to not use outlier de-weighting on the basis that such methods were impractical to implement across all software packages.
+
+\subsubsection{AFNI Implementation}
+Using our default procedure for the AFNI analysis, we found that coregistration of the functional scans onto the anatomy failed for four subjects. To remedy this issue, for this study we modified our afni\_proc.py scripts: Within the -align\_opts\_aea module, the `-ginormous move' option was added to align the centers of the functional and anatomical volumes, and the ‘-cost lpc+ZZ’ option was used to apply a weighted combination of cost functionals. Both of these changes are recommended for data with little structural detail. Following these modifications all coregistrations were successful.
+
+To replicate the orthogonalization methods from the original study, a separate orthogonalization script was ran for each subject prior to the first-level analyses. Within this script, the (un-orthogonalized) regressors were generated by passing the event timing files to 3dDeconvolve, after which the 3dTproject command was used to obtain the desired projections. The orthogonalized regressor files outputted from this script were then entered into afni\_proc.py to replicate the original subject-level analysis model. 
+
+Trials were convolved with a single gamma HRF using either the BLOCK or dmBLOCK option within the -regress\_basis\_multi module, determined by whether the event file had fixed or variable duration times respectively. The -regress\_stim\_types option was added to our afni\_proc.py script to specify event files for regressors which had been parametrically modulated in the original study, and identify the orthogonalized regressors. 
+
+At the group level, we performed a mixed-effects analysis using 3dMEMA. The critical cluster size threshold was determined by Monte Carlo simulation with the 3dClustSim program. 
+
+\subsubsection{FSL Implementation}
+Implementation in FSL closely followed the original procedure described above, with the exception that nonlinear registration was used to transform the data to standard space. 
+
+\subsubsection{SPM Implementation}
+Implementation in SPM closely followed the pipeline outlined in \textbf{TABLE 1}.
+
+\subsubsection{ds000109 Analyses}
+The original preprocessing and statistical analysis for the ds000109 study was carried out using SPM8. Data were shared on 36 of the 40 subjects, 21 of which were young adult subjects that had fMRI data compatible for our reanalysis. First, functional data were realigned and unwarped to correct for head motion and geometric distortions. After transforming the data into a standardized space, the normalized data were smoothed with an 8mm FWHM Gaussian kernel. Further to this, custom software was applied to exclude functional volumes where head motion had exceeded a certain limit, however this process was omitted from our pipelines since this feature was not available in any of the software packages. The preprocessed data were entered into a GLM for first level analysis where trials were modeled using a block design and convolved using SPM's canonical HRF. Each participant’s contrast images were then entered into a one-sample group analysis using clusterwise inference, cluster-forming threshold of $p < 0.005$, 5\% level FWE using random field theory; in their analysis, this amounted to a critical cluster size threshold of 56 voxels. 
+
+\subsubsection{AFNI Implementation}
+Intersubject registration to the MNI atlas failed for one subject, for which part of the frontal lobe was missing. We addressed this by revising this study’s AFNI pipeline to use the -pad\_base 60 option within the -tlrc\_opts\_at module included in afni\_proc.py. This gave extra padding to the MNI template so that no part of the functional image was lost during the alignment. 
+
+The HRF was modelled with SPM's canonical HRF using the SPMG1 option for each event within the -regress\_basis\_multi option and passing the duration of the regressor as an argument to the function.
+
+At the group level, we performed a mixed-effects analysis using 3dMEMA. $p$-values were determined by Monte Carlo simulations with 3dClustSim.
+
+\subsubsection{FSL Implementation}
+To recreate the original HRF model in FSL, we chose the Double-Gamma HRF from the convolution options within FEAT. 
+
+\subsubsection{SPM Implementation}
+Implementation in SPM closely followed the original procedure described above.
+
+
+\subsubsection{ds000120 Analyses}
+
+\subsubsection{AFNI Implementation}
+\subsubsection{FSL Implementation}
+\subsubsection{SPM Implementation}
+
 
 \subsection{Comparison Methods}
 

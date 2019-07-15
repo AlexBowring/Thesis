@@ -43,6 +43,8 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
+\citation{Anatomy1918-do}
+\citation{Anatomy1918-do}
 \citation{Azevedo2009-qj}
 \citation{Adelman1987-hs,Mohamed2014-gl}
 \citation{Lopez-Munoz2006-zk}
@@ -53,6 +55,7 @@
 \citation{Sperling2014-sy,McEvoy2009-zx}
 \citation{Matthews2006-sl}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}The Study of Brain Function}{8}{section.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces An illustration showing the arteries at the base of the human brain. Reprinted from \citet  *{Anatomy1918-do}.\relax }}{8}{figure.caption.5}}
 \citation{Hargreaves2012-dz}
 \citation{Mechelli2005-dn}
 \citation{Alexander2007-ut,Soares2013-mh}
@@ -65,8 +68,15 @@
 \citation{Bandettini1992-jt,Kwong1992-uq,Ogawa1992-af}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Blood Oxygenation Level Dependant (BOLD) Functional Magnetic Resonance Imagery (fMRI)}{10}{section.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Physiology of the BOLD response}{11}{subsection.2.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces A schematic of the interaction between neurons. Image reused from Khan Academy.}}{11}{figure.caption.6}}
+\citation{Buxton2012-ly}
+\citation{Buxton2012-ly}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The current BOLD signal model. In the presence of a stimulus, changes in biological parameters such as CBF, CBV and CMRO$_{2}$ influence the final observed BOLD response. Reprinted from \citet  *{Buxton2012-ly}, with permission from Elsevier.\relax }}{12}{figure.caption.7}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imagery (t-fMRI)}{12}{section.2.3}}
 \newlabel{sec:t-fMRI}{{2.3}{12}{Task-based functional Magnetic Resonance Imagery (t-fMRI)}{section.2.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.4}{\ignorespaces The stimulus onset timings (blue) and expected response (red) for a task paradigm using a block design, where participants look at animal photos (top half), and a task paradigm using an event-related design, where participants are given a mild electric shock (bottom half).\relax }}{13}{figure.caption.8}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:paradigm}{{2.4}{13}{The stimulus onset timings (blue) and expected response (red) for a task paradigm using a block design, where participants look at animal photos (top half), and a task paradigm using an event-related design, where participants are given a mild electric shock (bottom half).\relax }{figure.caption.8}{}}
 \citation{Cox1996-nu}
 \citation{Jenkinson2012-wh}
 \citation{Penny2011-uk}
@@ -74,188 +84,227 @@
 \citation{Smith2002-vw}
 \@writefile{toc}{\contentsline {section}{\numberline {2.5}Preprocessing}{15}{section.2.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Brain Extraction}{15}{subsection.2.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Distortion Correction}{15}{subsection.2.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Distortion Correction}{16}{subsection.2.5.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces Distortion correction applied to functional data with the use of a field map. While lost signal can not be recovered, the correction has vastly improved distorted regions in the frontal lobe. Functional data and field map images reprinted from the \textit  {fMRIB Graduate Programme} lecture notes, with the kind permission of Mark Jenkinson.}}{16}{figure.caption.9}}
+\newlabel{fig:Distortion_Correction}{{2.5}{16}{Distortion correction applied to functional data with the use of a field map. While lost signal can not be recovered, the correction has vastly improved distorted regions in the frontal lobe. Functional data and field map images reprinted from the \textit {fMRIB Graduate Programme} lecture notes, with the kind permission of Mark Jenkinson}{figure.caption.9}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Slice timing Correction}{16}{subsection.2.5.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Realignment}{17}{subsection.2.5.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Coregistration}{17}{subsection.2.5.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Coregistration}{18}{subsection.2.5.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.6}Spatial Normalization}{18}{subsection.2.5.6}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.7}Spatial Smoothing}{18}{subsection.2.5.7}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.8}Temporal Filtering}{19}{subsection.2.5.8}}
 \newlabel{sec:temporal_filtering}{{2.5.8}{19}{Temporal Filtering}{subsection.2.5.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.9}Grand Mean Scaling}{19}{subsection.2.5.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces Showing the effect of high-pass filtering on one voxel's BOLD time-series data. The high-pass filter has removed the slow drift seen in the raw BOLD signal on the left. Figure adapted from \textit  {fMRIB Graduate Programme} lecture notes, with the kind permission of Mark Jenkinson.\relax }}{20}{figure.caption.10}}
+\newlabel{fig:High_Pass}{{2.6}{20}{Showing the effect of high-pass filtering on one voxel's BOLD time-series data. The high-pass filter has removed the slow drift seen in the raw BOLD signal on the left. Figure adapted from \textit {fMRIB Graduate Programme} lecture notes, with the kind permission of Mark Jenkinson.\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.9}Grand Mean Scaling}{20}{subsection.2.5.9}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}Modelling of t-fMRI data with the General Linear Model}{20}{section.2.6}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}The GLM Set-up}{20}{subsection.2.6.1}}
-\newlabel{sec:GLM}{{2.6.1}{20}{The GLM Set-up}{subsection.2.6.1}{}}
-\newlabel{eq:GLM}{{2.1}{20}{The GLM Set-up}{equation.2.6.1}{}}
-\citation{Woolrich2001-tk}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.1}The GLM Set-up}{21}{subsection.2.6.1}}
+\newlabel{sec:GLM}{{2.6.1}{21}{The GLM Set-up}{subsection.2.6.1}{}}
+\newlabel{eq:GLM}{{2.1}{21}{The GLM Set-up}{equation.2.6.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6.2}Estimating the Parameters with Ordinary Least Squares (OLS)}{21}{subsection.2.6.2}}
 \newlabel{sec:OLS}{{2.6.2}{21}{Estimating the Parameters with Ordinary Least Squares (OLS)}{subsection.2.6.2}{}}
 \newlabel{eq:OLS_errors}{{2.2}{21}{Estimating the Parameters with Ordinary Least Squares (OLS)}{equation.2.6.2}{}}
-\newlabel{eq:OLS_cost}{{2.3}{21}{Estimating the Parameters with Ordinary Least Squares (OLS)}{equation.2.6.3}{}}
-\newlabel{eq:OLS_estimates}{{2.4}{21}{Estimating the Parameters with Ordinary Least Squares (OLS)}{equation.2.6.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}Prewhitening}{21}{subsection.2.6.3}}
-\newlabel{sec:prewhitening}{{2.6.3}{21}{Prewhitening}{subsection.2.6.3}{}}
-\newlabel{eq:correlated_errors}{{2.5}{21}{Prewhitening}{equation.2.6.5}{}}
+\citation{Woolrich2001-tk}
+\newlabel{eq:OLS_cost}{{2.3}{22}{Estimating the Parameters with Ordinary Least Squares (OLS)}{equation.2.6.3}{}}
+\newlabel{eq:OLS_estimates}{{2.4}{22}{Estimating the Parameters with Ordinary Least Squares (OLS)}{equation.2.6.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.3}Prewhitening}{22}{subsection.2.6.3}}
+\newlabel{sec:prewhitening}{{2.6.3}{22}{Prewhitening}{subsection.2.6.3}{}}
+\newlabel{eq:correlated_errors}{{2.5}{22}{Prewhitening}{equation.2.6.5}{}}
 \newlabel{eq:updated_GLM}{{2.6}{22}{Prewhitening}{equation.2.6.6}{}}
 \newlabel{eq:updated_error_cov}{{2.7}{22}{Prewhitening}{equation.2.6.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.4}Estimating the Variance}{22}{subsection.2.6.4}}
-\newlabel{eq:variance_estimator}{{2.8}{22}{Estimating the Variance}{equation.2.6.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.5}Inference with Null-Hypothesis Significance Testing}{22}{subsection.2.6.5}}
-\newlabel{sec:NHST}{{2.6.5}{22}{Inference with Null-Hypothesis Significance Testing}{subsection.2.6.5}{}}
-\newlabel{eq:contrast_distribution}{{2.9}{22}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.4}Estimating the Variance}{23}{subsection.2.6.4}}
+\newlabel{eq:variance_estimator}{{2.8}{23}{Estimating the Variance}{equation.2.6.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.5}Inference with Null-Hypothesis Significance Testing}{23}{subsection.2.6.5}}
+\newlabel{sec:NHST}{{2.6.5}{23}{Inference with Null-Hypothesis Significance Testing}{subsection.2.6.5}{}}
+\newlabel{eq:contrast_distribution}{{2.9}{23}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.9}{}}
 \newlabel{eq:contrast_minus_param_distribution}{{2.10}{23}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.10}{}}
-\newlabel{eq:t_statistic}{{2.11}{23}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.11}{}}
-\newlabel{eq:f_stat_contrast}{{2.12}{23}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.12}{}}
-\newlabel{eq:f_statistic}{{2.13}{23}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.13}{}}
+\newlabel{eq:t_statistic}{{2.11}{24}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.11}{}}
+\newlabel{eq:f_stat_contrast}{{2.12}{24}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.12}{}}
+\newlabel{eq:f_statistic}{{2.13}{24}{Inference with Null-Hypothesis Significance Testing}{equation.2.6.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.6}First-Level (Subject-Level) Analysis}{24}{subsection.2.6.6}}
+\newlabel{sec:first_level}{{2.6.6}{24}{First-Level (Subject-Level) Analysis}{subsection.2.6.6}{}}
 \citation{Friston1998-jl}
 \citation{Goutte2000-vd}
 \citation{Lindquist2009-fs}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.6}First-Level (Subject-Level) Analysis}{24}{subsection.2.6.6}}
-\newlabel{sec:first_level}{{2.6.6}{24}{First-Level (Subject-Level) Analysis}{subsection.2.6.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.6.7}Second-Level (Group-Level) Analysis}{25}{subsection.2.6.7}}
 \newlabel{sec:group_level}{{2.6.7}{25}{Second-Level (Group-Level) Analysis}{subsection.2.6.7}{}}
-\newlabel{eq:theoretical_group_GLM}{{2.14}{25}{Second-Level (Group-Level) Analysis}{equation.2.6.14}{}}
-\newlabel{eq:group_errors}{{2.15}{26}{Second-Level (Group-Level) Analysis}{equation.2.6.15}{}}
-\newlabel{eq:practical_group_GLM}{{2.16}{26}{Second-Level (Group-Level) Analysis}{equation.2.6.16}{}}
-\newlabel{eq:practical_group_errors}{{2.17}{26}{Second-Level (Group-Level) Analysis}{equation.2.6.17}{}}
-\newlabel{group_error_covariance}{{2.18}{26}{Second-Level (Group-Level) Analysis}{equation.2.6.18}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.8}Solving the Second-Level GLM with Homoscedastic Errors}{27}{subsection.2.6.8}}
-\newlabel{eq:group_homoscedastic_errors_covariance}{{2.19}{27}{Solving the Second-Level GLM with Homoscedastic Errors}{equation.2.6.19}{}}
-\newlabel{eq:homoscedastic_parameter_estimates}{{2.20}{27}{Solving the Second-Level GLM with Homoscedastic Errors}{equation.2.6.20}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.9}Solving the Second-Level GLM with Hetroscedastic Errors}{27}{subsection.2.6.9}}
-\newlabel{weight_matrix}{{2.21}{27}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.21}{}}
-\newlabel{eq:WLS_estimates}{{2.22}{27}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.22}{}}
-\newlabel{eq:WLS_t_test}{{2.23}{27}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Showing how the predicted response for the animal photo task in Figure \ref  {fig:paradigm} is created by convolution of the onset timing function with the HRF.\relax }}{26}{figure.caption.11}}
+\newlabel{fig:convolution}{{2.7}{26}{Showing how the predicted response for the animal photo task in Figure \ref {fig:paradigm} is created by convolution of the onset timing function with the HRF.\relax }{figure.caption.11}{}}
+\newlabel{eq:theoretical_group_GLM}{{2.14}{26}{Second-Level (Group-Level) Analysis}{equation.2.6.14}{}}
+\newlabel{eq:group_errors}{{2.15}{27}{Second-Level (Group-Level) Analysis}{equation.2.6.15}{}}
+\newlabel{eq:practical_group_GLM}{{2.16}{27}{Second-Level (Group-Level) Analysis}{equation.2.6.16}{}}
+\newlabel{eq:practical_group_errors}{{2.17}{27}{Second-Level (Group-Level) Analysis}{equation.2.6.17}{}}
+\newlabel{group_error_covariance}{{2.18}{27}{Second-Level (Group-Level) Analysis}{equation.2.6.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.8}Solving the Second-Level GLM with Homoscedastic Errors}{28}{subsection.2.6.8}}
+\newlabel{eq:group_homoscedastic_errors_covariance}{{2.19}{28}{Solving the Second-Level GLM with Homoscedastic Errors}{equation.2.6.19}{}}
+\newlabel{eq:homoscedastic_parameter_estimates}{{2.20}{28}{Solving the Second-Level GLM with Homoscedastic Errors}{equation.2.6.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6.9}Solving the Second-Level GLM with Hetroscedastic Errors}{28}{subsection.2.6.9}}
+\newlabel{weight_matrix}{{2.21}{28}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.21}{}}
+\newlabel{eq:WLS_estimates}{{2.22}{28}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.22}{}}
+\newlabel{eq:WLS_t_test}{{2.23}{28}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.23}{}}
 \citation{Searle2009-ku,Woolrich2004-ng,Worsley2000-rb}
-\newlabel{eq:whitened_group_model}{{2.24}{28}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.24}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.7}The Multiple Comparisons Problem}{28}{section.2.7}}
+\newlabel{eq:whitened_group_model}{{2.24}{29}{Solving the Second-Level GLM with Hetroscedastic Errors}{equation.2.6.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}The Multiple Comparisons Problem}{29}{section.2.7}}
 \citation{Benjamini1995-yy}
 \citation{Genovese2002-xm}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Random Field Theory for Voxelwise FWE Correction}{30}{subsection.2.7.1}}
-\newlabel{eq:FWE_and_global_maximum}{{2.25}{30}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.25}{}}
-\newlabel{eq:prob_EC}{{2.26}{30}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.26}{}}
-\newlabel{eq:EC_high_threshold}{{2.27}{31}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.27}{}}
-\newlabel{eq:EC_closed_form_approx}{{2.28}{31}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.28}{}}
-\newlabel{Lamda_determinant}{{2.29}{31}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.29}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Permutation Testing for Voxelwise FWE Correction}{31}{subsection.2.7.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.8}Reproducibility of fMRI Results}{32}{section.2.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Exploring the Impact of Analysis Software on Task-fMRI Results}{33}{chapter.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}Random Field Theory for Voxelwise FWE Correction}{31}{subsection.2.7.1}}
+\newlabel{eq:FWE_and_global_maximum}{{2.25}{31}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.25}{}}
+\newlabel{eq:prob_EC}{{2.26}{31}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.26}{}}
+\newlabel{eq:EC_high_threshold}{{2.27}{32}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.27}{}}
+\newlabel{eq:EC_closed_form_approx}{{2.28}{32}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.28}{}}
+\newlabel{Lamda_determinant}{{2.29}{32}{Random Field Theory for Voxelwise FWE Correction}{equation.2.7.29}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}Permutation Testing for Voxelwise FWE Correction}{32}{subsection.2.7.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.8}Conclusion}{33}{section.2.8}}
+\citation{Schonberg2012-oo}
+\citation{Moran2012-cw}
+\citation{Padmanabhan2011-dc}
+\citation{Gorgolewski2016-nf}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Exploring the Impact of Analysis Software on Task-fMRI Results}{35}{chapter.3}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{33}{section.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{33}{subsection.3.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{33}{subsection.3.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{33}{subsection.3.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{33}{subsection.3.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Results}{33}{section.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{33}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Cross-Software Varaibility for Non-Parametric Inference}{33}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Non-Parametric}{33}{subsection.3.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Reproducibility}{33}{section.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{33}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{33}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{33}{section.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Limitations}{33}{subsection.3.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{33}{section.3.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{34}{chapter.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{35}{section.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{35}{subsection.3.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{36}{subsection.3.1.2}}
+\citation{Maumet2016-se}
+\citation{Gorgolewski2015-vs}
+\@writefile{toc}{\contentsline {subsubsection}{Pipeline}{37}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{Common Processing Steps}{37}{subsection.3.1.2}}
+\citation{Smith2002-vw}
+\citation{Andersson2007-lc}
+\citation{Jenkinson2002-qf}
+\@writefile{toc}{\contentsline {subsubsection}{ds000001 Analyses}{39}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{AFNI Implementation}{40}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{FSL Implementation}{41}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{SPM Implementation}{41}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{ds000109 Analyses}{41}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{AFNI Implementation}{41}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{FSL Implementation}{42}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{SPM Implementation}{42}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{ds000120 Analyses}{43}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{AFNI Implementation}{43}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{FSL Implementation}{43}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{SPM Implementation}{43}{subsection.3.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{43}{subsection.3.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{43}{subsection.3.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Results}{43}{section.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{43}{subsection.3.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Cross-Software Varaibility for Non-Parametric Inference}{43}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Non-Parametric}{43}{subsection.3.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Reproducibility}{43}{section.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{43}{subsection.3.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{43}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{43}{section.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Limitations}{43}{subsection.3.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{43}{section.3.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{44}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{35}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Theory}{35}{section.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Overview}{35}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit  {k}}{35}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{35}{section.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{35}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{35}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{35}{subsection.4.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{35}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{35}{subsection.4.3.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{35}{section.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{35}{subsection.4.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{35}{subsection.4.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{35}{subsection.4.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{35}{section.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Limitations}{35}{subsection.4.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{35}{section.4.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}Toolbox}{35}{section.4.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{36}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{45}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Theory}{45}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Overview}{45}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit  {k}}{45}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{45}{section.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{45}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{45}{subsection.4.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{45}{subsection.4.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{45}{subsection.4.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{45}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{45}{section.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{45}{subsection.4.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{45}{subsection.4.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{45}{subsection.4.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{45}{section.4.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Limitations}{45}{subsection.4.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{45}{section.4.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Toolbox}{45}{section.4.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{46}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{36}{section.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{36}{subsection.5.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{36}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{36}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{36}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{36}{subsection.5.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{36}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{36}{subsection.5.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{36}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{36}{subsection.5.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{36}{subsection.5.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{36}{section.5.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{36}{subsection.5.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{36}{section.5.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{46}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{46}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{46}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{46}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{46}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{46}{subsection.5.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{46}{section.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{46}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{46}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{46}{subsection.5.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{46}{subsection.5.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{46}{section.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{46}{subsection.5.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{46}{section.5.5}}
 \bibstyle{plainnat}
 \bibdata{perm}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{37}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{47}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{Adelman1987-hs}{{1}{1987}{{Adelman and {Others}}}{{}}}
 \bibcite{Alexander2007-ut}{{2}{2007}{{Alexander et~al.}}{{Alexander, Lee, Lazar, and Field}}}
-\bibcite{Azevedo2009-qj}{{3}{2009}{{Azevedo et~al.}}{{Azevedo, Carvalho, Grinberg, Farfel, Ferretti, Leite, Filho, Lent, and Herculano-Houzel}}}
-\bibcite{Bandettini1992-jt}{{4}{1992}{{Bandettini et~al.}}{{Bandettini, Wong, Hinks, Tikofsky, and Hyde}}}
-\bibcite{Benjamini1995-yy}{{5}{1995}{{Benjamini and Hochberg}}{{}}}
-\bibcite{Bennett2009-fh}{{6}{2009}{{Bennett et~al.}}{{Bennett, Miller, and Wolford}}}
-\bibcite{Bennett1964-vx}{{7}{1964}{{Bennett et~al.}}{{Bennett, Diamond, Krech, and Rosenzweig}}}
-\bibcite{Brookes2011-cj}{{8}{2011}{{Brookes et~al.}}{{Brookes, Woolrich, Luckhoo, Price, Hale, Stephenson, Barnes, Smith, and Morris}}}
-\bibcite{Carp2012-ph}{{9}{2012}{{Carp}}{{}}}
-\bibcite{Carp2013-cm}{{10}{2013}{{Carp}}{{}}}
-\bibcite{Cox1996-nu}{{11}{1996}{{Cox}}{{}}}
-\bibcite{David2013-iz}{{12}{2013}{{David et~al.}}{{David, Ware, Chu, Loftus, Fusar-Poli, Radua, Munaf{\`o}, and Ioannidis}}}
-\bibcite{Diamond1964-cu}{{13}{1964}{{Diamond et~al.}}{{Diamond, Krech, and Rosenzweig}}}
-\bibcite{Eklund2016-ak}{{14}{2016}{{Eklund et~al.}}{{Eklund, Nichols, and Knutsson}}}
-\bibcite{Fomina2015-ha}{{15}{2015}{{Fomina et~al.}}{{Fomina, Hohmann, Scholkopf, and Grosse-Wentrup}}}
-\bibcite{Fox2015-ds}{{16}{2015}{{Fox and Alterman}}{{}}}
-\bibcite{Friston1998-jl}{{17}{1998}{{Friston et~al.}}{{Friston, Fletcher, Josephs, Holmes, Rugg, and Turner}}}
-\bibcite{Genovese2002-xm}{{18}{2002}{{Genovese et~al.}}{{Genovese, Lazar, and Nichols}}}
-\bibcite{Glover2011-at}{{19}{2011}{{Glover}}{{}}}
-\bibcite{Gonzalez-Castillo2012-do}{{20}{2012}{{Gonzalez-Castillo et~al.}}{{Gonzalez-Castillo, Saad, Handwerker, Inati, Brenowitz, and Bandettini}}}
-\bibcite{Gorgolewski2016-fk}{{21}{2016}{{Gorgolewski and Poldrack}}{{}}}
-\bibcite{Goutte2000-vd}{{22}{2000}{{Goutte et~al.}}{{Goutte, Nielsen, and Hansen}}}
-\bibcite{Hargreaves2012-dz}{{23}{2012}{{Hargreaves and Klimas}}{{}}}
-\bibcite{Ioannidis2005-sy}{{24}{2005}{{Ioannidis}}{{}}}
-\bibcite{Ioannidis2014-yn}{{25}{2014}{{Ioannidis et~al.}}{{Ioannidis, Munaf{\`o}, Fusar-Poli, Nosek, and David}}}
-\bibcite{Jenkinson2012-wh}{{26}{2012}{{Jenkinson et~al.}}{{Jenkinson, Beckmann, Behrens, Woolrich, and Smith}}}
-\bibcite{Kalia2013-bv}{{27}{2013}{{Kalia et~al.}}{{Kalia, Sankar, and Lozano}}}
-\bibcite{Kwong1992-uq}{{28}{1992}{{Kwong et~al.}}{{Kwong, Belliveau, Chesler, Goldberg, Weisskoff, Poncelet, Kennedy, Hoppel, Cohen, and Turner}}}
-\bibcite{Lee2013-kn}{{29}{2013}{{Lee et~al.}}{{Lee, Smyser, and Shimony}}}
-\bibcite{Lee2012-di}{{30}{2012}{{Lee et~al.}}{{Lee, Hacker, Snyder, Corbetta, Zhang, Leuthardt, and Shimony}}}
-\bibcite{Lindquist2009-fs}{{31}{2009}{{Lindquist et~al.}}{{Lindquist, Meng~Loh, Atlas, and Wager}}}
-\bibcite{Lopez-Munoz2006-zk}{{32}{2006}{{L{\'o}pez-Mu{\~n}oz et~al.}}{{L{\'o}pez-Mu{\~n}oz, Boya, and Alamo}}}
-\bibcite{Lund2005-sf}{{33}{2005}{{Lund et~al.}}{{Lund, N{\o }rgaard, Rostrup, Rowe, and Paulson}}}
-\bibcite{Matthews2006-sl}{{34}{2006}{{Matthews et~al.}}{{Matthews, Honey, and Bullmore}}}
-\bibcite{McEvoy2009-zx}{{35}{2009}{{McEvoy et~al.}}{{McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler, Holland, Karow, Pung, Brewer, and Dale}}}
-\bibcite{Mechelli2005-dn}{{36}{2005}{{Mechelli et~al.}}{{Mechelli, Price, Friston, and Ashburner}}}
-\bibcite{Meehl1967-ij}{{37}{1967}{{Meehl}}{{}}}
-\bibcite{Mohamed2014-gl}{{38}{2014}{{Mohamed}}{{}}}
-\bibcite{Moussa2012-bl}{{39}{2012}{{Moussa et~al.}}{{Moussa, Steen, Laurienti, and Hayasaka}}}
-\bibcite{Ogawa1990-it}{{40}{1990}{{Ogawa et~al.}}{{Ogawa, Lee, Kay, and Tank}}}
-\bibcite{Ogawa1992-af}{{41}{1992}{{Ogawa et~al.}}{{Ogawa, Tank, Menon, Ellermann, Kim, Merkle, and Ugurbil}}}
-\bibcite{Open_Science_Collaboration2015-gr}{{42}{2015}{{Open Science Collaboration}}{{}}}
-\bibcite{Parker_Jones2017-ld}{{43}{2017}{{Parker~Jones et~al.}}{{Parker~Jones, Voets, Adcock, Stacey, and Jbabdi}}}
-\bibcite{Penny2011-uk}{{44}{2011}{{Penny et~al.}}{{Penny, Friston, Ashburner, Kiebel, and Nichols}}}
-\bibcite{Poldrack2017-rr}{{45}{2017}{{Poldrack et~al.}}{{Poldrack, Baker, Durnez, Gorgolewski, Matthews, Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni}}}
-\bibcite{Rozeboom1960-dp}{{46}{1960}{{Rozeboom}}{{}}}
-\bibcite{Searle2009-ku}{{47}{2009}{{Searle et~al.}}{{Searle, Casella, and McCulloch}}}
-\bibcite{Skudlarski1999-ao}{{48}{1999}{{Skudlarski et~al.}}{{Skudlarski, Constable, and Gore}}}
-\bibcite{Smith2002-vw}{{49}{2002}{{Smith}}{{}}}
-\bibcite{Smith2009-dm}{{50}{2009}{{Smith et~al.}}{{Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini, Watkins, Toro, Laird, and Beckmann}}}
-\bibcite{Soares2013-mh}{{51}{2013}{{Soares et~al.}}{{Soares, Marques, Alves, and Sousa}}}
-\bibcite{Sommerfeld2018-zl}{{52}{2018}{{Sommerfeld et~al.}}{{Sommerfeld, Sain, and Schwartzman}}}
-\bibcite{Sperling2014-sy}{{53}{2014}{{Sperling et~al.}}{{Sperling, Rentz, Johnson, Karlawish, Donohue, Salmon, and Aisen}}}
-\bibcite{Stacey2008-qx}{{54}{2008}{{Stacey and Litt}}{{}}}
-\bibcite{Tavor2016-pd}{{55}{2016}{{Tavor et~al.}}{{Tavor, Parker~Jones, Mars, Smith, Behrens, and Jbabdi}}}
-\bibcite{Woo2014-ji}{{56}{2014}{{Woo et~al.}}{{Woo, Krishnan, and Wager}}}
-\bibcite{Woolrich2001-tk}{{57}{2001}{{Woolrich et~al.}}{{Woolrich, Ripley, Brady, and Smith}}}
-\bibcite{Woolrich2004-ng}{{58}{2004}{{Woolrich et~al.}}{{Woolrich, Behrens, Beckmann, Jenkinson, and Smith}}}
-\bibcite{Worsley2000-rb}{{59}{2000}{{Worsley et~al.}}{{Worsley, Liao, Grabove, Petre, Ha, and Evans}}}
+\bibcite{Anatomy1918-do}{{3}{1918}{{Anatomy}}{{}}}
+\bibcite{Andersson2007-lc}{{4}{2007}{{Andersson et~al.}}{{Andersson, Jenkinson, Smith, and {Others}}}}
+\bibcite{Azevedo2009-qj}{{5}{2009}{{Azevedo et~al.}}{{Azevedo, Carvalho, Grinberg, Farfel, Ferretti, Leite, Filho, Lent, and Herculano-Houzel}}}
+\bibcite{Bandettini1992-jt}{{6}{1992}{{Bandettini et~al.}}{{Bandettini, Wong, Hinks, Tikofsky, and Hyde}}}
+\bibcite{Benjamini1995-yy}{{7}{1995}{{Benjamini and Hochberg}}{{}}}
+\bibcite{Bennett2009-fh}{{8}{2009}{{Bennett et~al.}}{{Bennett, Miller, and Wolford}}}
+\bibcite{Bennett1964-vx}{{9}{1964}{{Bennett et~al.}}{{Bennett, Diamond, Krech, and Rosenzweig}}}
+\bibcite{Brookes2011-cj}{{10}{2011}{{Brookes et~al.}}{{Brookes, Woolrich, Luckhoo, Price, Hale, Stephenson, Barnes, Smith, and Morris}}}
+\bibcite{Buxton2012-ly}{{11}{2012}{{Buxton}}{{}}}
+\bibcite{Carp2012-ph}{{12}{2012}{{Carp}}{{}}}
+\bibcite{Carp2013-cm}{{13}{2013}{{Carp}}{{}}}
+\bibcite{Cox1996-nu}{{14}{1996}{{Cox}}{{}}}
+\bibcite{David2013-iz}{{15}{2013}{{David et~al.}}{{David, Ware, Chu, Loftus, Fusar-Poli, Radua, Munaf{\`o}, and Ioannidis}}}
+\bibcite{Diamond1964-cu}{{16}{1964}{{Diamond et~al.}}{{Diamond, Krech, and Rosenzweig}}}
+\bibcite{Eklund2016-ak}{{17}{2016}{{Eklund et~al.}}{{Eklund, Nichols, and Knutsson}}}
+\bibcite{Fomina2015-ha}{{18}{2015}{{Fomina et~al.}}{{Fomina, Hohmann, Scholkopf, and Grosse-Wentrup}}}
+\bibcite{Fox2015-ds}{{19}{2015}{{Fox and Alterman}}{{}}}
+\bibcite{Friston1998-jl}{{20}{1998}{{Friston et~al.}}{{Friston, Fletcher, Josephs, Holmes, Rugg, and Turner}}}
+\bibcite{Genovese2002-xm}{{21}{2002}{{Genovese et~al.}}{{Genovese, Lazar, and Nichols}}}
+\bibcite{Glover2011-at}{{22}{2011}{{Glover}}{{}}}
+\bibcite{Gonzalez-Castillo2012-do}{{23}{2012}{{Gonzalez-Castillo et~al.}}{{Gonzalez-Castillo, Saad, Handwerker, Inati, Brenowitz, and Bandettini}}}
+\bibcite{Gorgolewski2016-fk}{{24}{2016}{{Gorgolewski and Poldrack}}{{}}}
+\bibcite{Gorgolewski2015-vs}{{25}{2015}{{Gorgolewski et~al.}}{{Gorgolewski, Varoquaux, Rivera, Schwarz, Ghosh, Maumet, Sochat, Nichols, Poldrack, Poline, Yarkoni, and Margulies}}}
+\bibcite{Gorgolewski2016-nf}{{26}{2016}{{Gorgolewski et~al.}}{{Gorgolewski, Auer, Calhoun, Craddock, Das, Duff, Flandin, Ghosh, Glatard, Halchenko, Handwerker, Hanke, Keator, Li, Michael, Maumet, Nichols, Nichols, Pellman, Poline, Rokem, Schaefer, Sochat, Triplett, Turner, Varoquaux, and Poldrack}}}
+\bibcite{Goutte2000-vd}{{27}{2000}{{Goutte et~al.}}{{Goutte, Nielsen, and Hansen}}}
+\bibcite{Hargreaves2012-dz}{{28}{2012}{{Hargreaves and Klimas}}{{}}}
+\bibcite{Ioannidis2005-sy}{{29}{2005}{{Ioannidis}}{{}}}
+\bibcite{Ioannidis2014-yn}{{30}{2014}{{Ioannidis et~al.}}{{Ioannidis, Munaf{\`o}, Fusar-Poli, Nosek, and David}}}
+\bibcite{Jenkinson2002-qf}{{31}{2002}{{Jenkinson et~al.}}{{Jenkinson, Bannister, Brady, and Smith}}}
+\bibcite{Jenkinson2012-wh}{{32}{2012}{{Jenkinson et~al.}}{{Jenkinson, Beckmann, Behrens, Woolrich, and Smith}}}
+\bibcite{Kalia2013-bv}{{33}{2013}{{Kalia et~al.}}{{Kalia, Sankar, and Lozano}}}
+\bibcite{Kwong1992-uq}{{34}{1992}{{Kwong et~al.}}{{Kwong, Belliveau, Chesler, Goldberg, Weisskoff, Poncelet, Kennedy, Hoppel, Cohen, and Turner}}}
+\bibcite{Lee2013-kn}{{35}{2013}{{Lee et~al.}}{{Lee, Smyser, and Shimony}}}
+\bibcite{Lee2012-di}{{36}{2012}{{Lee et~al.}}{{Lee, Hacker, Snyder, Corbetta, Zhang, Leuthardt, and Shimony}}}
+\bibcite{Lindquist2009-fs}{{37}{2009}{{Lindquist et~al.}}{{Lindquist, Meng~Loh, Atlas, and Wager}}}
+\bibcite{Lopez-Munoz2006-zk}{{38}{2006}{{L{\'o}pez-Mu{\~n}oz et~al.}}{{L{\'o}pez-Mu{\~n}oz, Boya, and Alamo}}}
+\bibcite{Lund2005-sf}{{39}{2005}{{Lund et~al.}}{{Lund, N{\o }rgaard, Rostrup, Rowe, and Paulson}}}
+\bibcite{Matthews2006-sl}{{40}{2006}{{Matthews et~al.}}{{Matthews, Honey, and Bullmore}}}
+\bibcite{Maumet2016-se}{{41}{2016}{{Maumet et~al.}}{{Maumet, Auer, Bowring, Chen, Das, Flandin, Ghosh, Glatard, Gorgolewski, Helmer, Jenkinson, Keator, Nichols, Poline, Reynolds, Sochat, Turner, and Nichols}}}
+\bibcite{McEvoy2009-zx}{{42}{2009}{{McEvoy et~al.}}{{McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler, Holland, Karow, Pung, Brewer, and Dale}}}
+\bibcite{Mechelli2005-dn}{{43}{2005}{{Mechelli et~al.}}{{Mechelli, Price, Friston, and Ashburner}}}
+\bibcite{Meehl1967-ij}{{44}{1967}{{Meehl}}{{}}}
+\bibcite{Mohamed2014-gl}{{45}{2014}{{Mohamed}}{{}}}
+\bibcite{Moran2012-cw}{{46}{2012}{{Moran et~al.}}{{Moran, Jolly, and Mitchell}}}
+\bibcite{Moussa2012-bl}{{47}{2012}{{Moussa et~al.}}{{Moussa, Steen, Laurienti, and Hayasaka}}}
+\bibcite{Ogawa1990-it}{{48}{1990}{{Ogawa et~al.}}{{Ogawa, Lee, Kay, and Tank}}}
+\bibcite{Ogawa1992-af}{{49}{1992}{{Ogawa et~al.}}{{Ogawa, Tank, Menon, Ellermann, Kim, Merkle, and Ugurbil}}}
+\bibcite{Open_Science_Collaboration2015-gr}{{50}{2015}{{Open Science Collaboration}}{{}}}
+\bibcite{Padmanabhan2011-dc}{{51}{2011}{{Padmanabhan et~al.}}{{Padmanabhan, Geier, Ordaz, Teslovich, and Luna}}}
+\bibcite{Parker_Jones2017-ld}{{52}{2017}{{Parker~Jones et~al.}}{{Parker~Jones, Voets, Adcock, Stacey, and Jbabdi}}}
+\bibcite{Penny2011-uk}{{53}{2011}{{Penny et~al.}}{{Penny, Friston, Ashburner, Kiebel, and Nichols}}}
+\bibcite{Poldrack2017-rr}{{54}{2017}{{Poldrack et~al.}}{{Poldrack, Baker, Durnez, Gorgolewski, Matthews, Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni}}}
+\bibcite{Rozeboom1960-dp}{{55}{1960}{{Rozeboom}}{{}}}
+\bibcite{Schonberg2012-oo}{{56}{2012}{{Schonberg et~al.}}{{Schonberg, Fox, Mumford, Congdon, Trepel, and Poldrack}}}
+\bibcite{Searle2009-ku}{{57}{2009}{{Searle et~al.}}{{Searle, Casella, and McCulloch}}}
+\bibcite{Skudlarski1999-ao}{{58}{1999}{{Skudlarski et~al.}}{{Skudlarski, Constable, and Gore}}}
+\bibcite{Smith2002-vw}{{59}{2002}{{Smith}}{{}}}
+\bibcite{Smith2009-dm}{{60}{2009}{{Smith et~al.}}{{Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini, Watkins, Toro, Laird, and Beckmann}}}
+\bibcite{Soares2013-mh}{{61}{2013}{{Soares et~al.}}{{Soares, Marques, Alves, and Sousa}}}
+\bibcite{Sommerfeld2018-zl}{{62}{2018}{{Sommerfeld et~al.}}{{Sommerfeld, Sain, and Schwartzman}}}
+\bibcite{Sperling2014-sy}{{63}{2014}{{Sperling et~al.}}{{Sperling, Rentz, Johnson, Karlawish, Donohue, Salmon, and Aisen}}}
+\bibcite{Stacey2008-qx}{{64}{2008}{{Stacey and Litt}}{{}}}
+\bibcite{Tavor2016-pd}{{65}{2016}{{Tavor et~al.}}{{Tavor, Parker~Jones, Mars, Smith, Behrens, and Jbabdi}}}
+\bibcite{Woo2014-ji}{{66}{2014}{{Woo et~al.}}{{Woo, Krishnan, and Wager}}}
+\bibcite{Woolrich2001-tk}{{67}{2001}{{Woolrich et~al.}}{{Woolrich, Ripley, Brady, and Smith}}}
+\bibcite{Woolrich2004-ng}{{68}{2004}{{Woolrich et~al.}}{{Woolrich, Behrens, Beckmann, Jenkinson, and Smith}}}
+\bibcite{Worsley2000-rb}{{69}{2000}{{Worsley et~al.}}{{Worsley, Liao, Grabove, Petre, Ha, and Evans}}}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{59}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,19 @@ Andrew~L Alexander, Jee~Eun Lee, Mariana Lazar, and Aaron~S Field.
 \newblock Diffusion tensor imaging of the brain.
 \newblock \emph{Neurotherapeutics}, 4\penalty0 (3):\penalty0 316--329, July
   2007.
+
+\bibitem[Anatomy(1918)]{Anatomy1918-do}
+Grays Anatomy.
+\newblock Gray {H}.
+\newblock \emph{Barnes \&Noble}, 1918.
+
+\bibitem[Andersson et~al.(2007)Andersson, Jenkinson, Smith, and
+  {Others}]{Andersson2007-lc}
+Jesper L~R Andersson, Mark Jenkinson, Stephen Smith, and {Others}.
+\newblock Non-linear registration, aka spatial normalisation {FMRIB} technical
+  report {TR07JA2}.
+\newblock \emph{FMRIB Analysis Group of the University of Oxford}, 2:\penalty0
+  1--21, 2007.
 
 \bibitem[Azevedo et~al.(2009)Azevedo, Carvalho, Grinberg, Farfel, Ferretti,
   Leite, Filho, Lent, and Herculano-Houzel]{Azevedo2009-qj}
@@ -59,6 +72,11 @@ Matthew~J Brookes, Mark Woolrich, Henry Luckhoo, Darren Price, Joanne~R Hale,
   networks using magnetoencephalography.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 108\penalty0 (40):\penalty0
   16783--16788, October 2011.
+
+\bibitem[Buxton(2012)]{Buxton2012-ly}
+Richard~B Buxton.
+\newblock Dynamic models of {BOLD} contrast.
+\newblock \emph{Neuroimage}, 62\penalty0 (2):\penalty0 953--961, August 2012.
 
 \bibitem[Carp(2012)]{Carp2012-ph}
 Joshua Carp.
@@ -146,6 +164,32 @@ Krzysztof~J Gorgolewski and Russell~A Poldrack.
   neuroimaging research.
 \newblock \emph{PLoS Biol.}, 14\penalty0 (7):\penalty0 e1002506, July 2016.
 
+\bibitem[Gorgolewski et~al.(2015)Gorgolewski, Varoquaux, Rivera, Schwarz,
+  Ghosh, Maumet, Sochat, Nichols, Poldrack, Poline, Yarkoni, and
+  Margulies]{Gorgolewski2015-vs}
+Krzysztof~J Gorgolewski, Gael Varoquaux, Gabriel Rivera, Yannick Schwarz,
+  Satrajit~S Ghosh, Camille Maumet, Vanessa~V Sochat, Thomas~E Nichols,
+  Russell~A Poldrack, Jean-Baptiste Poline, Tal Yarkoni, and Daniel~S
+  Margulies.
+\newblock {NeuroVault.org}: a web-based repository for collecting and sharing
+  unthresholded statistical maps of the human brain.
+\newblock \emph{Front. Neuroinform.}, 9:\penalty0 8, April 2015.
+
+\bibitem[Gorgolewski et~al.(2016)Gorgolewski, Auer, Calhoun, Craddock, Das,
+  Duff, Flandin, Ghosh, Glatard, Halchenko, Handwerker, Hanke, Keator, Li,
+  Michael, Maumet, Nichols, Nichols, Pellman, Poline, Rokem, Schaefer, Sochat,
+  Triplett, Turner, Varoquaux, and Poldrack]{Gorgolewski2016-nf}
+Krzysztof~J Gorgolewski, Tibor Auer, Vince~D Calhoun, R~Cameron Craddock, Samir
+  Das, Eugene~P Duff, Guillaume Flandin, Satrajit~S Ghosh, Tristan Glatard,
+  Yaroslav~O Halchenko, Daniel~A Handwerker, Michael Hanke, David Keator,
+  Xiangrui Li, Zachary Michael, Camille Maumet, B~Nolan Nichols, Thomas~E
+  Nichols, John Pellman, Jean-Baptiste Poline, Ariel Rokem, Gunnar Schaefer,
+  Vanessa Sochat, William Triplett, Jessica~A Turner, Ga{\"e}l Varoquaux, and
+  Russell~A Poldrack.
+\newblock The brain imaging data structure, a format for organizing and
+  describing outputs of neuroimaging experiments.
+\newblock \emph{Sci Data}, 3:\penalty0 160044, June 2016.
+
 \bibitem[Goutte et~al.(2000)Goutte, Nielsen, and Hansen]{Goutte2000-vd}
 C~Goutte, F~A Nielsen, and K~H Hansen.
 \newblock Modeling the hemodynamic response in {fMRI} using smooth {FIR}
@@ -172,6 +216,13 @@ John P~A Ioannidis, Marcus~R Munaf{\`o}, Paolo Fusar-Poli, Brian~A Nosek, and
   detection, prevalence, and prevention.
 \newblock \emph{Trends Cogn. Sci.}, 18\penalty0 (5):\penalty0 235--241, May
   2014.
+
+\bibitem[Jenkinson et~al.(2002)Jenkinson, Bannister, Brady, and
+  Smith]{Jenkinson2002-qf}
+Mark Jenkinson, Peter Bannister, Michael Brady, and Stephen Smith.
+\newblock Improved optimization for the robust and accurate linear registration
+  and motion correction of brain images.
+\newblock \emph{Neuroimage}, 17\penalty0 (2):\penalty0 825--841, October 2002.
 
 \bibitem[Jenkinson et~al.(2012)Jenkinson, Beckmann, Behrens, Woolrich, and
   Smith]{Jenkinson2012-wh}
@@ -239,6 +290,18 @@ Paul~M Matthews, Garry~D Honey, and Edward~T Bullmore.
   clinical practice.
 \newblock \emph{Nat. Rev. Neurosci.}, 7\penalty0 (9):\penalty0 732, 2006.
 
+\bibitem[Maumet et~al.(2016)Maumet, Auer, Bowring, Chen, Das, Flandin, Ghosh,
+  Glatard, Gorgolewski, Helmer, Jenkinson, Keator, Nichols, Poline, Reynolds,
+  Sochat, Turner, and Nichols]{Maumet2016-se}
+Camille Maumet, Tibor Auer, Alexander Bowring, Gang Chen, Samir Das, Guillaume
+  Flandin, Satrajit Ghosh, Tristan Glatard, Krzysztof~J Gorgolewski, Karl~G
+  Helmer, Mark Jenkinson, David~B Keator, B~Nolan Nichols, Jean-Baptiste
+  Poline, Richard Reynolds, Vanessa Sochat, Jessica Turner, and Thomas~E
+  Nichols.
+\newblock Sharing brain mapping statistical results with the neuroimaging data
+  model.
+\newblock \emph{Sci Data}, 3:\penalty0 160102, December 2016.
+
 \bibitem[McEvoy et~al.(2009)McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler,
   Holland, Karow, Pung, Brewer, and Dale]{McEvoy2009-zx}
 Linda~K McEvoy, Christine Fennema-Notestine, J~Cooper~Roddey, Donald~J Hagler,
@@ -266,6 +329,12 @@ W~Mohamed.
 \newblock The edwin smith surgical papyrus: Neuroscience in ancient egypt.
 \newblock \emph{IBRO History of Neuroscience}, 2014.
 
+\bibitem[Moran et~al.(2012)Moran, Jolly, and Mitchell]{Moran2012-cw}
+Joseph~M Moran, Eshin Jolly, and Jason~P Mitchell.
+\newblock Social-cognitive deficits in normal aging.
+\newblock \emph{J. Neurosci.}, 32\penalty0 (16):\penalty0 5553--5561, April
+  2012.
+
 \bibitem[Moussa et~al.(2012)Moussa, Steen, Laurienti, and
   Hayasaka]{Moussa2012-bl}
 Malaak~N Moussa, Matthew~R Steen, Paul~J Laurienti, and Satoru Hayasaka.
@@ -292,6 +361,15 @@ S~Ogawa, D~W Tank, R~Menon, J~M Ellermann, S~G Kim, H~Merkle, and K~Ugurbil.
 {Open Science Collaboration}.
 \newblock Estimating the reproducibility of psychological science.
 \newblock \emph{Science}, 349\penalty0 (6251):\penalty0 aac4716, August 2015.
+
+\bibitem[Padmanabhan et~al.(2011)Padmanabhan, Geier, Ordaz, Teslovich, and
+  Luna]{Padmanabhan2011-dc}
+Aarthi Padmanabhan, Charles~F Geier, Sarah~J Ordaz, Theresa Teslovich, and
+  Beatriz Luna.
+\newblock Developmental changes in brain function underlying the influence of
+  reward processing on inhibitory control.
+\newblock \emph{Dev. Cogn. Neurosci.}, 1\penalty0 (4):\penalty0 517--529,
+  October 2011.
 
 \bibitem[Parker~Jones et~al.(2017)Parker~Jones, Voets, Adcock, Stacey, and
   Jbabdi]{Parker_Jones2017-ld}
@@ -322,6 +400,14 @@ Russell~A Poldrack, Chris~I Baker, Joke Durnez, Krzysztof~J Gorgolewski, Paul~M
 William~W Rozeboom.
 \newblock The fallacy of the null-hypothesis significance test.
 \newblock \emph{Psychol. Bull.}, 57\penalty0 (5):\penalty0 416--428, 1960.
+
+\bibitem[Schonberg et~al.(2012)Schonberg, Fox, Mumford, Congdon, Trepel, and
+  Poldrack]{Schonberg2012-oo}
+Tom Schonberg, Craig~R Fox, Jeanette~A Mumford, Eliza Congdon, Christopher
+  Trepel, and Russell~A Poldrack.
+\newblock Decreasing ventromedial prefrontal cortex activity during sequential
+  risk-taking: an {FMRI} investigation of the balloon analog risk task.
+\newblock \emph{Front. Neurosci.}, 6:\penalty0 80, June 2012.
 
 \bibitem[Searle et~al.(2009)Searle, Casella, and McCulloch]{Searle2009-ku}
 Shayle~R Searle, George Casella, and Charles~E McCulloch.
