@@ -1,9 +1,17 @@
-\begin{thebibliography}{69}
+\begin{thebibliography}{77}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abraham et~al.(2014)Abraham, Pedregosa, Eickenberg, Gervais, Mueller,
+  Kossaifi, Gramfort, Thirion, and Varoquaux]{Abraham2014-ap}
+Alexandre Abraham, Fabian Pedregosa, Michael Eickenberg, Philippe Gervais,
+  Andreas Mueller, Jean Kossaifi, Alexandre Gramfort, Bertrand Thirion, and
+  Ga{\"e}l Varoquaux.
+\newblock Machine learning for neuroimaging with scikit-learn.
+\newblock \emph{Front. Neuroinform.}, 8:\penalty0 14, February 2014.
 
 \bibitem[Adelman and {Others}(1987)]{Adelman1987-hs}
 George Adelman and {Others}.
@@ -63,6 +71,20 @@ Craig~M Bennett, Michael~B Miller, and George~L Wolford.
 E~L Bennett, M~C Diamond, D~Krech, and M~R Rosenzweig.
 \newblock {CHEMICAL} {AND} {ANATOMICAL} {PLASTICITY} {BRAIN}.
 \newblock \emph{Science}, 146\penalty0 (3644):\penalty0 610--619, October 1964.
+
+\bibitem[Brett et~al.(2017)Brett, Hanke, C{\^o}t{\'e}, Markiewicz, Ghosh,
+  Wassermann, Gerhard, Larson, Lee, Halchenko, Kastman, M, Morency, {moloney},
+  Rokem, Cottaar, Millman, {jaeilepp}, Gramfort, Vincent, McCarthy, van~den
+  Bosch, Subramaniam, Nichols, {embaker}, {markhymers}, {chaselgrove},
+  {Basile}, Oosterhof, and Nimmo-Smith]{Brett2017-zb}
+Matthew Brett, Michael Hanke, Marc-Alexandre C{\^o}t{\'e}, Chris Markiewicz,
+  Satrajit Ghosh, Demian Wassermann, Stephan Gerhard, Eric Larson, Gregory~R
+  Lee, Yaroslav Halchenko, Erik Kastman, Cindee M, F{\'e}lix~C Morency,
+  {moloney}, Ariel Rokem, Michiel Cottaar, Jarrod Millman, {jaeilepp},
+  Alexandre Gramfort, Robert~D Vincent, Paul McCarthy, Jasper J~F van~den
+  Bosch, Krish Subramaniam, Nolan Nichols, {embaker}, {markhymers},
+  {chaselgrove}, {Basile}, Nikolaas~N Oosterhof, and Ian Nimmo-Smith.
+\newblock nipy/nibabel: 2.2.0, 2017.
 
 \bibitem[Brookes et~al.(2011)Brookes, Woolrich, Luckhoo, Price, Hale,
   Stephenson, Barnes, Smith, and Morris]{Brookes2011-cj}
@@ -203,6 +225,11 @@ Richard~J Hargreaves and Michael Klimas.
 \newblock In \emph{Principles of Clinical Pharmacology}, pages 327--341.
   Elsevier, 2012.
 
+\bibitem[Hunter(2007)]{Hunter2007-nu}
+John~D Hunter.
+\newblock Matplotlib: A {2D} graphics environment.
+\newblock \emph{Comput. Sci. Eng.}, 9\penalty0 (3):\penalty0 90--95, May 2007.
+
 \bibitem[Ioannidis(2005)]{Ioannidis2005-sy}
 John P~A Ioannidis.
 \newblock Why most published research findings are false.
@@ -237,6 +264,16 @@ Suneil~K Kalia, Tejas Sankar, and Andres~M Lozano.
   disorders.
 \newblock \emph{Curr. Opin. Neurol.}, 26\penalty0 (4):\penalty0 374--380,
   August 2013.
+
+\bibitem[Kluyver et~al.(2016)Kluyver, Ragan-Kelley, P{\'e}rez, Granger,
+  Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, and
+  {Others}]{Kluyver2016-yl}
+Thomas Kluyver, Benjamin Ragan-Kelley, Fernando P{\'e}rez, Brian~E Granger,
+  Matthias Bussonnier, Jonathan Frederic, Kyle Kelley, Jessica~B Hamrick, Jason
+  Grout, Sylvain Corlay, and {Others}.
+\newblock Jupyter notebooks-a publishing format for reproducible computational
+  workflows.
+\newblock In \emph{{ELPUB}}, pages 87--90, 2016.
 
 \bibitem[Kwong et~al.(1992)Kwong, Belliveau, Chesler, Goldberg, Weisskoff,
   Poncelet, Kennedy, Hoppel, Cohen, and Turner]{Kwong1992-uq}
@@ -311,6 +348,12 @@ Linda~K McEvoy, Christine Fennema-Notestine, J~Cooper~Roddey, Donald~J Hagler,
   and prediction of clinical and structural changes in mild cognitive
   impairment, 2009.
 
+\bibitem[McKinney and {Others}(2010)]{McKinney2010-dv}
+Wes McKinney and {Others}.
+\newblock Data structures for statistical computing in python.
+\newblock In \emph{Proceedings of the 9th Python in Science Conference}, volume
+  445, pages 51--56, 2010.
+
 \bibitem[Mechelli et~al.(2005)Mechelli, Price, Friston, and
   Ashburner]{Mechelli2005-dn}
 Andrea Mechelli, Cathy~J Price, Karl~J Friston, and John Ashburner.
@@ -341,6 +384,13 @@ Malaak~N Moussa, Matthew~R Steen, Paul~J Laurienti, and Satoru Hayasaka.
 \newblock Consistency of network modules in resting-state {FMRI} connectome
   data.
 \newblock \emph{PLoS One}, 7\penalty0 (8):\penalty0 e44428, August 2012.
+
+\bibitem[Nichols and Holmes(2002)]{Nichols2002-kf}
+Thomas~E Nichols and Andrew~P Holmes.
+\newblock Nonparametric permutation tests for functional neuroimaging: a primer
+  with examples.
+\newblock \emph{Hum. Brain Mapp.}, 15\penalty0 (1):\penalty0 1--25, January
+  2002.
 
 \bibitem[Ogawa et~al.(1990)Ogawa, Lee, Kay, and Tank]{Ogawa1990-it}
 S~Ogawa, T~M Lee, A~R Kay, and D~W Tank.
@@ -471,6 +521,19 @@ I~Tavor, O~Parker~Jones, R~B Mars, S~M Smith, T~E Behrens, and S~Jbabdi.
 \newblock Task-free {MRI} predicts individual differences in brain activity
   during task performance.
 \newblock \emph{Science}, 352\penalty0 (6282):\penalty0 216--220, April 2016.
+
+\bibitem[Walt et~al.(2011)Walt, Colbert, and Varoquaux]{Walt2011-db}
+St{\'e}fan van~der Walt, S~Chris Colbert, and Ga{\"e}l Varoquaux.
+\newblock The {NumPy} array: A structure for efficient numerical computation.
+\newblock \emph{Comput. Sci. Eng.}, 13\penalty0 (2):\penalty0 22--30, March
+  2011.
+
+\bibitem[Winkler et~al.(2016)Winkler, Ridgway, Douaud, Nichols, and
+  Smith]{Winkler2016-mw}
+Anderson~M Winkler, Gerard~R Ridgway, Gwena{\"e}lle Douaud, Thomas~E Nichols,
+  and Stephen~M Smith.
+\newblock Faster permutation inference in brain imaging.
+\newblock \emph{Neuroimage}, 141:\penalty0 502--516, November 2016.
 
 \bibitem[Woo et~al.(2014)Woo, Krishnan, and Wager]{Woo2014-ji}
 Choong-Wan Woo, Anjali Krishnan, and Tor~D Wager.

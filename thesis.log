@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  15 JUL 2019 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  20 JUL 2019 15:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,7 +1104,7 @@ LaTeX Info: Redefining \nameref on input line 274.
 \openout4 = `thesis.out'.
 
 
-<Oxford_University_Coat_Of_Arms.pdf, id=348, 240.90001pt x 286.81834pt>
+<Oxford_University_Coat_Of_Arms.pdf, id=352, 240.90001pt x 286.81834pt>
 File: Oxford_University_Coat_Of_Arms.pdf Graphic file (type pdf)
 
 <use Oxford_University_Coat_Of_Arms.pdf>
@@ -1153,7 +1153,7 @@ f>
 (epstopdf)             \includegraphics on input line 280.
 Package epstopdf Info: Output file is already uptodate.
 
-<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=349, 462.72874pt x 142.5325pt>
+<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=353, 462.72874pt x 142.5325pt>
 File: ox_brand_cmyk_pos_rect-eps-converted-to.pdf Graphic file (type pdf)
 <use ox_brand_cmyk_pos_rect-eps-converted-to.pdf>
 Package pdftex.def Info: ox_brand_cmyk_pos_rect-eps-converted-to.pdf used on in
@@ -1183,7 +1183,7 @@ l.27 ...ect-Level) Analysis}{24}{subsection.2.6.6}
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fla/b/it' tried instead on input line 84.
+(Font)              Font shape `T1/fla/b/it' tried instead on input line 88.
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
@@ -1233,7 +1233,7 @@ Chapter 2.
 (./Background.tex [7
 
 ]
-<Figures/Grays_Anatomy.png, id=728, 601.24625pt x 683.55376pt>
+<Figures/Grays_Anatomy.png, id=733, 601.24625pt x 683.55376pt>
 File: Figures/Grays_Anatomy.png Graphic file (type png)
 
 <use Figures/Grays_Anatomy.png>
@@ -1247,7 +1247,7 @@ Overfull \hbox (15.16495pt too wide) in paragraph at lines 25--26
 on of de-oxy-genated haemoglobin,
  []
 
-[10] <Figures/Neuron.png, id=839, 350.0277pt x 119.0046pt>
+[10] <Figures/Neuron.png, id=844, 350.0277pt x 119.0046pt>
 File: Figures/Neuron.png Graphic file (type png)
 
 <use Figures/Neuron.png>
@@ -1266,7 +1266,7 @@ ease of oxy-genated heamoglobin,
  []
 
 [11 <./Figures/Neuron.png>]
-<Figures/BOLD_response.jpg, id=851, 289.08pt x 113.223pt>
+<Figures/BOLD_response.jpg, id=856, 289.08pt x 113.223pt>
 File: Figures/BOLD_response.jpg Graphic file (type jpg)
 
 <use Figures/BOLD_response.jpg>
@@ -1285,7 +1285,7 @@ Overfull \hbox (3.0856pt too wide) in paragraph at lines 55--56
  []
 
 [12 <./Figures/BOLD_response.jpg>]
-<Figures/Task_Paradigm.png, id=863, 1332.98pt x 999.735pt>
+<Figures/Task_Paradigm.png, id=868, 1332.98pt x 999.735pt>
 File: Figures/Task_Paradigm.png Graphic file (type png)
 
 <use Figures/Task_Paradigm.png>
@@ -1298,7 +1298,7 @@ ar-ried out for an ex-tended
  []
 
 [13 <./Figures/Task_Paradigm.png>] [14] [15]
-<Figures/Distortion_Correction.png, id=892, 1332.98pt x 449.68pt>
+<Figures/Distortion_Correction.png, id=897, 1332.98pt x 449.68pt>
 File: Figures/Distortion_Correction.png Graphic file (type png)
 
 <use Figures/Distortion_Correction.png>
@@ -1311,7 +1311,7 @@ Overfull \hbox (11.0243pt too wide) in paragraph at lines 124--125
 is works be-cause av-er-ag-ing should
  []
 
-[18] [19] <Figures/High_Pass.png, id=917, 1332.98pt x 561.09625pt>
+[18] [19] <Figures/High_Pass.png, id=922, 1332.98pt x 561.09625pt>
 File: Figures/High_Pass.png Graphic file (type png)
 
 <use Figures/High_Pass.png>
@@ -1338,7 +1338,7 @@ Overfull \hbox (0.61317pt too wide) in paragraph at lines 280--281
 nal the data are whitened
  []
 
-<Figures/HRF_convolution.png, id=979, 1332.98pt x 525.965pt>
+<Figures/HRF_convolution.png, id=984, 1332.98pt x 525.965pt>
 File: Figures/HRF_convolution.png Graphic file (type png)
 
 <use Figures/HRF_convolution.png>
@@ -1358,13 +1358,13 @@ lts are com-puted as all suprathresh-
  []
 
 [30] [31] [32]
-Overfull \hbox (2.397pt too wide) in paragraph at lines 454--455
+Overfull \hbox (2.397pt too wide) in paragraph at lines 455--456
 \T1/fla/m/n/10.95 chang-ing the la-bels be-tween the pa-tients and con-trols. F
 or a one-sample $\OML/cmm/m/it/10.95 t$\T1/fla/m/n/10.95 -test, where
  []
 
 
-Overfull \hbox (19.38162pt too wide) in paragraph at lines 460--461
+Overfull \hbox (19.38162pt too wide) in paragraph at lines 461--462
 []\T1/fla/m/n/10.95 Create sur-ro-gate ob-ser-va-tions of the data $\OML/cmm/b/
 it/10.95 c[][]\OT1/cmr/m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m/n/10.95 )\OML
 /cmm/m/it/10.95 ; :::; \OML/cmm/b/it/10.95 c[][]\OT1/cmr/m/n/10.95 (\OML/cmm/b/
@@ -1373,7 +1373,7 @@ it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/n/10.95 , where each $\OML/cmm/b/it/10
  []
 
 
-Overfull \hbox (19.51173pt too wide) in paragraph at lines 460--461
+Overfull \hbox (19.51173pt too wide) in paragraph at lines 461--462
 \T1/fla/m/n/10.95 is ob-tained by mul-ti-ply-ing $\OML/cmm/b/it/10.95 c[][]\OT1
 /cmr/m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m/n/10.95 )$ \T1/fla/m/n/10.95 ra
 n-domly by ei-ther 1 or -1. Specif-i-cally, $\OML/cmm/b/it/10.95 c[][]\OT1/cmr/
@@ -1381,7 +1381,7 @@ m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m/n/10.95 ) =
  []
 
 
-Overfull \hbox (0.38533pt too wide) in paragraph at lines 460--461
+Overfull \hbox (0.38533pt too wide) in paragraph at lines 461--462
 \OML/cmm/m/it/10.95 r[]\OML/cmm/b/it/10.95 c[][]\OT1/cmr/m/n/10.95 (\OML/cmm/b/
 it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/n/10.95 , where the $\OML/cmm/m/it/10.
 95 r[]$ \T1/fla/m/n/10.95 are in-de-pen-dent and iden-ti-cally dis-tributed \T1
@@ -1389,13 +1389,13 @@ it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/n/10.95 , where the $\OML/cmm/m/it/10.
  []
 
 )
-Overfull \hbox (7.12344pt too wide) in paragraph at lines 468--379
+Overfull \hbox (7.12344pt too wide) in paragraph at lines 469--379
 \T1/fla/m/n/10.95 sured in a func-tional MRI study. In the rest of this sec-tio
 n we gave an in-depth overview
  []
 
 
-Overfull \hbox (5.55255pt too wide) in paragraph at lines 468--379
+Overfull \hbox (5.55255pt too wide) in paragraph at lines 469--379
 \T1/fla/m/n/10.95 fMRI in-fer-ence, and then demon-strated how a param-etic and
  non-para-met-ric ap-proach
  []
@@ -1452,12 +1452,6 @@ Overfull \hbox (33.45128pt too wide) in paragraph at lines 45--46
 rs: 6-connectivity for AFNI, 18-connectivity
  []
 
-
-Overfull \hbox (13.30199pt too wide) in paragraph at lines 50--51
-\T1/fla/m/n/10.95 rately. For each test, clus-ter-wise in-fer-ence was per-form
-ed us-ing an un-cor-rected cluster-
- []
-
 [39]
 Overfull \hbox (0.30705pt too wide) in paragraph at lines 52--53
 []\T1/fla/m/n/10.95 We opted to not use out-lier de-weighting on the ba-sis tha
@@ -1470,63 +1464,99 @@ Overfull \hbox (9.12782pt too wide) in paragraph at lines 59--60
 c-tively. The -regress_stim_types
  []
 
-[40] [41]) [42] [43]
+[40] [41] [42]
+Overfull \hbox (7.43504pt too wide) in paragraph at lines 96--97
+[]\T1/fla/m/n/10.95 The sine ba-sis set used for the HRF was mod-elled us-ing t
+he -regress_basis_multi
+ []
+
+
+Overfull \hbox (0.1997pt too wide) in paragraph at lines 113--114
+[]\T1/fla/m/n/10.95 Firstly, Bland-Altman plots com-par-ing the un-thresh-olded
+ group statis-tic maps
+ []
+
+[43]
+Overfull \hbox (1.16069pt too wide) in paragraph at lines 119--120
+[]\T1/fla/m/n/10.95 A par-tic-u-lar con-cern we had was that a pair of statis-t
+ic im-ages could in essence
+ []
+
+[44]
+Overfull \hbox (12.23376pt too wide) in paragraph at lines 123--124
+[]\T1/fla/m/n/10.95 Finally, we vi-su-ally com-pared the cor-re-spond-ing slice
+s of each soft-ware's thresh-
+ []
+
+[45]
+Overfull \hbox (0.73645pt too wide) in paragraph at lines 136--137
+\T1/fla/m/n/10.95 The Sta-tis-ti-cal non-Para-met-ric Map-ping (SnPM, ver-sion 
+SnPM13; RRID:SCR_002092;
+ []
+
+
+Overfull \hbox (7.6518pt too wide) in paragraph at lines 138--139
+\T1/fla/m/n/10.95 met-ric in-fer-ence meth-ods. In ad-di-tion, we also gen-er-a
+ted intra-software Bland-Altman
+ []
+
+[46]) [47]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [44
+) [48
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[45]
+[49]
 Chapter 5.
-(./Cohen.tex) [46
+(./Cohen.tex) [50
 
 ]
 Chapter 6.
-(./thesis.bbl [47
+(./thesis.bbl [51
 
-] [48
+] [52
 
 ]
-Underfull \hbox (badness 2762) in paragraph at lines 122--128
+Underfull \hbox (badness 2762) in paragraph at lines 144--150
 []\T1/fla/m/n/10.95 Tatiana Fom-ina, Matthias Hohmann, Bern-hard Scholkopf, and
  Moritz Grosse-
  []
 
-[49]
-Underfull \hbox (badness 1436) in paragraph at lines 182--192
+[53]
+Underfull \hbox (badness 1436) in paragraph at lines 204--214
 []\T1/fla/m/n/10.95 Krzysztof J Gor-golewski, Ti-bor Auer, Vince D Cal-houn, R 
 Cameron Crad-dock,
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 182--192
+Underfull \hbox (badness 1642) in paragraph at lines 204--214
 \T1/fla/m/n/10.95 John Pell-man, Jean-Baptiste Po-line, Ariel Rokem, Gun-nar Sc
 hae-fer, Vanessa
  []
 
-[50] [51] [52] [53]) [54]
+[54] [55] [56] [57] [58]) [59]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 427.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: C6746767877ADF96031FCC07E59C0ADB;6311.
+(rerunfilecheck)             Checksum: F60C0CD71304B1454E4F4CF717E89746;6398.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
  ) 
 Here is how much of TeX's memory you used:
- 24598 strings out of 493014
- 484136 string characters out of 6133351
- 566571 words of memory out of 5000000
- 27239 multiletter control sequences out of 15000+600000
+ 24638 strings out of 493014
+ 484874 string characters out of 6133351
+ 567497 words of memory out of 5000000
+ 27265 multiletter control sequences out of 15000+600000
  125228 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,24n,80p,3662b,562s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,24n,80p,3662b,580s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb></usr/local/texlive/2016
@@ -1547,10 +1577,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (62 pages, 1224694 bytes).
+Output written on thesis.pdf (67 pages, 1241942 bytes).
 PDF statistics:
- 1319 PDF objects out of 1440 (max. 8388607)
- 1201 compressed objects within 13 object streams
- 266 named destinations out of 1000 (max. 500000)
- 738 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1377 PDF objects out of 1440 (max. 8388607)
+ 1254 compressed objects within 13 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 746 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -294,6 +294,36 @@
   language = "en"
 }
 
+@ARTICLE{Abraham2014-ap,
+  title    = "Machine learning for neuroimaging with scikit-learn",
+  author   = "Abraham, Alexandre and Pedregosa, Fabian and Eickenberg, Michael
+              and Gervais, Philippe and Mueller, Andreas and Kossaifi, Jean and
+              Gramfort, Alexandre and Thirion, Bertrand and Varoquaux, Ga{\"e}l",
+  abstract = "Statistical machine learning methods are increasingly used for
+              neuroimaging data analysis. Their main virtue is their ability to
+              model high-dimensional datasets, e.g., multivariate analysis of
+              activation images or resting-state time series. Supervised
+              learning is typically used in decoding or encoding settings to
+              relate brain images to behavioral or clinical observations, while
+              unsupervised learning can uncover hidden structures in sets of
+              images (e.g., resting state functional MRI) or find
+              sub-populations in large cohorts. By considering different
+              functional neuroimaging applications, we illustrate how
+              scikit-learn, a Python machine learning library, can be used to
+              perform some key analysis steps. Scikit-learn contains a very
+              large set of statistical learning algorithms, both supervised and
+              unsupervised, and its application to neuroimaging data provides a
+              versatile tool to study the brain.",
+  journal  = "Front. Neuroinform.",
+  volume   =  8,
+  pages    = "14",
+  month    =  feb,
+  year     =  2014,
+  keywords = "Python; machine learning; neuroimaging; scikit-learn; statistical
+              learning",
+  language = "en"
+}
+
 @MISC{Worsley2000-rb,
   title   = "A general statistical analysis for {fMRI} data",
   author  = "Worsley, K J and Liao, C and Grabove, M and Petre, V and Ha, B and
@@ -541,6 +571,27 @@
   month    =  jul,
   year     =  2016,
   language = "en"
+}
+
+@ARTICLE{Walt2011-db,
+  title     = "The {NumPy} Array: A Structure for Efficient Numerical
+               Computation",
+  author    = "Walt, St{\'e}fan van der and Colbert, S Chris and Varoquaux,
+               Ga{\"e}l",
+  abstract  = "In the Python world, NumPy arrays are the standard
+               representation for numerical data and enable efficient
+               implementation of numerical computations in a high-level
+               language. As this effort shows, NumPy performance can be
+               improved through three techniques: vectorizing calculations,
+               avoiding copying data in memory, and minimizing operation
+               counts.",
+  journal   = "Comput. Sci. Eng.",
+  publisher = "IEEE Computer Society",
+  volume    =  13,
+  number    =  2,
+  pages     = "22--30",
+  month     =  mar,
+  year      =  2011
 }
 
 @ARTICLE{Padmanabhan2011-dc,
@@ -833,6 +884,21 @@
   language = "en"
 }
 
+@MISC{Brett2017-zb,
+  title  = "nipy/nibabel: 2.2.0",
+  author = "Brett, Matthew and Hanke, Michael and C{\^o}t{\'e}, Marc-Alexandre
+            and Markiewicz, Chris and Ghosh, Satrajit and Wassermann, Demian
+            and Gerhard, Stephan and Larson, Eric and Lee, Gregory R and
+            Halchenko, Yaroslav and Kastman, Erik and M, Cindee and Morency,
+            F{\'e}lix C and {moloney} and Rokem, Ariel and Cottaar, Michiel and
+            Millman, Jarrod and {jaeilepp} and Gramfort, Alexandre and Vincent,
+            Robert D and McCarthy, Paul and van den Bosch, Jasper J F and
+            Subramaniam, Krish and Nichols, Nolan and {embaker} and
+            {markhymers} and {chaselgrove} and {Basile} and Oosterhof, Nikolaas
+            N and Nimmo-Smith, Ian",
+  year   =  2017
+}
+
 @ARTICLE{Ogawa1992-af,
   title    = "Intrinsic signal changes accompanying sensory stimulation:
               functional brain mapping with magnetic resonance imaging",
@@ -1100,6 +1166,105 @@
   language = "en"
 }
 
+@ARTICLE{Winkler2016-mw,
+  title    = "Faster permutation inference in brain imaging",
+  author   = "Winkler, Anderson M and Ridgway, Gerard R and Douaud,
+              Gwena{\"e}lle and Nichols, Thomas E and Smith, Stephen M",
+  abstract = "Permutation tests are increasingly being used as a reliable
+              method for inference in neuroimaging analysis. However, they are
+              computationally intensive. For small, non-imaging datasets,
+              recomputing a model thousands of times is seldom a problem, but
+              for large, complex models this can be prohibitively slow, even
+              with the availability of inexpensive computing power. Here we
+              exploit properties of statistics used with the general linear
+              model (GLM) and their distributions to obtain accelerations
+              irrespective of generic software or hardware improvements. We
+              compare the following approaches: (i) performing a small number
+              of permutations; (ii) estimating the p-value as a parameter of a
+              negative binomial distribution; (iii) fitting a generalised
+              Pareto distribution to the tail of the permutation distribution;
+              (iv) computing p-values based on the expected moments of the
+              permutation distribution, approximated from a gamma distribution;
+              (v) direct fitting of a gamma distribution to the empirical
+              permutation distribution; and (vi) permuting a reduced number of
+              voxels, with completion of the remainder using low rank matrix
+              theory. Using synthetic data we assessed the different methods in
+              terms of their error rates, power, agreement with a reference
+              result, and the risk of taking a different decision regarding the
+              rejection of the null hypotheses (known as the resampling risk).
+              We also conducted a re-analysis of a voxel-based morphometry
+              study as a real-data example. All methods yielded exact error
+              rates. Likewise, power was similar across methods. Resampling
+              risk was higher for methods (i), (iii) and (v). For comparable
+              resampling risks, the method in which no permutations are done
+              (iv) was the absolute fastest. All methods produced visually
+              similar maps for the real data, with stronger effects being
+              detected in the family-wise error rate corrected maps by (iii)
+              and (v), and generally similar to the results seen in the
+              reference set. Overall, for uncorrected p-values, method (iv) was
+              found the best as long as symmetric errors can be assumed. In all
+              other settings, including for familywise error corrected
+              p-values, we recommend the tail approximation (iii). The methods
+              considered are freely available in the tool PALM - Permutation
+              Analysis of Linear Models.",
+  journal  = "Neuroimage",
+  volume   =  141,
+  pages    = "502--516",
+  month    =  nov,
+  year     =  2016,
+  keywords = "Gamma distribution; Generalised Pareto distribution; Low rank
+              matrix completion; Negative binomial distribution; Pearson type
+              III distribution; Permutation tests; Tail approximation",
+  language = "en"
+}
+
+@ARTICLE{Nichols2002-kf,
+  title    = "Nonparametric permutation tests for functional neuroimaging: a
+              primer with examples",
+  author   = "Nichols, Thomas E and Holmes, Andrew P",
+  abstract = "Requiring only minimal assumptions for validity, nonparametric
+              permutation testing provides a flexible and intuitive methodology
+              for the statistical analysis of data from functional neuroimaging
+              experiments, at some computational expense. Introduced into the
+              functional neuroimaging literature by Holmes et al. ([1996]: J
+              Cereb Blood Flow Metab 16:7-22), the permutation approach readily
+              accounts for the multiple comparisons problem implicit in the
+              standard voxel-by-voxel hypothesis testing framework. When the
+              appropriate assumptions hold, the nonparametric permutation
+              approach gives results similar to those obtained from a
+              comparable Statistical Parametric Mapping approach using a
+              general linear model with multiple comparisons corrections
+              derived from random field theory. For analyses with low degrees
+              of freedom, such as single subject PET/SPECT experiments or
+              multi-subject PET/SPECT or fMRI designs assessed for population
+              effects, the nonparametric approach employing a locally pooled
+              (smoothed) variance estimate can outperform the comparable
+              Statistical Parametric Mapping approach. Thus, these
+              nonparametric techniques can be used to verify the validity of
+              less computationally expensive parametric approaches. Although
+              the theory and relative advantages of permutation approaches have
+              been discussed by various authors, there has been no accessible
+              explication of the method, and no freely distributed software
+              implementing it. Consequently, there have been few practical
+              applications of the technique. This article, and the accompanying
+              MATLAB software, attempts to address these issues. The standard
+              nonparametric randomization and permutation testing ideas are
+              developed at an accessible level, using practical examples from
+              functional neuroimaging, and the extensions for multiple
+              comparisons described. Three worked examples from PET and fMRI
+              are presented, with discussion, and comparisons with standard
+              parametric approaches made where appropriate. Practical
+              considerations are given throughout, and relevant statistical
+              concepts are expounded in appendices.",
+  journal  = "Hum. Brain Mapp.",
+  volume   =  15,
+  number   =  1,
+  pages    = "1--25",
+  month    =  jan,
+  year     =  2002,
+  language = "en"
+}
+
 @ARTICLE{Stacey2008-qx,
   title    = "Technology insight: neuroengineering and epilepsy-designing
               devices for seizure control",
@@ -1306,6 +1471,18 @@
   language = "en"
 }
 
+@INPROCEEDINGS{Kluyver2016-yl,
+  title     = "Jupyter Notebooks-a publishing format for reproducible
+               computational workflows",
+  booktitle = "{ELPUB}",
+  author    = "Kluyver, Thomas and Ragan-Kelley, Benjamin and P{\'e}rez,
+               Fernando and Granger, Brian E and Bussonnier, Matthias and
+               Frederic, Jonathan and Kelley, Kyle and Hamrick, Jessica B and
+               Grout, Jason and Corlay, Sylvain and {Others}",
+  pages     = "87--90",
+  year      =  2016
+}
+
 @MISC{McEvoy2009-zx,
   title   = "Alzheimer Disease: Quantitative Structural Neuroimaging for
              Detection and Prediction of Clinical and Structural Changes in
@@ -1489,6 +1666,18 @@
   year     =  2017,
   keywords = "Connectivity; Individual variation; Neural pathology;
               Resting-state fMRI"
+}
+
+@ARTICLE{Hunter2007-nu,
+  title     = "Matplotlib: A {2D} Graphics Environment",
+  author    = "Hunter, John D",
+  journal   = "Comput. Sci. Eng.",
+  publisher = "IEEE Computer Society",
+  volume    =  9,
+  number    =  3,
+  pages     = "90--95",
+  month     =  may,
+  year      =  2007
 }
 
 @ARTICLE{Moran2012-cw,
@@ -1786,6 +1975,16 @@
   month    =  oct,
   year     =  2013,
   language = "en"
+}
+
+@INPROCEEDINGS{McKinney2010-dv,
+  title       = "Data structures for statistical computing in python",
+  booktitle   = "Proceedings of the 9th Python in Science Conference",
+  author      = "McKinney, Wes and {Others}",
+  volume      =  445,
+  pages       = "51--56",
+  institution = "Austin, TX",
+  year        =  2010
 }
 
 @ARTICLE{Brookes2011-cj,

@@ -399,6 +399,7 @@ Multiple comparison correction procedures are carried out in fMRI at either the 
 FDR and FWE correction procedures can be applied for both voxelwise and clusterwise inference, with the key difference that voxelwise corrections are based on the sampling distribution of voxel intensities under the null-hypothesis of no signal, while clusterwise corrections use the sampling distribution of cluster size. In the remainder of this section, we consider two methods for obtaining FWE-corrected results at the voxelwise level. First, we present how the body of mathematics called \textit{Random Field Theory} (RFT) is used to treat FWE correction with a parametric approach. Then, we show how FWE correction may also be obtained with permutation methods that make weaker assumptions about the data. While we will not consider FDR here, for more information a reader may refer to \citet*{Benjamini1995-yy} where the method was originally proposed, or \citet*{Genovese2002-xm} for a presentation of FDR in the context of functional neuroimaging. 
 
 \subsection{Random Field Theory for Voxelwise FWE Correction}
+\label{sec:RFT}
 
 Voxelwise FWE control is established using an intrinsic relationship linking the probability of making a false discovery with the distribution of the maximum $t$-statistic over the brain. For a threshold $c$,
 
