@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{81}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -72,6 +72,18 @@ E~L Bennett, M~C Diamond, D~Krech, and M~R Rosenzweig.
 \newblock {CHEMICAL} {AND} {ANATOMICAL} {PLASTICITY} {BRAIN}.
 \newblock \emph{Science}, 146\penalty0 (3644):\penalty0 610--619, October 1964.
 
+\bibitem[Bowring et~al.(2018{\natexlab{a}})Bowring, Maumet, and
+  Nichols]{Bowring2018-wp}
+Alex Bowring, Camille Maumet, and Thomas Nichols.
+\newblock Exploring the impact of analysis software on task {fMRI} results,
+  2018{\natexlab{a}}.
+
+\bibitem[Bowring et~al.(2018{\natexlab{b}})Bowring, Maumet, and
+  Nichols]{Bowring2018-jp}
+Alexander Bowring, Camille Maumet, and Thomas Nichols.
+\newblock {NISOx-BDI/Software\_Comparison}.
+\newblock Zenodo, March 2018{\natexlab{b}}.
+
 \bibitem[Brett et~al.(2017)Brett, Hanke, C{\^o}t{\'e}, Markiewicz, Ghosh,
   Wassermann, Gerhard, Larson, Lee, Halchenko, Kastman, M, Morency, {moloney},
   Rokem, Cottaar, Millman, {jaeilepp}, Gramfort, Vincent, McCarthy, van~den
@@ -138,6 +150,12 @@ Anders Eklund, Thomas~E Nichols, and Hans Knutsson.
   inflated false-positive rates.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 113\penalty0 (28):\penalty0
   7900--7905, July 2016.
+
+\bibitem[Erin D.~Foster(2017)]{Erin_D_Foster2017-au}
+Ariel~Deardorff Erin D.~Foster.
+\newblock Open science framework ({OSF}).
+\newblock \emph{J. Med. Libr. Assoc.}, 105\penalty0 (2):\penalty0 203, April
+  2017.
 
 \bibitem[Fomina et~al.(2015)Fomina, Hohmann, Scholkopf, and
   Grosse-Wentrup]{Fomina2015-ha}
@@ -391,6 +409,11 @@ Thomas~E Nichols and Andrew~P Holmes.
   with examples.
 \newblock \emph{Hum. Brain Mapp.}, 15\penalty0 (1):\penalty0 1--25, January
   2002.
+
+\bibitem[Nielsen and Smith(2014)]{Nielsen2014-vl}
+Lars~Holm Nielsen and Tim Smith.
+\newblock Zenodo overview.
+\newblock Zenodo, 2014.
 
 \bibitem[Ogawa et~al.(1990)Ogawa, Lee, Kay, and Tank]{Ogawa1990-it}
 S~Ogawa, T~M Lee, A~R Kay, and D~W Tank.

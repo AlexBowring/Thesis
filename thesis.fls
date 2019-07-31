@@ -304,6 +304,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/sttools/floatpag.sty
+INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/sttools/floatpag.sty
 INPUT thesis.aux
 INPUT thesis.aux
 OUTPUT thesis.aux
@@ -527,6 +529,18 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-01.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-dotlessj.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-Reg-02.tfm
 INPUT Software_Comparison.tex
+INPUT Figures/SC_thresholded_maps_1.pdf
+INPUT ./Figures/SC_thresholded_maps_1.pdf
+INPUT ./Figures/SC_thresholded_maps_1.pdf
+INPUT Figures/SC_thresholded_maps_2.pdf
+INPUT ./Figures/SC_thresholded_maps_2.pdf
+INPUT ./Figures/SC_thresholded_maps_2.pdf
+INPUT Figures/SC_unthresholded_maps.pdf
+INPUT ./Figures/SC_unthresholded_maps.pdf
+INPUT ./Figures/SC_unthresholded_maps.pdf
+INPUT Figures/SC_BA_parametric.pdf
+INPUT ./Figures/SC_BA_parametric.pdf
+INPUT ./Figures/SC_BA_parametric.pdf
 INPUT Contour.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lato/Lato-BolIta-t1.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/lato/Lato-BolIta-t1.vf

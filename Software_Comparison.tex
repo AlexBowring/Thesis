@@ -146,10 +146,69 @@ A Python Jupyter Notebook \citep{Kluyver2016-yl} was created for each of the thr
 
 \section{Results}
 
-All scripts and results are available through our Open Science Framework (OSF; (Erin D. Foster, 2017)) Project at \href{https://osf.io/U2Q4Y/}{https://osf.io/U2Q4Y/} (Alex Bowring et al., 2018), and group-level statistic maps used to create the figures in this section are available on NeuroVault: \href{https://neurovault.org/collections/4110/}{https://neurovault.org/collections/4110/}, \href{https://neurovault.org/collections/4099/}{https://neurovault.org/collections/4099/}, \href{https://neurovault.org/collections/4100/}{https://neurovault.org/collections/4100/}, for ds0000001, ds000109 and ds000120 respectively. All analysis scripts, results reports, and notebooks for each study are available through Zenodo (Nielsen and Smith, 2014) at \ref{https://doi.org/10.5281/zenodo.1203654}{https://doi.org/10.5281/zenodo.1203654} (Alexander Bowring et al., 2018).
+All scripts and results are available through our Open Science Framework (OSF; \citep{Erin_D_Foster2017-au}) Project at \href{https://osf.io/U2Q4Y/}{https://osf.io/U2Q4Y/} \citep{Bowring2018-wp}, and group-level statistic maps used to create the figures in this section are available on NeuroVault: \href{https://neurovault.org/collections/4110/}{https://neurovault.org/collections/4110/}, \href{https://neurovault.org/collections/4099/}{https://neurovault.org/collections/4099/}, \href{https://neurovault.org/collections/4100/}{https://neurovault.org/collections/4100/}, for ds0000001, ds000109 and ds000120 respectively. All analysis scripts, results reports, and notebooks for each study are available through Zenodo \citep{Nielsen2014-vl} at \href{https://doi.org/10.5281/zenodo.1203654}{https://doi.org/10.5281/zenodo.1203654} \citep{Bowring2018-jp}.
 
 Registration of each subject's functional data onto the anatomy was visually assessed. The mean and standard deviation images of the MNI structural and (mean) functional data (\textbf{FIG S1}, note that axial slices are slightly different between software due to different bounding boxes of the images) substantiate that registration was successful in all packages across the three studies. 
 
+While qualitatively similar, variability in $t$-statistic values and locations of significant activation was substantial between software packages across all three studies. 
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_thresholded_maps_1.pdf}	
+\caption{Comparison of the thresholded statistic maps from our reanalysis with the main figures from each of the three publications. Left: For ds000001 data, thresholded $t$-statistic images contrasting the parametric modulation of pumps of reward balloons versus the parametric modulation of the control balloon; beneath, a sagittal slice taken from Fig. 3 in \citet{Schonberg2012-oo}. Middle: For ds000109, thresholded $t$-statistic maps of the false belief versus false photo contrast; beneath, a midsagittal render from \citet{Moran2012-cw}. Right: For ds000120, thresholded $F$-statistic images of the main effect of time contrast; beneath, a midsagittal render from Fig. 3 in \citet{Padmanabhan2011-dc}. Note that for ds000109 and ds000120 the publication's figures are renderings onto the cortical surface while our results are slice views. While each major activation area found in the original study exists in the reanalyses, there is substantial variation between each reanalysis.}
+\label{fig:SC_thresholded_maps_1}
+\end{figure}
+
+\begin{figure}[htbp]
+\thisfloatpagestyle{empty}
+\centering
+	\includegraphics[width=\textwidth]{SC_thresholded_maps_2.pdf}	
+\caption{Comparison of the thresholded statistic maps from our reanalysis displayed as a series of axial slices. Top: ds000001's thresholded $t$-statistic maps contrasting parametric modulations of the reward balloons versus pumps of the control balloons. Middle: ds000109's thresholded $t$-statistic maps of the false belief versus false photo contrast. Bottom: ds000120's thresholded $F$-statistic maps of the main effect of time contrast. This figure complements the single slice views shown in Fig. \ref{fig:SC_thresholded_maps_1}.}
+\label{fig:SC_thresholded_maps_2}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_unthresholded_maps.pdf}	
+\caption{Comparison of the unthresholded statistic maps from our reanalysis of the three studies within each software package. Left: ds000001's unthresholded $t$-statistic maps of the parametric modulation of pumps of reward balloons versus the parametric modulation of the control balloon contrast. Middle: ds000109's unthresholded $t$-statistic maps of the false belief versus false photo contrast. Right: ds000120's unthresholded $F$-statistic maps of the main effect of time contrast. While areas of strong activation are somewhat consistent across all three sets of reanalyses, there is substantial variation in non-extreme values.}
+\label{fig:SC_unthresholded_maps}
+\end{figure}
+
+\begin{figure}[htbp]
+\thisfloatpagestyle{empty}
+\centering
+	\includegraphics[width=\textwidth]{SC_BA_parametric.pdf}	
+\caption{Cross-software Bland-Altman 2D histograms comparing the unthresholded group-level $t$-statistic maps computed as part our reanalyses of the ds000001 and ds000109 studies within AFNI, FSL, and SPM. Left; Comparisons for ds000001's balloon analog risk task, $t$-statistic images contrasting the parametric modulation of pumps of the reward balloons versus parametric modulation of pumps of the control balloon. Right; Comparisons for ds000109's false belief task, $t$-statistic images contrasting the false belief versus false photo conditions. Density images show the relationship between the average $t$-statistic value (abscissa) and difference of $t$-statistic values (ordinate) at corresponding voxels in the unthresholded $t$-statistic images for each pairwise combination of software packages. While there is no particular pattern of bias, as the $t$-statistic differences are centered about zero, there is remarkable range, with differences exceeding $\pm$ 4 in all comparisons.}
+\label{fig:BA_parametric}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics{SC_BA_parametric_120.pdf}	
+\caption{Cross-software Bland-Altman 2D histogram comparing the unthresholded main effect of time $F$-statistic maps computed in AFNI and SPM for reanalyses of the ds000120 study. The differences are generally centered about zero, with a trend of large $F$-statistics for AFNI. The funnel-like pattern is a consequence of the $F$-statistic taking on only positive values.}
+\label{fig:BA_parametric_120}
+\end{figure}
+
+Comparisons of the thresholded results with the published findings are shown in Figure \ref{fig:SC_thresholded_maps_1}, with further multi-slice comparisons across software in Figure \ref{fig:SC_thresholded_maps_2} (also in \textbf{Figs. S2, S4, and S6}). The ds000001 study described positive activation in the bilateral anterior insula, dorsal anterior cingulate cortex (ACC), and right dorsolateral prefrontal cortex, and negative activation in the ventromedial prefrontal cortex and bilateral medial temporal lobe. In our reanalysis (Fig.  \ref{fig:SC_thresholded_maps_1}, left) all three software found activation in these set of regions, with the exception that decreases in the medial temporal lobe were unilateral in FSL and SPM (left only). FSL also detected a visual response that neither AFNI or SPM picked up on (Fig.  \ref{fig:SC_thresholded_maps_1},  left, and Fig.  \ref{fig:SC_thresholded_maps_2}, top, z = 0 slice).
+
+The ds000109 study reported activations in the bilateral temporoparietal junction (TPJ), precuneus, anterior superior temporal sulcus (aSTS), and dorsal medial prefrontal cortex (dmPFC). Similar activations from our reanalyses are seen in Figure \ref{fig:SC_thresholded_maps_1}, middle, although FSL only found activation in the right TPJ and aSTS. Further comparisons shown in Figure \ref{fig:SC_thresholded_maps_2}, middle, highlight disagreement in the results: AFNI and FSL detected significant deactivations in distinct brain regions (inferior temporal gyrus for AFNI, inferior frontal gyrus for FSL), while SPM did not determine any significant deactivation. FSL also found a positive response in the superior temporal gyrus  (STG) where AFNI and SPM did not (Fig. \ref{fig:SC_thresholded_maps_2}, middle, z = 0 and z = 12 slices).
+
+The original ds000120 study found extensive activations for the main effect of time -- the frontal, supplementary, posterior parietal cortex, basal ganglia, prefrontal cortex, ventral striatum and orbitofrontal cortex all showed significant activation. Our reanalyses (Fig. \ref{fig:SC_thresholded_maps_1}, right) are consistent with these findings, with the exception that neither AFNI or SPM exhibited orbitofrontal (OFC) activation (though, the SPM  analysis mask had poor OFC coverage). AFNI's $F$-statistic values look to be generally larger than SPM here (Fig. \ref{fig:SC_thresholded_maps_2}, bottom, z = 0 and z = 12 slices). The unthresholded statistic maps from our reanalyses (Figs. \ref{fig:SC_unthresholded_maps}, S7, S9 and S11) also show that while extreme values display moderate agreement, there are considerable differences across the brain in each given study.
+
+NeuroSynth association analyses conducted on the unthresholded T-statistic maps (\textbf{Table 3}) show that the most strongly related term to the activation patterns displayed across all three sets of results was the same: `anterior insula' for each software's ds000001 map, `medial prefrontal' for ds000109, and `visual' for ds000120. Phrases related to the task paradigm used in each study (`goal' for ds000001, `theory mind' for ds000109, `visual' for ds000120) were found across all software's activation patterns, alongside a range of common anatomical terms. 
+
+Figure \ref{fig:BA_parametric} compares statistic values across packages using Bland-Altman plots (rendered as 2D histograms) for ds000001 and ds000109. The distribution of the pairwise differences in $t$-statistics (y-axes) is generally centered about zero, indicating no particular bias, however there is substantial variation here, with $t$-statistic differences exceeding 4.0 in magnitude. Pairwise correlations ranged from 0.429 to 0.747 for inter-software comparisons (\textbf{Table 2}). The Bland-Altman plots comparing percentage BOLD change maps (Fig. S13) are more conclusive, showing a clear trend for SPM to report larger effect estimates than the other two packages. Figure \ref{fig:BA_parametric_120} presents the Bland-Altman plot comparing unthresholded $F$-statistic images for ds000120, which has a very different appearance due to $F$-statistics being non-negative. The corresponding Bland-Altman plot comparing partial $R^{2}$ values (Fig. S14) for this study is similar in shape. Broadly speaking, while there are no gross differences in sensitivity, there is a slight tendency for AFNI's extreme statistics to exceed FSL's and SPM's, and SPM's to exceed FSL's, most evident in ds000109. 
+
+\begin{sidewaysfigure}[htbp]
+\centering
+	\includegraphics{SC_DICE.pdf}	
+\caption{Cross-software Bland-Altman 2D histogram comparing the unthresholded main effect of time $F$-statistic maps computed in AFNI and SPM for reanalyses of the ds000120 study. The differences are generally centered about zero, with a trend of large $F$-statistics for AFNI. The funnel-like pattern is a consequence of the $F$-statistic taking on only positive values.}
+\label{fig:DICE}
+\end{sidewaysfigure}
+
+Spatial localization of significant activation in the thresholded $t$-statistic images also varied across software packages. Figure \ref{fig:DICE} shows the Dice coefficients for all pairs of analyses (parametric results are presented in first 3 rows of larger triangles). For ds000001, the average value of Dice coefficients comparing locations of activations across reanalyses is 0.379. These values improve for ds000109, where the mean Dice coefficient for positive activations is 0.512. Here, AFNI and FSL were the only software packages to report significant negative clusters for the ds000109 study. Strikingly, these activations were found in completely different anatomical regions for each package, witnessed by the negative activation AFNI/FSL dice coefficient of 0. Finally, the AFNI/SPM Dice coefficient for the thresholded $F$-statistic images obtained for ds000120 is 0.684; it is notable that across all studies, the AFNI/SPM dice coefficients are consistently the largest.
+
+Spill over values, given by the grey values beneath the dice coefficients in Figure \ref{fig:DICE}, are generally largest for SPM comparisons. They are particularly prominent in the negative activation plot for ds000001, where there is at least 30\% spill over for all parametric pairwise comparisons, the largest being 39\% for SPM/FSL. Recalling that these values are the percentage of activation which occurred within one package that was outside the other package's analysis mask, this is likely due to the fact SPM consistently had the smallest analysis mask out of the three packages, while FSL had the largest. In our ds000001 reanalyses, SPM's group-level analysis mask was made up of 175269 voxels, while AFNI's had 198295 voxels and 251517 for FSL.  For ds000109, SPM's group-level mask contained 178461 voxels compared to AFNI's 212721 and FSL's 236889. Finally, for ds000120, SPM had 174059 voxels to AFNI's 208340. (Note FSL's mask image has slightly but consistently more non-zero voxels than in its statistical result images).
 
 \subsection{Cross-Software Variability for Parametric Inference}
 
