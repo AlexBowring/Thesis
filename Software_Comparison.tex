@@ -133,7 +133,7 @@ In AFNI, permutation inference was carried out using the 3dttest++ module with t
 Permutation test inference was conducted in FSL using randomise version 2.9 \citep{Winkler2016-mw}. This outputted a `corrp' image which was then used to mask the raw $t$-statistic image to show significant voxels for the appropriate thresholds. 
 
 \subsubsection{SPM Implementation}
-The Statistical nonParametric Mapping (SnPM, version SnPM13; RRID:SCR\_002092; \citep{Nichols2002-kf}) toolbox was used to carry out permutation tests in SPM. The``MultiSub: One Sample T test on diffs/contrasts'', Compute and Inference modules within SnPM were applied to obtain the final group-level activation maps.
+The Statistical nonParametric Mapping (SnPM, version SnPM13; RRID:SCR\_002092; \citep{Nichols2002-kf}) toolbox was used to carry out permutation tests in SPM. The ``MultiSub: One Sample T test on diffs/contrasts'', Compute and Inference modules within SnPM were applied to obtain the final group-level activation maps.
 
 Each of the comparison methods described in the previous section were also applied to our permutation results to assess cross-software differences for nonparametric inference methods. In addition, we also generated intra-software Bland-Altman plots and Dice coefficients to understand differences between the parametric and nonparametric methods applied within each package. 
 
@@ -149,6 +149,8 @@ A Python Jupyter Notebook \citep{Kluyver2016-yl} was created for each of the thr
 All scripts and results are available through our Open Science Framework (OSF; \citep{Erin_D_Foster2017-au}) Project at \href{https://osf.io/U2Q4Y/}{https://osf.io/U2Q4Y/} \citep{Bowring2018-wp}, and group-level statistic maps used to create the figures in this section are available on NeuroVault: \href{https://neurovault.org/collections/4110/}{https://neurovault.org/collections/4110/}, \href{https://neurovault.org/collections/4099/}{https://neurovault.org/collections/4099/}, \href{https://neurovault.org/collections/4100/}{https://neurovault.org/collections/4100/}, for ds0000001, ds000109 and ds000120 respectively. All analysis scripts, results reports, and notebooks for each study are available through Zenodo \citep{Nielsen2014-vl} at \href{https://doi.org/10.5281/zenodo.1203654}{https://doi.org/10.5281/zenodo.1203654} \citep{Bowring2018-jp}.
 
 Registration of each subject's functional data onto the anatomy was visually assessed. The mean and standard deviation images of the MNI structural and (mean) functional data (\textbf{FIG S1}, note that axial slices are slightly different between software due to different bounding boxes of the images) substantiate that registration was successful in all packages across the three studies. 
+
+\subsection{Cross-Software Variability for Parametric Inference}
 
 While qualitatively similar, variability in $t$-statistic values and locations of significant activation was substantial between software packages across all three studies. 
 
@@ -210,11 +212,55 @@ Spatial localization of significant activation in the thresholded $t$-statistic 
 
 Spill over values, given by the grey values beneath the dice coefficients in Figure \ref{fig:DICE}, are generally largest for SPM comparisons. They are particularly prominent in the negative activation plot for ds000001, where there is at least 30\% spill over for all parametric pairwise comparisons, the largest being 39\% for SPM/FSL. Recalling that these values are the percentage of activation which occurred within one package that was outside the other package's analysis mask, this is likely due to the fact SPM consistently had the smallest analysis mask out of the three packages, while FSL had the largest. In our ds000001 reanalyses, SPM's group-level analysis mask was made up of 175269 voxels, while AFNI's had 198295 voxels and 251517 for FSL.  For ds000109, SPM's group-level mask contained 178461 voxels compared to AFNI's 212721 and FSL's 236889. Finally, for ds000120, SPM had 174059 voxels to AFNI's 208340. (Note FSL's mask image has slightly but consistently more non-zero voxels than in its statistical result images).
 
-\subsection{Cross-Software Variability for Parametric Inference}
+\begin{sidewaysfigure}[htbp]
+\centering
+	\includegraphics{SC_ECs.pdf}	
+\caption{Euler characteristic (EC) plots for ds000001 and ds000109. On top, comparisons of the Euler characteristic computed for each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the ECs calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package. For each $t$-value the EC summarises the topology of the thresholded image, and the curves provide a signature of the structure of the entire image. For extreme thresholds the EC approximates the number of clusters, allowing a simple interpretation of the curves: For example, for ds000001 parametric analyses, FSL clearly has the fewest clusters for positive thresholds.}
+\label{fig:ECs}
+\end{sidewaysfigure}
 
-\subsection{Cross-Software Varaibility for Non-Parametric Inference}
+\begin{sidewaysfigure}[htbp]
+\centering
+	\includegraphics{SC_cluster_count.pdf}	
+\caption{Cluster count plots for ds000001 and ds000109. On top, comparisons of the number of cluster found in each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the cluster counts calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package.}
+\label{fig:cluster_count}
+\end{sidewaysfigure}
 
-\subsection{Intra-Software Variability, Parametric vs Non-Parametric}
+Further evidence of spatial variability is also exhibited by the Euler Characteristic (EC) plots for the parametric analyses presented in Figure \ref{fig:ECs}, top (and supplementary Fig. S12 for ds000120), complemented by the cluster count plots in Figure \ref{fig:cluster_count}, top. We note that because the EC plots were created by thresholding each software's statistic map at a fixed range of $t$-values (without the computation of $p$-values), differences between the parametric and nonparametric EC curves are due to the different first level models used in each case (mixed-effects for parametric, OLS for nonparametric), and not due to the actual parametric and nonparametric inference procedures used to obtain $p$-values. Since the EC counts the number of clusters minus the number of `handles' plus the numbers of `holes' in an image, for large thresholds we expect the EC to closely approximate the number of clusters of significant activation present in the equivalent thresholded map. This is confirmed by Figures \ref{fig:ECs} and \ref{fig:cluster_count}, both figures showing that across the two studies FSL had a smaller number of activated clusters at larger thresholds. For ds000001, the peak cluster count value (Fig. \ref{fig:cluster_count}, top left) occurs at a lower threshold for FSL. This plot suggests that in general FSL's $t$-statistic values were more liberal here -- the initial rise of the FSL curve signifies the $t$-statistic image breaking up into clusters at lower thresholds than AFNI and SPM, and then as the clusters begin to get `thresholded out' this causes the FSL curve to dip below the other two packages. The EC plots highlight overall topological differences in the statistic maps: If the images were the same up to an image-wide monotonic transformation, this would be revealed by the EC curves having the same general shape but with some portions shifted or compressed. In this sense, the distinct shapes seen in portions of the curves (e.g. for ds000109, negative thresholds) suggest differences in the topologies of each software's activation pattern. 
+
+\subsection{Cross-Software Variability for Nonparametric Inference}
+
+Consistent with the parametric inference results, activation localization and statistic values varied greatly between packages for the permutation test results computed for ds000001 and ds000109.
+
+Before reviewing statistic map comparisons, we stress that the goal of these nonparametric analyses is to obtain FWE-corrected cluster $p$-values with weaker assumptions. Thus the permutation test unthresholded statistic maps are not ``nonparametric" maps, but rather usual one-sample $t$-test maps that form the basis of permutation analyses. While SPM's parametric analysis uses the same one-sample $t$-test, AFNI's and FSL's parametric models use a mixed-effects model and weighted least squares. Hence all comparisons of the nonparametric test statistic values (in contrast to thresholded maps) do not convey information about nonparametric inference per se, but compare different preprocessing and first level modelling from the three packages while holding the second level model constant.
+
+Quantitative assessment with Dice coefficients are shown in Figure \ref{fig:DICE} (``perm" vs ``perm" cells) and - in accordance with the parametric results - are generally poor. Like the parametric analyses, AFNI/SPM Dice values are altogether better than the other comparisons. For ds000001, FSL's nonparametric method found no significant clusters, and thus all Dice coefficients connected to this analysis are zero. However, note that the significant regions found in the other parametric and nonparametric results for this study mostly comprise of a single activation cluster spanning the lateral and medial frontal cortex, insular cortex, basal ganglia, and brainstem - an extensive and irregularly-shaped cluster that could easily become disconnected and thus lose significance. As before, ds000109 Dice values are also generally better than ds000001.
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_BA_permutation.pdf}	
+\caption{Cross-software Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed using permutation inference methods within AFNI, FSL, and SPM. Similar to the results obtained using parametric inferences in Figure \ref{fig:BA_parametric}, all of the densities indicate large differences in the size of activations determined within each package.}
+\label{fig:BA_permutation}
+\end{figure}
+
+The nonparametric Bland-Altman plots (Fig. \ref{fig:BA_permutation}) show substantial spread qualitatively similar to the parametric ones (Fig. \ref{fig:BA_parametric}), and correlations between statistics maps are similar for nonparametric in congruence with the parametric comparisons (\textbf{Table 2}). EC curves (Fig. \ref{fig:ECs}, bottom) again exhibit considerable topological variation between software packages. Notably, while AFNI and SPMs EC curves are relatively similar across choice of inference method, FSL permutation inference determined substantially more clusters than parametric for low positive thresholds in both studies (Figs. \ref{fig:ECs} and \ref{fig:cluster_count}, bottom).
+
+\subsection{Intra-Software Variability, Parametric vs Nonparametric}
+
+Comparisons of parametric and permutation test inference results within each package hold all preprocessing and first level modelling constant, only varying the second level model and inference procedure. The level of agreement between the two inferences \textit{within} each package varied greatly across software. Before making comparisons, we note that since SPM's parametric and nonparametric inference share the same group level model, the unthresholded statistic images produced using each inference model are identical here.
+
+The thresholded statistic maps are generally similar within each of the software packages (ds000001: Fig. S2 vs Fig. S3; ds000109: Fig. S4 vs S5), with the exception of FSL's nonparametric inference `decreases-only' finding for ds000001. Unthresholded maps are notably more similar for ds000109 (Fig. S9 vs S10) than for ds000001 (Fig. S7 vs Fig. S8), again noting that SPM's pairs of maps here are identical. 
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_BA_intrasoftware.pdf}	
+\caption{Intrasoftware Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed for parametric and nonparametric inference methods in AFNI, FSL and SPM. Each comparison here uses the same preprocessed data, varying only the second level statistical model. SPM's parametric and nonparametric both use the same (unweighted) one-sample $t$-test, and thus show no differences. AFNI and FSL's parametric models use iterative estimation of between subject variance and weighted least squares and thus show some differences, but still smaller than between-software comparisons}
+\label{fig:BA_intrasoftware}
+\end{figure}
+
+Bland-Altman plots (Fig. \ref{fig:BA_intrasoftware}) reveal much greater levels of parametric/nonparametric agreement, with AFNI displaying greater agreement than FSL. For FSL, we selectively investigated voxels that differed by the greatest amount, and often found individual subjects responsible: A single subject with a large observation can drive a conventional one-sample $t$-test, but when that same subject also has large intrasubject variance FSL's mixed effect model downweights that subject leading to a substantially different $t$-test. For ds000109, the increased difference in AFNI's values for larger statistic values could also reflect a similar downweighting procedure within the software.
+
+The Dice coefficients comparing the thresholded permutation test and parametric inferences are generally the best of any (Fig. \ref{fig:BA_permutation}, 3-element lower diagonal). In general the origin of parametric/nonparametric differences are parametric inference finding a slightly larger number of clusters significant.
 
 \section{Reproducibility}
 

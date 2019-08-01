@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  31 JUL 2019 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  1 AUG 2019 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1530,7 +1530,7 @@ File: Figures/SC_thresholded_maps_1.pdf Graphic file (type pdf)
 
 <use Figures/SC_thresholded_maps_1.pdf>
 Package pdftex.def Info: Figures/SC_thresholded_maps_1.pdf used on input line 1
-57.
+59.
 (pdftex.def)             Requested size: 397.48499pt x 446.27419pt.
 
 <Figures/SC_thresholded_maps_2.pdf, id=1211, 719.68875pt x 945.5325pt>
@@ -1538,7 +1538,7 @@ File: Figures/SC_thresholded_maps_2.pdf Graphic file (type pdf)
 
 <use Figures/SC_thresholded_maps_2.pdf>
 Package pdftex.def Info: Figures/SC_thresholded_maps_2.pdf used on input line 1
-65.
+67.
 (pdftex.def)             Requested size: 397.48499pt x 522.23749pt.
 
 <Figures/SC_unthresholded_maps.pdf, id=1214, 433.62pt x 450.68375pt>
@@ -1546,35 +1546,35 @@ File: Figures/SC_unthresholded_maps.pdf Graphic file (type pdf)
 
 <use Figures/SC_unthresholded_maps.pdf>
 Package pdftex.def Info: Figures/SC_unthresholded_maps.pdf used on input line 1
-72.
+74.
 (pdftex.def)             Requested size: 397.48499pt x 413.14867pt.
 
 <Figures/SC_BA_parametric.pdf, id=1215, 415.5525pt x 588.1975pt>
 File: Figures/SC_BA_parametric.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_parametric.pdf>
-Package pdftex.def Info: Figures/SC_BA_parametric.pdf used on input line 180.
+Package pdftex.def Info: Figures/SC_BA_parametric.pdf used on input line 182.
 (pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
 
 
-LaTeX Warning: Float too large for page by 90.34877pt on input line 183.
+LaTeX Warning: Float too large for page by 90.34877pt on input line 185.
 
 <Figures/SC_BA_parametric_120.pdf, id=1216, 208.78pt x 233.87375pt>
 File: Figures/SC_BA_parametric_120.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_parametric_120.pdf>
 Package pdftex.def Info: Figures/SC_BA_parametric_120.pdf used on input line 18
-7.
+9.
 (pdftex.def)             Requested size: 208.77946pt x 233.87315pt.
 
-Overfull \hbox (0.81075pt too wide) in paragraph at lines 192--193
+Overfull \hbox (0.81075pt too wide) in paragraph at lines 194--195
 []\T1/fla/m/n/10.95 Comparisons of the thresh-olded re-sults with the pub-lishe
 d find-ings are shown
  []
 
 [47]
 LaTeX Font Info:    Font shape `T1/fla/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/fla/m/it' tried instead on input line 193.
+(Font)              Font shape `T1/fla/m/it' tried instead on input line 195.
 
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
@@ -1586,13 +1586,13 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 [50 <./Figures/SC_unthresholded_maps.pdf>] [51 <./Figures/SC_BA_parametric.pdf>
 ]
-Overfull \hbox (6.99744pt too wide) in paragraph at lines 194--195
+Overfull \hbox (6.99744pt too wide) in paragraph at lines 196--197
 []\T1/fla/m/n/10.95 The ds000109 study re-ported ac-ti-va-tions in the bi-lat-e
 ral tem-poropari-etal junc-
  []
 
 [52 <./Figures/SC_BA_parametric_120.pdf>]
-Overfull \hbox (2.2452pt too wide) in paragraph at lines 200--201
+Overfull \hbox (2.2452pt too wide) in paragraph at lines 202--203
 []\T1/fla/m/n/10.95 Figure [][]3.4[][] com-pares statis-tic val-ues across pack
 -ages us-ing Bland-Altman plots
  []
@@ -1601,34 +1601,96 @@ Overfull \hbox (2.2452pt too wide) in paragraph at lines 200--201
 File: Figures/SC_DICE.pdf Graphic file (type pdf)
 
 <use Figures/SC_DICE.pdf>
-Package pdftex.def Info: Figures/SC_DICE.pdf used on input line 204.
+Package pdftex.def Info: Figures/SC_DICE.pdf used on input line 206.
 (pdftex.def)             Requested size: 569.12486pt x 411.5365pt.
 
-Overfull \hbox (7.82329pt too wide) in paragraph at lines 209--210
+Overfull \hbox (7.82329pt too wide) in paragraph at lines 211--212
 \T1/fla/m/n/10.95 ages ob-tained for ds000120 is 0.684; it is no-table that acr
 oss all stud-ies, the AFNI/SPM
  []
 
-[53] [54 <./Figures/SC_DICE.pdf>]) [55]
+[53] [54 <./Figures/SC_DICE.pdf>]
+<Figures/SC_ECs.pdf, id=1562, 560.0925pt x 411.5375pt>
+File: Figures/SC_ECs.pdf Graphic file (type pdf)
+
+<use Figures/SC_ECs.pdf>
+Package pdftex.def Info: Figures/SC_ECs.pdf used on input line 217.
+(pdftex.def)             Requested size: 560.09113pt x 411.5365pt.
+
+<Figures/SC_cluster_count.pdf, id=1563, 560.0925pt x 414.54875pt>
+File: Figures/SC_cluster_count.pdf Graphic file (type pdf)
+
+<use Figures/SC_cluster_count.pdf>
+Package pdftex.def Info: Figures/SC_cluster_count.pdf used on input line 224.
+(pdftex.def)             Requested size: 560.09113pt x 414.54773pt.
+ [55] [56 <./Figures/SC_ECs.pdf>] [57 <./Figures/SC_cluster_count.pdf>]
+Overfull \hbox (6.01202pt too wide) in paragraph at lines 237--238
+[]\T1/fla/m/n/10.95 Quantitative as-sess-ment with Dice co-ef-fi-cients are sho
+wn in Fig-ure [][]3.6[][] (``perm"
+ []
+
+<Figures/SC_BA_permutation.pdf, id=1690, 415.5525pt x 588.1975pt>
+File: Figures/SC_BA_permutation.pdf Graphic file (type pdf)
+
+<use Figures/SC_BA_permutation.pdf>
+Package pdftex.def Info: Figures/SC_BA_permutation.pdf used on input line 241.
+(pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
+
+
+LaTeX Warning: Float too large for page by 18.34877pt on input line 244.
+
+
+Overfull \hbox (4.42056pt too wide) in paragraph at lines 246--247
+[]\T1/fla/m/n/10.95 The non-para-met-ric Bland-Altman plots (Fig. [][]3.9[][]) 
+show sub-stan-tial spread qual-
+ []
+
+[58]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[59 <./Figures/SC_BA_permutation.pdf>]
+<Figures/SC_BA_intrasoftware.pdf, id=1769, 415.5525pt x 588.1975pt>
+File: Figures/SC_BA_intrasoftware.pdf Graphic file (type pdf)
+
+<use Figures/SC_BA_intrasoftware.pdf>
+Package pdftex.def Info: Figures/SC_BA_intrasoftware.pdf used on input line 256
+.
+(pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
+
+
+LaTeX Warning: Float too large for page by 54.34877pt on input line 259.
+
+
+Overfull \hbox (41.9133pt too wide) in paragraph at lines 261--262
+[]\T1/fla/m/n/10.95 Bland-Altman plots (Fig. [][]3.10[][]) re-veal much greater
+ lev-els of para-met-ric/nonparametric
+ []
+
+) [60]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[61 <./Figures/SC_BA_intrasoftware.pdf>] [62]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [56
+) [63
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[57]
+[64]
 Chapter 5.
-(./Cohen.tex) [58
+(./Cohen.tex) [65
 
 ]
 Chapter 6.
-(./thesis.bbl [59
+(./thesis.bbl [66
 
-] [60
+] [67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 83--86
@@ -1636,7 +1698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--86
 Ox-
  []
 
-[61]
+[68]
 Underfull \hbox (badness 2762) in paragraph at lines 162--168
 []\T1/fla/m/n/10.95 Tatiana Fom-ina, Matthias Hohmann, Bern-hard Scholkopf, and
  Moritz Grosse-
@@ -1654,21 +1716,21 @@ Underfull \hbox (badness 1642) in paragraph at lines 222--232
 hae-fer, Vanessa
  []
 
-[62] [63] [64] [65] [66]) [67]
+[69] [70] [71] [72] [73]) [74]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
  (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F60C0CD71304B1454E4F4CF717E89746;6398.
+(rerunfilecheck)             Checksum: 7B0AE910FF4A3A4E8434DB4D56EDA4A3;6396.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
  ) 
 Here is how much of TeX's memory you used:
- 24797 strings out of 493014
- 487906 string characters out of 6133351
- 578675 words of memory out of 5000000
- 27392 multiletter control sequences out of 15000+600000
+ 24838 strings out of 493014
+ 488713 string characters out of 6133351
+ 581502 words of memory out of 5000000
+ 27418 multiletter control sequences out of 15000+600000
  125228 words of font info for 156 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,80p,3662b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1692,10 +1754,10 @@ public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (75 pages, 4910909 bytes).
+Output written on thesis.pdf (82 pages, 6496216 bytes).
 PDF statistics:
- 1750 PDF objects out of 2073 (max. 8388607)
- 1505 compressed objects within 16 object streams
- 298 named destinations out of 1000 (max. 500000)
- 776 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2031 PDF objects out of 2073 (max. 8388607)
+ 1691 compressed objects within 17 object streams
+ 309 named destinations out of 1000 (max. 500000)
+ 796 words of extra memory for PDF output out of 10000 (max. 10000000)
 

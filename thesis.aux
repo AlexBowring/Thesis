@@ -210,6 +210,7 @@
 \citation{Moran2012-cw}
 \citation{Padmanabhan2011-dc}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Results}{47}{section.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{47}{subsection.3.2.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the thresholded statistic maps from our reanalysis with the main figures from each of the three publications. Left: For ds000001 data, thresholded $t$-statistic images contrasting the parametric modulation of pumps of reward balloons versus the parametric modulation of the control balloon; beneath, a sagittal slice taken from Fig. 3 in \citet  {Schonberg2012-oo}. Middle: For ds000109, thresholded $t$-statistic maps of the false belief versus false photo contrast; beneath, a midsagittal render from \citet  {Moran2012-cw}. Right: For ds000120, thresholded $F$-statistic images of the main effect of time contrast; beneath, a midsagittal render from Fig. 3 in \citet  {Padmanabhan2011-dc}. Note that for ds000109 and ds000120 the publication's figures are renderings onto the cortical surface while our results are slice views. While each major activation area found in the original study exists in the reanalyses, there is substantial variation between each reanalysis.\relax }}{48}{figure.caption.12}}
 \newlabel{fig:SC_thresholded_maps_1}{{3.1}{48}{Comparison of the thresholded statistic maps from our reanalysis with the main figures from each of the three publications. Left: For ds000001 data, thresholded $t$-statistic images contrasting the parametric modulation of pumps of reward balloons versus the parametric modulation of the control balloon; beneath, a sagittal slice taken from Fig. 3 in \citet {Schonberg2012-oo}. Middle: For ds000109, thresholded $t$-statistic maps of the false belief versus false photo contrast; beneath, a midsagittal render from \citet {Moran2012-cw}. Right: For ds000120, thresholded $F$-statistic images of the main effect of time contrast; beneath, a midsagittal render from Fig. 3 in \citet {Padmanabhan2011-dc}. Note that for ds000109 and ds000120 the publication's figures are renderings onto the cortical surface while our results are slice views. While each major activation area found in the original study exists in the reanalyses, there is substantial variation between each reanalysis.\relax }{figure.caption.12}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Comparison of the thresholded statistic maps from our reanalysis displayed as a series of axial slices. Top: ds000001's thresholded $t$-statistic maps contrasting parametric modulations of the reward balloons versus pumps of the control balloons. Middle: ds000109's thresholded $t$-statistic maps of the false belief versus false photo contrast. Bottom: ds000120's thresholded $F$-statistic maps of the main effect of time contrast. This figure complements the single slice views shown in Fig. \ref  {fig:SC_thresholded_maps_1}.\relax }}{49}{figure.caption.13}}
@@ -223,56 +224,65 @@
 \newlabel{RF1}{54}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Cross-software Bland-Altman 2D histogram comparing the unthresholded main effect of time $F$-statistic maps computed in AFNI and SPM for reanalyses of the ds000120 study. The differences are generally centered about zero, with a trend of large $F$-statistics for AFNI. The funnel-like pattern is a consequence of the $F$-statistic taking on only positive values.\relax }}{54}{figure.caption.17}}
 \newlabel{fig:DICE}{{3.6}{54}{Cross-software Bland-Altman 2D histogram comparing the unthresholded main effect of time $F$-statistic maps computed in AFNI and SPM for reanalyses of the ds000120 study. The differences are generally centered about zero, with a trend of large $F$-statistics for AFNI. The funnel-like pattern is a consequence of the $F$-statistic taking on only positive values.\relax }{figure.caption.17}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{55}{subsection.3.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Cross-Software Varaibility for Non-Parametric Inference}{55}{subsection.3.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Non-Parametric}{55}{subsection.3.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Reproducibility}{55}{section.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{55}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{55}{subsection.3.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{55}{section.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Limitations}{55}{subsection.3.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{55}{section.3.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{56}{chapter.4}}
+\newlabel{RF2}{56}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Euler characteristic (EC) plots for ds000001 and ds000109. On top, comparisons of the Euler characteristic computed for each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the ECs calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package. For each $t$-value the EC summarises the topology of the thresholded image, and the curves provide a signature of the structure of the entire image. For extreme thresholds the EC approximates the number of clusters, allowing a simple interpretation of the curves: For example, for ds000001 parametric analyses, FSL clearly has the fewest clusters for positive thresholds.\relax }}{56}{figure.caption.18}}
+\newlabel{fig:ECs}{{3.7}{56}{Euler characteristic (EC) plots for ds000001 and ds000109. On top, comparisons of the Euler characteristic computed for each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the ECs calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package. For each $t$-value the EC summarises the topology of the thresholded image, and the curves provide a signature of the structure of the entire image. For extreme thresholds the EC approximates the number of clusters, allowing a simple interpretation of the curves: For example, for ds000001 parametric analyses, FSL clearly has the fewest clusters for positive thresholds.\relax }{figure.caption.18}{}}
+\newlabel{RF3}{57}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Cluster count plots for ds000001 and ds000109. On top, comparisons of the number of cluster found in each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the cluster counts calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package.\relax }}{57}{figure.caption.19}}
+\newlabel{fig:cluster_count}{{3.8}{57}{Cluster count plots for ds000001 and ds000109. On top, comparisons of the number of cluster found in each software's $t$-statistic map from our reanalyses using a range of $t$-value thresholds between -6 and 6. Below, comparisons of the cluster counts calculated using the same thresholds on the corresponding $t$-statistic images for permutation inference within each package.\relax }{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Cross-Software Variability for Nonparametric Inference}{58}{subsection.3.2.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Cross-software Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed using permutation inference methods within AFNI, FSL, and SPM. Similar to the results obtained using parametric inferences in Figure \ref  {fig:BA_parametric}, all of the densities indicate large differences in the size of activations determined within each package.\relax }}{59}{figure.caption.20}}
+\newlabel{fig:BA_permutation}{{3.9}{59}{Cross-software Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed using permutation inference methods within AFNI, FSL, and SPM. Similar to the results obtained using parametric inferences in Figure \ref {fig:BA_parametric}, all of the densities indicate large differences in the size of activations determined within each package.\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Nonparametric}{60}{subsection.3.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Intrasoftware Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed for parametric and nonparametric inference methods in AFNI, FSL and SPM. Each comparison here uses the same preprocessed data, varying only the second level statistical model. SPM's parametric and nonparametric both use the same (unweighted) one-sample $t$-test, and thus show no differences. AFNI and FSL's parametric models use iterative estimation of between subject variance and weighted least squares and thus show some differences, but still smaller than between-software comparisons\relax }}{61}{figure.caption.21}}
+\newlabel{fig:BA_intrasoftware}{{3.10}{61}{Intrasoftware Bland-Altman 2D histograms for the ds000001 and ds000109 studies comparing the unthresholded group-level $t$-statistic maps computed for parametric and nonparametric inference methods in AFNI, FSL and SPM. Each comparison here uses the same preprocessed data, varying only the second level statistical model. SPM's parametric and nonparametric both use the same (unweighted) one-sample $t$-test, and thus show no differences. AFNI and FSL's parametric models use iterative estimation of between subject variance and weighted least squares and thus show some differences, but still smaller than between-software comparisons\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Reproducibility}{62}{section.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Scripting of Analysis and Figures}{62}{subsection.3.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Results Sharing}{62}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Discussion}{62}{section.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Limitations}{62}{subsection.3.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{62}{section.3.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Task-fMRI Inference}{63}{chapter.4}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{57}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Theory}{57}{section.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Overview}{57}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit  {k}}{57}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{57}{section.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{57}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{57}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{57}{subsection.4.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{57}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{57}{subsection.4.3.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{57}{section.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{57}{subsection.4.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{57}{subsection.4.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{57}{subsection.4.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{57}{section.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Limitations}{57}{subsection.4.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{57}{section.4.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}Toolbox}{57}{section.4.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{58}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Introduction}{64}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Theory}{64}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Overview}{64}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit  {k}}{64}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{64}{section.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{64}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{64}{subsection.4.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{64}{subsection.4.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{64}{subsection.4.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{64}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{64}{section.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{64}{subsection.4.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{64}{subsection.4.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{64}{subsection.4.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{64}{section.4.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Limitations}{64}{subsection.4.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{64}{section.4.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Toolbox}{64}{section.4.7}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{65}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{58}{section.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{58}{subsection.5.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{58}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{58}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{58}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{58}{subsection.5.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{58}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{58}{subsection.5.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{58}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{58}{subsection.5.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{58}{subsection.5.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{58}{section.5.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{58}{subsection.5.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{58}{section.5.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{65}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{65}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{65}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{65}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{65}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{65}{subsection.5.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{65}{section.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{65}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{65}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{65}{subsection.5.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{65}{subsection.5.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{65}{section.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{65}{subsection.5.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{65}{section.5.5}}
 \bibstyle{plainnat}
 \bibdata{perm}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{59}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{66}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{Abraham2014-ap}{{1}{2014}{{Abraham et~al.}}{{Abraham, Pedregosa, Eickenberg, Gervais, Mueller, Kossaifi, Gramfort, Thirion, and Varoquaux}}}
