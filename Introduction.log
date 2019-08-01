@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  11 JUN 2019 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  1 AUG 2019 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Introduction.tex
-(./Introduction.tex
+**introduction.tex
+(./introduction.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 
@@ -12400,7 +12400,7 @@ Overfull \hbox (12.15628pt too wide) in paragraph at lines 40--42
 
 )
 ! Emergency stop.
-<*> Introduction.tex
+<*> introduction.tex
                     
 *** (job aborted, no legal \end found)
 

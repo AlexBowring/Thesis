@@ -717,6 +717,34 @@
   language  = "en"
 }
 
+@ARTICLE{Chen2018-am,
+  title    = "A tail of two sides: Artificially doubled false positive rates in
+              neuroimaging due to the sidedness choice with t-tests",
+  author   = "Chen, Gang and Cox, Robert W and Glen, Daniel R and Rajendra,
+              Justin K and Reynolds, Richard C and Taylor, Paul A",
+  abstract = "One-sided t-tests are widely used in neuroimaging data analysis.
+              While such a test may be applicable when investigating specific
+              regions and prior information about directionality is present, we
+              argue here that it is often mis-applied, with severe consequences
+              for false positive rate (FPR) control. Conceptually, a pair of
+              one-sided t-tests conducted in tandem (e.g., to test separately
+              for both positive and negative effects), effectively amounts to a
+              two-sided t-test. However, replacing the two-sided test with a
+              pair of one-sided tests without multiple comparisons correction
+              essentially doubles the intended FPR of statements made about the
+              same study; that is, the actual family-wise error (FWE) of
+              results at the whole brain level would be 10\% instead of the 5\%
+              intended by the researcher. Therefore, we strongly recommend
+              that, unless otherwise explicitly justified, two-sided t-tests be
+              applied instead of two simultaneous one-sided t-tests.",
+  journal  = "Hum. Brain Mapp.",
+  month    =  sep,
+  year     =  2018,
+  keywords = "false positive rate; family-wise error; null hypothesis
+              significance testing; one- and two-sided testing",
+  language = "en"
+}
+
 @ARTICLE{Lindquist2009-fs,
   title    = "Modeling the hemodynamic response function in {fMRI}: efficiency,
               bias and mis-modeling",
@@ -1038,6 +1066,22 @@
   year      =  2012
 }
 
+@ARTICLE{Mueller2017-pn,
+  title    = "Commentary: Cluster failure: Why {fMRI} inferences for spatial
+              extent have inflated false-positive rates",
+  author   = "Mueller, Karsten and Lepsien, J{\"o}ran and M{\"o}ller, Harald E
+              and Lohmann, Gabriele",
+  journal  = "Front. Hum. Neurosci.",
+  volume   =  11,
+  pages    = "345",
+  month    =  jun,
+  year     =  2017,
+  keywords = "fMRI; false positive error; false positive results; family-wise
+              error rate; functional magnetic resonance imaging; random field
+              theory",
+  language = "en"
+}
+
 @ARTICLE{Lund2005-sf,
   title    = "Motion or activity: their role in intra- and inter-subject
               variation in {fMRI}",
@@ -1107,6 +1151,44 @@
   pages    = "e44428",
   month    =  aug,
   year     =  2012,
+  language = "en"
+}
+
+@ARTICLE{Alfaro-Almagro2018-ip,
+  title    = "Image processing and Quality Control for the first 10,000 brain
+              imaging datasets from {UK} Biobank",
+  author   = "Alfaro-Almagro, Fidel and Jenkinson, Mark and Bangerter, Neal K
+              and Andersson, Jesper L R and Griffanti, Ludovica and Douaud,
+              Gwena{\"e}lle and Sotiropoulos, Stamatios N and Jbabdi, Saad and
+              Hernandez-Fernandez, Moises and Vallee, Emmanuel and Vidaurre,
+              Diego and Webster, Matthew and McCarthy, Paul and Rorden,
+              Christopher and Daducci, Alessandro and Alexander, Daniel C and
+              Zhang, Hui and Dragonu, Iulius and Matthews, Paul M and Miller,
+              Karla L and Smith, Stephen M",
+  abstract = "UK Biobank is a large-scale prospective epidemiological study
+              with all data accessible to researchers worldwide. It is
+              currently in the process of bringing back 100,000 of the original
+              participants for brain, heart and body MRI, carotid ultrasound
+              and low-dose bone/fat x-ray. The brain imaging component covers 6
+              modalities (T1, T2 FLAIR, susceptibility weighted MRI, Resting
+              fMRI, Task fMRI and Diffusion MRI). Raw and processed data from
+              the first 10,000 imaged subjects has recently been released for
+              general research access. To help convert this data into useful
+              summary information we have developed an automated processing and
+              QC (Quality Control) pipeline that is available for use by other
+              researchers. In this paper we describe the pipeline in detail,
+              following a brief overview of UK Biobank brain imaging and the
+              acquisition protocol. We also describe several quantitative
+              investigations carried out as part of the development of both the
+              imaging protocol and the processing pipeline.",
+  journal  = "Neuroimage",
+  volume   =  166,
+  pages    = "400--424",
+  month    =  feb,
+  year     =  2018,
+  keywords = "Big data imaging; Epidemiological studies; Image analysis
+              pipeline; Machine learning; Multi-modal data integration; Quality
+              control",
   language = "en"
 }
 
@@ -1490,6 +1572,34 @@
   year      =  2016
 }
 
+@ARTICLE{Chumbley2009-ce,
+  title    = "False discovery rate revisited: {FDR} and topological inference
+              using Gaussian random fields",
+  author   = "Chumbley, Justin R and Friston, Karl J",
+  abstract = "In this note, we revisit earlier work on false discovery rate
+              (FDR) and evaluate it in relation to topological inference in
+              statistical parametric mapping. We note that controlling the
+              false discovery rate of voxels is not equivalent to controlling
+              the false discovery rate of activations. This is a problem that
+              is unique to inference on images, in which the underlying signal
+              is continuous (i.e., signal which does not have a compact
+              support). In brief, inference based on conventional voxel-wise
+              FDR procedures is not appropriate for inferences on the
+              topological features of a statistical parametric map (SPM), such
+              as peaks or regions of activation. We describe the nature of the
+              problem, illustrate it with some examples and suggest a simple
+              solution based on controlling the false discovery rate of
+              connected excursion sets within an SPM, characterised by their
+              volume.",
+  journal  = "Neuroimage",
+  volume   =  44,
+  number   =  1,
+  pages    = "62--70",
+  month    =  jan,
+  year     =  2009,
+  language = "en"
+}
+
 @MISC{McEvoy2009-zx,
   title   = "Alzheimer Disease: Quantitative Structural Neuroimaging for
              Detection and Prediction of Clinical and Structural Changes in
@@ -1688,6 +1798,17 @@
               Resting-state fMRI"
 }
 
+@MISC{Olszowy2019-cz,
+  title   = "Accurate autocorrelation modeling substantially improves {fMRI}
+             reliability",
+  author  = "Olszowy, Wiktor and Aston, John and Rua, Catarina and Williams,
+             Guy B",
+  journal = "Nature Communications",
+  volume  =  10,
+  number  =  1,
+  year    =  2019
+}
+
 @ARTICLE{Hunter2007-nu,
   title     = "Matplotlib: A {2D} Graphics Environment",
   author    = "Hunter, John D",
@@ -1737,6 +1858,38 @@
   pages    = "5553--5561",
   month    =  apr,
   year     =  2012,
+  language = "en"
+}
+
+@UNPUBLISHED{Ellis2019-zi,
+  title    = "Facilitating open-science with realistic {fMRI} simulation:
+              validation and application",
+  author   = "Ellis, Cameron and Baldassano, Christopher and Schapiro, Anna C
+              and Cai, Ming Bo and Cohen, Jonathan D",
+  abstract = "Background: With advances in methods for collecting and analyzing
+              fMRI data, there is a concurrent need to understand how to
+              reliably evaluate and optimally use these methods. Simulations of
+              fMRI data can aid in both the evaluation of complex designs and
+              the analysis of data. New Method: We present fmrisim, a new
+              Python package for standardized, realistic simulation of fMRI
+              data. This package is part of BrainIAK: a recently released
+              open-source Python toolbox for advanced neuroimaging analyses. We
+              describe how to use fmrisim to extract noise properties from real
+              fMRI data and then create a synthetic dataset with matched noise
+              properties and a user-specified signal. Results: We validate the
+              noise generated by fmrisim to show that it can approximate the
+              noise properties of real data. We further show how fmrisim can
+              help researchers find the optimal design in terms of power.
+              Comparison with other methods: fmrisim ports the functionality of
+              other packages to the Python platform while extending what is
+              available in order to make it seamless to simulate realistic fMRI
+              data. Conclusions: The fmrisim package holds promise for
+              improving the design of fMRI experiments, which may facilitate
+              both the pre-registration",
+  journal  = "bioRxiv",
+  pages    = "532424",
+  month    =  jan,
+  year     =  2019,
   language = "en"
 }
 
@@ -1863,11 +2016,114 @@
   language = "en"
 }
 
+@ARTICLE{Yeung2018-kr,
+  title    = "An Updated Survey on Statistical Thresholding and Sample Size of
+              {fMRI} Studies",
+  author   = "Yeung, Andy W K",
+  abstract = "Background: Since the early 2010s, the neuroimaging field has
+              paid more attention to the issue of false positives. Several
+              journals have issued guidelines regarding statistical thresholds.
+              Three papers have reported the statistical analysis of the
+              thresholds used in fMRI literature, but they were published at
+              least 3 years ago and surveyed papers published during 2007-2012.
+              This study revisited this topic to evaluate the changes in this
+              field. Methods: The PubMed database was searched to identify the
+              task-based (not resting-state) fMRI papers published in 2017 and
+              record their sample sizes, inferential methods (e.g., voxelwise
+              or clusterwise), theoretical methods (e.g., parametric or
+              non-parametric), significance level, cluster-defining primary
+              threshold (CDT), volume of analysis (whole brain or region of
+              interest) and software used. Results: The majority (95.6\%) of
+              the 388 analyzed articles reported statistics corrected for
+              multiple comparisons. A large proportion (69.6\%) of the 388
+              articles reported main results by clusterwise inference. The
+              analyzed articles mostly used software Statistical Parametric
+              Mapping (SPM), Analysis of Functional NeuroImages (AFNI), or
+              FMRIB Software Library (FSL) to conduct statistical analysis.
+              There were 70.9\%, 37.6\%, and 23.1\% of SPM, AFNI, and FSL
+              studies, respectively, that used a CDT of p $\leq$ 0.001. The
+              statistical sample size across the articles ranged between 7 and
+              1,299 with a median of 33. Sample size did not significantly
+              correlate with the level of statistical threshold. Conclusion:
+              There were still around 53\% (142/270) studies using clusterwise
+              inference that chose a more liberal CDT than p = 0.001 (n = 121)
+              or did not report their CDT (n = 21), down from around 61\%
+              reported by Woo et al. (2014). For FSL studies, it seemed that
+              the CDT practice had no improvement since the survey by Woo et
+              al. (2014). A few studies chose unconventional CDT such as p =
+              0.0125 or 0.004. Such practice might create an impression that
+              the threshold alterations were attempted to show ``desired''
+              clusters. The median sample size used in the analyzed articles
+              was similar to those reported in previous surveys. In conclusion,
+              there seemed to be no change in the statistical practice compared
+              to the early 2010s.",
+  journal  = "Front. Hum. Neurosci.",
+  volume   =  12,
+  pages    = "16",
+  month    =  jan,
+  year     =  2018,
+  keywords = "Gaussian random field; Monte Carlo stimulation; fMRI;
+              false-discovery rate; familywise error rate; literature;
+              threshold; threshold-free cluster enhancement",
+  language = "en"
+}
+
 @MISC{Bowring2018-wp,
   title     = "Exploring the Impact of Analysis Software on Task {fMRI} Results",
   author    = "Bowring, Alex and Maumet, Camille and Nichols, Thomas",
   publisher = "Open Science Framework",
   year      =  2018
+}
+
+@ARTICLE{Strother2002-sz,
+  title    = "The quantitative evaluation of functional neuroimaging
+              experiments: the {NPAIRS} data analysis framework",
+  author   = "Strother, Stephen C and Anderson, Jon and Hansen, Lars Kai and
+              Kjems, Ulrik and Kustra, Rafal and Sidtis, John and Frutiger,
+              Sally and Muley, Suraj and LaConte, Stephen and Rottenberg, David",
+  abstract = "We introduce a data-analysis framework and performance metrics
+              for evaluating and optimizing the interaction between activation
+              tasks, experimental designs, and the methodological choices and
+              tools for data acquisition, preprocessing, data analysis, and
+              extraction of statistical parametric maps (SPMs). Our NPAIRS
+              (nonparametric prediction, activation, influence, and
+              reproducibility resampling) framework provides an alternative to
+              simulations and ROC curves by using real PET and fMRI data sets
+              to examine the relationship between prediction accuracy and the
+              signal-to-noise ratios (SNRs) associated with reproducible SPMs.
+              Using cross-validation resampling we plot training-test set
+              predictions of the experimental design variables (e.g.,
+              brain-state labels) versus reproducibility SNR metrics for the
+              associated SPMs. We demonstrate the utility of this framework
+              across the wide range of performance metrics obtained from
+              [(15)O]water PET studies of 12 age- and sex-matched data sets
+              performing different motor tasks (8 subjects/set). For the 12
+              data sets we apply NPAIRS with both univariate and multivariate
+              data-analysis approaches to: (1) demonstrate that this framework
+              may be used to obtain reproducible SPMs from any data-analysis
+              approach on a common Z-score scale (rSPM[Z]); (2) demonstrate
+              that the histogram of a rSPM[Z] image may be modeled as the sum
+              of a data-analysis-dependent noise distribution and a
+              task-dependent, Gaussian signal distribution that scales
+              monotonically with our reproducibility performance metric; (3)
+              explore the relation between prediction and reproducibility
+              performance metrics with an emphasis on bias-variance tradeoffs
+              for flexible, multivariate models; and (4) measure the broad
+              range of reproducibility SNRs and the significant influence of
+              individual subjects. A companion paper describes learning curves
+              for four of these 12 data sets, which describe an alternative
+              mutual-information prediction metric and NPAIRS reproducibility
+              as a function of training-set sizes from 2 to 18 subjects. We
+              propose the NPAIRS framework as a validation tool for testing and
+              optimizing methodological choices and tools in functional
+              neuroimaging.",
+  journal  = "Neuroimage",
+  volume   =  15,
+  number   =  4,
+  pages    = "747--771",
+  month    =  apr,
+  year     =  2002,
+  language = "en"
 }
 
 @ARTICLE{Smith2002-vw,

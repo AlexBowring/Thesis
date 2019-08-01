@@ -3,44 +3,46 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plainnat.bst
 Database file #1: perm.bib
-You've used 81 entries,
+Warning--empty note in Ellis2019-zi
+You've used 89 entries,
             2773 wiz_defined-function locations,
-            1126 strings with 22334 characters,
-and the built_in function-call counts, 47212 in all, are:
-= -- 3942
-> -- 3779
-< -- 27
-+ -- 1270
-- -- 1188
-* -- 4528
-:= -- 7445
-add.period$ -- 240
-call.type$ -- 81
-change.case$ -- 636
-chr.to.int$ -- 80
-cite$ -- 162
-duplicate$ -- 1678
-empty$ -- 3196
-format.name$ -- 1287
-if$ -- 9522
+            1169 strings with 24489 characters,
+and the built_in function-call counts, 52232 in all, are:
+= -- 4336
+> -- 4278
+< -- 29
++ -- 1437
+- -- 1347
+* -- 5022
+:= -- 8269
+add.period$ -- 263
+call.type$ -- 89
+change.case$ -- 713
+chr.to.int$ -- 88
+cite$ -- 179
+duplicate$ -- 1831
+empty$ -- 3469
+format.name$ -- 1456
+if$ -- 10508
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 78
-newline$ -- 409
-num.names$ -- 324
-pop$ -- 1199
+missing$ -- 84
+newline$ -- 448
+num.names$ -- 356
+pop$ -- 1344
 preamble$ -- 1
-purify$ -- 558
+purify$ -- 627
 quote$ -- 0
-skip$ -- 1355
+skip$ -- 1498
 stack$ -- 0
-substring$ -- 1764
-swap$ -- 171
+substring$ -- 1864
+swap$ -- 185
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 876
-warning$ -- 0
-while$ -- 367
+type$ -- 964
+warning$ -- 1
+while$ -- 399
 width$ -- 0
-write$ -- 1042
+write$ -- 1140
+(There was 1 warning)

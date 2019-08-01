@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  1 AUG 2019 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  1 AUG 2019 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,48 +1035,86 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \rot@float@box=\box66
 \rot@mess@toks=\toks40
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen271
+\lightrulewidth=\dimen272
+\cmidrulewidth=\dimen273
+\belowrulesep=\dimen274
+\belowbottomsep=\dimen275
+\aboverulesep=\dimen276
+\abovetopsep=\dimen277
+\cmidrulesep=\dimen278
+\cmidrulekern=\dimen279
+\defaultaddspace=\dimen280
+\@cmidla=\count158
+\@cmidlb=\count159
+\@aboverulesep=\dimen281
+\@belowrulesep=\dimen282
+\@thisruleclass=\count160
+\@lastruleclass=\count161
+\@thisrulewidth=\dimen283
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip75
+\LTright=\skip76
+\LTpre=\skip77
+\LTpost=\skip78
+\LTchunksize=\count162
+\LTcapwidth=\dimen284
+\LT@head=\box67
+\LT@firsthead=\box68
+\LT@foot=\box69
+\LT@lastfoot=\box70
+\LT@cols=\count163
+\LT@rows=\count164
+\c@LT@tables=\count165
+\c@LT@chunks=\count166
+\LT@p@ftn=\toks41
+)
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 280.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 280.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 286.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 286.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 280.
-LaTeX Font Info:    ... okay on input line 280.
-LaTeX Font Info:    Try loading font information for T1+fla on input line 280.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 286.
+LaTeX Font Info:    ... okay on input line 286.
+LaTeX Font Info:    Try loading font information for T1+fla on input line 286.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lato/t1fla.fd
 File: t1fla.fd 2011/12/25 Fontinst v1.933 font definitions for T1/fla.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count158
-\scratchdimen=\dimen271
-\scratchbox=\box67
-\nofMPsegments=\count159
-\nofMParguments=\count160
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count161
-\MPscratchDim=\dimen272
-\MPnumerator=\count162
-\makeMPintoPDFobject=\count163
-\everyMPtoPDFconversion=\toks42
+\scratchcounter=\count167
+\scratchdimen=\dimen285
+\scratchbox=\box71
+\nofMPsegments=\count168
+\nofMParguments=\count169
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count170
+\MPscratchDim=\dimen286
+\MPnumerator=\count171
+\makeMPintoPDFobject=\count172
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1095,10 +1133,15 @@ e
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box68
-Package hyperref Info: Link coloring ON on input line 280.
+\AtBeginShipoutBox=\box72
+Package hyperref Info: Link coloring ON on input line 286.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1106,54 +1149,54 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count164
+\c@section@level=\count173
 )
-LaTeX Info: Redefining \ref on input line 280.
-LaTeX Info: Redefining \pageref on input line 280.
-LaTeX Info: Redefining \nameref on input line 280.
+LaTeX Info: Redefining \ref on input line 286.
+LaTeX Info: Redefining \pageref on input line 286.
+LaTeX Info: Redefining \nameref on input line 286.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
 
-<Oxford_University_Coat_Of_Arms.pdf, id=352, 240.90001pt x 286.81834pt>
+<Oxford_University_Coat_Of_Arms.pdf, id=340, 240.90001pt x 286.81834pt>
 File: Oxford_University_Coat_Of_Arms.pdf Graphic file (type pdf)
 
 <use Oxford_University_Coat_Of_Arms.pdf>
 Package pdftex.def Info: Oxford_University_Coat_Of_Arms.pdf used on input line 
-286.
+292.
 (pdftex.def)             Requested size: 142.26378pt x 169.38327pt.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 286.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 292.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 286.
-LaTeX Font Info:    Try loading font information for U+msa on input line 286.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 292.
+LaTeX Font Info:    Try loading font information for U+msa on input line 292.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 286.
+LaTeX Font Info:    Try loading font information for U+msb on input line 292.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 286.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 292.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 286.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 292.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 286.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 292.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 286.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 292.
 LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <12> not available
-(Font)              Font shape `T1/fla/b/n' tried instead on input line 286.
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 292.
 Package epstopdf Info: Source file: <ox_brand_cmyk_pos_rect.eps>
 (epstopdf)                    date: 2008-04-08 11:42:49
 (epstopdf)                    size: 464876 bytes
@@ -1163,17 +1206,17 @@ f>
 (epstopdf)                    size: 27372 bytes
 (epstopdf)             Command: <repstopdf --outfile=ox_brand_cmyk_pos_rect-eps
 -converted-to.pdf ox_brand_cmyk_pos_rect.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
 
-<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=353, 462.72874pt x 142.5325pt>
+<ox_brand_cmyk_pos_rect-eps-converted-to.pdf, id=341, 462.72874pt x 142.5325pt>
 File: ox_brand_cmyk_pos_rect-eps-converted-to.pdf Graphic file (type pdf)
 <use ox_brand_cmyk_pos_rect-eps-converted-to.pdf>
 Package pdftex.def Info: ox_brand_cmyk_pos_rect-eps-converted-to.pdf used on in
-put line 286.
+put line 292.
 (pdftex.def)             Requested size: 170.71652pt x 52.58612pt.
 
-Overfull \hbox (29.30411pt too wide) in paragraph at lines 286--286
+Overfull \hbox (29.30411pt too wide) in paragraph at lines 292--292
  [][] 
  []
 
@@ -1196,7 +1239,7 @@ l.27 ...ect-Level) Analysis}{24}{subsection.2.6.6}
 
 ] [2]
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/fla/b/it' tried instead on input line 88.
+(Font)              Font shape `T1/fla/b/it' tried instead on input line 85.
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
@@ -1204,7 +1247,7 @@ LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <10.95> not available
  [3] [4
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+fla on input line 314.
+LaTeX Font Info:    Try loading font information for TS1+fla on input line 320.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lato/ts1fla.fd
@@ -1212,13 +1255,13 @@ File: ts1fla.fd 2011/12/25 Fontinst v1.933 font definitions for TS1/fla.
 ) [5
 
 ]
-Overfull \hbox (2.01613pt too wide) in paragraph at lines 353--354
+Overfull \hbox (2.01613pt too wide) in paragraph at lines 359--360
 \T1/fla/m/n/10.95 hen-sion about the re-pro-ducibil-ity of find-ings within the
  neu-roimag-ing lit-er-a-ture, amid
  []
 
 
-Overfull \hbox (2.66006pt too wide) in paragraph at lines 353--354
+Overfull \hbox (2.66006pt too wide) in paragraph at lines 359--360
 \T1/fla/m/n/10.95 con-cerns that cur-rent in-fer-ence pro-ce-dures are of-ten m
 is-used or mis-in-ter-preted such
  []
@@ -1246,7 +1289,7 @@ Chapter 2.
 (./Background.tex [7
 
 ]
-<Figures/Grays_Anatomy.png, id=733, 601.24625pt x 683.55376pt>
+<Figures/Grays_Anatomy.png, id=717, 601.24625pt x 683.55376pt>
 File: Figures/Grays_Anatomy.png Graphic file (type png)
 
 <use Figures/Grays_Anatomy.png>
@@ -1260,7 +1303,7 @@ Overfull \hbox (15.16495pt too wide) in paragraph at lines 25--26
 on of de-oxy-genated haemoglobin,
  []
 
-[10] <Figures/Neuron.png, id=844, 350.0277pt x 119.0046pt>
+[10] <Figures/Neuron.png, id=829, 350.0277pt x 119.0046pt>
 File: Figures/Neuron.png Graphic file (type png)
 
 <use Figures/Neuron.png>
@@ -1279,7 +1322,7 @@ ease of oxy-genated heamoglobin,
  []
 
 [11 <./Figures/Neuron.png>]
-<Figures/BOLD_response.jpg, id=856, 289.08pt x 113.223pt>
+<Figures/BOLD_response.jpg, id=841, 289.08pt x 113.223pt>
 File: Figures/BOLD_response.jpg Graphic file (type jpg)
 
 <use Figures/BOLD_response.jpg>
@@ -1298,7 +1341,7 @@ Overfull \hbox (3.0856pt too wide) in paragraph at lines 55--56
  []
 
 [12 <./Figures/BOLD_response.jpg>]
-<Figures/Task_Paradigm.png, id=868, 1332.98pt x 999.735pt>
+<Figures/Task_Paradigm.png, id=853, 1332.98pt x 999.735pt>
 File: Figures/Task_Paradigm.png Graphic file (type png)
 
 <use Figures/Task_Paradigm.png>
@@ -1311,7 +1354,7 @@ ar-ried out for an ex-tended
  []
 
 [13 <./Figures/Task_Paradigm.png>] [14] [15]
-<Figures/Distortion_Correction.png, id=897, 1332.98pt x 449.68pt>
+<Figures/Distortion_Correction.png, id=882, 1332.98pt x 449.68pt>
 File: Figures/Distortion_Correction.png Graphic file (type png)
 
 <use Figures/Distortion_Correction.png>
@@ -1324,7 +1367,7 @@ Overfull \hbox (11.0243pt too wide) in paragraph at lines 124--125
 is works be-cause av-er-ag-ing should
  []
 
-[18] [19] <Figures/High_Pass.png, id=922, 1332.98pt x 561.09625pt>
+[18] [19] <Figures/High_Pass.png, id=907, 1332.98pt x 561.09625pt>
 File: Figures/High_Pass.png Graphic file (type png)
 
 <use Figures/High_Pass.png>
@@ -1351,7 +1394,7 @@ Overfull \hbox (0.61317pt too wide) in paragraph at lines 280--281
 nal the data are whitened
  []
 
-<Figures/HRF_convolution.png, id=984, 1332.98pt x 525.965pt>
+<Figures/HRF_convolution.png, id=969, 1332.98pt x 525.965pt>
 File: Figures/HRF_convolution.png Graphic file (type png)
 
 <use Figures/HRF_convolution.png>
@@ -1401,19 +1444,19 @@ it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/n/10.95 , where the $\OML/cmm/m/it/10.
 /fla/m/it/10.95 Rademacher
  []
 
-)
-Overfull \hbox (7.12344pt too wide) in paragraph at lines 469--385
+[33])
+Overfull \hbox (7.12344pt too wide) in paragraph at lines 471--391
 \T1/fla/m/n/10.95 sured in a func-tional MRI study. In the rest of this sec-tio
 n we gave an in-depth overview
  []
 
 
-Overfull \hbox (5.55255pt too wide) in paragraph at lines 469--385
+Overfull \hbox (5.55255pt too wide) in paragraph at lines 471--391
 \T1/fla/m/n/10.95 fMRI in-fer-ence, and then demon-strated how a param-etic and
  non-para-met-ric ap-proach
  []
 
-[33] [34]
+[34]
 Chapter 3.
 (./Software_Comparison.tex
 Overfull \hbox (7.48857pt too wide) in paragraph at lines 4--5
@@ -1447,293 +1490,359 @@ Overfull \hbox (0.4372pt too wide) in paragraph at lines 24--25
 y 1st-level and Spec-ify 2nd-
  []
 
+LaTeX Font Info:    Font shape `T1/fla/bx/n' in size <9> not available
+(Font)              Font shape `T1/fla/b/n' tried instead on input line 35.
+
+Overfull \hbox (1.4933pt too wide) in paragraph at lines 37--37
+[]|\T1/fla/b/n/9 Preprocessing| 
+ []
+
+
+Overfull \hbox (30.18214pt too wide) in paragraph at lines 32--63
+ []|  [] 
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 90--90
+[]|\T1/fla/b/n/9 Results shar-
+ []
+
+
+Overfull \hbox (30.18214pt too wide) in paragraph at lines 69--95
+ []|  [] 
+ []
+
 [37]
-Overfull \hbox (1.67084pt too wide) in paragraph at lines 37--38
+LaTeX Font Info:    Font shape `T1/fla/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/fla/m/it' tried instead on input line 101.
+
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[38]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[39]
+Overfull \hbox (1.67084pt too wide) in paragraph at lines 104--105
 \T1/fla/m/n/10.95 block within the afni_proc.py scripts. We in-cluded the -volr
 eg_align_e2a op-tion within
  []
 
-[38]
-Overfull \hbox (1.84103pt too wide) in paragraph at lines 43--44
+[40]
+Overfull \hbox (1.84103pt too wide) in paragraph at lines 110--111
 \T1/fla/m/n/10.95 tice, and we chose to use just six re-gres-sors as this could
  be eas-ily im-ple-mented across
  []
 
 
-Overfull \hbox (33.45128pt too wide) in paragraph at lines 45--46
+Overfull \hbox (33.45128pt too wide) in paragraph at lines 112--113
 \T1/fla/m/n/10.95 tiv-ity cri-te-rion for de-ter-min-ing sig-nif-i-cant clus-te
 rs: 6-connectivity for AFNI, 18-connectivity
  []
 
-[39]
-Overfull \hbox (0.30705pt too wide) in paragraph at lines 52--53
+[41]
+Overfull \hbox (0.30705pt too wide) in paragraph at lines 119--120
 []\T1/fla/m/n/10.95 We opted to not use out-lier de-weighting on the ba-sis tha
 t such meth-ods were
  []
 
 
-Overfull \hbox (9.12782pt too wide) in paragraph at lines 59--60
+Overfull \hbox (9.12782pt too wide) in paragraph at lines 126--127
 \T1/fla/m/n/10.95 the event file had fixed or vari-able du-ra-tion times re-spe
 c-tively. The -regress_stim_types
  []
 
-[40] [41] [42]
-Overfull \hbox (7.43504pt too wide) in paragraph at lines 96--97
+[42] [43] [44]
+Overfull \hbox (7.43504pt too wide) in paragraph at lines 163--164
 []\T1/fla/m/n/10.95 The sine ba-sis set used for the HRF was mod-elled us-ing t
 he -regress_basis_multi
  []
 
 
-Overfull \hbox (0.1997pt too wide) in paragraph at lines 113--114
+Overfull \hbox (0.1997pt too wide) in paragraph at lines 180--181
 []\T1/fla/m/n/10.95 Firstly, Bland-Altman plots com-par-ing the un-thresh-olded
  group statis-tic maps
  []
 
-[43]
-Overfull \hbox (1.16069pt too wide) in paragraph at lines 119--120
+[45]
+Overfull \hbox (1.16069pt too wide) in paragraph at lines 186--187
 []\T1/fla/m/n/10.95 A par-tic-u-lar con-cern we had was that a pair of statis-t
 ic im-ages could in essence
  []
 
-[44]
-Overfull \hbox (12.23376pt too wide) in paragraph at lines 123--124
+[46]
+Overfull \hbox (12.23376pt too wide) in paragraph at lines 190--191
 []\T1/fla/m/n/10.95 Finally, we vi-su-ally com-pared the cor-re-spond-ing slice
 s of each soft-ware's thresh-
  []
 
-[45]
-Overfull \hbox (0.73645pt too wide) in paragraph at lines 136--137
+[47]
+Overfull \hbox (0.73645pt too wide) in paragraph at lines 203--204
 \T1/fla/m/n/10.95 The Sta-tis-ti-cal non-Para-met-ric Map-ping (SnPM, ver-sion 
 SnPM13; RRID:SCR_002092;
  []
 
 
-Overfull \hbox (7.6518pt too wide) in paragraph at lines 138--139
+Overfull \hbox (7.6518pt too wide) in paragraph at lines 205--206
 \T1/fla/m/n/10.95 met-ric in-fer-ence meth-ods. In ad-di-tion, we also gen-er-a
 ted intra-software Bland-Altman
  []
 
-[46]
-Overfull \hbox (37.35144pt too wide) in paragraph at lines 149--150
+[48]
+Overfull \hbox (37.35144pt too wide) in paragraph at lines 216--217
 \T1/fla/m/n/10.95 roVault: [][]https://neurovault.org/collections/4110/[][], []
 []https://neurovault.org/collections/4099/[][],
  []
 
 
-Overfull \hbox (56.74178pt too wide) in paragraph at lines 149--150
+Overfull \hbox (56.74178pt too wide) in paragraph at lines 216--217
 \T1/fla/m/n/10.95 avail-able through Zen-odo ([][]Nielsen and Smith[][], [][]20
 14[][]) at [][]https://doi.org/10.5281/zenodo.1203654[][]
  []
 
-<Figures/SC_thresholded_maps_1.pdf, id=1198, 433.62pt x 486.81876pt>
+<Figures/SC_thresholded_maps_1.pdf, id=1195, 433.62pt x 486.81876pt>
 File: Figures/SC_thresholded_maps_1.pdf Graphic file (type pdf)
 
 <use Figures/SC_thresholded_maps_1.pdf>
-Package pdftex.def Info: Figures/SC_thresholded_maps_1.pdf used on input line 1
-59.
+Package pdftex.def Info: Figures/SC_thresholded_maps_1.pdf used on input line 2
+26.
 (pdftex.def)             Requested size: 397.48499pt x 446.27419pt.
 
-<Figures/SC_thresholded_maps_2.pdf, id=1211, 719.68875pt x 945.5325pt>
+<Figures/SC_thresholded_maps_2.pdf, id=1208, 719.68875pt x 945.5325pt>
 File: Figures/SC_thresholded_maps_2.pdf Graphic file (type pdf)
 
 <use Figures/SC_thresholded_maps_2.pdf>
-Package pdftex.def Info: Figures/SC_thresholded_maps_2.pdf used on input line 1
-67.
+Package pdftex.def Info: Figures/SC_thresholded_maps_2.pdf used on input line 2
+34.
 (pdftex.def)             Requested size: 397.48499pt x 522.23749pt.
 
-<Figures/SC_unthresholded_maps.pdf, id=1214, 433.62pt x 450.68375pt>
+<Figures/SC_unthresholded_maps.pdf, id=1211, 433.62pt x 450.68375pt>
 File: Figures/SC_unthresholded_maps.pdf Graphic file (type pdf)
 
 <use Figures/SC_unthresholded_maps.pdf>
-Package pdftex.def Info: Figures/SC_unthresholded_maps.pdf used on input line 1
-74.
+Package pdftex.def Info: Figures/SC_unthresholded_maps.pdf used on input line 2
+41.
 (pdftex.def)             Requested size: 397.48499pt x 413.14867pt.
 
-<Figures/SC_BA_parametric.pdf, id=1215, 415.5525pt x 588.1975pt>
+<Figures/SC_BA_parametric.pdf, id=1212, 415.5525pt x 588.1975pt>
 File: Figures/SC_BA_parametric.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_parametric.pdf>
-Package pdftex.def Info: Figures/SC_BA_parametric.pdf used on input line 182.
+Package pdftex.def Info: Figures/SC_BA_parametric.pdf used on input line 249.
 (pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
 
 
-LaTeX Warning: Float too large for page by 90.34877pt on input line 185.
+LaTeX Warning: Float too large for page by 90.34877pt on input line 252.
 
-<Figures/SC_BA_parametric_120.pdf, id=1216, 208.78pt x 233.87375pt>
+<Figures/SC_BA_parametric_120.pdf, id=1213, 208.78pt x 233.87375pt>
 File: Figures/SC_BA_parametric_120.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_parametric_120.pdf>
-Package pdftex.def Info: Figures/SC_BA_parametric_120.pdf used on input line 18
-9.
+Package pdftex.def Info: Figures/SC_BA_parametric_120.pdf used on input line 25
+6.
 (pdftex.def)             Requested size: 208.77946pt x 233.87315pt.
 
-Overfull \hbox (0.81075pt too wide) in paragraph at lines 194--195
+Overfull \hbox (0.81075pt too wide) in paragraph at lines 261--262
 []\T1/fla/m/n/10.95 Comparisons of the thresh-olded re-sults with the pub-lishe
 d find-ings are shown
  []
 
-[47]
-LaTeX Font Info:    Font shape `T1/fla/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/fla/m/it' tried instead on input line 195.
-
+[49]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[48 <./Figures/SC_thresholded_maps_1.pdf>] [49 <./Figures/SC_thresholded_maps_2
+[50 <./Figures/SC_thresholded_maps_1.pdf>] [51 <./Figures/SC_thresholded_maps_2
 .pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[50 <./Figures/SC_unthresholded_maps.pdf>] [51 <./Figures/SC_BA_parametric.pdf>
+[52 <./Figures/SC_unthresholded_maps.pdf>] [53 <./Figures/SC_BA_parametric.pdf>
 ]
-Overfull \hbox (6.99744pt too wide) in paragraph at lines 196--197
+Overfull \hbox (6.99744pt too wide) in paragraph at lines 263--264
 []\T1/fla/m/n/10.95 The ds000109 study re-ported ac-ti-va-tions in the bi-lat-e
 ral tem-poropari-etal junc-
  []
 
-[52 <./Figures/SC_BA_parametric_120.pdf>]
-Overfull \hbox (2.2452pt too wide) in paragraph at lines 202--203
+[54 <./Figures/SC_BA_parametric_120.pdf>]
+Overfull \hbox (2.2452pt too wide) in paragraph at lines 269--270
 []\T1/fla/m/n/10.95 Figure [][]3.4[][] com-pares statis-tic val-ues across pack
 -ages us-ing Bland-Altman plots
  []
 
-<Figures/SC_DICE.pdf, id=1475, 569.12625pt x 411.5375pt>
+<Figures/SC_DICE.pdf, id=1472, 569.12625pt x 411.5375pt>
 File: Figures/SC_DICE.pdf Graphic file (type pdf)
 
 <use Figures/SC_DICE.pdf>
-Package pdftex.def Info: Figures/SC_DICE.pdf used on input line 206.
+Package pdftex.def Info: Figures/SC_DICE.pdf used on input line 273.
 (pdftex.def)             Requested size: 569.12486pt x 411.5365pt.
 
-Overfull \hbox (7.82329pt too wide) in paragraph at lines 211--212
+Overfull \hbox (7.82329pt too wide) in paragraph at lines 278--279
 \T1/fla/m/n/10.95 ages ob-tained for ds000120 is 0.684; it is no-table that acr
 oss all stud-ies, the AFNI/SPM
  []
 
-[53] [54 <./Figures/SC_DICE.pdf>]
-<Figures/SC_ECs.pdf, id=1562, 560.0925pt x 411.5375pt>
+[55] [56 <./Figures/SC_DICE.pdf>]
+<Figures/SC_ECs.pdf, id=1558, 560.0925pt x 411.5375pt>
 File: Figures/SC_ECs.pdf Graphic file (type pdf)
 
 <use Figures/SC_ECs.pdf>
-Package pdftex.def Info: Figures/SC_ECs.pdf used on input line 217.
+Package pdftex.def Info: Figures/SC_ECs.pdf used on input line 284.
 (pdftex.def)             Requested size: 560.09113pt x 411.5365pt.
 
-<Figures/SC_cluster_count.pdf, id=1563, 560.0925pt x 414.54875pt>
+<Figures/SC_cluster_count.pdf, id=1559, 560.0925pt x 414.54875pt>
 File: Figures/SC_cluster_count.pdf Graphic file (type pdf)
 
 <use Figures/SC_cluster_count.pdf>
-Package pdftex.def Info: Figures/SC_cluster_count.pdf used on input line 224.
+Package pdftex.def Info: Figures/SC_cluster_count.pdf used on input line 291.
 (pdftex.def)             Requested size: 560.09113pt x 414.54773pt.
- [55] [56 <./Figures/SC_ECs.pdf>] [57 <./Figures/SC_cluster_count.pdf>]
-Overfull \hbox (6.01202pt too wide) in paragraph at lines 237--238
+ [57] [58 <./Figures/SC_ECs.pdf>] [59 <./Figures/SC_cluster_count.pdf>]
+Overfull \hbox (6.01202pt too wide) in paragraph at lines 304--305
 []\T1/fla/m/n/10.95 Quantitative as-sess-ment with Dice co-ef-fi-cients are sho
 wn in Fig-ure [][]3.6[][] (``perm"
  []
 
-<Figures/SC_BA_permutation.pdf, id=1690, 415.5525pt x 588.1975pt>
+<Figures/SC_BA_permutation.pdf, id=1687, 415.5525pt x 588.1975pt>
 File: Figures/SC_BA_permutation.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_permutation.pdf>
-Package pdftex.def Info: Figures/SC_BA_permutation.pdf used on input line 241.
+Package pdftex.def Info: Figures/SC_BA_permutation.pdf used on input line 308.
 (pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
 
 
-LaTeX Warning: Float too large for page by 18.34877pt on input line 244.
+LaTeX Warning: Float too large for page by 18.34877pt on input line 311.
 
 
-Overfull \hbox (4.42056pt too wide) in paragraph at lines 246--247
+Overfull \hbox (4.42056pt too wide) in paragraph at lines 313--314
 []\T1/fla/m/n/10.95 The non-para-met-ric Bland-Altman plots (Fig. [][]3.9[][]) 
 show sub-stan-tial spread qual-
  []
 
-[58]
+[60]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[59 <./Figures/SC_BA_permutation.pdf>]
-<Figures/SC_BA_intrasoftware.pdf, id=1769, 415.5525pt x 588.1975pt>
+[61 <./Figures/SC_BA_permutation.pdf>]
+<Figures/SC_BA_intrasoftware.pdf, id=1765, 415.5525pt x 588.1975pt>
 File: Figures/SC_BA_intrasoftware.pdf Graphic file (type pdf)
 
 <use Figures/SC_BA_intrasoftware.pdf>
-Package pdftex.def Info: Figures/SC_BA_intrasoftware.pdf used on input line 256
+Package pdftex.def Info: Figures/SC_BA_intrasoftware.pdf used on input line 323
 .
 (pdftex.def)             Requested size: 397.48499pt x 562.64377pt.
 
 
-LaTeX Warning: Float too large for page by 54.34877pt on input line 259.
+LaTeX Warning: Float too large for page by 54.34877pt on input line 326.
 
 
-Overfull \hbox (41.9133pt too wide) in paragraph at lines 261--262
+Overfull \hbox (42.11041pt too wide) in paragraph at lines 328--329
 []\T1/fla/m/n/10.95 Bland-Altman plots (Fig. [][]3.10[][]) re-veal much greater
- lev-els of para-met-ric/nonparametric
+ lev-els of parametric-nonparametric
  []
 
-) [60]
+[62]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[61 <./Figures/SC_BA_intrasoftware.pdf>] [62]
+[63 <./Figures/SC_BA_intrasoftware.pdf>] [64]
+Overfull \hbox (0.88464pt too wide) in paragraph at lines 342--343
+\T1/fla/m/n/10.95 pos-si-ble to re-trieve the orig-i-nal po-si-tion ma-tri-ces.
+ As a con-se-quence of this, the struc-
+ []
+
+[65] [66]
+Overfull \hbox (1.22913pt too wide) in paragraph at lines 352--353
+[]\T1/fla/m/n/10.95 Of the datasets we did use, sub-ject data were miss-ing fro
+m both the ds000109
+ []
+
+
+Overfull \hbox (7.88321pt too wide) in paragraph at lines 358--359
+\T1/fla/m/n/10.95 level statis-tic maps: Dice co-ef-fi-cients were com-monly le
+ss than 50% for cross-software
+ []
+
+
+Overfull \hbox (9.58388pt too wide) in paragraph at lines 358--359
+\T1/fla/m/n/10.95 com-par-isons, Bland-Altman plots showed that dif-fer-ences b
+e-tween re-ported $\OML/cmm/m/it/10.95 t$\T1/fla/m/n/10.95 -statistic
+ []
+
+[67])
+Overfull \hbox (0.94434pt too wide) in paragraph at lines 360--394
+[]\T1/fla/m/n/10.95 In re-port-ing these com-par-isons, we are not mak-ing any 
+state-ments as to which
+ []
+
+[68]
 Chapter 4.
 (./Contour.tex
 LaTeX Font Info:    Font shape `T1/fla/bx/it' in size <12> not available
 (Font)              Font shape `T1/fla/b/it' tried instead on input line 7.
-) [63
+) [69
 
 ]
 Overfull \vbox (81.62393pt too high) has occurred while \output is active []
 
 
-[64]
+[70]
 Chapter 5.
-(./Cohen.tex) [65
+(./Cohen.tex) [71
 
 ]
 Chapter 6.
-(./thesis.bbl [66
+(./thesis.bbl [72
 
-] [67
+] [73
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 97--100
 []\T1/fla/m/n/10.95 Alexander Bowring, Camille Maumet, and Thomas Nichols.  NIS
 Ox-
  []
 
-[68]
-Underfull \hbox (badness 2762) in paragraph at lines 162--168
+[74]
+Underfull \hbox (badness 3312) in paragraph at lines 184--189
+[]\T1/fla/m/n/10.95 Cameron El-lis, Christo-pher Bal-das-sano, Anna C Schapiro,
+ Ming Bo Cai, and
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 198--204
 []\T1/fla/m/n/10.95 Tatiana Fom-ina, Matthias Hohmann, Bern-hard Scholkopf, and
  Moritz Grosse-
  []
 
-
-Underfull \hbox (badness 1436) in paragraph at lines 222--232
+[75]
+Underfull \hbox (badness 1436) in paragraph at lines 258--268
 []\T1/fla/m/n/10.95 Krzysztof J Gor-golewski, Ti-bor Auer, Vince D Cal-houn, R 
 Cameron Crad-dock,
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 222--232
+Underfull \hbox (badness 1642) in paragraph at lines 258--268
 \T1/fla/m/n/10.95 John Pell-man, Jean-Baptiste Po-line, Ariel Rokem, Gun-nar Sc
 hae-fer, Vanessa
  []
 
-[69] [70] [71] [72] [73]) [74]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 433.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 433.
+[76] [77] [78] [79] [80]) [81]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 439.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 439.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 433.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 433.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 439.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 439.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7B0AE910FF4A3A4E8434DB4D56EDA4A3;6396.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 433.
+(rerunfilecheck)             Checksum: B0059BE4BFCA292DB07CFA438667D041;6178.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 439.
  ) 
 Here is how much of TeX's memory you used:
- 24838 strings out of 493014
- 488713 string characters out of 6133351
- 581502 words of memory out of 5000000
- 27418 multiletter control sequences out of 15000+600000
- 125228 words of font info for 156 fonts, out of 8000000 for 9000
+ 25052 strings out of 493014
+ 491897 string characters out of 6133351
+ 599421 words of memory out of 5000000
+ 27603 multiletter control sequences out of 15000+600000
+ 136571 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,24n,80p,3662b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,24n,80p,3662b,606s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}{/usr/lo
 cal/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}</usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/lato/Lato-Bol.pfb></usr/local/texlive/2016
@@ -1744,20 +1853,21 @@ fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (82 pages, 6496216 bytes).
+/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cmextra/cmmib8.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (89 pages, 6525826 bytes).
 PDF statistics:
- 2031 PDF objects out of 2073 (max. 8388607)
- 1691 compressed objects within 17 object streams
- 309 named destinations out of 1000 (max. 500000)
- 796 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2091 PDF objects out of 2487 (max. 8388607)
+ 1742 compressed objects within 18 object streams
+ 323 named destinations out of 1000 (max. 500000)
+ 772 words of extra memory for PDF output out of 10000 (max. 10000000)
 

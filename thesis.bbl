@@ -1,4 +1,4 @@
-\begin{thebibliography}{81}
+\begin{thebibliography}{89}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,20 @@ Andrew~L Alexander, Jee~Eun Lee, Mariana Lazar, and Aaron~S Field.
 \newblock Diffusion tensor imaging of the brain.
 \newblock \emph{Neurotherapeutics}, 4\penalty0 (3):\penalty0 316--329, July
   2007.
+
+\bibitem[Alfaro-Almagro et~al.(2018)Alfaro-Almagro, Jenkinson, Bangerter,
+  Andersson, Griffanti, Douaud, Sotiropoulos, Jbabdi, Hernandez-Fernandez,
+  Vallee, Vidaurre, Webster, McCarthy, Rorden, Daducci, Alexander, Zhang,
+  Dragonu, Matthews, Miller, and Smith]{Alfaro-Almagro2018-ip}
+Fidel Alfaro-Almagro, Mark Jenkinson, Neal~K Bangerter, Jesper L~R Andersson,
+  Ludovica Griffanti, Gwena{\"e}lle Douaud, Stamatios~N Sotiropoulos, Saad
+  Jbabdi, Moises Hernandez-Fernandez, Emmanuel Vallee, Diego Vidaurre, Matthew
+  Webster, Paul McCarthy, Christopher Rorden, Alessandro Daducci, Daniel~C
+  Alexander, Hui Zhang, Iulius Dragonu, Paul~M Matthews, Karla~L Miller, and
+  Stephen~M Smith.
+\newblock Image processing and quality control for the first 10,000 brain
+  imaging datasets from {UK} biobank.
+\newblock \emph{Neuroimage}, 166:\penalty0 400--424, February 2018.
 
 \bibitem[Anatomy(1918)]{Anatomy1918-do}
 Grays Anatomy.
@@ -124,6 +138,20 @@ Joshua Carp.
   power et al.
 \newblock \emph{Neuroimage}, 76:\penalty0 436--438, August 2013.
 
+\bibitem[Chen et~al.(2018)Chen, Cox, Glen, Rajendra, Reynolds, and
+  Taylor]{Chen2018-am}
+Gang Chen, Robert~W Cox, Daniel~R Glen, Justin~K Rajendra, Richard~C Reynolds,
+  and Paul~A Taylor.
+\newblock A tail of two sides: Artificially doubled false positive rates in
+  neuroimaging due to the sidedness choice with t-tests.
+\newblock \emph{Hum. Brain Mapp.}, September 2018.
+
+\bibitem[Chumbley and Friston(2009)]{Chumbley2009-ce}
+Justin~R Chumbley and Karl~J Friston.
+\newblock False discovery rate revisited: {FDR} and topological inference using
+  gaussian random fields.
+\newblock \emph{Neuroimage}, 44\penalty0 (1):\penalty0 62--70, January 2009.
+
 \bibitem[Cox(1996)]{Cox1996-nu}
 R~W Cox.
 \newblock {AFNI}: software for analysis and visualization of functional
@@ -150,6 +178,14 @@ Anders Eklund, Thomas~E Nichols, and Hans Knutsson.
   inflated false-positive rates.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 113\penalty0 (28):\penalty0
   7900--7905, July 2016.
+
+\bibitem[Ellis et~al.(2019)Ellis, Baldassano, Schapiro, Cai, and
+  Cohen]{Ellis2019-zi}
+Cameron Ellis, Christopher Baldassano, Anna~C Schapiro, Ming~Bo Cai, and
+  Jonathan~D Cohen.
+\newblock Facilitating open-science with realistic {fMRI} simulation:
+  validation and application.
+\newblock January 2019.
 
 \bibitem[Erin D.~Foster(2017)]{Erin_D_Foster2017-au}
 Ariel~Deardorff Erin D.~Foster.
@@ -403,6 +439,13 @@ Malaak~N Moussa, Matthew~R Steen, Paul~J Laurienti, and Satoru Hayasaka.
   data.
 \newblock \emph{PLoS One}, 7\penalty0 (8):\penalty0 e44428, August 2012.
 
+\bibitem[Mueller et~al.(2017)Mueller, Lepsien, M{\"o}ller, and
+  Lohmann]{Mueller2017-pn}
+Karsten Mueller, J{\"o}ran Lepsien, Harald~E M{\"o}ller, and Gabriele Lohmann.
+\newblock Commentary: Cluster failure: Why {fMRI} inferences for spatial extent
+  have inflated false-positive rates.
+\newblock \emph{Front. Hum. Neurosci.}, 11:\penalty0 345, June 2017.
+
 \bibitem[Nichols and Holmes(2002)]{Nichols2002-kf}
 Thomas~E Nichols and Andrew~P Holmes.
 \newblock Nonparametric permutation tests for functional neuroimaging: a primer
@@ -429,6 +472,11 @@ S~Ogawa, D~W Tank, R~Menon, J~M Ellermann, S~G Kim, H~Merkle, and K~Ugurbil.
   brain mapping with magnetic resonance imaging.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 89\penalty0 (13):\penalty0
   5951--5955, July 1992.
+
+\bibitem[Olszowy et~al.(2019)Olszowy, Aston, Rua, and Williams]{Olszowy2019-cz}
+Wiktor Olszowy, John Aston, Catarina Rua, and Guy~B Williams.
+\newblock Accurate autocorrelation modeling substantially improves {fMRI}
+  reliability, 2019.
 
 \bibitem[{Open Science Collaboration}(2015)]{Open_Science_Collaboration2015-gr}
 {Open Science Collaboration}.
@@ -538,6 +586,15 @@ William~C Stacey and Brian Litt.
 \newblock \emph{Nat. Clin. Pract. Neurol.}, 4\penalty0 (4):\penalty0 190--201,
   April 2008.
 
+\bibitem[Strother et~al.(2002)Strother, Anderson, Hansen, Kjems, Kustra,
+  Sidtis, Frutiger, Muley, LaConte, and Rottenberg]{Strother2002-sz}
+Stephen~C Strother, Jon Anderson, Lars~Kai Hansen, Ulrik Kjems, Rafal Kustra,
+  John Sidtis, Sally Frutiger, Suraj Muley, Stephen LaConte, and David
+  Rottenberg.
+\newblock The quantitative evaluation of functional neuroimaging experiments:
+  the {NPAIRS} data analysis framework.
+\newblock \emph{Neuroimage}, 15\penalty0 (4):\penalty0 747--771, April 2002.
+
 \bibitem[Tavor et~al.(2016)Tavor, Parker~Jones, Mars, Smith, Behrens, and
   Jbabdi]{Tavor2016-pd}
 I~Tavor, O~Parker~Jones, R~B Mars, S~M Smith, T~E Behrens, and S~Jbabdi.
@@ -584,5 +641,11 @@ Mark~W Woolrich, Timothy E~J Behrens, Christian~F Beckmann, Mark Jenkinson, and
   Evans]{Worsley2000-rb}
 K~J Worsley, C~Liao, M~Grabove, V~Petre, B~Ha, and A~C Evans.
 \newblock A general statistical analysis for {fMRI} data, 2000.
+
+\bibitem[Yeung(2018)]{Yeung2018-kr}
+Andy W~K Yeung.
+\newblock An updated survey on statistical thresholding and sample size of
+  {fMRI} studies.
+\newblock \emph{Front. Hum. Neurosci.}, 12:\penalty0 16, January 2018.
 
 \end{thebibliography}
