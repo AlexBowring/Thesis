@@ -1,4 +1,4 @@
-\begin{thebibliography}{89}
+\begin{thebibliography}{93}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -146,6 +146,12 @@ Gang Chen, Robert~W Cox, Daniel~R Glen, Justin~K Rajendra, Richard~C Reynolds,
   neuroimaging due to the sidedness choice with t-tests.
 \newblock \emph{Hum. Brain Mapp.}, September 2018.
 
+\bibitem[Chernozhukov et~al.(2013)Chernozhukov, Chetverikov, and
+  Kato]{Chernozhukov2013-wz}
+Victor Chernozhukov, Denis Chetverikov, and Kengo Kato.
+\newblock Gaussian approximations and multiplier bootstrap for maxima of sums
+  of high-dimensional random vectors, 2013.
+
 \bibitem[Chumbley and Friston(2009)]{Chumbley2009-ce}
 Justin~R Chumbley and Karl~J Friston.
 \newblock False discovery rate revisited: {FDR} and topological inference using
@@ -165,6 +171,12 @@ Sean~P David, Jennifer~J Ware, Isabella~M Chu, Pooja~D Loftus, Paolo
   Fusar-Poli, Joaquim Radua, Marcus~R Munaf{\`o}, and John P~A Ioannidis.
 \newblock Potential reporting bias in {fMRI} studies of the brain.
 \newblock \emph{PLoS One}, 8\penalty0 (7):\penalty0 e70104, July 2013.
+
+\bibitem[Davidson and Flachaire(2008)]{Davidson2008-qh}
+Russell Davidson and Emmanuel Flachaire.
+\newblock The wild bootstrap, tamed at last.
+\newblock \emph{J. Econom.}, 146\penalty0 (1):\penalty0 162--169, September
+  2008.
 
 \bibitem[Diamond et~al.(1964)Diamond, Krech, and Rosenzweig]{Diamond1964-cu}
 M~C Diamond, D~Krech, and M~R Rosenzweig.
@@ -507,6 +519,11 @@ William~D Penny, Karl~J Friston, John~T Ashburner, Stefan~J Kiebel, and
   Brain Images}.
 \newblock Elsevier, April 2011.
 
+\bibitem[Poldrack et~al.(2011)Poldrack, Mumford, and Nichols]{Poldrack2011-bw}
+Russell~A Poldrack, Jeanette~A Mumford, and Thomas~E Nichols.
+\newblock \emph{Handbook of Functional {MRI} Data Analysis}.
+\newblock Cambridge University Press, August 2011.
+
 \bibitem[Poldrack et~al.(2017)Poldrack, Baker, Durnez, Gorgolewski, Matthews,
   Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni]{Poldrack2017-rr}
 Russell~A Poldrack, Chris~I Baker, Joke Durnez, Krzysztof~J Gorgolewski, Paul~M
@@ -601,6 +618,12 @@ I~Tavor, O~Parker~Jones, R~B Mars, S~M Smith, T~E Behrens, and S~Jbabdi.
 \newblock Task-free {MRI} predicts individual differences in brain activity
   during task performance.
 \newblock \emph{Science}, 352\penalty0 (6282):\penalty0 216--220, April 2016.
+
+\bibitem[Telschow and Schwartzman(2019)]{Telschow2019-lg}
+Fabian J~E Telschow and Armin Schwartzman.
+\newblock Simultaneous confidence bands for functional data using the gaussian
+  kinematic formula.
+\newblock January 2019.
 
 \bibitem[Walt et~al.(2011)Walt, Colbert, and Varoquaux]{Walt2011-db}
 St{\'e}fan van~der Walt, S~Chris Colbert, and Ga{\"e}l Varoquaux.

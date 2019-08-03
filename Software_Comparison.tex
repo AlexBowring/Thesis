@@ -15,7 +15,7 @@ All data analyses were conducted using AFNI (version AFNI\_18.1.09), FSL (versio
 
 \subsubsection{Pipeline}
 
-A full decomposition of the pipelines implemented within the three packages for each study is presented in \textbf{TABLE 1}. Here, we give a brief description of the procedures. 
+A full decomposition of the pipelines implemented within the three packages for each study is presented in Table \ref{tab:software_processing}. Here, we give a brief description of the procedures. 
 
 In AFNI, preprocessing and subject-level analyses were conducted using the @SSwarper program and afni\_proc.py. For ds000001 and ds000109, we used the 3dMEMA program to perform a one-sample $t$-test, while for ds000120 we used the 3dMVM program at the second level to conduct a mixed-effects analysis, generating an $F$-statistic for the main effect of time. 
 
@@ -26,7 +26,7 @@ In SPM, preprocessing, subject- and group-level analyses were conducted by selec
 Once analyses were complete, the results for each software package were exported as NIDM-Results packs (FSL and SPM only, \citep{Maumet2016-se}) and uploaded to a public collection on the NeuroVault (RRID:SCR\_003806, \citep{Gorgolewski2015-vs}) online data repository. 
 
 \begin{table}[htbp]
-\caption{\textbf{Software Processing Steps:} Implementation of  each of the processing steps (ds000001, ds000109, ds000120) within AFNI, FSL and SPM.}
+\caption{\textbf{Software Processing Steps.} Implementation of  each of the processing steps (ds000001, ds000109, ds000120) within AFNI, FSL and SPM.}
 \centering
 \footnotesize
 \hspace*{-1.5cm}
@@ -34,15 +34,15 @@ Once analyses were complete, the results for each software package were exported
 \toprule
 & \textbf{Processing Step} & \ \textbf{AFNI} & \ \textbf{FSL} & \ \textbf{SPM} \\
 \midrule
-\textbf{Preprocessing} & \textbf{Script} & @SSWarper afni\_proc.py & FEAT First-level analysis & Batch (multiple modules) \\
+\textbf{Preprocessing} & \textbf{Script} & @SSWarper\textsuperscript{2} afni\_proc.py & FEAT First-level analysis & Batch (multiple modules) \\
 \cmidrule(lr){2-5} 
-& \textbf{Slice-timing} & -tshift\_opts\_ts -tpattern  & Pre-stats: Slice timing correction & Slice Timing \\
+& \textbf{Slice-timing}\textsuperscript{1} & -tshift\_opts\_ts -tpattern  & Pre-stats: Slice timing correction & Slice Timing \\
 \cmidrule(lr){2-5} 
 & \textbf{Realignment/Motion Correction} & -volreg\_align\_e2a & Pre-stats: Motion correction: MCFLIRT & Realign: Estimate and Reslice \\
 \cmidrule(lr){2-5}
 & \textbf{Segmentation} & \textit{Not applied} & \textit{Not applied} & Segment \\ 
 \cmidrule(lr){2-5}
-& \textbf{Brain Extraction (Anatomical)} & -copy\_anat [@SSWarper result] -anat\_has\_skull no & bet (\textit{command line}) & Image Calculator \\ 
+& \textbf{Brain Extraction (Anatomical)} & -copy\_anat [@SSWarper result] -anat\_has\_skull no & bet (\textit{command line}) & Image Calculator\textsuperscript{3} \\ 
 \cmidrule(lr){2-5}
 & \textbf{Brain Extraction (Functional)} & \textit{Not applied} & Pre-stats: BET brain extraction & \textit{Not applied} \\ 
 \cmidrule(lr){2-5}
@@ -58,15 +58,16 @@ Once analyses were complete, the results for each software package were exported
  \cmidrule(lr){2-5}
  & \textbf{Model Specification} & -regress\_stim\_times -regress\_stim\_labels -regress\_basis\_multi -regress\_stim\_types & Stats: Full model setup: EVs & fMRI model specification \\
   \cmidrule(lr){2-5}
-
 \end{tabular}
+\label{tab:software_processing}
 \end{table}
 
 \begin{table}[htbp]
+\hspace*{-1.5cm}
+\begin{threeparttable}
 \caption*{\textbf{Table 3.1 (continued)}}
 \centering
 \footnotesize
-\hspace*{-1.5cm}
 \begin{tabular}{@{}p{0.14\textwidth}*{4}{L{\dimexpr0.26\textwidth-2\tabcolsep\relax}}@{}}
 \toprule
 & \textbf{Processing Step} & \ \textbf{AFNI} & \ \textbf{FSL} & \ \textbf{SPM} \\
@@ -77,9 +78,9 @@ Once analyses were complete, the results for each software package were exported
  \cmidrule(lr){2-5}
  & \textbf{Contrasts} & -regress\_3dD\_stop -regress\_reml\_exec -regress\_opts\_3dD -gltsym & Stats: Full model setup: Contrasts & Contrast Manager \\
  \midrule
- \textbf{Second-level} & \textbf{Script} & 3dMEMA \linebreak 3dMVM & Feat Higher-level analysis & Specify 2nd-level\\
+ \textbf{Second-level} & \textbf{Script} & 3dMEMA \linebreak 3dMVM\textsuperscript{1} & Feat Higher-level analysis & Specify 2nd-level\\
  \cmidrule(lr){2-5}
- & \textbf{Model Specification} & 3dMEMA \linebreak -set \linebreak -missing\_data 0 & Stats: Full model setup: EVs & Factorial design Specification: One-sample T-test \linebreak Full factorial \\
+ & \textbf{Model Specification} & 3dMEMA \linebreak -set \linebreak -missing\_data 0 \linebreak 3dMVM\textsuperscript{1} \linebreak -dataTable & Stats: Full model setup: EVs & Factorial design Specification: One-sample T-test \linebreak Full factorial \\
   \cmidrule(lr){2-5}
 & \textbf{Model Estimation} & \textit{Nothing to specify} & \textit{Nothing to specify} & Model estimation \\
 \cmidrule(lr){2-5}
@@ -87,11 +88,18 @@ Once analyses were complete, the results for each software package were exported
 \cmidrule(lr){2-5}
 & \textbf{Second-level Inference} & 3dMask\_Tool (\textit{Obtain group-mask}) \linebreak 3dClustSim \linebreak 3dClust \linebreak 3dCalc (\textit{Binarizing cluster masks and masking $t$-stat}) \linebreak 3dTcat (\textit{Obtaining one image in a 4D volume}) & Post-stats & Results Report \\
 \midrule
-\textbf{Results sharing} & \textbf{NIDM-Results export} & \textit{Not available} & nidmfsl & Results Report \\
+\textbf{Results \linebreak sharing} & \textbf{NIDM-Results export} & \textit{Not available} & nidmfsl & Results Report \\
 \cmidrule(lr){2-5}
 & \textbf{NeuroVault upload} & \textit{Upload all statistic images} & \textit{Upload of `group.gfeat.nidm.zip'} & \textit{Upload of `spm\_****.nidm.zip'}\\
 \bottomrule
 \end{tabular}
+    \begin{tablenotes}
+      \small
+      \item \textsuperscript{1} ds000120 only.
+      \item \textsuperscript{2} The @SSWarper program was ran on each subject prior to afni\_proc.py for brain extraction of the anatomical image, and to apply the nonlinear warp of the anatomy to MNI space.
+      \item \textsuperscript{3} Image calculator was used to create bain mask from gray matter, white matter and CSF images; see text. 
+    \end{tablenotes}
+    \end{threeparttable}
 \end{table}
 
 \subsubsection{Common Processing Steps}
@@ -131,7 +139,7 @@ At the group level, we performed a mixed-effects analysis using 3dMEMA. The crit
 Implementation in FSL closely followed the original procedure described above, with the exception that nonlinear registration was used to transform the data to standard space. 
 
 \subsubsection{SPM Implementation}
-Implementation in SPM closely followed the pipeline outlined in \textbf{TABLE 1}.
+Implementation in SPM closely followed the pipeline outlined in \ref{tab:software_processing}.
 
 \subsubsection{ds000109 Analyses}
 The original preprocessing and statistical analysis for the ds000109 study was carried out using SPM8. Data were shared on 36 of the 40 subjects, 21 of which were young adult subjects that had fMRI data compatible for our reanalysis. First, functional data were realigned and unwarped to correct for head motion and geometric distortions. After transforming the data into a standardized space, the normalized data were smoothed with an 8mm FWHM Gaussian kernel. Further to this, custom software was applied to exclude functional volumes where head motion had exceeded a certain limit, however this process was omitted from our pipelines since this feature was not available in any of the software packages. The preprocessed data were entered into a GLM for first level analysis where trials were modeled using a block design and convolved using SPM's canonical HRF. Each participant's contrast images were then entered into a one-sample group analysis using clusterwise inference, cluster-forming threshold of $p < 0.005$, 5\% level FWE using random field theory; in their analysis, this amounted to a critical cluster size threshold of 56 voxels. 
@@ -264,9 +272,82 @@ The ds000109 study reported activations in the bilateral temporoparietal junctio
 
 The original ds000120 study found extensive activations for the main effect of time -- the frontal, supplementary, posterior parietal cortex, basal ganglia, prefrontal cortex, ventral striatum and orbitofrontal cortex all showed significant activation. Our reanalyses (Fig. \ref{fig:SC_thresholded_maps_1}, right) are consistent with these findings, with the exception that neither AFNI or SPM exhibited orbitofrontal (OFC) activation (though, the SPM  analysis mask had poor OFC coverage). AFNI's $F$-statistic values look to be generally larger than SPM here (Fig. \ref{fig:SC_thresholded_maps_2}, bottom, z = 0 and z = 12 slices). The unthresholded statistic maps from our reanalyses (Figs. \ref{fig:SC_unthresholded_maps}, S7, S9 and S11) also show that while extreme values display moderate agreement, there are considerable differences across the brain in each given study.
 
-NeuroSynth association analyses conducted on the unthresholded $t$-statistic maps (\textbf{Table 3}) show that the most strongly related term to the activation patterns displayed across all three sets of results was the same: `anterior insula' for each software's ds000001 map, `medial prefrontal' for ds000109, and `visual' for ds000120. Phrases related to the task paradigm used in each study (`goal' for ds000001, `theory mind' for ds000109, `visual' for ds000120) were found across all software's activation patterns, alongside a range of common anatomical terms. 
+NeuroSynth association analyses conducted on the unthresholded $t$-statistic maps (Table \ref{tab:neurosynth}) show that the most strongly related term to the activation patterns displayed across all three sets of results was the same: `anterior insula' for each software's ds000001 map, `medial prefrontal' for ds000109, and `visual' for ds000120. Phrases related to the task paradigm used in each study (`goal' for ds000001, `theory mind' for ds000109, `visual' for ds000120) were found across all software's activation patterns, alongside a range of common anatomical terms. 
 
-Figure \ref{fig:BA_parametric} compares statistic values across packages using Bland-Altman plots (rendered as 2D histograms) for ds000001 and ds000109. The distribution of the pairwise differences in $t$-statistics (y-axes) is generally centered about zero, indicating no particular bias, however there is substantial variation here, with $t$-statistic differences exceeding 4.0 in magnitude. Pairwise correlations ranged from 0.429 to 0.747 for inter-software comparisons (\textbf{Table 2}). The Bland-Altman plots comparing percentage BOLD change maps (Fig. S13) are more conclusive, showing a clear trend for SPM to report larger effect estimates than the other two packages. Figure \ref{fig:BA_parametric_120} presents the Bland-Altman plot comparing unthresholded $F$-statistic images for ds000120, which has a very different appearance due to $F$-statistics being non-negative. The corresponding Bland-Altman plot comparing partial $R^{2}$ values (Fig. S14) for this study is similar in shape. Broadly speaking, while there are no gross differences in sensitivity, there is a slight tendency for AFNI's extreme statistics to exceed FSL's and SPM's, and SPM's to exceed FSL's, most evident in ds000109. 
+\begin{table}[htbp]
+\caption{\textbf{Neurosynth Analyses.} The Neurosynth analysis terms most strongly associated (via Pearson correlation) to each software's group-level statistic map across the three studies. Non-anatomical terms are shown in bold.}
+\centering
+\footnotesize
+\hspace*{-1.5cm}
+\begin{tabular}{@{}p{0.10\textwidth}*{3}{L{\dimexpr0.23\textwidth-2\tabcolsep\relax}L{\dimexpr0.13\textwidth-2\tabcolsep\relax}}@{}}
+\toprule
+& \multicolumn{2}{c}{\textbf{AFNI}} &
+\multicolumn{2}{c}{\textbf{FSL}} &  \multicolumn{2}{c}{\textbf{SPM}} \\
+\cmidrule(r{4pt}){2-3} \cmidrule(l){4-5} \cmidrule(l){6-7}
+& \textbf{Neurosynth \linebreak Analysis} & \textbf{Pearson Corr.} & \textbf{Neurosynth \linebreak Analysis} & \textbf{Pearson Corr.} & \textbf{Neurosynth \linebreak Analysis} & \textbf{Pearson Corr.} \\
+\midrule
+\textbf{ds000001} & Anterior insula & 0.359 & Anterior insula & 0.240 & Anterior insula & 0.322 \\ 
+& Insula & 0.276 & \textbf{Task} & 0.233 & Anterior & 0.245 \\
+& Anterior & 0.243 & \textbf{Tasks} & 0.203 & Insula & 0.240 \\
+& Insula anterior & 0.233 & Parietal & 0.190 & \textbf{Goal} & 0.229 \\
+& Thalamus & 0.221 & \textbf{Goal} & 0.188 & \textbf{Task} & 0.225 \\
+& \textbf{Goal} & 0.211 & \textbf{Working memory} & 0.184 & Insula anterior & 0.214 \\
+& \textbf{Pain} & 0.198 & \textbf{Working} & 0.181 & Thalamus & 0.201 \\
+& Supplementary & 0.197 & Basal ganglia & 0.173 & Acc & 0.199 \\
+& Premotor & 0.196 & Ganglia & 0.172 & Anterior cingulate & 0.196 \\
+& Anterior cingulate & 0.192 & Basal & 0.169 & Ganglia & 0.188 \\
+\textbf{ds000109} & Medial prefrontal & 0.422 & Medial prefrontal & 0.355 & Medial prefrontal & 0.361 \\
+& Medial & 0.381 & Medial & 0.309 & \textbf{Theory mind} & 0.331 \\
+& \textbf{Default} & 0.366 & \textbf{Default} & 0.301 & \textbf{Default} & 0.329 \\
+& \textbf{Theory mind} & 0.348 & Posterior cingulate & 0.299 & Precuneus & 0.314 \\
+& \textbf{Default mode} & 0.341 & \textbf{Default mode} & 0.290 & \textbf{Default mode} & 0.310 \\
+& Precuneus & 0.334 & \textbf{Social} & 0.282 & Medial & 0.301 \\
+& Posterior cingulate & 0.327 & Cingulate & 0.275 & \textbf{Mind} & 0.296 \\
+& \textbf{Social} & 0.322 & \textbf{Theory mind} & 0.270 & Prefrontal & 0.294 \\
+& \textbf{Mind} & 0.311 & \textbf{Resting} & 0.261 & \textbf{Mind tom} & 0.289 \\
+& \textbf{Mind tom} & 0.287 & Precuneus & 0.259 & Posterior cingulate & 0.287 \\
+\textbf{ds000120} & \textbf{Visual} & 0.377 & & & \textbf{Visual} & 0.481 \\
+& v1 & 0.317 & & & Occipital & 0.367 \\
+& Occipital & 0.293 & & & v1 & 0.340 \\
+& \textbf{Eye} & 0.261 & & & Visual cortex & 0.267 \\
+& \textbf{Eye movements} & 0.252 & & & \textbf{Spatial} & 0.248 \\
+& Visual cortex & 0.243 & & & Spl & 0.245 \\
+& Early visual & 0.241 & & & \textbf{Eye} & 0.242 \\
+& \textbf{Spatial} & 0.232 & & & Early visual & 0.238 \\
+& \textbf{Task} & 0.229 & & & Lingual & 0.238 \\
+& Parietal & 0.222 & & & Intraparietal & 0.237 \\
+\bottomrule
+\end{tabular}
+\label{tab:neurosynth}
+\end{table}
+
+\begin{table}[htbp]
+\caption{Summary of test statistics mean differences and correlations for each pair of test statistic images. Mean differences correspond to the y-axes of the Bland-Altman plots displayed in Figures \ref{fig:BA_parametric}, \ref{fig:BA_parametric}, \ref{fig:BA_permutation} and \ref{fig:BA_intrasoftware}. Each mean difference is the first item minus second; for example, AFNI versus FSL mean difference is AFNI-FSL. Correlation is the Pearson's r between the test statistic values for the pair compared. Intersoftware differences are greater than intrasoftware.}
+\centering
+\footnotesize
+\hspace*{-1.5cm}
+\begin{tabular}{@{}p{0.135\textwidth}p{0.165\textwidth}*{6}{L{\dimexpr0.14\textwidth-2\tabcolsep\relax}}@{}}
+\toprule
+& & \multicolumn{2}{c}{\textbf{ds000001}} &
+\multicolumn{2}{c}{\textbf{ds000109}} &  \multicolumn{2}{c}{\textbf{ds000120}} \\
+\cmidrule(r{4pt}){3-4} \cmidrule(l){5-6} \cmidrule(l){7-8}
+\textbf{Software} & \textbf{Inference Type} & \textbf{Mean \linebreak Difference} & \textbf{Pearson \linebreak Corr.} & \textbf{Mean \linebreak Difference} & \textbf{Pearson \linebreak Corr.} & \textbf{Mean \linebreak Difference} & \textbf{Pearson \linebreak Corr.} \\
+\midrule
+AFNI vs. FSL & Parametric & 0.009 & 0.616 & 0.035 & 0.585 & & \\
+& Nonparametric & 0.271 & 0.577 & 0.006 & 0.573 & & \\
+AFNI vs. SPM & Parametric & 0.061 & 0.614 & -0.490 & 0.747 & 0.415 & 0.748 \\
+& Nonparametric & -0.096 & 0.628 & -0.445 & 0.787 & \textit{n\textbackslash a} & \textit{n\textbackslash a} \\
+FSL vs. SPM & Parametric & -0.047 & 0.684 & -0.529 & 0.429 & & \\
+& Nonparametric & -0.479 & 0.720 & -0.439 & 0.438 & & \\
+AFNI & Para. vs Nonp. & 0.155 & 0.984 & -0.048 & 0.981 & & \\
+FSL & Para. vs Nonp. & 0.382 & 0.844 & -0.064 & 0.946 & & \\
+SPM & Para. vs Nonp. & 0.000 & 1.000 & 0.000 & 1.000 & & \\
+\bottomrule
+\end{tabular}
+\label{tab:mean_diff_correlation}
+\end{table}
+
+Figure \ref{fig:BA_parametric} compares statistic values across packages using Bland-Altman plots (rendered as 2D histograms) for ds000001 and ds000109. The distribution of the pairwise differences in $t$-statistics (y-axes) is generally centered about zero, indicating no particular bias, however there is substantial variation here, with $t$-statistic differences exceeding 4.0 in magnitude. Pairwise correlations ranged from 0.429 to 0.747 for inter-software comparisons (\ref{tab:mean_diff_correlation}). The Bland-Altman plots comparing percentage BOLD change maps (Fig. S13) are more conclusive, showing a clear trend for SPM to report larger effect estimates than the other two packages. Figure \ref{fig:BA_parametric_120} presents the Bland-Altman plot comparing unthresholded $F$-statistic images for ds000120, which has a very different appearance due to $F$-statistics being non-negative. The corresponding Bland-Altman plot comparing partial $R^{2}$ values (Fig. S14) for this study is similar in shape. Broadly speaking, while there are no gross differences in sensitivity, there is a slight tendency for AFNI's extreme statistics to exceed FSL's and SPM's, and SPM's to exceed FSL's, most evident in ds000109. 
 
 \begin{sidewaysfigure}[htbp]
 \centering

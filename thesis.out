@@ -51,33 +51,35 @@
 \BOOKMARK [1][-]{section.4.2}{Theory}{chapter.4}% 51
 \BOOKMARK [2][-]{subsection.4.2.1}{Overview}{section.4.2}% 52
 \BOOKMARK [2][-]{subsection.4.2.2}{The Wild Bootstrap Method for Computation of k}{section.4.2}% 53
-\BOOKMARK [1][-]{section.4.3}{Method}{chapter.4}% 54
-\BOOKMARK [2][-]{subsection.4.3.1}{Simulations}{section.4.3}% 55
-\BOOKMARK [2][-]{subsection.4.3.2}{Implementation of Contour Inference}{section.4.3}% 56
-\BOOKMARK [2][-]{subsection.4.3.3}{2D Simulations}{section.4.3}% 57
-\BOOKMARK [2][-]{subsection.4.3.4}{3D Simulations}{section.4.3}% 58
-\BOOKMARK [2][-]{subsection.4.3.5}{Application to Human Connectome Project Data}{section.4.3}% 59
-\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.1}{2D Simulations}{section.4.4}% 61
-\BOOKMARK [2][-]{subsection.4.4.2}{3D Simulations}{section.4.4}% 62
-\BOOKMARK [2][-]{subsection.4.4.3}{Human Connectome Project}{section.4.4}% 63
-\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 64
-\BOOKMARK [2][-]{subsection.4.5.1}{Limitations}{section.4.5}% 65
-\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 66
-\BOOKMARK [1][-]{section.4.7}{Toolbox}{chapter.4}% 67
-\BOOKMARK [0][-]{chapter.5}{Contour Inference for Cohen's d}{}% 68
-\BOOKMARK [1][-]{section.5.1}{Theory}{chapter.5}% 69
-\BOOKMARK [2][-]{subsection.5.1.1}{Transforming the Residual Field}{section.5.1}% 70
-\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 71
-\BOOKMARK [2][-]{subsection.5.2.1}{2D Simulations}{section.5.2}% 72
-\BOOKMARK [2][-]{subsection.5.2.2}{3D Simulations}{section.5.2}% 73
-\BOOKMARK [2][-]{subsection.5.2.3}{Application to UK Biobank Data}{section.5.2}% 74
-\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 75
-\BOOKMARK [2][-]{subsection.5.3.1}{2D Simulations}{section.5.3}% 76
-\BOOKMARK [2][-]{subsection.5.3.2}{3D Simulations}{section.5.3}% 77
-\BOOKMARK [2][-]{subsection.5.3.3}{UK Biobank Data}{section.5.3}% 78
-\BOOKMARK [2][-]{subsection.5.3.4}{Comparison to Traditional Inference Procedures}{section.5.3}% 79
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 80
-\BOOKMARK [2][-]{subsection.5.4.1}{Limitations}{section.5.4}% 81
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 82
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 83
+\BOOKMARK [2][-]{subsection.4.2.3}{Approximating the Boundary on a Discrete Lattice}{section.4.2}% 54
+\BOOKMARK [2][-]{subsection.4.2.4}{Assessment of Continuous Coverage on a Discrete Lattice}{section.4.2}% 55
+\BOOKMARK [1][-]{section.4.3}{Method}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.3.1}{Simulations}{section.4.3}% 57
+\BOOKMARK [2][-]{subsection.4.3.2}{Implementation of Contour Inference}{section.4.3}% 58
+\BOOKMARK [2][-]{subsection.4.3.3}{2D Simulations}{section.4.3}% 59
+\BOOKMARK [2][-]{subsection.4.3.4}{3D Simulations}{section.4.3}% 60
+\BOOKMARK [2][-]{subsection.4.3.5}{Application to Human Connectome Project Data}{section.4.3}% 61
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.4.1}{2D Simulations}{section.4.4}% 63
+\BOOKMARK [2][-]{subsection.4.4.2}{3D Simulations}{section.4.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.3}{Human Connectome Project}{section.4.4}% 65
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 66
+\BOOKMARK [2][-]{subsection.4.5.1}{Limitations}{section.4.5}% 67
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 68
+\BOOKMARK [1][-]{section.4.7}{Toolbox}{chapter.4}% 69
+\BOOKMARK [0][-]{chapter.5}{Contour Inference for Cohen's d}{}% 70
+\BOOKMARK [1][-]{section.5.1}{Theory}{chapter.5}% 71
+\BOOKMARK [2][-]{subsection.5.1.1}{Transforming the Residual Field}{section.5.1}% 72
+\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.2.1}{2D Simulations}{section.5.2}% 74
+\BOOKMARK [2][-]{subsection.5.2.2}{3D Simulations}{section.5.2}% 75
+\BOOKMARK [2][-]{subsection.5.2.3}{Application to UK Biobank Data}{section.5.2}% 76
+\BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.3.1}{2D Simulations}{section.5.3}% 78
+\BOOKMARK [2][-]{subsection.5.3.2}{3D Simulations}{section.5.3}% 79
+\BOOKMARK [2][-]{subsection.5.3.3}{UK Biobank Data}{section.5.3}% 80
+\BOOKMARK [2][-]{subsection.5.3.4}{Comparison to Traditional Inference Procedures}{section.5.3}% 81
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 82
+\BOOKMARK [2][-]{subsection.5.4.1}{Limitations}{section.5.4}% 83
+\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 84
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 85
