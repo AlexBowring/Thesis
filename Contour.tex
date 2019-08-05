@@ -109,7 +109,7 @@ In the simulation results in Section \ref{sec:Results}, we assess performance of
 \subsection{Assessment of Continuous Coverage on a Discrete Lattice}
 \label{sec:coverage_assessment}
 
-\begin{figure}[h!!]\label{fig:highres_lowres}%
+\begin{figure}[htbp]\label{fig:highres_lowres}%
 \centering
 \subfigure[Low Resolution Simulation]{\label{fig:lowres}\includegraphics[height=2in]{CIB_low_res_example.pdf}}
 \subfigure[High Resolution Simulation]{\label{fig:highres}\includegraphics[height=2in]{CIB_high_res_example.pdf}}
@@ -134,30 +134,241 @@ Since, in simulation, we know the true continuous mean image and $\Ac$, followin
 By applying this interpolation scheme to all pairs of lattice points with one point inside, one outside, the lattice representation of the boundary, we have devised a method to more accurately assess violations of the subset condition $\Ahatcp \subset \Ac \ \subset \Ahatcm$ for configurations similar to \ref{fig:lowres}. We applied this method for testing the subset condition in our simulations alongside a direct comparison of the lattice representations of the three sets of interest as was done in \textit{SSS}. The addition of the weighted interpolation method caused a considerable decrease in the empirical coverage results towards the nominal level in all of our 3D simulations. Using the direct comparison of the three sets on its own here essentially determined total empirical coverage ($\Ahatcp \subset \Ac \ \subset \Ahatcm$ for all simulation runs), even when using small sample sizes and a low nominal coverage level. This is likely to be because the discrete lattice of observed data points is relatively less dense inside the true continuous process for larger, 3D settings, and therefore more violations of the subset condition are missed if only a direct comparison of the lattice representation of the CSs is carried out.
 
 \section{Method}
- 
 \subsection{Simulations}
+\label{sec:simulations}
+In this section we describe the settings used in order to evaluate the CSs obtained for synthetic data. As a simplified instance of the general linear model setup described in Section \ref{sec:Overview}, we simulate 3000 independent samples of the signal-plus-noise model
 
-\subsection{Implementation of Contour Inference}
+$$Y_{i}(\bm{s}) = \mu(\bm{s}) + \epsilon_{i}(\bm{s}), \qquad i = 1, ..., N$$
+using a range of signals $\mu(\bm{s})$, Gaussian noise structures $\epsilon_{i}(\bm{s})$ with stationary and non-stationary variance, in two- and three-dimensional regions $S$. We compute the critical value $k$, applying the Wild $t$-Bootstrap method outlined in Section \ref{sec:wild_bootstrap} with $B = 5000$ bootstrap samples to both the true boundary $\dAc$ and the plug-in boundary $\dAhatc$ that would be used in practice. The boundaries were obtained using the interpolation method outlined in Section \ref{sec:boundary_discrete_lattice}. We then compare the empirical coverage -- the percentage of trials that the true thresholded signal is completely contained between the upper and lowers CSs (i.e. the number of times for which $\Ahatcp \subset \Ac \subset \Ahatcm$) -- across the two sets of results, using the assessment method outlined in Section \ref{sec:coverage_assessment}. In each simulation, we apply the method for sample sizes of N $= 60, 120, 240$ and $480$, and using three nominal coverage probability levels $1 - \alpha = 0.80, 0.90$ and $0.95$.
 
 \subsection{2D Simulations}
+\label{sec:2D_simulations}
+We analysed the performance of the CSs on a square region of size $100 \times 100$. For the true underlying signal $\mu(\bm{s})$ we considered two different raw effects: First, a linear ramp that increased from a magnitude of 1 to 3 in the x-direction while remaining constant in the y-direction (Fig. \ref{fig:linear_ramp}). Second, a circular effect, created by placing a circular phantom of magnitude 3 and radius 30 in the centre of the search region, which was then smoothed using a 3 voxel FWHM Gaussian kernel (Fig. \ref{fig:circle}). If we were to assume that each voxel had a size of $2$mm$^{3}$, we note that this would amount to applying smoothing with a $6$mm FWHM kernel, a fairly typical setting used in fMRI analyses.
+
+To each of these signals we added subject-specific Gaussian noise $\epsilon_{i}$, also smoothed using a 3 voxel FWHM Gaussian kernel, with homogeneous and non-homogeneous variance structures: The first noise field had a spatially constant standard deviation of 1 (Fig. \ref{fig:stationary_variance}), the second field had a linearly increasing standard deviation structure in the y-direction from $\sqrt{0.5}$ to $\sqrt{1.5}$ while remaining constant in the x-direction (Fig. \ref{fig:non_stationary_variance}). Thus, the variance of this noise field spatially increased in the y-direction from $0.5$ to $1.5$ in a non-linear fashion. 
+
+Altogether, the two underlying signals and two noise sources gave us four separate trials; across all of the simulations, we obtained Confidence Sets for the noise-free cluster $\Ac$ at a cluster-forming threshold of $c = 2$. 
+
+\begin{figure}[htbp]\label{fig:2D_signals}%
+\centering
+\subfigure[\textbf{Signal 1.}]{\label{fig:linear_ramp}\includegraphics[height=2.3in]{CIB_Linear_Ramp_Signal.pdf}}
+\subfigure[\textbf{Signal 2.}]{\label{fig:circle}\includegraphics[height=2.3in]{CIB_Circle_Signal.pdf}}
+\caption{Linear ramp and circular signals $\mu(\bm{s})$. \\ \textbf{Figure \ref{fig:linear_ramp}:} \textbf{Signal 1.} A linear ramp signal that increases from magnitude of 1 to 3 in the x-direction. \\ \textbf{Figure \ref{fig:circle}:} \textbf{Signal 2.} A circular signal with magnitude of 3 and radius of 30, centred within the region and convolved with a 3 voxel FWHM Gaussian kernel.}
+\end{figure}
+
+\begin{figure}[htbp]
+\label{fig:2D_variances}
+\centering
+\subfigure[\textbf{Signal 1.}]{\label{fig:stationary_variance}\includegraphics[height=2.3in]{CIB_Stationary_Variance.pdf}}
+\subfigure[\textbf{Signal 2.}]{\label{fig:non_stationary_variance}\includegraphics[height=2.3in]{CIB_Non_stationary_Variance.pdf}}
+\caption{Stationary and non-stationary standard deviation fields of the noise $\epsilon_{i}(\bm{s})$. \\ \textbf{Figure \ref{fig:stationary_variance}:} \textbf{Standard Deviation 1.} Stationary variance of 1 across the region. \\ \textbf{Figure \ref{fig:non_stationary_variance}:} \textbf{Standard Deviation 2.} Non-stationary (linear ramp) standard deviation field increasing from $\sqrt{0.5}$ to $\sqrt{1.5}$ in the y-direction.}
+\end{figure}
 
 \subsection{3D Simulations}
+\label{sec:3D_simulations}
+
+Four signal types $\mu(\bm{s})$ were considered to analyze performance of the method in three dimensions. The first three of these signals were generated synthetically on a cubic region of size $100 \times 100 \times 100$: Firstly, a small spherical effect, created by placing a spherical phantom of magnitude 3 and radius 5 in the centre of the search region, which was then smoothed using a 3 voxel FWHM Gaussian kernel (\ref{tbl:3D_figures}(a)). Secondly, a larger spherical effect, generated identically to the first effect with the exception that the spherical phantom had a radius of 30 (\ref{tbl:3D_figures}(b)). Lastly, we created an effect by placing four spherical phantoms of magnitude 3 in the region of varying radii and then smoothing the entire image using a 3 voxel FWHM Gaussian (\ref{tbl:3D_figures}(c)). For each of these signals, the final image was re-scaled to have a maximum intensity of 3.
+
+Similar to the two-dimensional simulations, for the three signals described above we added 3-voxel smoothed Gaussian noise of homogeneous and heterogeneous variance structures. The first noise field had a spatially constant standard deviation of 1, while the second field had a linearly increasing standard deviation in the z-direction from $\sqrt{0.5}$ to $\sqrt{1.5}$, while remaining constant in both the x- and y- directions. For all three effects, we obtained Confidence Sets for the threshold $c = 2$. 
+
+For the final signal type, we took advantage of big data that has been made available through the UK Biobank in an attempt to generate an effect that replicated the true \%BOLD change induced during an fMRI task. We randomly selected 4000 subject-level contrast of parameter estimate result maps from the Hariri Faces/Shapes task-fMRI data collected as part of the UK Biobank brain imaging study. Full details on how the data were acquired and processed is given in \textit{\citet{Miller2016-hd}}, \textit{\citet{Alfaro-Almagro2018-ip}} and the UK Biobank Showcase; information on the task paradigm is given in \textit{\citet{Hariri2002-ns}}. From these contrast maps, we computed a group-level full mean (\ref{tbl:3D_figures}(d)) and full standard deviation image. In the final simulation, we used the group-level Biobank mean image as the true underlying signal $\mu(\bm{s})$ for each subject, and the full standard deviation image was used for the standard deviation of each simulated subject-specific Gaussian noise field $\epsilon_{i}(\bm{s})$ added to the true signal. Because of the considerably large sample size of high-quality data from which these maps have been obtained, we anticipate that both of these images are highly representative of the true underlying fields that they approximate. Both images were masked using an intersection of all 4000 of the subject-level brain masks. 
+
+Once again, we smoothed the noise field using a 3 voxel FWHM Gaussian kernel; since the Biobank maps were written with voxel sizes of 2mm$^{3}$, this is analogous to applying 6mm FWHM smoothing to the noise field of the original data. We obtained Confidence Sets for a threshold of $c = 0.25\%$ BOLD change. 
+
+\begin{table}[htbp]
+\hspace*{-0.5cm}
+\begin{adjustbox}{center}
+\centering
+    \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+       \toprule
+         & \hspace{15.5mm} Z = 50 & \hspace{15.5mm} Z = 60 & \hspace{15.5mm} Z = 70 \\
+        \midrule
+        (a) \textbf{Signal 1.} & \includegraphics[height=40mm]{CIB_Small_Sphere_z50.pdf} & \includegraphics[height=40mm]{CIB_Small_Sphere_z60.pdf} & \includegraphics[height=40mm]{CIB_Small_Sphere_z70.pdf} \\
+        (b) \textbf{Signal 2.} & \includegraphics[height=40mm]{CIB_Large_Sphere_z50.pdf} & \includegraphics[height=40mm]{CIB_Large_Sphere_z60.pdf} & \includegraphics[height=40mm]{CIB_Large_Sphere_z70.pdf} \\
+        (c) \textbf{Signal 3.} & \includegraphics[height=40mm]{CIB_Snake_z50.pdf} & \includegraphics[height=40mm]{CIB_Snake_z60.pdf} & \includegraphics[height=40mm]{CIB_Snake_z70.pdf} \\
+        (d) \textbf{Signal 4.} & \includegraphics[height=47.5mm]{CIB_Biobank_z50.pdf} & \includegraphics[height=47.5mm]{CIB_Biobank_z60.pdf} & \includegraphics[height=47.5mm]{CIB_Biobank_z70.pdf} \\
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+    \caption{The four 3D signal types $\mu(\bm{s})$, from top-to-bottom: small sphere, large sphere, multiple spheres, and the UK Biobank full mean image. Note that the colormap limits for the first three signal types are from 0 to 3, while the colormap limits for the UK Biobank mean image is from -0.4 to 0.5.}
+    \label{tbl:3D_figures}
+\end{table}
 
 \subsection{Application to Human Connectome Project Data}
+\label{sec:HCP_methods}
+
+For a real-data demonstration of the method proposed here, we computed CSs on 80 participants data from the Unrelated 80 package released as part of the Human Connectome Project (HCP, S1200 Release). We applied the method to subject-level contrast maps obtained for the 2-back vs 0-back contrast from the working memory task results included with the dataset. To compare the CSs with results obtained from standard fMRI inference procedures, we also performed a traditional statistical group-level analysis on the data. A one-sample $t$-test was carried out in SPM, using a voxelwise FWE-corrected threshold of $p < 0.05$ obtained via permutation test with SPM's SnPM toolbox. We chose to use the HCP for its high-quality task-fMRI data, the working memory task specifically picked for its association with cognitive activations in subcortical networks that can not be distinguished by the anatomy. Full details of the task paradigm, scanning protocol and analysis pipeline are given in \citet{Barch2013-kk} and \citet{Glasser2013-qc}, here we provide a brief overview. 
+
+For the working memory task participants were presented with pictures of places, tools, faces and body parts in a block design. The task consisted of two runs, where on each run a separate block was designated for each of the image categories, making four blocks in total. Within each run, for half of the blocks participants undertook a 2-back memory task, while for the other half a 0-back memory task was used. Eight EVs were included in the GLM for each combination of picture category and memory task (e.g. 2-back Place); we compute CSs on the subject-level contrast images for the 2-back vs 0-back contrast results that contrasted the four 2-back related EVs to the four 0-back EVs.
+
+Imaging was conducted on a 3T Siemans Skyra scanner using a gradient-echo EPI sequence; TR = 720ms, TE = 33.1 ms, $208\times180$ mm FOV, 2.0 mm slice thickness, 72 slices, 2.0 mm isotropic voxels, and a multi-band acceleration factor of 8. Preprocessing of the subject-level data was carried out using tools from FSL and Freesurfer following the `fMRIVolume' HCP Pipeline fully described in \citet{Glasser2013-qc}. To summarize, the fundamental steps carried out to each individual's functional 4D time-series data were gradient unwarping, motion correction, EPI distortion correction, registration of the functional data to the anatomy, non-linear registration to MNI space (using FSL's Non-linear Image Registration Tool, FNIRT), and global intensity normalization. Spatial smoothing was applied using a Gaussian kernel with a 4mm FWHM. 
+
+Modelling of the subject-level data was conducted with FSL's FMRIB's Improved Linear Model (FILM). The eight working task EVs were included in the GLM, with temporal derivatives terms added as confounds of no interest, and regressors were convolved using FSL's default double-gamma hemodynamic response function. The functional data and GLM were temporally filtered with a high pass frequency cutoff point of 200s, and time series were prewhitened to remove autocorrelations from the data.
+
+In comparison to a typical fMRI study, the 4mm FWHM smoothing kernel size used in the HCP preprocessing pipeline is modest. Because of this, we applied additional smoothing to the final contrast images to emulate maps smoothed using a 6mm FWHM Gaussian kernel.
 
 \section{Results}
 \label{sec:Results}
+\subsection{Methodological Comparisons}
+\label{sec:method_comparisons}
+In this work we have proposed two fundamental methodological changes to the procedures carried out in \textit{SSS}: in Section \ref{sec:wild_bootstrap} we suggested the Wild $t$-Bootstrap instead of the Gaussian Wild Bootstrap used for \textit{SSS}, and in Section \ref{sec:coverage_assessment} we introduced the interpolation method for assessing empirical coverage alongside the direct comparison methods used for \textit{SSS}. Here, we show the impact of these methodological innovations on the empirical coverage results from simulations carried out using two different synthetic signals, the 2D circular signal (\textbf{Signal 2.} in \ref{fig:circle}) and the 3D large spherical signal (\textbf{Signal 2.} in \ref{tbl:3D_figures}(b)). The standard deviation of the subject-specific Gaussian noise fields $\epsilon_i(\bm{s})$ had a stationary variance of 1 across the region in both simulations (for the 2D case, this corresponds to \textbf{Standard Deviation 1.} in \ref{fig:stationary_variance}).
+
+Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$ are presented for the 2D circular signal in Fig. \ref{fig:2D_method_comparisons} and for the 3D large spherical signal in \ref{fig:3D_method_comparisons}. In both simulations, for all methods the bootstrap procedure was carried out over the estimated boundary $\dAhatc$ (as must be done with real data). In each figure, the green curves highlight the results for the Gaussian Wild Bootstrap and coverage assessment method that were applied in \textit{SSS}. The red curves highlight the results for the Wild $t$-Bootstrap and interpolation assessment method that we have proposed.  
+
+In Fig. \ref{fig:2D_method_comparisons} and Fig. \ref{fig:3D_method_comparisons}, all simulations using the direct comparison assessment (SSS Simulation Assessment) produced results substantially above the nominal level, converging to almost 100\% for both the Gaussian Wild Bootstrap (green curves) and Wild $t$-Bootstrap (blue curves) methods across all three confidence levels. We suspect this is due to the resolution issue described in Section \ref{sec:coverage_assessment}, suggesting that this assessment method missed violations of the coverage condition $\Ahatcp \subset \Ac \subset \Ahatcm$ causing a considerable positive bias in all of these results. Further evidence of this is suggested by the empirical coverage obtained for simulations using the interpolation assessment method (BTSN Simulation Assessment, pink and red curves), which appear to be converging much closer to the nominal level as is theoretically expected by Result \ref{thm:SSS_result}.
+
+Considering only the results using the interpolation assessment, in both figures empirical coverage for the Wild Bootstrap method (pink curves) came below the nominal level for small sample sizes. For the 2D circle simulation, the empirical coverage result for 60 subjects was 84.7\% for the nominal target of $1 - \alpha = 0.95$ (right plot in Fig. \ref{fig:2D_method_comparisons}). For the 3D spherical simulation this under-coverage was even more severe, where the corresponding empirical coverage result was 54.9\% (right plot in Fig. \ref{fig:3D_method_comparisons}). In comparison, coverage performance for the Wild $t$-Bootstrap method (red curves) was much improved, staying close to the nominal level in both the 2D and 3D simulations across all sample sizes. While for the 3D spherical signal the empirical coverage remained slightly above the nominal target, for the circular signal almost all results lie within the 95\% confidence interval of the nominal coverage level. For these reasons, in the remaining simulation results presented in this section we only consider the Wild $t$-Bootstrap method with our proposed interpolation assessment.  
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_2D_method_comparison_results.pdf}
+\caption{Coverage results for the 2D circular signal simulation with homogeneous Gaussian noise (\textbf{Signal 2.} (\textbf{Standard deviation 1.}) in Fig. \ref{fig:circle} (Fig. \ref{fig:stationary_variance}). Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref{sec:wild_bootstrap} and the interpolation schema for assessing simulations results we propose in Section \ref{sec:coverage_assessment}. All empirical coverage results for simulations using the \textit{SSS} assessment method are close to 100\%, suggesting that this assessment substantially biases the results upwards. Using our proposed assessment method, while both the Wild $t$-Bootstrap and Gaussian Wild bootstrap converge to the nominal level, the Wild $t$-Bootstrap performed better for small sample sizes.}
+\label{fig:2D_method_comparisons}
+\end{figure}
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_3D_method_comparison_results.pdf}
+\caption{Coverage results for the 3D large spherical signal (\textbf{Signal 2.} in Fig. \ref{tbl:3D_figures}(b)) simulation with homogeneous Gaussian noise. Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref{sec:wild_bootstrap}, and the interpolation schema for assessing simulations results we propose in Section \ref{sec:coverage_assessment}. Once again, all simulations using the \textit{SSS} assessment method quickly converge to close to 100\%. Using our proposed assessment method, the Gaussian Wild bootstrap had severe under-coverage for small sample sizes, while the Wild $t$-Bootstrap results hover slightly above the nominal level for all sample sizes.}
+\label{fig:3D_method_comparisons}
+\end{figure}
 
 \subsection{2D Simulations}
+\label{sec:2D_simulation_results}
+Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented for the linear ramp signal (\textbf{Signal 1.} in Fig. \ref{fig:linear_ramp}) in \ref{fig:2D_sig_1_results}, and for the circular signal (\textbf{Signal 2.} in Fig. \ref{fig:circle}) in Fig. \ref{fig:2D_sig_2_results}. Results are also presented in tabular format in \textbf{Table. S1}.
+In both plots, results obtained for simulations applying the bootstrap procedure over the estimated boundary $\dAhatc$ are displayed with a solid line, while results for simulations using the true boundary $\dAc$ are displayed with a dashed line. We emphasize that when computing CSs for real data, only the estimated boundary can be used. 
+
+For the linear ramp, across all confidence levels we observed valid, over-coverage for the estimated boundary method, and under-coverage for the true boundary method. In both cases, the degree of agreement between our empirical results and the nominal coverage level improved for larger confidence levels, and as the sample size increased. For instance, while our estimated boundary empirical results were around $88\%$ when the nominal target level was set at $80\%$  (Fig. \ref{fig:2D_sig_1_results}, left), corresponding empirical coverage results hovered around $97\%$ for a nominal target of $95\%$ (Fig. \ref{fig:2D_sig_1_results}, right). Comparing the differences between the solid and dashed curves, there is also greater harmonization between the estimated and true boundary results for higher confidence levels. The method performed similarly regardless of whether homogeneous or heterogeneous noise was added to the model, evidenced by the minimal differences between the red and the blue curves for each of the two boundary methods seen in the plots. 
+
+For the circular signal the method performed remarkably well, with almost all our empirical coverage results lying within the $95\%$ confidence interval of the nominal coverage rate (red and blue curves sandwiched between black dashed lines for all three plots in \ref{fig:2D_sig_2_results}). Once again, the use of homogeneous or heterogeneous noise in the model had minimal difference on the method's empirical coverage performance, and in this setting, our results were virtually identical whether the estimated boundary or true boundary was used for the bootstrap procedure. This has made the dashed curves hard to distinguish in the plots, as the solid curves lie practically on top of them. 
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_2D_Sig_1_coverage_results.pdf}
+\caption{Coverage results for \textbf{Signal 1.}, the 2D linear ramp signal. While the true boundary coverage results (dashed curves) fall under the nominal level, results for the estimated boundary method (solid curves) that must be applied to real data remain above the nominal level. Performance of the method improved for larger confidence levels, and in particular, the estimated boundary results for a 95\% confidence level seen in the right plot hover slightly above nominal coverage for all sample sizes.}
+\label{fig:2D_sig_1_results}
+\end{figure}
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_2D_Sig_2_coverage_results.pdf}
+\caption{Coverage results for \textbf{Signal 2.}, the 2D circular signal. Coverage performance was close to nominal level in all simulations. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used; in all plots, all of the curves lie practically on top of each other.}
+\label{fig:2D_sig_2_results}
+\end{figure}
 
 \subsection{3D Simulations}
+\label{sec:3D_simulation_results}
+
+Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented in Figs. \ref{fig:3D_sig_1_results}, \ref{fig:3D_sig_2_results}, \ref{fig:3D_sig_3_results} and \ref{fig:3D_sig_4_results} respectively for each of the four signal types (small sphere, large sphere, multiple spheres, Biobank full mean) displayed in Fig. \ref{tbl:3D_figures}. Results are also presented in tabular format in \textbf{Table. S2}. Once again, results obtained for simulations applying the bootstrap procedure over the estimated boundary $\dAhatc$ are displayed with a solid line, and results for simulations using the true boundary $\dAc$ are displayed with a dashed line.
+
+Overall, the results for all four signal types were consistent: In general, empirical coverage always came above the nominal target level, and the extent of over-coverage diminished when a higher confidence level was used. Particularly, for a nominal target of $1 - \alpha = 0.95$, all of our 3D empirical coverage results lie between 95\% and 98\%. The method was robust as to whether the bootstrap procedure was applied over the true or estimated boundary, or as to whether the variance of the noise field was homo- or heterogeneous. The similarity of the empirical coverage results, in spite of differences in these specific settings, is exhibited in all of the plots by the uniformity of the red and blues curves (indicating minimal differences in performance whether the noise had homogeneous or heterogeneous variance), and agreement between the solid and dashed curves (indicating minimal differences in performance whether the true boundary or estimated boundary was used). In the empirical coverage plots for the small and large spherical signals shown in Figs. \ref{fig:3D_sig_1_results} and \ref{fig:3D_sig_2_results}, all of these curves lie virtually on top of each other. 
+
+While performance with the multiple spheres and Biobank signals presented in Figs. \ref{fig:3D_sig_3_results} and \ref{fig:3D_sig_4_results} was slightly better when using the true boundary, the true- and estimated boundary performance converged as the sample size increased.
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_3D_Sig_1_coverage_results.pdf}
+\caption{Coverage results for \textbf{Signal 1.}, the 3D small spherical signal. For all confidence levels, coverage remained above the nominal level in all simulations, and for a 95\% confidence level (right plot), coverage hovered slightly above the nominal level for all sample sizes. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used.}
+\label{fig:3D_sig_1_results}
+\end{figure}
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_3D_Sig_2_coverage_results.pdf}
+\caption{Coverage results for \textbf{Signal 2.}, the large 3D spherical signal. Coverage results here were very similar to the results for the small spherical signal shown in Fig. \ref{fig:3D_sig_1_results}, suggesting that the method is robust to changes in boundary length.}
+\label{fig:3D_sig_2_results}
+\end{figure}
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_3D_Sig_3_coverage_results.pdf}
+\caption{Coverage results for \textbf{Signal 3.}, the multiple spheres signal. Once again, for all confidence levels, coverage remained above the nominal level in all simulations. Here, the true boundary method (dashed curves) performed slightly better than the estimated boundary method (solid curves) in small sample sizes, although the choice of boundary made less of a difference for a higher confidence level. For a 95\% confidence level (right plot), all results hover slightly above nominal coverage for all sample sizes.}
+\label{fig:3D_sig_3_results}
+\end{figure}
+
+\begin{figure}[htbp]
+\hspace*{-1.5cm}
+    \includegraphics[height=3.1in]{CIB_3D_Sig_4_coverage_results.pdf}
+\caption{ Coverage results for \textbf{Signal 4.}, the UK Biobank full mean signal, where the full standard deviation image was used as the standard deviation of the subject-level noise fields. Coverage results here were similar to the results for the multiple spheres signal shown in Fig. \ref{fig:3D_sig_3_results}: In small sample sizes, coverage was slightly improved for the true boundary method (dashed curves) compared to the estimated boundary method (solid curves), however, for a 95\% confidence level (right plots), all results hover slightly above nominal coverage for all sample sizes.}
+\label{fig:3D_sig_4_results}
+\end{figure}
 
 \subsection{Human Connectome Project}
+\label{HCP_results}
+
+Confidence Sets obtained from applying the method to 80 subjects contrast data from the Human Connectome Project working memory task are shown in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}.
+
+In both Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}, the red upper CS localized brain regions within the frontal cortex commonly associated to working memory. This included areas of the middle frontal gyrus (left and right; Fig. \ref{tbl:HCP_results_one}, sagittal and coronal slices), superior frontal gyrus (left and right, Fig. \ref{tbl:HCP_results_two}, coronal slice) anterior insula (left and right; Fig. \ref{tbl:HCP_results_one}, sagittal and axial slices), as well as the anterior cingulate (Fig. \ref{tbl:HCP_results_two}, all slices). In all of the above regions, the method identified clusters of voxels for which we can assert with $95\%$ confidence there was a percentage BOLD change raw effect greater than $2.0\%$ (Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}, bottom plots). 
+
+Further brain areas localized by the upper CS were the frontal pole (left and right; Fig. \ref{tbl:HCP_results_one}, sagittal and axial slices), supramarginal gyrus (left and right; Fig. \ref{tbl:HCP_results_one}, sagittal slice and Fig. \ref{tbl:HCP_results_two}, coronal and axial slices), precuneous (Fig. \ref{tbl:HCP_results_two}, sagittal slice) and cerebellum (Fig. \ref{tbl:HCP_results_one}, sagittal slice). While for these areas we can assert with $95\%$ confidence there was a percentage BOLD change raw effect greater than at least $1.0\%$ (Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}, top plots), on-the-whole the method only localized areas where there was a BOLD change of at least $2.0\%$ in parts of the frontal cortex. This can be observed by the `disappearance' of the red CSs in brain regions located in the ocipital lobe for the $2.0\%$ BOLD change plots when compared with the corresponding $1.0\%$ and $1.5\%$ BOLD change plots in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}. 
+
+As the percentage BOLD change threshold increases between plots, there is a shrinking of both the blue lower CSs and red upper CSs: By using a larger threshold, there are less voxels we can confidently declare have surpassed this higher level of percentage BOLD change, and thus the volume of the red upper CSs decreases (in some cases, vanishing). At the same time, there are more voxels we expect to be able to confidently declare have fallen below the threshold. Since these are precisely the (grey background) voxels that lie outside of the lower blue CSs, the volume of the blue lower CSs also decreases. 
+
+Finally, in \textbf{Fig. S1} and \textbf{Fig. S2} the red upper CSs are compared with the thresholded $t$-statistic map (green-yellow voxels) obtained from applying a traditional one-sample $t$-test group-analysis to the 80 subjects working memory task contrast data, using a voxelwise FWE-corrected threshold of $p < 0.05$. Differences here highlight how statistical significance may not translate to practical significance; while over 28,000 voxels were declared as active in the thresholded $t$-statistic results, only 4,818 voxels were contained in the upper CS indicating a percentage BOLD change of at least $1.0\%$. 
+
+\begin{table}[htbp]
+\hspace*{-0.5cm}
+\begin{adjustbox}{center}
+\centering
+    \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+       \toprule
+         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 61) & \ \hspace{1.2cm} Coronal (Y = 75) & \hspace{1.0cm} Axial (Z = 37)\\
+        \midrule
+        1.0\% BOLD change & \includegraphics[height=45mm]{CIB_HCP_1_1percent.pdf}\\
+        1.5\% BOLD change & \includegraphics[height=45.5mm]{CIB_HCP_1_15percent.pdf}\\
+        2.0\% BOLD change & \includegraphics[height=45mm]{CIB_HCP_1_2percent.pdf}\\
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+    \caption{Slice views of the Confidence Sets for 80 subjects data from the HCP working memory task for $c = 1.0\%, 1.5\%$ and $2.0\%$ BOLD change thresholds. The upper CS $\Ahatcp$ is displayed in red, and the lower CS $\Ahatcm$ displayed in blue. In yellow is the point estimate set $\Ahatc$, the best guess from the data of voxels that surpassed the BOLD change threshold. The red upper CS has localized regions in the frontal gyrus, frontal pole, anterior insula, supramarginal gyrus and cerebellum for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
+    \label{tbl:HCP_results_one}
+\end{table}
+
+\begin{table}[htbp]
+\hspace*{-0.5cm}
+\begin{adjustbox}{center}
+\centering
+    \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+       \toprule
+         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 61) & \ \hspace{1.2cm} Coronal (Y = 75) & \hspace{1.0cm} Axial (Z = 37)\\
+        \midrule
+        1.0\% BOLD change & \includegraphics[height=45mm]{CIB_HCP_2_1percent.pdf}\\
+        1.5\% BOLD change & \includegraphics[height=45.5mm]{CIB_HCP_2_15percent.pdf}\\
+        2.0\% BOLD change & \includegraphics[height=45mm]{CIB_HCP_2_2percent.pdf}\\
+        \bottomrule
+    \end{tabular}
+\end{adjustbox}
+    \caption{Further slice views of the Confidence Sets. Here, we see that the red upper CS has also localized regions in the anterior cingulate, superior front gyrus, supramarginal gyrus, and precuneous for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
+    \label{tbl:HCP_results_two}
+\end{table}
 
 \section{Discussion}
+\subsection{Spatial Inference on \%BOLD Raw Effect Size}
+\label{sec:discussion_inference}
+Thorough interpretation of neuroimaging results requires an appreciation of the practical (as well as statistical) significance of differences through visualization of raw effect magnitude maps with meaningful units \citep{Chen2017-sb}.
+
+In this work, we have presented a method to create confidence sets for raw effect size maps, providing formal confidence statements on regions of the brain where the \%BOLD response magnitude has exceeded a specified activation threshold, alongside regions where the \%BOLD response has \textit{not} surpassed this threshold. Both of these statements are made simultaneously, and across the entire brain. This not only enables researchers to infer brain areas that have responded to a task, but also allows for inference on areas that did not respond to the task. In this sense, the method goes beyond statistical hypothesis testing, where the null-hypothesis of no activation can `fail to be rejected', but never accepted. By operating on percentage BOLD change units, instead of $t$-statistic values, the confidence set maps present a clear and more direct interpretation of the biophysical changes that occur during a neuroimaging study, which can be distorted by the thresholded statistic maps commonly reported at the end of an investigation \citep{Engel2013-nq}. In essence, the CSs synthesize information that is usually provided separately in a raw effect size and $t$-statistic map, determining practically significant effects in terms of effect magnitude, that are also reliable in terms of statistical significance traditionally given by $p$-values in a statistic image. While in this work we have focused on BOLD fMRI, the methods presented here are applicable to any neuroimaging measure that can be fit in a group-level GLM.
+
+The choice of threshold $c$ is ultimately up to the user, and may depend on the aims of the investigation. Researchers may choose a threshold based on prior knowledge of raw effect sizes observed in previous similar studies, and it is likely that localization of larger raw effects will be possible as sample sizes increase. Obtaining the CSs for the Human Connectome Project contrast data in this work was computationally quick, each analysis taking no longer than a couple of minutes. Therefore, one possible strategy is to evaluate a variety of different $c$'s on pilot or historical data before fixing a value to use on a study of interest.
+
+\subsection{Analysis of HCP data and Simulation Results}
+\label{sec:discussion_HCP_simultations}
+In our analysis of the HCP emotional faces task-fMRI dataset, we have primarily focused on activated areas localized by the red upper CS. However, the confidence set maps in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two} also quantify the spatial precision of the point estimate `best guess from the data' activation clusters. While so far we have described the confidence sets in terms of the red and blue upper and lower CSs, we now highlight that the set difference between the upper and lowers CSs acts as a confidence region itself; with 95\% confidence, we can assert that the boundary of the point estimate set (raw effect size $>$ threshold; yellow voxels overlapped by red in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}) is completely contained within this region. The set difference region, visualized by blue and yellow voxels (but not red) in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two}, therefore anticipates how the point estimate clusters may fluctuate if the experiment was to be repeated again. From this perspective, the vast areas of the brain covered by blue in Fig. \ref{tbl:HCP_results_one} and Fig. \ref{tbl:HCP_results_two} demonstrate the high level of uncertainty in localizing a raw effect size of, for example, 1.0\% BOLD change, despite the large sample size of $N = 80$ used for the HCP. The regions of greatest uncertainty were sub-cortical areas, covered by expansive clusters of blue as seen in the axial slices displayed in Fig. \ref{tbl:HCP_results_one} and sagittal slices in Fig. \ref{tbl:HCP_results_two}. Large intersubject variability here may be explained by the high multi-band acceleration factor used in the HCP scanning protocol, which is generally more suited for scanning the cortex \citep{Smith2013-ul}. 
+
+For the 2D simulations, the method achieved close to nominal coverage for the circular signal, but performed less well for the ramp signal, obtaining under-coverage for the true boundary method and over-coverage for the estimated boundary method. We believe differences in the circle and ramp results are not due to changes in the signal shape per se, but instead are caused by differences in the slope of each shape close to the true boundary $\dAc$. Since the linear ramp signal has a shallower gradient at the true boundary compared to the circle, local changes in the observed signal around the boundary are dominated by changes in the noise. Since the noise is more wavey than the signal, the linear interpolation method for obtaining the boundary is likely to be less accurate for the ramp, causing too many violations of the subset condition, which may explain the under-coverage for the true boundary results seen here.
+
+For the 3D simulations, the method obtained over-coverage in all of our results. Here, the degree of over-coverage was consistently larger for the smaller confidence level of $1 - \alpha = 0.80$ in comparison to the larger confidence level of $1- \alpha = 0.95$. Notably, the over-coverage was also more severe for signals with a longer boundary, such as the multiple spheres and Biobank signals, when compared to the Small Sphere signal that had a shorter boundary length. One possible reason for this is that our proposed method for assessing coverage may still be missing instances where violations of the subset condition $\Ahatcp \subset \Ac \subset \Ahatcm$ occur, causing the results to be slightly positively biased. While our assessment method reduces the influence of grid coarseness by sampling locations on the true continuous boundary $\partial A_c$, ultimately we can still only assess coverage at a discrete set of points on a continuous process. For signals with a longer boundary length, the set of sampled locations obtained with the interpolation method is relatively less dense within the true continuous boundary, and thus it is more likely violations of the subset condition are missed. Over-coverage for smaller confidence levels may also be explained by this, as theoretically more violations should occur here, but these may be missed due to inaccuracies caused by the discreteness of the lattice. This line of reasoning is consistent with Section 4.4 of \textit{SSS}, where it was shown that coverage approached the nominal level as the resolution of the grid was increased.
+
+\subsection{Methodological Innovations}
+\label{sec:discussion_innovations}
+In this work, we have advanced on the original methods applied in \textit{SSS}. From a theoretical standpoint, we have proposed a Wild $t$-Bootstrap method (dividing bootstrap residuals by bootstrap standard deviation) to compute the critical quantile value $k$. We have also introduced an interpolation scheme for obtaining the boundary and assessing the simulation coverage results to reduce the influence of grid coarseness. In Section \ref{sec:method_comparisons}, we demonstrated that applying the assessment method in \textit{SSS} could lead to empirical coverage of close to 100\%, suggesting that this method may considerably bias the simulation results upwards. When using our proposed assessment, the Wild Bootstrap method suffered from under-coverage, most severely for small sample sizes in the 3D setting of the large spherical signal presented in \ref{fig:3D_method_comparisons}. This was greatly remedied by the Wild $t$-Bootstrap method, for which empirical results stayed close to the nominal target independent of sample size.
+
+Our simulations using the original procedures may not seem consistent with the simulation results published in Figure 5 of \textit{SSS}, where empirical coverage stayed close to the nominal target. However, the signal-plus-noise models investigated to test the performance of the CSs in \textit{SSS} were much smoother than the synthetic signals considered to emulate fMRI data with this effort. By applying a larger degree of smoothing, the signals used in \textit{SSS} effectively had a much higher resolution. Because of this, it is likely the resolution issue presented in \ref{fig:highres_lowres} was less critical, reducing the positive bias in empirical coverage induced from using the original simulation assessment procedure. Further evidence for this is provided in Figure 7 of \textit{SSS}, where they observed an increase in coverage after repeating their simulations on a coarser lattice. In our simulation results in Section \ref{sec:method_comparisons}, the scale of under-coverage from using the Gaussian Wild bootstrap method was much more severe for the 3D simulation on the spherical signal in \ref{fig:3D_method_comparisons} compared to the 2D circular signal in \ref{fig:2D_method_comparisons}. This may explain why the Gaussian Wild bootstrap method performed relatively well in \textit{SSS}, as only 2D signals were considered there. 
 
 \subsection{Limitations}
 
-\section{Conclusion}
+The principal limitation of this work is one that is intentional and explicit: Our method is for spatial inference on maps of raw and not standardized effects, such as Cohen's $d$ or partial $R^{2}$ ($t$- or $F$-statistics, which scale with sample size, do not estimate population quantities and are not suitable for making  confidence statements). Even when scaled to percentage BOLD change, it has been shown that raw effects can modulate with acquisition parameters such as the scanner field strength or echo time \citep{UIudag2009-nm}. Users should therefore be cautious when combining effect estimates from studies using heterogeneous acquisition setups, and clearly specify such differences when reporting the results of any meta-analysis on raw effects. It is also known that inhomogeneities in the vasculature of the brain is a cause of variation in the BOLD response. Therefore, we recommend that any interpretation of \%BOLD change inferred from the CSs is referenced against a variance map or similar image that indicates the most venous brain regions. We note that each of these points are general complications of raw effect sizes within fMRI, rather than issues with the method proposed in this effort per se. Nonetheless, the use of standardized effect estimates may help to remedy these problems in the future.
 
-\section{Toolbox}
+The need for resampling to conduct inference is another limitation of this effort, especially given the big data motivation of this work.  However, the bootstrap  is only conducted on the estimated boundary, $\dAhatc$, not the whole 3D volume, which substantially reduces the computational burden.  For very large datasets, techniques for approximating empirical distributions can be used to improve the accuracy of the estimation of $k$ based on a smaller number (e.g.~$B=500$) of bootstrap samples \citep{Winkler2016-mw}.
+
+\section{Conclusion}

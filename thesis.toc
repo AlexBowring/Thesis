@@ -70,33 +70,35 @@
 \contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit {k}}{74}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Approximating the Boundary on a Discrete Lattice}{75}{subsection.4.2.3}
 \contentsline {subsection}{\numberline {4.2.4}Assessment of Continuous Coverage on a Discrete Lattice}{76}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Method}{79}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Simulations}{79}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{79}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{79}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{79}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{79}{subsection.4.3.5}
-\contentsline {section}{\numberline {4.4}Results}{79}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{79}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{79}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{79}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Discussion}{79}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Limitations}{79}{subsection.4.5.1}
-\contentsline {section}{\numberline {4.6}Conclusion}{79}{section.4.6}
-\contentsline {section}{\numberline {4.7}Toolbox}{79}{section.4.7}
-\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit {d}}{80}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theory}{80}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{80}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Method}{80}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{80}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{80}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{80}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Results}{80}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{80}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{80}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{80}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{80}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Discussion}{80}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Limitations}{80}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Conclusion}{80}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{81}{chapter.6}
+\contentsline {section}{\numberline {4.3}Method}{78}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Simulations}{78}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}2D Simulations}{79}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}3D Simulations}{79}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Application to Human Connectome Project Data}{81}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Results}{84}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Methodological Comparisons}{84}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}2D Simulations}{85}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}3D Simulations}{87}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Human Connectome Project}{92}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{93}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Spatial Inference on \%BOLD Raw Effect Size}{93}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Analysis of HCP data and Simulation Results}{96}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Methodological Innovations}{97}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Limitations}{98}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusion}{98}{section.4.6}
+\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit {d}}{99}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theory}{99}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{99}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Method}{99}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{99}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{99}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{99}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Results}{99}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{99}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{99}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{99}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{99}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Discussion}{99}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Limitations}{99}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Conclusion}{99}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{100}{chapter.6}

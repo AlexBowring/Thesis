@@ -293,41 +293,103 @@
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Low Resolution Simulation}}}{77}{figure.caption.28}}
 \@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {High Resolution Simulation}}}{77}{figure.caption.28}}
 \newlabel{eq:interpolation_in_action}{{4.8}{78}{Assessment of Continuous Coverage on a Discrete Lattice}{equation.4.2.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{79}{section.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{79}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementation of Contour Inference}{79}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}2D Simulations}{79}{subsection.4.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}3D Simulations}{79}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Application to Human Connectome Project Data}{79}{subsection.4.3.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{79}{section.4.4}}
-\newlabel{sec:Results}{{4.4}{79}{Results}{section.4.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}2D Simulations}{79}{subsection.4.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}3D Simulations}{79}{subsection.4.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Human Connectome Project}{79}{subsection.4.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{79}{section.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Limitations}{79}{subsection.4.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{79}{section.4.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}Toolbox}{79}{section.4.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{80}{chapter.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Method}{78}{section.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Simulations}{78}{subsection.4.3.1}}
+\newlabel{sec:simulations}{{4.3.1}{78}{Simulations}{subsection.4.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}2D Simulations}{79}{subsection.4.3.2}}
+\newlabel{sec:2D_simulations}{{4.3.2}{79}{2D Simulations}{subsection.4.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}3D Simulations}{79}{subsection.4.3.3}}
+\newlabel{sec:3D_simulations}{{4.3.3}{79}{3D Simulations}{subsection.4.3.3}{}}
+\newlabel{fig:2D_signals}{{\caption@xref {fig:2D_signals}{ on input line 152}}{80}{2D Simulations}{figure.caption.29}{}}
+\newlabel{fig:linear_ramp}{{4.3(a)}{80}{Subfigure 4 4.3(a)}{subfigure.4.3.1}{}}
+\newlabel{sub@fig:linear_ramp}{{(a)}{80}{Subfigure 4 4.3(a)\relax }{subfigure.4.3.1}{}}
+\newlabel{fig:circle}{{4.3(b)}{80}{Subfigure 4 4.3(b)}{subfigure.4.3.2}{}}
+\newlabel{sub@fig:circle}{{(b)}{80}{Subfigure 4 4.3(b)\relax }{subfigure.4.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Linear ramp and circular signals $\mu (\bm  {s})$.   \textbf  {Figure \ref  {fig:linear_ramp}:} \textbf  {Signal 1.} A linear ramp signal that increases from magnitude of 1 to 3 in the x-direction.   \textbf  {Figure \ref  {fig:circle}:} \textbf  {Signal 2.} A circular signal with magnitude of 3 and radius of 30, centred within the region and convolved with a 3 voxel FWHM Gaussian kernel.\relax }}{80}{figure.caption.29}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\textbf {Signal 1.}}}}{80}{figure.caption.29}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\textbf {Signal 2.}}}}{80}{figure.caption.29}}
+\newlabel{fig:2D_variances}{{\caption@xref {fig:2D_variances}{ on input line 160}}{80}{2D Simulations}{figure.caption.30}{}}
+\newlabel{fig:stationary_variance}{{4.4(a)}{80}{Subfigure 4 4.4(a)}{subfigure.4.4.1}{}}
+\newlabel{sub@fig:stationary_variance}{{(a)}{80}{Subfigure 4 4.4(a)\relax }{subfigure.4.4.1}{}}
+\newlabel{fig:non_stationary_variance}{{4.4(b)}{80}{Subfigure 4 4.4(b)}{subfigure.4.4.2}{}}
+\newlabel{sub@fig:non_stationary_variance}{{(b)}{80}{Subfigure 4 4.4(b)\relax }{subfigure.4.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Stationary and non-stationary standard deviation fields of the noise $\epsilon _{i}(\bm  {s})$.   \textbf  {Figure \ref  {fig:stationary_variance}:} \textbf  {Standard Deviation 1.} Stationary variance of 1 across the region.   \textbf  {Figure \ref  {fig:non_stationary_variance}:} \textbf  {Standard Deviation 2.} Non-stationary (linear ramp) standard deviation field increasing from $\sqrt  {0.5}$ to $\sqrt  {1.5}$ in the y-direction.\relax }}{80}{figure.caption.30}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\textbf {Signal 1.}}}}{80}{figure.caption.30}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\textbf {Signal 2.}}}}{80}{figure.caption.30}}
+\citation{Miller2016-hd}
+\citation{Alfaro-Almagro2018-ip}
+\citation{Hariri2002-ns}
+\citation{Barch2013-kk}
+\citation{Glasser2013-qc}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Application to Human Connectome Project Data}{81}{subsection.4.3.4}}
+\newlabel{sec:HCP_methods}{{4.3.4}{81}{Application to Human Connectome Project Data}{subsection.4.3.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces The four 3D signal types $\mu (\bm  {s})$, from top-to-bottom: small sphere, large sphere, multiple spheres, and the UK Biobank full mean image. Note that the colormap limits for the first three signal types are from 0 to 3, while the colormap limits for the UK Biobank mean image is from -0.4 to 0.5.\relax }}{82}{table.caption.31}}
+\newlabel{tbl:3D_figures}{{4.1}{82}{The four 3D signal types $\mu (\bm {s})$, from top-to-bottom: small sphere, large sphere, multiple spheres, and the UK Biobank full mean image. Note that the colormap limits for the first three signal types are from 0 to 3, while the colormap limits for the UK Biobank mean image is from -0.4 to 0.5.\relax }{table.caption.31}{}}
+\citation{Glasser2013-qc}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Results}{84}{section.4.4}}
+\newlabel{sec:Results}{{4.4}{84}{Results}{section.4.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Methodological Comparisons}{84}{subsection.4.4.1}}
+\newlabel{sec:method_comparisons}{{4.4.1}{84}{Methodological Comparisons}{subsection.4.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Coverage results for the 2D circular signal simulation with homogeneous Gaussian noise (\textbf  {Signal 2.} (\textbf  {Standard deviation 1.}) in Fig. \ref  {fig:circle} (Fig. \ref  {fig:stationary_variance}). Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref  {sec:wild_bootstrap} and the interpolation schema for assessing simulations results we propose in Section \ref  {sec:coverage_assessment}. All empirical coverage results for simulations using the \textit  {SSS} assessment method are close to 100\%, suggesting that this assessment substantially biases the results upwards. Using our proposed assessment method, while both the Wild $t$-Bootstrap and Gaussian Wild bootstrap converge to the nominal level, the Wild $t$-Bootstrap performed better for small sample sizes.\relax }}{85}{figure.caption.32}}
+\newlabel{fig:2D_method_comparisons}{{4.5}{85}{Coverage results for the 2D circular signal simulation with homogeneous Gaussian noise (\textbf {Signal 2.} (\textbf {Standard deviation 1.}) in Fig. \ref {fig:circle} (Fig. \ref {fig:stationary_variance}). Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref {sec:wild_bootstrap} and the interpolation schema for assessing simulations results we propose in Section \ref {sec:coverage_assessment}. All empirical coverage results for simulations using the \textit {SSS} assessment method are close to 100\%, suggesting that this assessment substantially biases the results upwards. Using our proposed assessment method, while both the Wild $t$-Bootstrap and Gaussian Wild bootstrap converge to the nominal level, the Wild $t$-Bootstrap performed better for small sample sizes.\relax }{figure.caption.32}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}2D Simulations}{85}{subsection.4.4.2}}
+\newlabel{sec:2D_simulation_results}{{4.4.2}{85}{2D Simulations}{subsection.4.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Coverage results for the 3D large spherical signal (\textbf  {Signal 2.} in Fig. \ref  {tbl:3D_figures}(b)) simulation with homogeneous Gaussian noise. Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref  {sec:wild_bootstrap}, and the interpolation schema for assessing simulations results we propose in Section \ref  {sec:coverage_assessment}. Once again, all simulations using the \textit  {SSS} assessment method quickly converge to close to 100\%. Using our proposed assessment method, the Gaussian Wild bootstrap had severe under-coverage for small sample sizes, while the Wild $t$-Bootstrap results hover slightly above the nominal level for all sample sizes.\relax }}{86}{figure.caption.33}}
+\newlabel{fig:3D_method_comparisons}{{4.6}{86}{Coverage results for the 3D large spherical signal (\textbf {Signal 2.} in Fig. \ref {tbl:3D_figures}(b)) simulation with homogeneous Gaussian noise. Empirical coverage results are presented for implementations of the CS method with and without the Wild $t$-Bootstrap we propose in Section \ref {sec:wild_bootstrap}, and the interpolation schema for assessing simulations results we propose in Section \ref {sec:coverage_assessment}. Once again, all simulations using the \textit {SSS} assessment method quickly converge to close to 100\%. Using our proposed assessment method, the Gaussian Wild bootstrap had severe under-coverage for small sample sizes, while the Wild $t$-Bootstrap results hover slightly above the nominal level for all sample sizes.\relax }{figure.caption.33}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}3D Simulations}{87}{subsection.4.4.3}}
+\newlabel{sec:3D_simulation_results}{{4.4.3}{87}{3D Simulations}{subsection.4.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Coverage results for \textbf  {Signal 1.}, the 2D linear ramp signal. While the true boundary coverage results (dashed curves) fall under the nominal level, results for the estimated boundary method (solid curves) that must be applied to real data remain above the nominal level. Performance of the method improved for larger confidence levels, and in particular, the estimated boundary results for a 95\% confidence level seen in the right plot hover slightly above nominal coverage for all sample sizes.\relax }}{88}{figure.caption.34}}
+\newlabel{fig:2D_sig_1_results}{{4.7}{88}{Coverage results for \textbf {Signal 1.}, the 2D linear ramp signal. While the true boundary coverage results (dashed curves) fall under the nominal level, results for the estimated boundary method (solid curves) that must be applied to real data remain above the nominal level. Performance of the method improved for larger confidence levels, and in particular, the estimated boundary results for a 95\% confidence level seen in the right plot hover slightly above nominal coverage for all sample sizes.\relax }{figure.caption.34}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Coverage results for \textbf  {Signal 2.}, the 2D circular signal. Coverage performance was close to nominal level in all simulations. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used; in all plots, all of the curves lie practically on top of each other.\relax }}{88}{figure.caption.35}}
+\newlabel{fig:2D_sig_2_results}{{4.8}{88}{Coverage results for \textbf {Signal 2.}, the 2D circular signal. Coverage performance was close to nominal level in all simulations. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used; in all plots, all of the curves lie practically on top of each other.\relax }{figure.caption.35}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Coverage results for \textbf  {Signal 1.}, the 3D small spherical signal. For all confidence levels, coverage remained above the nominal level in all simulations, and for a 95\% confidence level (right plot), coverage hovered slightly above the nominal level for all sample sizes. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used.\relax }}{89}{figure.caption.36}}
+\newlabel{fig:3D_sig_1_results}{{4.9}{89}{Coverage results for \textbf {Signal 1.}, the 3D small spherical signal. For all confidence levels, coverage remained above the nominal level in all simulations, and for a 95\% confidence level (right plot), coverage hovered slightly above the nominal level for all sample sizes. The method was robust as to whether the subject-level noise had homogeneous (red curves) or heterogeneous variance (blue curves), or as to whether the estimated boundary (dashed curves) or true boundary (solid curves) method was used.\relax }{figure.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Coverage results for \textbf  {Signal 2.}, the large 3D spherical signal. Coverage results here were very similar to the results for the small spherical signal shown in Fig. \ref  {fig:3D_sig_1_results}, suggesting that the method is robust to changes in boundary length.\relax }}{90}{figure.caption.37}}
+\newlabel{fig:3D_sig_2_results}{{4.10}{90}{Coverage results for \textbf {Signal 2.}, the large 3D spherical signal. Coverage results here were very similar to the results for the small spherical signal shown in Fig. \ref {fig:3D_sig_1_results}, suggesting that the method is robust to changes in boundary length.\relax }{figure.caption.37}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Coverage results for \textbf  {Signal 3.}, the multiple spheres signal. Once again, for all confidence levels, coverage remained above the nominal level in all simulations. Here, the true boundary method (dashed curves) performed slightly better than the estimated boundary method (solid curves) in small sample sizes, although the choice of boundary made less of a difference for a higher confidence level. For a 95\% confidence level (right plot), all results hover slightly above nominal coverage for all sample sizes.\relax }}{90}{figure.caption.38}}
+\newlabel{fig:3D_sig_3_results}{{4.11}{90}{Coverage results for \textbf {Signal 3.}, the multiple spheres signal. Once again, for all confidence levels, coverage remained above the nominal level in all simulations. Here, the true boundary method (dashed curves) performed slightly better than the estimated boundary method (solid curves) in small sample sizes, although the choice of boundary made less of a difference for a higher confidence level. For a 95\% confidence level (right plot), all results hover slightly above nominal coverage for all sample sizes.\relax }{figure.caption.38}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces  Coverage results for \textbf  {Signal 4.}, the UK Biobank full mean signal, where the full standard deviation image was used as the standard deviation of the subject-level noise fields. Coverage results here were similar to the results for the multiple spheres signal shown in Fig. \ref  {fig:3D_sig_3_results}: In small sample sizes, coverage was slightly improved for the true boundary method (dashed curves) compared to the estimated boundary method (solid curves), however, for a 95\% confidence level (right plots), all results hover slightly above nominal coverage for all sample sizes.\relax }}{91}{figure.caption.39}}
+\newlabel{fig:3D_sig_4_results}{{4.12}{91}{Coverage results for \textbf {Signal 4.}, the UK Biobank full mean signal, where the full standard deviation image was used as the standard deviation of the subject-level noise fields. Coverage results here were similar to the results for the multiple spheres signal shown in Fig. \ref {fig:3D_sig_3_results}: In small sample sizes, coverage was slightly improved for the true boundary method (dashed curves) compared to the estimated boundary method (solid curves), however, for a 95\% confidence level (right plots), all results hover slightly above nominal coverage for all sample sizes.\relax }{figure.caption.39}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Human Connectome Project}{92}{subsection.4.4.4}}
+\newlabel{HCP_results}{{4.4.4}{92}{Human Connectome Project}{subsection.4.4.4}{}}
+\citation{Chen2017-sb}
+\citation{Engel2013-nq}
+\citation{Smith2013-ul}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Discussion}{93}{section.4.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Spatial Inference on \%BOLD Raw Effect Size}{93}{subsection.4.5.1}}
+\newlabel{sec:discussion_inference}{{4.5.1}{93}{Spatial Inference on \%BOLD Raw Effect Size}{subsection.4.5.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Slice views of the Confidence Sets for 80 subjects data from the HCP working memory task for $c = 1.0\%, 1.5\%$ and $2.0\%$ BOLD change thresholds. The upper CS $\Ahatcp  $ is displayed in red, and the lower CS $\Ahatcm  $ displayed in blue. In yellow is the point estimate set $\Ahatc  $, the best guess from the data of voxels that surpassed the BOLD change threshold. The red upper CS has localized regions in the frontal gyrus, frontal pole, anterior insula, supramarginal gyrus and cerebellum for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.\relax }}{94}{table.caption.40}}
+\newlabel{tbl:HCP_results_one}{{4.2}{94}{Slice views of the Confidence Sets for 80 subjects data from the HCP working memory task for $c = 1.0\%, 1.5\%$ and $2.0\%$ BOLD change thresholds. The upper CS $\Ahatcp $ is displayed in red, and the lower CS $\Ahatcm $ displayed in blue. In yellow is the point estimate set $\Ahatc $, the best guess from the data of voxels that surpassed the BOLD change threshold. The red upper CS has localized regions in the frontal gyrus, frontal pole, anterior insula, supramarginal gyrus and cerebellum for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.\relax }{table.caption.40}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Further slice views of the Confidence Sets. Here, we see that the red upper CS has also localized regions in the anterior cingulate, superior front gyrus, supramarginal gyrus, and precuneous for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.\relax }}{95}{table.caption.41}}
+\newlabel{tbl:HCP_results_two}{{4.3}{95}{Further slice views of the Confidence Sets. Here, we see that the red upper CS has also localized regions in the anterior cingulate, superior front gyrus, supramarginal gyrus, and precuneous for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.\relax }{table.caption.41}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Analysis of HCP data and Simulation Results}{96}{subsection.4.5.2}}
+\newlabel{sec:discussion_HCP_simultations}{{4.5.2}{96}{Analysis of HCP data and Simulation Results}{subsection.4.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3}Methodological Innovations}{97}{subsection.4.5.3}}
+\newlabel{sec:discussion_innovations}{{4.5.3}{97}{Methodological Innovations}{subsection.4.5.3}{}}
+\citation{UIudag2009-nm}
+\citation{Winkler2016-mw}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4}Limitations}{98}{subsection.4.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{98}{section.4.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Contour Inference for Cohen's \textit  {d}}{99}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{80}{section.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{80}{subsection.5.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{80}{section.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{80}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{80}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{80}{subsection.5.2.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{80}{section.5.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{80}{subsection.5.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{80}{subsection.5.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{80}{subsection.5.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{80}{subsection.5.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{80}{section.5.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{80}{subsection.5.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{80}{section.5.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Theory}{99}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Transforming the Residual Field}{99}{subsection.5.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{99}{section.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}2D Simulations}{99}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}3D Simulations}{99}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Application to UK Biobank Data}{99}{subsection.5.2.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Results}{99}{section.5.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{99}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}3D Simulations}{99}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}UK Biobank Data}{99}{subsection.5.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{99}{subsection.5.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Discussion}{99}{section.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Limitations}{99}{subsection.5.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{99}{section.5.5}}
 \bibstyle{plainnat}
 \bibdata{perm}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{81}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{100}{chapter.6}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \bibcite{Abraham2014-ap}{{1}{2014}{{Abraham et~al.}}{{Abraham, Pedregosa, Eickenberg, Gervais, Mueller, Kossaifi, Gramfort, Thirion, and Varoquaux}}}
@@ -338,88 +400,96 @@
 \bibcite{Andersson2007-lc}{{6}{2007}{{Andersson et~al.}}{{Andersson, Jenkinson, Smith, and {Others}}}}
 \bibcite{Azevedo2009-qj}{{7}{2009}{{Azevedo et~al.}}{{Azevedo, Carvalho, Grinberg, Farfel, Ferretti, Leite, Filho, Lent, and Herculano-Houzel}}}
 \bibcite{Bandettini1992-jt}{{8}{1992}{{Bandettini et~al.}}{{Bandettini, Wong, Hinks, Tikofsky, and Hyde}}}
-\bibcite{Benjamini1995-yy}{{9}{1995}{{Benjamini and Hochberg}}{{}}}
-\bibcite{Bennett2009-fh}{{10}{2009}{{Bennett et~al.}}{{Bennett, Miller, and Wolford}}}
-\bibcite{Bennett1964-vx}{{11}{1964}{{Bennett et~al.}}{{Bennett, Diamond, Krech, and Rosenzweig}}}
-\bibcite{Bowring2018-wp}{{12}{2018{a}}{{Bowring et~al.}}{{Bowring, Maumet, and Nichols}}}
-\bibcite{Bowring2018-jp}{{13}{2018{b}}{{Bowring et~al.}}{{Bowring, Maumet, and Nichols}}}
-\bibcite{Brett2017-zb}{{14}{2017}{{Brett et~al.}}{{Brett, Hanke, C{\^o}t{\'e}, Markiewicz, Ghosh, Wassermann, Gerhard, Larson, Lee, Halchenko, Kastman, M, Morency, {moloney}, Rokem, Cottaar, Millman, {jaeilepp}, Gramfort, Vincent, McCarthy, van~den Bosch, Subramaniam, Nichols, {embaker}, {markhymers}, {chaselgrove}, {Basile}, Oosterhof, and Nimmo-Smith}}}
-\bibcite{Brookes2011-cj}{{15}{2011}{{Brookes et~al.}}{{Brookes, Woolrich, Luckhoo, Price, Hale, Stephenson, Barnes, Smith, and Morris}}}
-\bibcite{Buxton2012-ly}{{16}{2012}{{Buxton}}{{}}}
-\bibcite{Carp2012-ph}{{17}{2012}{{Carp}}{{}}}
-\bibcite{Carp2013-cm}{{18}{2013}{{Carp}}{{}}}
-\bibcite{Chen2018-am}{{19}{2018}{{Chen et~al.}}{{Chen, Cox, Glen, Rajendra, Reynolds, and Taylor}}}
-\bibcite{Chernozhukov2013-wz}{{20}{2013}{{Chernozhukov et~al.}}{{Chernozhukov, Chetverikov, and Kato}}}
-\bibcite{Chumbley2009-ce}{{21}{2009}{{Chumbley and Friston}}{{}}}
-\bibcite{Cox1996-nu}{{22}{1996}{{Cox}}{{}}}
-\bibcite{David2013-iz}{{23}{2013}{{David et~al.}}{{David, Ware, Chu, Loftus, Fusar-Poli, Radua, Munaf{\`o}, and Ioannidis}}}
-\bibcite{Davidson2008-qh}{{24}{2008}{{Davidson and Flachaire}}{{}}}
-\bibcite{Diamond1964-cu}{{25}{1964}{{Diamond et~al.}}{{Diamond, Krech, and Rosenzweig}}}
-\bibcite{Eklund2016-ak}{{26}{2016}{{Eklund et~al.}}{{Eklund, Nichols, and Knutsson}}}
-\bibcite{Ellis2019-zi}{{27}{2019}{{Ellis et~al.}}{{Ellis, Baldassano, Schapiro, Cai, and Cohen}}}
-\bibcite{Erin_D_Foster2017-au}{{28}{2017}{{Erin D.~Foster}}{{}}}
-\bibcite{Fomina2015-ha}{{29}{2015}{{Fomina et~al.}}{{Fomina, Hohmann, Scholkopf, and Grosse-Wentrup}}}
-\bibcite{Fox2015-ds}{{30}{2015}{{Fox and Alterman}}{{}}}
-\bibcite{Friston1998-jl}{{31}{1998}{{Friston et~al.}}{{Friston, Fletcher, Josephs, Holmes, Rugg, and Turner}}}
-\bibcite{Genovese2002-xm}{{32}{2002}{{Genovese et~al.}}{{Genovese, Lazar, and Nichols}}}
-\bibcite{Glover2011-at}{{33}{2011}{{Glover}}{{}}}
-\bibcite{Gonzalez-Castillo2012-do}{{34}{2012}{{Gonzalez-Castillo et~al.}}{{Gonzalez-Castillo, Saad, Handwerker, Inati, Brenowitz, and Bandettini}}}
-\bibcite{Gorgolewski2016-fk}{{35}{2016}{{Gorgolewski and Poldrack}}{{}}}
-\bibcite{Gorgolewski2015-vs}{{36}{2015}{{Gorgolewski et~al.}}{{Gorgolewski, Varoquaux, Rivera, Schwarz, Ghosh, Maumet, Sochat, Nichols, Poldrack, Poline, Yarkoni, and Margulies}}}
-\bibcite{Gorgolewski2016-nf}{{37}{2016}{{Gorgolewski et~al.}}{{Gorgolewski, Auer, Calhoun, Craddock, Das, Duff, Flandin, Ghosh, Glatard, Halchenko, Handwerker, Hanke, Keator, Li, Michael, Maumet, Nichols, Nichols, Pellman, Poline, Rokem, Schaefer, Sochat, Triplett, Turner, Varoquaux, and Poldrack}}}
-\bibcite{Goutte2000-vd}{{38}{2000}{{Goutte et~al.}}{{Goutte, Nielsen, and Hansen}}}
-\bibcite{Hargreaves2012-dz}{{39}{2012}{{Hargreaves and Klimas}}{{}}}
-\bibcite{Hunter2007-nu}{{40}{2007}{{Hunter}}{{}}}
-\bibcite{Ioannidis2005-sy}{{41}{2005}{{Ioannidis}}{{}}}
-\bibcite{Ioannidis2014-yn}{{42}{2014}{{Ioannidis et~al.}}{{Ioannidis, Munaf{\`o}, Fusar-Poli, Nosek, and David}}}
-\bibcite{Jenkinson2002-qf}{{43}{2002}{{Jenkinson et~al.}}{{Jenkinson, Bannister, Brady, and Smith}}}
-\bibcite{Jenkinson2012-wh}{{44}{2012}{{Jenkinson et~al.}}{{Jenkinson, Beckmann, Behrens, Woolrich, and Smith}}}
-\bibcite{Kalia2013-bv}{{45}{2013}{{Kalia et~al.}}{{Kalia, Sankar, and Lozano}}}
-\bibcite{Kluyver2016-yl}{{46}{2016}{{Kluyver et~al.}}{{Kluyver, Ragan-Kelley, P{\'e}rez, Granger, Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, and {Others}}}}
-\bibcite{Kwong1992-uq}{{47}{1992}{{Kwong et~al.}}{{Kwong, Belliveau, Chesler, Goldberg, Weisskoff, Poncelet, Kennedy, Hoppel, Cohen, and Turner}}}
-\bibcite{Lee2013-kn}{{48}{2013}{{Lee et~al.}}{{Lee, Smyser, and Shimony}}}
-\bibcite{Lee2012-di}{{49}{2012}{{Lee et~al.}}{{Lee, Hacker, Snyder, Corbetta, Zhang, Leuthardt, and Shimony}}}
-\bibcite{Lindquist2009-fs}{{50}{2009}{{Lindquist et~al.}}{{Lindquist, Meng~Loh, Atlas, and Wager}}}
-\bibcite{Lopez-Munoz2006-zk}{{51}{2006}{{L{\'o}pez-Mu{\~n}oz et~al.}}{{L{\'o}pez-Mu{\~n}oz, Boya, and Alamo}}}
-\bibcite{Lund2005-sf}{{52}{2005}{{Lund et~al.}}{{Lund, N{\o }rgaard, Rostrup, Rowe, and Paulson}}}
-\bibcite{Matthews2006-sl}{{53}{2006}{{Matthews et~al.}}{{Matthews, Honey, and Bullmore}}}
-\bibcite{Maumet2016-se}{{54}{2016}{{Maumet et~al.}}{{Maumet, Auer, Bowring, Chen, Das, Flandin, Ghosh, Glatard, Gorgolewski, Helmer, Jenkinson, Keator, Nichols, Poline, Reynolds, Sochat, Turner, and Nichols}}}
-\bibcite{McEvoy2009-zx}{{55}{2009}{{McEvoy et~al.}}{{McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler, Holland, Karow, Pung, Brewer, and Dale}}}
-\bibcite{McKinney2010-dv}{{56}{2010}{{McKinney and {Others}}}{{}}}
-\bibcite{Mechelli2005-dn}{{57}{2005}{{Mechelli et~al.}}{{Mechelli, Price, Friston, and Ashburner}}}
-\bibcite{Meehl1967-ij}{{58}{1967}{{Meehl}}{{}}}
-\bibcite{Mohamed2014-gl}{{59}{2014}{{Mohamed}}{{}}}
-\bibcite{Moran2012-cw}{{60}{2012}{{Moran et~al.}}{{Moran, Jolly, and Mitchell}}}
-\bibcite{Moussa2012-bl}{{61}{2012}{{Moussa et~al.}}{{Moussa, Steen, Laurienti, and Hayasaka}}}
-\bibcite{Mueller2017-pn}{{62}{2017}{{Mueller et~al.}}{{Mueller, Lepsien, M{\"o}ller, and Lohmann}}}
-\bibcite{Nichols2002-kf}{{63}{2002}{{Nichols and Holmes}}{{}}}
-\bibcite{Nielsen2014-vl}{{64}{2014}{{Nielsen and Smith}}{{}}}
-\bibcite{Ogawa1990-it}{{65}{1990}{{Ogawa et~al.}}{{Ogawa, Lee, Kay, and Tank}}}
-\bibcite{Ogawa1992-af}{{66}{1992}{{Ogawa et~al.}}{{Ogawa, Tank, Menon, Ellermann, Kim, Merkle, and Ugurbil}}}
-\bibcite{Olszowy2019-cz}{{67}{2019}{{Olszowy et~al.}}{{Olszowy, Aston, Rua, and Williams}}}
-\bibcite{Open_Science_Collaboration2015-gr}{{68}{2015}{{Open Science Collaboration}}{{}}}
-\bibcite{Padmanabhan2011-dc}{{69}{2011}{{Padmanabhan et~al.}}{{Padmanabhan, Geier, Ordaz, Teslovich, and Luna}}}
-\bibcite{Parker_Jones2017-ld}{{70}{2017}{{Parker~Jones et~al.}}{{Parker~Jones, Voets, Adcock, Stacey, and Jbabdi}}}
-\bibcite{Penny2011-uk}{{71}{2011}{{Penny et~al.}}{{Penny, Friston, Ashburner, Kiebel, and Nichols}}}
-\bibcite{Poldrack2011-bw}{{72}{2011}{{Poldrack et~al.}}{{Poldrack, Mumford, and Nichols}}}
-\bibcite{Poldrack2017-rr}{{73}{2017}{{Poldrack et~al.}}{{Poldrack, Baker, Durnez, Gorgolewski, Matthews, Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni}}}
-\bibcite{Rozeboom1960-dp}{{74}{1960}{{Rozeboom}}{{}}}
-\bibcite{Schonberg2012-oo}{{75}{2012}{{Schonberg et~al.}}{{Schonberg, Fox, Mumford, Congdon, Trepel, and Poldrack}}}
-\bibcite{Searle2009-ku}{{76}{2009}{{Searle et~al.}}{{Searle, Casella, and McCulloch}}}
-\bibcite{Skudlarski1999-ao}{{77}{1999}{{Skudlarski et~al.}}{{Skudlarski, Constable, and Gore}}}
-\bibcite{Smith2002-vw}{{78}{2002}{{Smith}}{{}}}
-\bibcite{Smith2009-dm}{{79}{2009}{{Smith et~al.}}{{Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini, Watkins, Toro, Laird, and Beckmann}}}
-\bibcite{Soares2013-mh}{{80}{2013}{{Soares et~al.}}{{Soares, Marques, Alves, and Sousa}}}
-\bibcite{Sommerfeld2018-zl}{{81}{2018}{{Sommerfeld et~al.}}{{Sommerfeld, Sain, and Schwartzman}}}
-\bibcite{Sperling2014-sy}{{82}{2014}{{Sperling et~al.}}{{Sperling, Rentz, Johnson, Karlawish, Donohue, Salmon, and Aisen}}}
-\bibcite{Stacey2008-qx}{{83}{2008}{{Stacey and Litt}}{{}}}
-\bibcite{Strother2002-sz}{{84}{2002}{{Strother et~al.}}{{Strother, Anderson, Hansen, Kjems, Kustra, Sidtis, Frutiger, Muley, LaConte, and Rottenberg}}}
-\bibcite{Tavor2016-pd}{{85}{2016}{{Tavor et~al.}}{{Tavor, Parker~Jones, Mars, Smith, Behrens, and Jbabdi}}}
-\bibcite{Telschow2019-lg}{{86}{2019}{{Telschow and Schwartzman}}{{}}}
-\bibcite{Walt2011-db}{{87}{2011}{{Walt et~al.}}{{Walt, Colbert, and Varoquaux}}}
-\bibcite{Winkler2016-mw}{{88}{2016}{{Winkler et~al.}}{{Winkler, Ridgway, Douaud, Nichols, and Smith}}}
-\bibcite{Woo2014-ji}{{89}{2014}{{Woo et~al.}}{{Woo, Krishnan, and Wager}}}
-\bibcite{Woolrich2001-tk}{{90}{2001}{{Woolrich et~al.}}{{Woolrich, Ripley, Brady, and Smith}}}
-\bibcite{Woolrich2004-ng}{{91}{2004}{{Woolrich et~al.}}{{Woolrich, Behrens, Beckmann, Jenkinson, and Smith}}}
-\bibcite{Worsley2000-rb}{{92}{2000}{{Worsley et~al.}}{{Worsley, Liao, Grabove, Petre, Ha, and Evans}}}
-\bibcite{Yeung2018-kr}{{93}{2018}{{Yeung}}{{}}}
+\bibcite{Barch2013-kk}{{9}{2013}{{Barch et~al.}}{{Barch, Burgess, Harms, Petersen, Schlaggar, Corbetta, Glasser, Curtiss, Dixit, Feldt, Nolan, Bryant, Hartley, Footer, Bjork, Poldrack, Smith, Johansen-Berg, Snyder, Van~Essen, and {WU-Minn HCP Consortium}}}}
+\bibcite{Benjamini1995-yy}{{10}{1995}{{Benjamini and Hochberg}}{{}}}
+\bibcite{Bennett2009-fh}{{11}{2009}{{Bennett et~al.}}{{Bennett, Miller, and Wolford}}}
+\bibcite{Bennett1964-vx}{{12}{1964}{{Bennett et~al.}}{{Bennett, Diamond, Krech, and Rosenzweig}}}
+\bibcite{Bowring2018-wp}{{13}{2018{a}}{{Bowring et~al.}}{{Bowring, Maumet, and Nichols}}}
+\bibcite{Bowring2018-jp}{{14}{2018{b}}{{Bowring et~al.}}{{Bowring, Maumet, and Nichols}}}
+\bibcite{Brett2017-zb}{{15}{2017}{{Brett et~al.}}{{Brett, Hanke, C{\^o}t{\'e}, Markiewicz, Ghosh, Wassermann, Gerhard, Larson, Lee, Halchenko, Kastman, M, Morency, {moloney}, Rokem, Cottaar, Millman, {jaeilepp}, Gramfort, Vincent, McCarthy, van~den Bosch, Subramaniam, Nichols, {embaker}, {markhymers}, {chaselgrove}, {Basile}, Oosterhof, and Nimmo-Smith}}}
+\bibcite{Brookes2011-cj}{{16}{2011}{{Brookes et~al.}}{{Brookes, Woolrich, Luckhoo, Price, Hale, Stephenson, Barnes, Smith, and Morris}}}
+\bibcite{Buxton2012-ly}{{17}{2012}{{Buxton}}{{}}}
+\bibcite{Carp2012-ph}{{18}{2012}{{Carp}}{{}}}
+\bibcite{Carp2013-cm}{{19}{2013}{{Carp}}{{}}}
+\bibcite{Chen2017-sb}{{20}{2017}{{Chen et~al.}}{{Chen, Taylor, and Cox}}}
+\bibcite{Chen2018-am}{{21}{2018}{{Chen et~al.}}{{Chen, Cox, Glen, Rajendra, Reynolds, and Taylor}}}
+\bibcite{Chernozhukov2013-wz}{{22}{2013}{{Chernozhukov et~al.}}{{Chernozhukov, Chetverikov, and Kato}}}
+\bibcite{Chumbley2009-ce}{{23}{2009}{{Chumbley and Friston}}{{}}}
+\bibcite{Cox1996-nu}{{24}{1996}{{Cox}}{{}}}
+\bibcite{David2013-iz}{{25}{2013}{{David et~al.}}{{David, Ware, Chu, Loftus, Fusar-Poli, Radua, Munaf{\`o}, and Ioannidis}}}
+\bibcite{Davidson2008-qh}{{26}{2008}{{Davidson and Flachaire}}{{}}}
+\bibcite{Diamond1964-cu}{{27}{1964}{{Diamond et~al.}}{{Diamond, Krech, and Rosenzweig}}}
+\bibcite{Eklund2016-ak}{{28}{2016}{{Eklund et~al.}}{{Eklund, Nichols, and Knutsson}}}
+\bibcite{Ellis2019-zi}{{29}{2019}{{Ellis et~al.}}{{Ellis, Baldassano, Schapiro, Cai, and Cohen}}}
+\bibcite{Engel2013-nq}{{30}{2013}{{Engel and Burton}}{{}}}
+\bibcite{Erin_D_Foster2017-au}{{31}{2017}{{Erin D.~Foster}}{{}}}
+\bibcite{Fomina2015-ha}{{32}{2015}{{Fomina et~al.}}{{Fomina, Hohmann, Scholkopf, and Grosse-Wentrup}}}
+\bibcite{Fox2015-ds}{{33}{2015}{{Fox and Alterman}}{{}}}
+\bibcite{Friston1998-jl}{{34}{1998}{{Friston et~al.}}{{Friston, Fletcher, Josephs, Holmes, Rugg, and Turner}}}
+\bibcite{Genovese2002-xm}{{35}{2002}{{Genovese et~al.}}{{Genovese, Lazar, and Nichols}}}
+\bibcite{Glasser2013-qc}{{36}{2013}{{Glasser et~al.}}{{Glasser, Sotiropoulos, Wilson, Coalson, Fischl, Andersson, Xu, Jbabdi, Webster, Polimeni, Van~Essen, Jenkinson, and {WU-Minn HCP Consortium}}}}
+\bibcite{Glover2011-at}{{37}{2011}{{Glover}}{{}}}
+\bibcite{Gonzalez-Castillo2012-do}{{38}{2012}{{Gonzalez-Castillo et~al.}}{{Gonzalez-Castillo, Saad, Handwerker, Inati, Brenowitz, and Bandettini}}}
+\bibcite{Gorgolewski2016-fk}{{39}{2016}{{Gorgolewski and Poldrack}}{{}}}
+\bibcite{Gorgolewski2015-vs}{{40}{2015}{{Gorgolewski et~al.}}{{Gorgolewski, Varoquaux, Rivera, Schwarz, Ghosh, Maumet, Sochat, Nichols, Poldrack, Poline, Yarkoni, and Margulies}}}
+\bibcite{Gorgolewski2016-nf}{{41}{2016}{{Gorgolewski et~al.}}{{Gorgolewski, Auer, Calhoun, Craddock, Das, Duff, Flandin, Ghosh, Glatard, Halchenko, Handwerker, Hanke, Keator, Li, Michael, Maumet, Nichols, Nichols, Pellman, Poline, Rokem, Schaefer, Sochat, Triplett, Turner, Varoquaux, and Poldrack}}}
+\bibcite{Goutte2000-vd}{{42}{2000}{{Goutte et~al.}}{{Goutte, Nielsen, and Hansen}}}
+\bibcite{Hargreaves2012-dz}{{43}{2012}{{Hargreaves and Klimas}}{{}}}
+\bibcite{Hariri2002-ns}{{44}{2002}{{Hariri et~al.}}{{Hariri, Tessitore, Mattay, Fera, and Weinberger}}}
+\bibcite{Hunter2007-nu}{{45}{2007}{{Hunter}}{{}}}
+\bibcite{Ioannidis2005-sy}{{46}{2005}{{Ioannidis}}{{}}}
+\bibcite{Ioannidis2014-yn}{{47}{2014}{{Ioannidis et~al.}}{{Ioannidis, Munaf{\`o}, Fusar-Poli, Nosek, and David}}}
+\bibcite{Jenkinson2002-qf}{{48}{2002}{{Jenkinson et~al.}}{{Jenkinson, Bannister, Brady, and Smith}}}
+\bibcite{Jenkinson2012-wh}{{49}{2012}{{Jenkinson et~al.}}{{Jenkinson, Beckmann, Behrens, Woolrich, and Smith}}}
+\bibcite{Kalia2013-bv}{{50}{2013}{{Kalia et~al.}}{{Kalia, Sankar, and Lozano}}}
+\bibcite{Kluyver2016-yl}{{51}{2016}{{Kluyver et~al.}}{{Kluyver, Ragan-Kelley, P{\'e}rez, Granger, Bussonnier, Frederic, Kelley, Hamrick, Grout, Corlay, and {Others}}}}
+\bibcite{Kwong1992-uq}{{52}{1992}{{Kwong et~al.}}{{Kwong, Belliveau, Chesler, Goldberg, Weisskoff, Poncelet, Kennedy, Hoppel, Cohen, and Turner}}}
+\bibcite{Lee2013-kn}{{53}{2013}{{Lee et~al.}}{{Lee, Smyser, and Shimony}}}
+\bibcite{Lee2012-di}{{54}{2012}{{Lee et~al.}}{{Lee, Hacker, Snyder, Corbetta, Zhang, Leuthardt, and Shimony}}}
+\bibcite{Lindquist2009-fs}{{55}{2009}{{Lindquist et~al.}}{{Lindquist, Meng~Loh, Atlas, and Wager}}}
+\bibcite{Lopez-Munoz2006-zk}{{56}{2006}{{L{\'o}pez-Mu{\~n}oz et~al.}}{{L{\'o}pez-Mu{\~n}oz, Boya, and Alamo}}}
+\bibcite{Lund2005-sf}{{57}{2005}{{Lund et~al.}}{{Lund, N{\o }rgaard, Rostrup, Rowe, and Paulson}}}
+\bibcite{Matthews2006-sl}{{58}{2006}{{Matthews et~al.}}{{Matthews, Honey, and Bullmore}}}
+\bibcite{Maumet2016-se}{{59}{2016}{{Maumet et~al.}}{{Maumet, Auer, Bowring, Chen, Das, Flandin, Ghosh, Glatard, Gorgolewski, Helmer, Jenkinson, Keator, Nichols, Poline, Reynolds, Sochat, Turner, and Nichols}}}
+\bibcite{McEvoy2009-zx}{{60}{2009}{{McEvoy et~al.}}{{McEvoy, Fennema-Notestine, Cooper~Roddey, Hagler, Holland, Karow, Pung, Brewer, and Dale}}}
+\bibcite{McKinney2010-dv}{{61}{2010}{{McKinney and {Others}}}{{}}}
+\bibcite{Mechelli2005-dn}{{62}{2005}{{Mechelli et~al.}}{{Mechelli, Price, Friston, and Ashburner}}}
+\bibcite{Meehl1967-ij}{{63}{1967}{{Meehl}}{{}}}
+\bibcite{Miller2016-hd}{{64}{2016}{{Miller et~al.}}{{Miller, Alfaro-Almagro, Bangerter, Thomas, Yacoub, Xu, Bartsch, Jbabdi, Sotiropoulos, Andersson, Griffanti, Douaud, Okell, Weale, Dragonu, Garratt, Hudson, Collins, Jenkinson, Matthews, and Smith}}}
+\bibcite{Mohamed2014-gl}{{65}{2014}{{Mohamed}}{{}}}
+\bibcite{Moran2012-cw}{{66}{2012}{{Moran et~al.}}{{Moran, Jolly, and Mitchell}}}
+\bibcite{Moussa2012-bl}{{67}{2012}{{Moussa et~al.}}{{Moussa, Steen, Laurienti, and Hayasaka}}}
+\bibcite{Mueller2017-pn}{{68}{2017}{{Mueller et~al.}}{{Mueller, Lepsien, M{\"o}ller, and Lohmann}}}
+\bibcite{Nichols2002-kf}{{69}{2002}{{Nichols and Holmes}}{{}}}
+\bibcite{Nielsen2014-vl}{{70}{2014}{{Nielsen and Smith}}{{}}}
+\bibcite{Ogawa1990-it}{{71}{1990}{{Ogawa et~al.}}{{Ogawa, Lee, Kay, and Tank}}}
+\bibcite{Ogawa1992-af}{{72}{1992}{{Ogawa et~al.}}{{Ogawa, Tank, Menon, Ellermann, Kim, Merkle, and Ugurbil}}}
+\bibcite{Olszowy2019-cz}{{73}{2019}{{Olszowy et~al.}}{{Olszowy, Aston, Rua, and Williams}}}
+\bibcite{Open_Science_Collaboration2015-gr}{{74}{2015}{{Open Science Collaboration}}{{}}}
+\bibcite{Padmanabhan2011-dc}{{75}{2011}{{Padmanabhan et~al.}}{{Padmanabhan, Geier, Ordaz, Teslovich, and Luna}}}
+\bibcite{Parker_Jones2017-ld}{{76}{2017}{{Parker~Jones et~al.}}{{Parker~Jones, Voets, Adcock, Stacey, and Jbabdi}}}
+\bibcite{Penny2011-uk}{{77}{2011}{{Penny et~al.}}{{Penny, Friston, Ashburner, Kiebel, and Nichols}}}
+\bibcite{Poldrack2011-bw}{{78}{2011}{{Poldrack et~al.}}{{Poldrack, Mumford, and Nichols}}}
+\bibcite{Poldrack2017-rr}{{79}{2017}{{Poldrack et~al.}}{{Poldrack, Baker, Durnez, Gorgolewski, Matthews, Munaf{\`o}, Nichols, Poline, Vul, and Yarkoni}}}
+\bibcite{Rozeboom1960-dp}{{80}{1960}{{Rozeboom}}{{}}}
+\bibcite{Schonberg2012-oo}{{81}{2012}{{Schonberg et~al.}}{{Schonberg, Fox, Mumford, Congdon, Trepel, and Poldrack}}}
+\bibcite{Searle2009-ku}{{82}{2009}{{Searle et~al.}}{{Searle, Casella, and McCulloch}}}
+\bibcite{Skudlarski1999-ao}{{83}{1999}{{Skudlarski et~al.}}{{Skudlarski, Constable, and Gore}}}
+\bibcite{Smith2002-vw}{{84}{2002}{{Smith}}{{}}}
+\bibcite{Smith2009-dm}{{85}{2009}{{Smith et~al.}}{{Smith, Fox, Miller, Glahn, Fox, Mackay, Filippini, Watkins, Toro, Laird, and Beckmann}}}
+\bibcite{Smith2013-ul}{{86}{2013}{{Smith et~al.}}{{Smith, Beckmann, Andersson, Auerbach, Bijsterbosch, Douaud, Duff, Feinberg, Griffanti, Harms, Kelly, Laumann, Miller, Moeller, Petersen, Power, Salimi-Khorshidi, Snyder, Vu, Woolrich, Xu, Yacoub, U{\u g}urbil, Van~Essen, Glasser, and {WU-Minn HCP Consortium}}}}
+\bibcite{Soares2013-mh}{{87}{2013}{{Soares et~al.}}{{Soares, Marques, Alves, and Sousa}}}
+\bibcite{Sommerfeld2018-zl}{{88}{2018}{{Sommerfeld et~al.}}{{Sommerfeld, Sain, and Schwartzman}}}
+\bibcite{Sperling2014-sy}{{89}{2014}{{Sperling et~al.}}{{Sperling, Rentz, Johnson, Karlawish, Donohue, Salmon, and Aisen}}}
+\bibcite{Stacey2008-qx}{{90}{2008}{{Stacey and Litt}}{{}}}
+\bibcite{Strother2002-sz}{{91}{2002}{{Strother et~al.}}{{Strother, Anderson, Hansen, Kjems, Kustra, Sidtis, Frutiger, Muley, LaConte, and Rottenberg}}}
+\bibcite{Tavor2016-pd}{{92}{2016}{{Tavor et~al.}}{{Tavor, Parker~Jones, Mars, Smith, Behrens, and Jbabdi}}}
+\bibcite{Telschow2019-lg}{{93}{2019}{{Telschow and Schwartzman}}{{}}}
+\bibcite{UIudag2009-nm}{{94}{2009}{{UIudag et~al.}}{{UIudag, M{\"u}ller-Bierl, and Ugurbil}}}
+\bibcite{Walt2011-db}{{95}{2011}{{Walt et~al.}}{{Walt, Colbert, and Varoquaux}}}
+\bibcite{Winkler2016-mw}{{96}{2016}{{Winkler et~al.}}{{Winkler, Ridgway, Douaud, Nichols, and Smith}}}
+\bibcite{Woo2014-ji}{{97}{2014}{{Woo et~al.}}{{Woo, Krishnan, and Wager}}}
+\bibcite{Woolrich2001-tk}{{98}{2001}{{Woolrich et~al.}}{{Woolrich, Ripley, Brady, and Smith}}}
+\bibcite{Woolrich2004-ng}{{99}{2004}{{Woolrich et~al.}}{{Woolrich, Behrens, Beckmann, Jenkinson, and Smith}}}
+\bibcite{Worsley2000-rb}{{100}{2000}{{Worsley et~al.}}{{Worsley, Liao, Grabove, Petre, Ha, and Evans}}}
+\bibcite{Yeung2018-kr}{{101}{2018}{{Yeung}}{{}}}

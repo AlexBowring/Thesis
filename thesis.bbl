@@ -1,4 +1,4 @@
-\begin{thebibliography}{93}
+\begin{thebibliography}{101}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -67,6 +67,19 @@ P~A Bandettini, E~C Wong, R~S Hinks, R~S Tikofsky, and J~S Hyde.
 \newblock Time course {EPI} of human brain function during task activation.
 \newblock \emph{Magn. Reson. Med.}, 25\penalty0 (2):\penalty0 390--397, June
   1992.
+
+\bibitem[Barch et~al.(2013)Barch, Burgess, Harms, Petersen, Schlaggar,
+  Corbetta, Glasser, Curtiss, Dixit, Feldt, Nolan, Bryant, Hartley, Footer,
+  Bjork, Poldrack, Smith, Johansen-Berg, Snyder, Van~Essen, and {WU-Minn HCP
+  Consortium}]{Barch2013-kk}
+Deanna~M Barch, Gregory~C Burgess, Michael~P Harms, Steven~E Petersen,
+  Bradley~L Schlaggar, Maurizio Corbetta, Matthew~F Glasser, Sandra Curtiss,
+  Sachin Dixit, Cindy Feldt, Dan Nolan, Edward Bryant, Tucker Hartley, Owen
+  Footer, James~M Bjork, Russ Poldrack, Steve Smith, Heidi Johansen-Berg,
+  Abraham~Z Snyder, David~C Van~Essen, and {WU-Minn HCP Consortium}.
+\newblock Function in the human connectome: {task-fMRI} and individual
+  differences in behavior.
+\newblock \emph{Neuroimage}, 80:\penalty0 169--189, October 2013.
 
 \bibitem[Benjamini and Hochberg(1995)]{Benjamini1995-yy}
 Y~Benjamini and Y~Hochberg.
@@ -138,6 +151,11 @@ Joshua Carp.
   power et al.
 \newblock \emph{Neuroimage}, 76:\penalty0 436--438, August 2013.
 
+\bibitem[Chen et~al.(2017)Chen, Taylor, and Cox]{Chen2017-sb}
+Gang Chen, Paul~A Taylor, and Robert~W Cox.
+\newblock Is the statistic value all we should care about in neuroimaging?
+\newblock \emph{Neuroimage}, 147:\penalty0 952--959, February 2017.
+
 \bibitem[Chen et~al.(2018)Chen, Cox, Glen, Rajendra, Reynolds, and
   Taylor]{Chen2018-am}
 Gang Chen, Robert~W Cox, Daniel~R Glen, Justin~K Rajendra, Richard~C Reynolds,
@@ -199,6 +217,11 @@ Cameron Ellis, Christopher Baldassano, Anna~C Schapiro, Ming~Bo Cai, and
   validation and application.
 \newblock January 2019.
 
+\bibitem[Engel and Burton(2013)]{Engel2013-nq}
+Stephen~A Engel and Philip~C Burton.
+\newblock Confidence intervals for {fMRI} activation maps.
+\newblock \emph{PLoS One}, 8\penalty0 (12):\penalty0 e82419, December 2013.
+
 \bibitem[Erin D.~Foster(2017)]{Erin_D_Foster2017-au}
 Ariel~Deardorff Erin D.~Foster.
 \newblock Open science framework ({OSF}).
@@ -230,6 +253,16 @@ Christopher~R Genovese, Nicole~A Lazar, and Thomas Nichols.
 \newblock Thresholding of statistical maps in functional neuroimaging using the
   false discovery rate.
 \newblock \emph{Neuroimage}, 15\penalty0 (4):\penalty0 870--878, April 2002.
+
+\bibitem[Glasser et~al.(2013)Glasser, Sotiropoulos, Wilson, Coalson, Fischl,
+  Andersson, Xu, Jbabdi, Webster, Polimeni, Van~Essen, Jenkinson, and {WU-Minn
+  HCP Consortium}]{Glasser2013-qc}
+Matthew~F Glasser, Stamatios~N Sotiropoulos, J~Anthony Wilson, Timothy~S
+  Coalson, Bruce Fischl, Jesper~L Andersson, Junqian Xu, Saad Jbabdi, Matthew
+  Webster, Jonathan~R Polimeni, David~C Van~Essen, Mark Jenkinson, and {WU-Minn
+  HCP Consortium}.
+\newblock The minimal preprocessing pipelines for the human connectome project.
+\newblock \emph{Neuroimage}, 80:\penalty0 105--124, October 2013.
 
 \bibitem[Glover(2011)]{Glover2011-at}
 Gary~H Glover.
@@ -290,6 +323,15 @@ Richard~J Hargreaves and Michael Klimas.
 \newblock Imaging in drug development.
 \newblock In \emph{Principles of Clinical Pharmacology}, pages 327--341.
   Elsevier, 2012.
+
+\bibitem[Hariri et~al.(2002)Hariri, Tessitore, Mattay, Fera, and
+  Weinberger]{Hariri2002-ns}
+Ahmad~R Hariri, Alessandro Tessitore, Venkata~S Mattay, Francesco Fera, and
+  Daniel~R Weinberger.
+\newblock The amygdala response to emotional stimuli: A comparison of faces and
+  scenes.
+\newblock \emph{Neuroimage}, 17\penalty0 (1):\penalty0 317--323, September
+  2002.
 
 \bibitem[Hunter(2007)]{Hunter2007-nu}
 John~D Hunter.
@@ -433,6 +475,20 @@ Paul~E Meehl.
 \newblock {Theory-Testing} in psychology and physics: A methodological paradox.
 \newblock \emph{Philos. Sci.}, 34\penalty0 (2):\penalty0 103--115, June 1967.
 
+\bibitem[Miller et~al.(2016)Miller, Alfaro-Almagro, Bangerter, Thomas, Yacoub,
+  Xu, Bartsch, Jbabdi, Sotiropoulos, Andersson, Griffanti, Douaud, Okell,
+  Weale, Dragonu, Garratt, Hudson, Collins, Jenkinson, Matthews, and
+  Smith]{Miller2016-hd}
+Karla~L Miller, Fidel Alfaro-Almagro, Neal~K Bangerter, David~L Thomas, Essa
+  Yacoub, Junqian Xu, Andreas~J Bartsch, Saad Jbabdi, Stamatios~N Sotiropoulos,
+  Jesper L~R Andersson, Ludovica Griffanti, Gwena{\"e}lle Douaud, Thomas~W
+  Okell, Peter Weale, Iulius Dragonu, Steve Garratt, Sarah Hudson, Rory
+  Collins, Mark Jenkinson, Paul~M Matthews, and Stephen~M Smith.
+\newblock Multimodal population brain imaging in the {UK} biobank prospective
+  epidemiological study.
+\newblock \emph{Nat. Neurosci.}, 19\penalty0 (11):\penalty0 1523--1536,
+  November 2016.
+
 \bibitem[Mohamed(2014)]{Mohamed2014-gl}
 W~Mohamed.
 \newblock The edwin smith surgical papyrus: Neuroscience in ancient egypt.
@@ -575,6 +631,20 @@ Stephen~M Smith, Peter~T Fox, Karla~L Miller, David~C Glahn, P~Mickle Fox,
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 106\penalty0 (31):\penalty0
   13040--13045, August 2009.
 
+\bibitem[Smith et~al.(2013)Smith, Beckmann, Andersson, Auerbach, Bijsterbosch,
+  Douaud, Duff, Feinberg, Griffanti, Harms, Kelly, Laumann, Miller, Moeller,
+  Petersen, Power, Salimi-Khorshidi, Snyder, Vu, Woolrich, Xu, Yacoub, U{\u
+  g}urbil, Van~Essen, Glasser, and {WU-Minn HCP Consortium}]{Smith2013-ul}
+Stephen~M Smith, Christian~F Beckmann, Jesper Andersson, Edward~J Auerbach,
+  Janine Bijsterbosch, Gwena{\"e}lle Douaud, Eugene Duff, David~A Feinberg,
+  Ludovica Griffanti, Michael~P Harms, Michael Kelly, Timothy Laumann, Karla~L
+  Miller, Steen Moeller, Steve Petersen, Jonathan Power, Gholamreza
+  Salimi-Khorshidi, Abraham~Z Snyder, An~T Vu, Mark~W Woolrich, Junqian Xu,
+  Essa Yacoub, Kamil U{\u g}urbil, David~C Van~Essen, Matthew~F Glasser, and
+  {WU-Minn HCP Consortium}.
+\newblock Resting-state {fMRI} in the human connectome project.
+\newblock \emph{Neuroimage}, 80:\penalty0 144--168, October 2013.
+
 \bibitem[Soares et~al.(2013)Soares, Marques, Alves, and Sousa]{Soares2013-mh}
 Jos{\'e}~M Soares, Paulo Marques, Victor Alves, and Nuno Sousa.
 \newblock A hitchhiker's guide to diffusion tensor imaging.
@@ -624,6 +694,12 @@ Fabian J~E Telschow and Armin Schwartzman.
 \newblock Simultaneous confidence bands for functional data using the gaussian
   kinematic formula.
 \newblock January 2019.
+
+\bibitem[UIudag et~al.(2009)UIudag, M{\"u}ller-Bierl, and
+  Ugurbil]{UIudag2009-nm}
+K~UIudag, B~M{\"u}ller-Bierl, and K~Ugurbil.
+\newblock An integrative model for neuronal activity-induced signal changes for
+  gradient and spin echo functional imaging, 2009.
 
 \bibitem[Walt et~al.(2011)Walt, Colbert, and Varoquaux]{Walt2011-db}
 St{\'e}fan van~der Walt, S~Chris Colbert, and Ga{\"e}l Varoquaux.
