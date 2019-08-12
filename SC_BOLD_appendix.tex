@@ -1,0 +1,196 @@
+%\documentclass{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+%\usepackage[margin=0.5in]{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+%\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex
+%\usepackage[backend=biber,style=authoryear]{biblatex}
+%\addbibresource{appendix.bib}
+%\renewcommand*{\nameyeardelim}{\addcomma\space}
+
+%\usepackage{amsthm}
+%\usepackage{amsopn}
+%\usepackage{amsmath}
+%\usepackage{bm}
+
+%\title{Appendix}
+
+%\begin{document}
+%\date{\vspace{-5ex}}
+%\maketitle
+
+\section{Percentage BOLD change Maps}
+\label{App:SC_supplementary_BOLD}
+
+While each of the three software packages provide contrast of parameter estimate maps (going forth ``contrast estimate''), the units of the analysis differs between software.  We first review the issue of units for fMRI then how we addressed this for each software.
+
+Raw fMRI data has arbitrary units, and a normalization step is required to produce effect estimates that are both comparable across subjects and give an interpretable magnitude of the BOLD effect. The final units of the contrast estimates depend on how the data, design matrix and contrast vectors are scaled.
+
+Consider arbitrary first level data at a voxel $\bm{Y}$ ($N$-vector), fMRI design matrix $\bm{X}$ ($N\times P$ matrix), related as $\mathrm{E}(\bm{Y})=\bm{X}\bm{\beta}$, where $\bm{\beta}$ ($P$-vector) are the regression coefficients and the effect of interest is $\bm{c}\hat{\bm{\beta}}$ where $\bm{c}$ ($P$-row-vector) is the contrast.  The following scaling is needed to ensure interpretable contrasts of parameter estimates.
+
+\begin{itemize}
+\item {\bf Data}: The data needs to be scaled so that 1 unit change corresponds to 1\%, 
+\begin{equation}
+\label{eq:SC_sup_data_scale}
+\bm{Y}^{*} = \frac{100}{B} \bm{Y}
+\end{equation}
+where $B$ is an estimate of the mean or baseline.
+\item {\bf Design}:  The design needs to be scaled such that a unit change in a coefficient gives rise to a unit effect change in the fitted data, 
+\begin{equation}
+\label{eq:SC_sup_design_scale}
+\bm{X}^{*} = \frac{1}{h} \bm{X}
+\end{equation}
+where $h$ is the (assumed common) predictor baseline-to-peak (or baseline-to-plateau for long blocks).
+\item {\bf Contrast}: The contrast needs to be scaled to preserve the units of the coefficients, 
+\begin{equation}
+\label{eq:SC_sup_contrast_scale}
+\bm{c}^*=\frac{1}{s}\bm{c},
+\end{equation}
+where $s$ is the sum of the positive contrast elements (or, if all less than zero, minus the sum of the negative elements).
+\end{itemize}
+
+  The ideally scaled data, design and contrast gives rise to contrast estimate $\bm{c}^*\hat{\bm{\beta}}^*$ which we can relate to the arbitrarily scaled data:
+\begin{eqnarray}
+\label{eq:SC_sup_ideal_scale}
+\bm{c}^*\hat{\bm{\beta}}^* &=& \bm{c}^*(\bm{X}^{*\top}\bm{X}^*)^{-1}\bm{X}^{*\top}\bm{Y}^* \notag\\
+                          &=& \frac{100h}{Bp}\bm{c}(\bm{X}^{\top}\bm{X})^{-1}\bm{X}^{\top}\bm{Y} \notag\\
+                          &=& \frac{100h}{Bp}\bm{c}\hat{\bm{\beta}}.
+\end{eqnarray}
+This scaling is described in terms of first level models, but can be applied to a 2nd level contrast estimate if the values of $h$, $B$ and $p$ are the same for all subjects.
+
+In AFNI, a localized (i.e.\ voxelwise) approach is taken to overcome this hurdle \citep{Chen2017-sb}. By including the `scale' block in our subject-level analysis scripts, each voxel's time series was normalized (in our notation, using a voxelwise $B$) to a voxelwise mean of 100 for all subjects. Scaling of the design matrix is conducted implicitly within AFNI, and as the sum of the contrast elements was 1 in all our analyses, no contrast scaling was necessary. Because of this, the effect estimate maps obtained at the group-level in our AFNI analyses could be directly interpreted as percentage BOLD change maps. 
+
+In FSL and SPM a global (i.e.\ brain-wide) approach is taken for data scaling, so that the modelled data ($\bm{Y}$) has a typical mean value of $B=100$ for SPM, and $B=10,000$ for FSL. In practise, it is known that SPM can underestimate the global mean intensities of each subject, leading to a grand mean intensity \textit{larger} than 100 \citep{Nichols2012-rx}. To account for this, in SPM we calculated $B$ empirically by computing the mean image of all subject-level functional maps and then finding the median value over subjects.  We computed $h$ directly for the block design (ds000109) and based on an isolated event for the event-related design (ds00001); in FSL this required creating dummy designs with high-pass filtering disabled.  Contrast scaling was only required in SPM ($s=3$ for ds000001's 3-run design, $s=2$ for ds000109's 2-run design).
+
+
+
+\pagebreak
+
+\section{Partial $R^{2}$ Maps}
+\label{App:SC_supplementary_R2}
+
+Since ds000120 used a sine basis HRF, this study's general linear model contained multiple predictor variables which hampered the computation of a percent BOLD change measure.  Instead we computed partial $R^{2}$ maps to assess the explained variance (relative to data variance not already explained by other terms) of the main effect of the saccade condition.
+
+With $\nu_{1}$ and $\nu_{2}$ as the numerator and denominator degrees of freedom of the F-statistic, respectively, we used the relationship between $R^{2}$ and the F-statistic given by the identity:
+%
+\begin{equation}
+\label{eq:SC_sup_F_to_R}
+F = \frac{R^2}{1-R^2}  \frac{\nu_2}{\nu_1},
+\end{equation}
+%
+which solves for $R^{2}$ as
+%
+\begin{alignat}{4}\label{eq:SC_sup_R_to_F}
+  R^2 =  1 - \frac{1}{1 + \frac{\nu_1}{\nu_2} F}.
+\end{alignat}
+
+\pagebreak
+
+\section{Supplementary Figures}
+\label{App:SC_supplementary_figures}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_Registration}	
+\caption{Registration Quality Control: Mean and standard deviation of anatomical and mean functional images}
+\label{fig:SC_supp_Registration}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_thresh_ds000001}	
+\caption{ds000001 inter-software comparisons, 5\% FWE clusterwise inference}
+\label{fig:SC_supp_thresh_ds000001}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_perm_thresh_ds000001}	
+\caption{ds000001 inter-software comparisons, 5\% FWE clusterwise permutation inference}
+\label{fig:SC_supp_perm_thresh_ds000001}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_thresh_ds000109}	
+\caption{ds000109 inter-software comparisons, 5\% FWE clusterwise inference}
+\label{fig:SC_supp_thresh_ds000109}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_perm_thresh_ds000109}	
+\caption{ds000109 inter-software comparisons, 5\% FWE clusterwise permutation inference}
+\label{fig:SC_supp_perm_thresh_ds000109}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_thresh_ds000120}	
+\caption{ds000120 inter-software comparisons, 5\% FWE clusterwise inference}
+\label{fig:SC_supp_thresh_ds000120}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_unthresh_ds000001}	
+\caption{ds000001 inter-software comparisons, $t$-statistic maps}
+\label{fig:SC_supp_unthresh_ds000001}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_perm_unthresh_ds000001}	
+\caption{ds000001 inter-software comparisons, $t$-statistic maps from permutation}
+\label{fig:SC_supp_perm_unthresh_ds000001}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_unthresh_ds000109}	
+\caption{ds000109 inter-software comparisons, $t$-statistic maps}
+\label{fig:SC_supp_unthresh_ds000109}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_perm_unthresh_ds000109}	
+\caption{ds000109 inter-software comparisons, $t$-statistic maps from permutation}
+\label{fig:SC_supp_perm_unthresh_ds000109}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_unthresh_ds000120}	
+\caption{ds0001020 inter-software comparisons, $F$-statistic maps}
+\label{fig:SC_supp_unthresh_ds000120}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_ECs}	
+\caption{ds000120 inter-software comparisons, Euler characeristic and cluster count curves for $F$-statistic maps}
+\label{fig:SC_supp_ECs}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[width=\textwidth]{SC_supp_BOLD_BAs}	
+\caption{Bland-Altman percent BOLD comparisons}
+\label{fig:SC_supp_BOLD_BAs}
+\end{figure}
+
+
+\begin{figure}[htbp]
+\centering
+	\includegraphics[]{SC_supp_BOLD_BAs_ds000120}	
+\caption{ds000120 $R^{2}$ comparisons}
+\label{fig:SC_supp_BOLD_BAs_ds000120}
+\end{figure}
+
+
+
+
+
+

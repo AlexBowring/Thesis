@@ -5,45 +5,45 @@ The style file: plainnat.bst
 Database file #1: perm.bib
 Warning--empty note in Ellis2019-zi
 Warning--empty journal in Telschow2019-lg
-You've used 101 entries,
+You've used 102 entries,
             2773 wiz_defined-function locations,
-            1230 strings with 27956 characters,
-and the built_in function-call counts, 61291 in all, are:
-= -- 5033
-> -- 5250
-< -- 32
-+ -- 1761
-- -- 1659
-* -- 5939
-:= -- 9749
-add.period$ -- 297
-call.type$ -- 101
-change.case$ -- 852
-chr.to.int$ -- 100
-cite$ -- 204
-duplicate$ -- 2069
-empty$ -- 3921
-format.name$ -- 1786
-if$ -- 12283
+            1234 strings with 28015 characters,
+and the built_in function-call counts, 61574 in all, are:
+= -- 5056
+> -- 5260
+< -- 33
++ -- 1765
+- -- 1662
+* -- 5952
+:= -- 9791
+add.period$ -- 299
+call.type$ -- 102
+change.case$ -- 856
+chr.to.int$ -- 101
+cite$ -- 206
+duplicate$ -- 2084
+empty$ -- 3953
+format.name$ -- 1790
+if$ -- 12344
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 95
-newline$ -- 506
-num.names$ -- 404
-pop$ -- 1621
+newline$ -- 510
+num.names$ -- 408
+pop$ -- 1634
 preamble$ -- 1
-purify$ -- 755
+purify$ -- 758
 quote$ -- 0
-skip$ -- 1743
+skip$ -- 1757
 stack$ -- 0
-substring$ -- 2087
-swap$ -- 206
+substring$ -- 2089
+swap$ -- 207
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1091
+type$ -- 1102
 warning$ -- 2
-while$ -- 450
+while$ -- 453
 width$ -- 0
-write$ -- 1287
+write$ -- 1297
 (There were 2 warnings)

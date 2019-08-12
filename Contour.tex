@@ -109,11 +109,12 @@ In the simulation results in Section \ref{sec:Results}, we assess performance of
 \subsection{Assessment of Continuous Coverage on a Discrete Lattice}
 \label{sec:coverage_assessment}
 
-\begin{figure}[htbp]\label{fig:highres_lowres}%
+\begin{figure}[htbp]%
 \centering
 \subfigure[Low Resolution Simulation]{\label{fig:lowres}\includegraphics[height=2in]{CIB_low_res_example.pdf}}
 \subfigure[High Resolution Simulation]{\label{fig:highres}\includegraphics[height=2in]{CIB_high_res_example.pdf}}
 \caption{Demonstrating the resolution issue for testing the subset condition $\Ahatcp \subset \Ac \ \subset \Ahatcm$. \\ \textbf{Figure \ref{fig:lowres}:} Here $\Ac$ is comprised of the right half of the image (all green and yellow pixels), and $\Ahatcp$ is shown as yellow pixels. It appears that $\Ahatcp \subset \Ac$. \\ \textbf{Figure \ref{fig:highres}:} The same configuration as \textbf{Fig. \ref{fig:lowres}} at double the resolution. Here, we have enough detail to see that $\Ahatcp$ has crossed the boundary $\dAc$ (yellow seeping into blue), and the subset condition $\Ahatcp \subset \Ac$ has been violated.}
+\label{fig:highres_lowres}
 \end{figure}
 
 In testing the finite-sample validity of our method through simulation, it is imperative that we are able to accurately measure when violations of the subset condition $\Ahatcp \subset \Ac \subset \Ahatcm$ occur. 

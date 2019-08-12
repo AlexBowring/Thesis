@@ -102,3 +102,7 @@
 \contentsline {subsection}{\numberline {5.4.1}Limitations}{99}{subsection.5.4.1}
 \contentsline {section}{\numberline {5.5}Conclusion}{99}{section.5.5}
 \contentsline {chapter}{\numberline {6}Conclusion and Future Work}{100}{chapter.6}
+\contentsline {chapter}{\numberline {A}Software Comparison}{101}{appendix.A}
+\contentsline {section}{\numberline {A.1}Percentage BOLD change Maps}{101}{section.A.1}
+\contentsline {section}{\numberline {A.2}Partial $R^{2}$ Maps}{103}{section.A.2}
+\contentsline {section}{\numberline {A.3}Supplementary Figures}{104}{section.A.3}
