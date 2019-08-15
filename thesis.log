@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  12 AUG 2019 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  13 AUG 2019 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2118,7 +2118,7 @@ Overfull \hbox (2.13081pt too wide) in paragraph at lines 244--245
 . This has made the dashed
  []
 
-<Figures/CIB_2D_Sig_1_coverage_results.pdf, id=2606, 975.645pt x 473.77pt>
+<Figures/CIB_2D_Sig_1_coverage_results.pdf, id=2607, 975.645pt x 473.77pt>
 File: Figures/CIB_2D_Sig_1_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_2D_Sig_1_coverage_results.pdf>
@@ -2130,7 +2130,7 @@ Overfull \hbox (22.81242pt too wide) in paragraph at lines 247--249
 []|  [] 
  []
 
-<Figures/CIB_2D_Sig_2_coverage_results.pdf, id=2607, 975.645pt x 473.77pt>
+<Figures/CIB_2D_Sig_2_coverage_results.pdf, id=2608, 975.645pt x 473.77pt>
 File: Figures/CIB_2D_Sig_2_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_2D_Sig_2_coverage_results.pdf>
@@ -2148,7 +2148,7 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 [88 <./Figures/CIB_2D_Sig_1_coverage_results.pdf> <./Figures/CIB_2D_Sig_2_cover
 age_results.pdf>]
-<Figures/CIB_3D_Sig_1_coverage_results.pdf, id=2645, 975.645pt x 473.77pt>
+<Figures/CIB_3D_Sig_1_coverage_results.pdf, id=2649, 975.645pt x 473.77pt>
 File: Figures/CIB_3D_Sig_1_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_3D_Sig_1_coverage_results.pdf>
@@ -2160,7 +2160,7 @@ Overfull \hbox (22.81242pt too wide) in paragraph at lines 270--272
 []|  [] 
  []
 
-<Figures/CIB_3D_Sig_2_coverage_results.pdf, id=2646, 975.645pt x 473.77pt>
+<Figures/CIB_3D_Sig_2_coverage_results.pdf, id=2650, 975.645pt x 473.77pt>
 File: Figures/CIB_3D_Sig_2_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_3D_Sig_2_coverage_results.pdf>
@@ -2172,7 +2172,7 @@ Overfull \hbox (22.81242pt too wide) in paragraph at lines 277--279
 []|  [] 
  []
 
-<Figures/CIB_3D_Sig_3_coverage_results.pdf, id=2649, 975.645pt x 473.77pt>
+<Figures/CIB_3D_Sig_3_coverage_results.pdf, id=2653, 975.645pt x 473.77pt>
 File: Figures/CIB_3D_Sig_3_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_3D_Sig_3_coverage_results.pdf>
@@ -2184,7 +2184,7 @@ Overfull \hbox (22.81242pt too wide) in paragraph at lines 284--286
 []|  [] 
  []
 
-<Figures/CIB_3D_Sig_4_coverage_results.pdf, id=2650, 975.645pt x 452.69125pt>
+<Figures/CIB_3D_Sig_4_coverage_results.pdf, id=2654, 975.645pt x 452.69125pt>
 File: Figures/CIB_3D_Sig_4_coverage_results.pdf Graphic file (type pdf)
 
 <use Figures/CIB_3D_Sig_4_coverage_results.pdf>
@@ -2206,12 +2206,24 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
 [91 <./Figures/CIB_3D_Sig_4_coverage_results.pdf>]
-Overfull \hbox (13.86545pt too wide) in paragraph at lines 308--309
-\T1/fla/m/n/10.95 how sta-tis-ti-cal sig-nif-i-cance may not trans-late to prac
--ti-cal sig-nif-i-cance; while over 28,000
+Overfull \hbox (2.38747pt too wide) in paragraph at lines 308--309
+\T1/fla/m/n/10.95 thresh-olded $\OML/cmm/m/it/10.95 t$\T1/fla/m/n/10.95 -statis
+tic map (green-yellow vox-els) ob-tained from ap-ply-ing a tra-di-tional
  []
 
-<Figures/CIB_HCP_1_1percent.pdf, id=2718, 722.7pt x 209.78375pt>
+
+Overfull \hbox (1.16348pt too wide) in paragraph at lines 308--309
+\T1/fla/m/n/10.95 light how sta-tis-ti-cal sig-nif-i-cance may not trans-late t
+o prac-ti-cal sig-nif-i-cance; while over
+ []
+
+
+Overfull \hbox (2.53201pt too wide) in paragraph at lines 308--309
+\T1/fla/m/n/10.95 28,000 vox-els were de-clared as ac-tive in the thresh-olded 
+$\OML/cmm/m/it/10.95 t$\T1/fla/m/n/10.95 -statistic re-sults, only 4,818
+ []
+
+<Figures/CIB_HCP_1_1percent.pdf, id=2724, 722.7pt x 209.78375pt>
 File: Figures/CIB_HCP_1_1percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_1_1percent.pdf>
@@ -2223,7 +2235,7 @@ Overfull \hbox (298.82518pt too wide) in paragraph at lines 318--319
 []|[]| 
  []
 
-<Figures/CIB_HCP_1_15percent.pdf, id=2719, 715.67375pt x 209.78375pt>
+<Figures/CIB_HCP_1_15percent.pdf, id=2725, 715.67375pt x 209.78375pt>
 File: Figures/CIB_HCP_1_15percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_1_15percent.pdf>
@@ -2235,7 +2247,7 @@ Overfull \hbox (299.38542pt too wide) in paragraph at lines 319--320
 []|[]| 
  []
 
-<Figures/CIB_HCP_1_2percent.pdf, id=2720, 722.7pt x 209.78375pt>
+<Figures/CIB_HCP_1_2percent.pdf, id=2726, 722.7pt x 209.78375pt>
 File: Figures/CIB_HCP_1_2percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_1_2percent.pdf>
@@ -2247,7 +2259,7 @@ Overfull \hbox (298.82518pt too wide) in paragraph at lines 320--321
 []|[]| 
  []
 
-[92] <Figures/CIB_HCP_2_1percent.pdf, id=2727, 722.7pt x 209.78375pt>
+[92] <Figures/CIB_HCP_2_1percent.pdf, id=2735, 722.7pt x 209.78375pt>
 File: Figures/CIB_HCP_2_1percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_2_1percent.pdf>
@@ -2259,7 +2271,7 @@ Overfull \hbox (298.82518pt too wide) in paragraph at lines 336--337
 []|[]| 
  []
 
-<Figures/CIB_HCP_2_15percent.pdf, id=2728, 715.67375pt x 209.78375pt>
+<Figures/CIB_HCP_2_15percent.pdf, id=2736, 715.67375pt x 209.78375pt>
 File: Figures/CIB_HCP_2_15percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_2_15percent.pdf>
@@ -2271,7 +2283,7 @@ Overfull \hbox (299.38542pt too wide) in paragraph at lines 337--338
 []|[]| 
  []
 
-<Figures/CIB_HCP_2_2percent.pdf, id=2729, 722.7pt x 209.78375pt>
+<Figures/CIB_HCP_2_2percent.pdf, id=2737, 722.7pt x 209.78375pt>
 File: Figures/CIB_HCP_2_2percent.pdf Graphic file (type pdf)
 
 <use Figures/CIB_HCP_2_2percent.pdf>
@@ -2354,7 +2366,7 @@ Overfull \hbox (3.0894pt too wide) in paragraph at lines 75--77
 ween $\OML/cmm/m/it/10.95 R[]$ \T1/fla/m/n/10.95 and the F-statistic given
  []
 
-[103] <Figures/SC_supp_Registration.pdf, id=2942, 719.68875pt x 904.37875pt>
+[103] <Figures/SC_supp_Registration.pdf, id=2950, 719.68875pt x 904.37875pt>
 File: Figures/SC_supp_Registration.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_Registration.pdf>
@@ -2362,7 +2374,7 @@ Package pdftex.def Info: Figures/SC_supp_Registration.pdf used on input line 95
 .
 (pdftex.def)             Requested size: 397.48499pt x 499.50742pt.
 
-<Figures/SC_supp_thresh_ds000001.pdf, id=2943, 699.61375pt x 923.45pt>
+<Figures/SC_supp_thresh_ds000001.pdf, id=2951, 699.61375pt x 923.45pt>
 File: Figures/SC_supp_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000001.pdf>
@@ -2370,7 +2382,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000001.pdf used on input line
  102.
 (pdftex.def)             Requested size: 397.48499pt x 524.66699pt.
 
-<Figures/SC_supp_perm_thresh_ds000001.pdf, id=2944, 704.6325pt x 907.39pt>
+<Figures/SC_supp_perm_thresh_ds000001.pdf, id=2952, 704.6325pt x 907.39pt>
 File: Figures/SC_supp_perm_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000001.pdf>
@@ -2378,7 +2390,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000001.pdf used on input
  line 109.
 (pdftex.def)             Requested size: 397.48499pt x 511.85942pt.
 
-<Figures/SC_supp_thresh_ds000109.pdf, id=2945, 681.54625pt x 893.3375pt>
+<Figures/SC_supp_thresh_ds000109.pdf, id=2953, 681.54625pt x 893.3375pt>
 File: Figures/SC_supp_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000109.pdf>
@@ -2386,7 +2398,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000109.pdf used on input line
  116.
 (pdftex.def)             Requested size: 397.48499pt x 521.0123pt.
 
-<Figures/SC_supp_perm_thresh_ds000109.pdf, id=2946, 693.59125pt x 898.35625pt>
+<Figures/SC_supp_perm_thresh_ds000109.pdf, id=2954, 693.59125pt x 898.35625pt>
 File: Figures/SC_supp_perm_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000109.pdf>
@@ -2394,7 +2406,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000109.pdf used on input
  line 123.
 (pdftex.def)             Requested size: 397.48499pt x 514.85106pt.
 
-<Figures/SC_supp_thresh_ds000120.pdf, id=2947, 703.62875pt x 605.26125pt>
+<Figures/SC_supp_thresh_ds000120.pdf, id=2955, 703.62875pt x 605.26125pt>
 File: Figures/SC_supp_thresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000120.pdf>
@@ -2402,7 +2414,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000120.pdf used on input line
  130.
 (pdftex.def)             Requested size: 397.48499pt x 341.90858pt.
 
-<Figures/SC_supp_unthresh_ds000001.pdf, id=2948, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_unthresh_ds000001.pdf, id=2956, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_unthresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000001.pdf>
@@ -2410,14 +2422,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000001.pdf used on input li
 ne 137.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=2949, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=2957, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000001.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000001.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000001.pdf used on inp
 ut line 144.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000109.pdf, id=2950, 555.07375pt x 662.475pt>
+<Figures/SC_supp_unthresh_ds000109.pdf, id=2958, 555.07375pt x 662.475pt>
 File: Figures/SC_supp_unthresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000109.pdf>
@@ -2425,14 +2437,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000109.pdf used on input li
 ne 151.
 (pdftex.def)             Requested size: 397.48499pt x 474.39386pt.
 
-<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=2951, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=2959, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000109.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000109.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000109.pdf used on inp
 ut line 158.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000120.pdf, id=2952, 555.07375pt x 445.665pt>
+<Figures/SC_supp_unthresh_ds000120.pdf, id=2960, 555.07375pt x 445.665pt>
 File: Figures/SC_supp_unthresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000120.pdf>
@@ -2440,21 +2452,21 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000120.pdf used on input li
 ne 165.
 (pdftex.def)             Requested size: 397.48499pt x 319.13768pt.
 
-<Figures/SC_supp_ECs.pdf, id=2953, 482.80376pt x 557.08125pt>
+<Figures/SC_supp_ECs.pdf, id=2961, 482.80376pt x 557.08125pt>
 File: Figures/SC_supp_ECs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_ECs.pdf>
 Package pdftex.def Info: Figures/SC_supp_ECs.pdf used on input line 172.
 (pdftex.def)             Requested size: 397.48499pt x 458.65416pt.
 
-<Figures/SC_supp_BOLD_BAs.pdf, id=2954, 542.025pt x 768.8725pt>
+<Figures/SC_supp_BOLD_BAs.pdf, id=2962, 542.025pt x 768.8725pt>
 File: Figures/SC_supp_BOLD_BAs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs.pdf>
 Package pdftex.def Info: Figures/SC_supp_BOLD_BAs.pdf used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 563.8533pt.
 
-<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=2955, 273.02pt x 310.15875pt>
+<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=2963, 273.02pt x 310.15875pt>
 File: Figures/SC_supp_BOLD_BAs_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs_ds000120.pdf>
@@ -2520,7 +2532,7 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 [118 <./Figures/SC_supp_BOLD_BAs_ds000120.pdf>]
 Appendix B.
 (./CI_appendix.tex
-<Figures/CIB_GLM_Fig1_c10.pdf, id=3533, 724.7075pt x 211.79124pt>
+<Figures/CIB_GLM_Fig1_c10.pdf, id=3541, 724.7075pt x 211.79124pt>
 File: Figures/CIB_GLM_Fig1_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c10.pdf>
@@ -2531,7 +2543,7 @@ Overfull \hbox (295.87045pt too wide) in paragraph at lines 12--13
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c15.pdf, id=3534, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c15.pdf, id=3542, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c15.pdf>
@@ -2542,7 +2554,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 13--14
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c20.pdf, id=3535, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c20.pdf, id=3543, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c20.pdf>
@@ -2553,7 +2565,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 14--15
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c10.pdf, id=3538, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c10.pdf, id=3546, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c10.pdf>
@@ -2564,7 +2576,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 30--31
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c15.pdf, id=3539, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c15.pdf, id=3547, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c15.pdf>
@@ -2575,7 +2587,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 31--32
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c20.pdf, id=3540, 722.7pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c20.pdf, id=3548, 722.7pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c20.pdf>
@@ -2587,7 +2599,9 @@ Overfull \hbox (296.72995pt too wide) in paragraph at lines 32--33
  []
 
 
-LaTeX Warning: Float too large for page by 272.33907pt on input line 90.
+Overfull \hbox (30.4688pt too wide) in paragraph at lines 47--91
+ []|  [] 
+ []
 
 [119
 
@@ -2606,11 +2620,14 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
 [122]
+Overfull \hbox (30.4688pt too wide) in paragraph at lines 99--143
+ []|  [] 
+ []
 
-LaTeX Warning: Float too large for page by 271.33907pt on input line 140.
 
-
-LaTeX Warning: Float too large for page by 235.33907pt on input line 188.
+Overfull \hbox (30.4688pt too wide) in paragraph at lines 149--192
+ []|  [] 
+ []
 
 ) (./thesis.bbl
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
@@ -2675,10 +2692,10 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
  ) 
 Here is how much of TeX's memory you used:
- 25951 strings out of 493014
- 510561 string characters out of 6133351
- 636333 words of memory out of 5000000
- 28260 multiletter control sequences out of 15000+600000
+ 25952 strings out of 493014
+ 510599 string characters out of 6133351
+ 636872 words of memory out of 5000000
+ 28261 multiletter control sequences out of 15000+600000
  164629 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,80p,3662b,636s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2712,10 +2729,10 @@ public/cm-super/sfrm0700.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/cm-super/sfrm0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
 ic/cm-super/sfti0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
 /wasy2-ps/wasy10.pfb>
-Output written on thesis.pdf (143 pages, 17811129 bytes).
+Output written on thesis.pdf (143 pages, 17810344 bytes).
 PDF statistics:
- 3953 PDF objects out of 4296 (max. 8388607)
- 2992 compressed objects within 30 object streams
+ 3957 PDF objects out of 4296 (max. 8388607)
+ 2996 compressed objects within 30 object streams
  460 named destinations out of 1000 (max. 500000)
  1125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

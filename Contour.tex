@@ -191,7 +191,7 @@ Once again, we smoothed the noise field using a 3 voxel FWHM Gaussian kernel; si
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-    \caption{The four 3D signal types $\mu(\bm{s})$, from top-to-bottom: small sphere, large sphere, multiple spheres, and the UK Biobank full mean image. Note that the colormap limits for the first three signal types are from 0 to 3, while the colormap limits for the UK Biobank mean image is from -0.4 to 0.5.}
+    \captionof{figure}{The four 3D signal types $\mu(\bm{s})$, from top-to-bottom: small sphere, large sphere, multiple spheres, and the UK Biobank full mean image. Note that the colormap limits for the first three signal types are from 0 to 3, while the colormap limits for the UK Biobank mean image is from -0.4 to 0.5.}
     \label{tbl:3D_figures}
 \end{table}
 
@@ -236,7 +236,7 @@ Considering only the results using the interpolation assessment, in both figures
 
 \subsection{2D Simulations}
 \label{sec:2D_simulation_results}
-Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented for the linear ramp signal (\textbf{Signal 1.} in Fig. \ref{fig:linear_ramp}) in \ref{fig:2D_sig_1_results}, and for the circular signal (\textbf{Signal 2.} in Fig. \ref{fig:circle}) in Fig. \ref{fig:2D_sig_2_results}. Results are also presented in tabular format in \textbf{Table. S1}.
+Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented for the linear ramp signal (\textbf{Signal 1.} in Fig. \ref{fig:linear_ramp}) in \ref{fig:2D_sig_1_results}, and for the circular signal (\textbf{Signal 2.} in Fig. \ref{fig:circle}) in Fig. \ref{fig:2D_sig_2_results}. Results are also presented in tabular format in Table \ref{tbl:supp_CI_2D_results}.
 In both plots, results obtained for simulations applying the bootstrap procedure over the estimated boundary $\dAhatc$ are displayed with a solid line, while results for simulations using the true boundary $\dAc$ are displayed with a dashed line. We emphasize that when computing CSs for real data, only the estimated boundary can be used. 
 
 For the linear ramp, across all confidence levels we observed valid, over-coverage for the estimated boundary method, and under-coverage for the true boundary method. In both cases, the degree of agreement between our empirical results and the nominal coverage level improved for larger confidence levels, and as the sample size increased. For instance, while our estimated boundary empirical results were around $88\%$ when the nominal target level was set at $80\%$  (Fig. \ref{fig:2D_sig_1_results}, left), corresponding empirical coverage results hovered around $97\%$ for a nominal target of $95\%$ (Fig. \ref{fig:2D_sig_1_results}, right). Comparing the differences between the solid and dashed curves, there is also greater harmonization between the estimated and true boundary results for higher confidence levels. The method performed similarly regardless of whether homogeneous or heterogeneous noise was added to the model, evidenced by the minimal differences between the red and the blue curves for each of the two boundary methods seen in the plots. 
@@ -260,7 +260,7 @@ For the circular signal the method performed remarkably well, with almost all ou
 \subsection{3D Simulations}
 \label{sec:3D_simulation_results}
 
-Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented in Figs. \ref{fig:3D_sig_1_results}, \ref{fig:3D_sig_2_results}, \ref{fig:3D_sig_3_results} and \ref{fig:3D_sig_4_results} respectively for each of the four signal types (small sphere, large sphere, multiple spheres, Biobank full mean) displayed in Fig. \ref{tbl:3D_figures}. Results are also presented in tabular format in \textbf{Table. S2}. Once again, results obtained for simulations applying the bootstrap procedure over the estimated boundary $\dAhatc$ are displayed with a solid line, and results for simulations using the true boundary $\dAc$ are displayed with a dashed line.
+Empirical coverage results for each of the three confidence levels $1 - \alpha = 0.80, 0.90$ and $0.95$, are presented in Figs. \ref{fig:3D_sig_1_results}, \ref{fig:3D_sig_2_results}, \ref{fig:3D_sig_3_results} and \ref{fig:3D_sig_4_results} respectively for each of the four signal types (small sphere, large sphere, multiple spheres, Biobank full mean) displayed in Fig. \ref{tbl:3D_figures}. Results are also presented in tabular format in Table. \ref{tbl:supp_CI_3D_results}. Once again, results obtained for simulations applying the bootstrap procedure over the estimated boundary $\dAhatc$ are displayed with a solid line, and results for simulations using the true boundary $\dAc$ are displayed with a dashed line.
 
 Overall, the results for all four signal types were consistent: In general, empirical coverage always came above the nominal target level, and the extent of over-coverage diminished when a higher confidence level was used. Particularly, for a nominal target of $1 - \alpha = 0.95$, all of our 3D empirical coverage results lie between 95\% and 98\%. The method was robust as to whether the bootstrap procedure was applied over the true or estimated boundary, or as to whether the variance of the noise field was homo- or heterogeneous. The similarity of the empirical coverage results, in spite of differences in these specific settings, is exhibited in all of the plots by the uniformity of the red and blues curves (indicating minimal differences in performance whether the noise had homogeneous or heterogeneous variance), and agreement between the solid and dashed curves (indicating minimal differences in performance whether the true boundary or estimated boundary was used). In the empirical coverage plots for the small and large spherical signals shown in Figs. \ref{fig:3D_sig_1_results} and \ref{fig:3D_sig_2_results}, all of these curves lie virtually on top of each other. 
 
@@ -305,7 +305,7 @@ Further brain areas localized by the upper CS were the frontal pole (left and ri
 
 As the percentage BOLD change threshold increases between plots, there is a shrinking of both the blue lower CSs and red upper CSs: By using a larger threshold, there are less voxels we can confidently declare have surpassed this higher level of percentage BOLD change, and thus the volume of the red upper CSs decreases (in some cases, vanishing). At the same time, there are more voxels we expect to be able to confidently declare have fallen below the threshold. Since these are precisely the (grey background) voxels that lie outside of the lower blue CSs, the volume of the blue lower CSs also decreases. 
 
-Finally, in \textbf{Fig. S1} and \textbf{Fig. S2} the red upper CSs are compared with the thresholded $t$-statistic map (green-yellow voxels) obtained from applying a traditional one-sample $t$-test group-analysis to the 80 subjects working memory task contrast data, using a voxelwise FWE-corrected threshold of $p < 0.05$. Differences here highlight how statistical significance may not translate to practical significance; while over 28,000 voxels were declared as active in the thresholded $t$-statistic results, only 4,818 voxels were contained in the upper CS indicating a percentage BOLD change of at least $1.0\%$. 
+Finally, in Fig. \ref{tbl:Supp_HCP_results_one} and Fig. \ref{tbl:Supp_HCP_results_two} the red upper CSs are compared with the thresholded $t$-statistic map (green-yellow voxels) obtained from applying a traditional one-sample $t$-test group-analysis to the 80 subjects working memory task contrast data, using a voxelwise FWE-corrected threshold of $p < 0.05$. Differences here highlight how statistical significance may not translate to practical significance; while over 28,000 voxels were declared as active in the thresholded $t$-statistic results, only 4,818 voxels were contained in the upper CS indicating a percentage BOLD change of at least $1.0\%$. 
 
 \begin{table}[htbp]
 \hspace*{-0.5cm}
@@ -321,7 +321,7 @@ Finally, in \textbf{Fig. S1} and \textbf{Fig. S2} the red upper CSs are compared
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-    \caption{Slice views of the Confidence Sets for 80 subjects data from the HCP working memory task for $c = 1.0\%, 1.5\%$ and $2.0\%$ BOLD change thresholds. The upper CS $\Ahatcp$ is displayed in red, and the lower CS $\Ahatcm$ displayed in blue. In yellow is the point estimate set $\Ahatc$, the best guess from the data of voxels that surpassed the BOLD change threshold. The red upper CS has localized regions in the frontal gyrus, frontal pole, anterior insula, supramarginal gyrus and cerebellum for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
+    \captionof{figure}{Slice views of the Confidence Sets for 80 subjects data from the HCP working memory task for $c = 1.0\%, 1.5\%$ and $2.0\%$ BOLD change thresholds. The upper CS $\Ahatcp$ is displayed in red, and the lower CS $\Ahatcm$ displayed in blue. In yellow is the point estimate set $\Ahatc$, the best guess from the data of voxels that surpassed the BOLD change threshold. The red upper CS has localized regions in the frontal gyrus, frontal pole, anterior insula, supramarginal gyrus and cerebellum for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
     \label{tbl:HCP_results_one}
 \end{table}
 
@@ -331,7 +331,7 @@ Finally, in \textbf{Fig. S1} and \textbf{Fig. S2} the red upper CSs are compared
 \centering
     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
        \toprule
-         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 61) & \ \hspace{1.2cm} Coronal (Y = 75) & \hspace{1.0cm} Axial (Z = 37)\\
+         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 47) & \ \hspace{1.2cm} Coronal (Y = 71) & \hspace{1.0cm} Axial (Z = 60)\\
         \midrule
         1.0\% BOLD change & \includegraphics[height=45mm]{CIB_HCP_2_1percent.pdf}\\
         1.5\% BOLD change & \includegraphics[height=45.5mm]{CIB_HCP_2_15percent.pdf}\\
@@ -339,7 +339,7 @@ Finally, in \textbf{Fig. S1} and \textbf{Fig. S2} the red upper CSs are compared
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-    \caption{Further slice views of the Confidence Sets. Here, we see that the red upper CS has also localized regions in the anterior cingulate, superior front gyrus, supramarginal gyrus, and precuneous for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
+    \captionof{figure}{Further slice views of the Confidence Sets. Here, we see that the red upper CS has also localized regions in the anterior cingulate, superior front gyrus, supramarginal gyrus, and precuneous for which we can assert with $95\%$ confidence that there has been (at least) a $1.0\%$ BOLD change raw effect.}
     \label{tbl:HCP_results_two}
 \end{table}
 

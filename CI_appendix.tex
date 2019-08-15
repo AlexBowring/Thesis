@@ -15,7 +15,7 @@
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-    \caption{Comparing the upper Confidences Sets for the HCP working memory task data (same slice views as Fig. \ref{tbl:HCP_results_one}) with the thresholded $t$-statistic results obtained by applying a traditional group-level one-sample $t$-test, voxelwise $p < 0.05$ FWE correction (green-yellow voxels). While over 25,000 voxels were determined as statistically significant with the standard inference method, less than 5,000 voxels were asserted to have at least a 1.0\% BOLD change by the CSs. In particular, the two statistically significant clusters spanning the left and right side of the frontal lobe contained almost no voxels with a practical effect size of over 1.5\% BOLD change.}
+    \captionof{figure}{Comparing the upper Confidences Sets for the HCP working memory task data (same slice views as Fig. \ref{tbl:HCP_results_one}) with the thresholded $t$-statistic results obtained by applying a traditional group-level one-sample $t$-test, voxelwise $p < 0.05$ FWE correction (green-yellow voxels). While over 25,000 voxels were determined as statistically significant with the standard inference method, less than 5,000 voxels were asserted to have at least a 1.0\% BOLD change by the CSs. In particular, the two statistically significant clusters spanning the left and right side of the frontal lobe contained almost no voxels with a practical effect size of over 1.5\% BOLD change.}
     \label{tbl:Supp_HCP_results_one}
 \end{table}
 
@@ -25,7 +25,7 @@
 \centering
     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
        \toprule
-         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 61) & \ \hspace{1.2cm} Coronal (Y = 75) & \hspace{1.0cm} Axial (Z = 37)\\
+         Threshold $c$ & \hspace{1.4cm} Sagittal (X = 47) & \ \hspace{1.2cm} Coronal (Y = 71) & \hspace{1.0cm} Axial (Z = 60)\\
         \midrule
         1.0\% BOLD change & \includegraphics[height=45mm]{CIB_GLM_Fig2_c10.pdf}\\
         1.5\% BOLD change & \includegraphics[height=45.5mm]{CIB_GLM_Fig2_c15.pdf}\\
@@ -33,7 +33,7 @@
         \bottomrule
     \end{tabular}
 \end{adjustbox}
-    \caption{Comparing the upper Confidences Sets for the HCP working memory task data (same slice views as Fig. \ref{tbl:HCP_results_two}) with the thresholded $t$-statistic results obtained by applying a traditional group-level one-sample $t$-test, voxelwise $p < 0.05$ FWE correction (green-yellow voxels). While one large statistically significant cluster covers the supramarginal gyrus, angular gyrus and precuneous, the CSs localize the precise areas with practically significant effect sizes within each of these regions.}
+    \captionof{figure}{Comparing the upper Confidences Sets for the HCP working memory task data (same slice views as Fig. \ref{tbl:HCP_results_two}) with the thresholded $t$-statistic results obtained by applying a traditional group-level one-sample $t$-test, voxelwise $p < 0.05$ FWE correction (green-yellow voxels). While one large statistically significant cluster covers the supramarginal gyrus, angular gyrus and precuneous, the CSs localize the precise areas with practically significant effect sizes within each of these regions.}
     \label{tbl:Supp_HCP_results_two}
 \end{table}
 
@@ -42,9 +42,10 @@
 
 \begin{table}[htbp]
 \vspace{-5.0em}
-\caption*{\textbf{Supplementary Table 1.} Empirical coverage results for the 2D simulations using nominal (nom.) coverage levels $1-\alpha = 80\%, 90\%$ and $95\%$. Results are shown for applying the Wild $t$-Bootstrap method to the residual field along the estimated boundary $\dAhatc$ (top) and the true boundary $\dAc$ (bottom).}
+\caption{Empirical coverage results for the 2D simulations using nominal (nom.) coverage levels $1-\alpha = 80\%, 90\%$ and $95\%$. Results are shown for applying the Wild $t$-Bootstrap method to the residual field along the estimated boundary $\dAhatc$ (top) and the true boundary $\dAc$ (bottom).}
 \centering
-\begin{tabular}{@{}p{0.12\textwidth}*{4}{L{\dimexpr0.22\textwidth-2\tabcolsep\relax}}@{}}
+\hspace*{-1.5cm}
+\begin{tabular}{@{}p{0.14\textwidth}*{4}{L{\dimexpr0.26\textwidth-2\tabcolsep\relax}}@{}}
 \toprule
 & \multicolumn{2}{c}{\textbf{2D Signal 1. (Ramp)}} &
 \multicolumn{2}{c}{\textbf{2D Signal 2. (Circle)}} \\
@@ -86,16 +87,17 @@ $\hphantom{N{}={}}240$ & 92.07\% $\pm$ 0.49\% & 92.47\% $\pm$ 0.48\% & 94.40\% $
 $\hphantom{N{}={}}480$ & 94.23\% $\pm$ 0.43\% & 94.10\% $\pm$ 0.43 \% & 94.87\% $\pm$ 0.40\% & 93.73\% $\pm$ 0.44\%\\
 \bottomrule
 \end{tabular}
-\label{table:mr}
+\label{tbl:supp_CI_2D_results}
 \end{table}
 
 \pagebreak
 
 \begin{table}[htbp]
 \vspace{-5.0em}
-\caption*{\textbf{Supplementary Table 2.} Empirical coverage results for the 3D simulations using nominal (nom.) coverage levels $1-\alpha = 80\%, 90\%$ and $95\%$. Results are shown for applying the Wild $t$-Bootstrap method to the residual field along the estimated boundary $\dAhatc$ (top) and the true boundary $\dAc$ (bottom).}
+\caption{Empirical coverage results for the 3D simulations using nominal (nom.) coverage levels $1-\alpha = 80\%, 90\%$ and $95\%$. Results are shown for applying the Wild $t$-Bootstrap method to the residual field along the estimated boundary $\dAhatc$ (top) and the true boundary $\dAc$ (bottom).}
 \centering
-\begin{tabular}{@{}p{0.12\textwidth}*{4}{L{\dimexpr0.22\textwidth-2\tabcolsep\relax}}@{}}
+\hspace*{-1.5cm}
+\begin{tabular}{@{}p{0.14\textwidth}*{4}{L{\dimexpr0.26\textwidth-2\tabcolsep\relax}}@{}}
 \toprule
 & \multicolumn{2}{c}{\textbf{3D Signal 1. (Small Sphere)}} &
 \multicolumn{2}{c}{\textbf{3D Signal 2. (Large Sphere)}} \\
@@ -137,13 +139,15 @@ $\hphantom{N{}={}}240$ & 96.17\% $\pm$ 0.35\% & 96.93\% $\pm$ 0.31\% & 96.23\% $
 $\hphantom{N{}={}}480$ & 96.33\% $\pm$ 0.34\% & 96.13\% $\pm$ 0.35\% & 96.77\% $\pm$ 0.32\% & 96.80\% $\pm$ 0.32\% \\
 \bottomrule
 \end{tabular}
+\label{tbl:supp_CI_3D_results}
 \end{table}
 
 \begin{table}[htbp]
 \vspace{-5.0em}
-\caption*{\textbf{Supplementary Table 2. (continued)}}
+\caption*{\textbf{Table 2. (continued)}}
 \centering
-\begin{tabular}{@{}p{0.12\textwidth}*{4}{L{\dimexpr0.22\textwidth-2\tabcolsep\relax}}@{}}
+\hspace*{-1.5cm}
+\begin{tabular}{@{}p{0.14\textwidth}*{4}{L{\dimexpr0.26\textwidth-2\tabcolsep\relax}}@{}}
 \toprule
 & \multicolumn{2}{c}{\textbf{3D Signal 3. (Multiple Spheres)}} &
 \multicolumn{2}{c}{\textbf{3D Signal 4. (UK Biobank)}} \\
