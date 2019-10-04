@@ -144,7 +144,7 @@
 
 \renewcommand{\thesisyear}{2019}      %% Your year of graduation.
 
-\renewcommand{\thesistitle}{A Comparison of Neuroimaging Software and a Spatial Confidence Sets Method for inference on Task-fMRI data}     %% The title of your thesis; use
+\renewcommand{\thesistitle}{On the Reproducibility and Interpretability of Group-Level Task-fMRI Results}     %% The title of your thesis; use
                                      %% mixed-case.
 
 %! \renewcommand{\thesistitletypesize}{\LARGE}   %! Put this in if you
@@ -285,6 +285,7 @@
 % Allow 'Three part table', caption above and below, used for software processing steps in SC 
 \usepackage[flushleft]{threeparttable}
 
+
 % Contour Inference operators
 \DeclareMathOperator{\Ac}{\mathcal{A}_{c}}
 \DeclareMathOperator{\Ahatc}{\hat{\mathcal{A}}_{c}}
@@ -296,9 +297,21 @@
 \DeclareMathOperator{\Xbar}{\bar{X}}
 \DeclareMathOperator{\arcsinh}{arcsinh}
 \DeclareMathOperator{\Mbar}{\bar{\mathcal{M}}}
+\DeclareMathOperator{\Acmu}{\mathcal{A}_{c,\mu}}
+\DeclareMathOperator{\Ahatcpm}{\hat{\mathcal{A}}_{c}^\pm}
+\DeclareMathOperator{\Ahatcpmu}{\hat{\mathcal{A}}_{c,\mu}^+}
+\DeclareMathOperator{\Ahatcpd}{\hat{\mathcal{A}}_{c,\textit{d}}^+}
+\DeclareMathOperator{\Ahatcmmu}{\hat{\mathcal{A}}_{c,\mu}^{\textrm{--}}}
+\DeclareMathOperator{\Ahatcmd}{\hat{\mathcal{A}}_{c,\textit{d}}^{\textrm{--}}}
+\DeclareMathOperator{\dAcmu}{\partial\mathcal{A}_{c,\mu}}
+\DeclareMathOperator{\Cov}{\mathrm{Cov}}
+\DeclareMathOperator*{\E}{\mathbb{E}}
 
 % Package for the 'moon' symbol used in the 1D intuition figure for %BOLD CSs.
 \usepackage{wasysym}
+
+% Package for the proof in the Cohens D chaper
+\usepackage{amsthm}
 
 \begin{document}
 
@@ -409,10 +422,11 @@ Over the last three decades, Functional Magnetic Resonance Imaging (fMRI) has ra
 \chapter{Exploring the Impact of Analysis Software on Task-fMRI Results}
 \input Software_Comparison.tex
 
-\chapter{Spatial Confidence Sets for Task-fMRI Inference}
+\chapter{Spatial Confidence Sets for Raw Effect Size Images}
+\label{chap:BOLD}
 \input Contour.tex
 
-\chapter{Contour Inference for Cohen's \textit{d}}
+\chapter{Spatial Confidence Sets for Cohen's d Effect Size Images}
 \input Cohen.tex
 
 \chapter{Conclusion and Future Work}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{102}
+\begin{thebibliography}{104}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -175,6 +175,11 @@ Justin~R Chumbley and Karl~J Friston.
 \newblock False discovery rate revisited: {FDR} and topological inference using
   gaussian random fields.
 \newblock \emph{Neuroimage}, 44\penalty0 (1):\penalty0 62--70, January 2009.
+
+\bibitem[Cohen(2013)]{Cohen2013-it}
+Jacob Cohen.
+\newblock \emph{Statistical power analysis for the behavioral sciences}.
+\newblock Routledge, 2013.
 
 \bibitem[Cox(1996)]{Cox1996-nu}
 R~W Cox.
@@ -391,6 +396,10 @@ K~K Kwong, J~W Belliveau, D~A Chesler, I~E Goldberg, R~M Weisskoff, B~P
   primary sensory stimulation.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 89\penalty0 (12):\penalty0
   5675--5679, June 1992.
+
+\bibitem[Laubscher(1960)]{Laubscher1960-px}
+Nico~F Laubscher.
+\newblock Normalizing the noncentral $t$ and {$F$} distributions, 1960.
 
 \bibitem[Lee et~al.(2013)Lee, Smyser, and Shimony]{Lee2013-kn}
 M~H Lee, C~D Smyser, and J~S Shimony.

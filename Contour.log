@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  5 AUG 2019 19:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  4 OCT 2019 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8253,6 +8253,25 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no . in font nullfont!
+! Undefined control sequence.
+<write> ...D_method_comparisons' on page \thepage 
+                                                  \space undefined\on@line .
+l.80 ... (see Fig. \ref{fig:3D_method_comparisons}
+                                                  ). Hence we made two alter...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `fig:3D_method_comparisons' on page  undefined on inpu
+t line 80.
+
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no H in font nullfont!
@@ -8899,48 +8918,8 @@ Overfull \hbox (16.86658pt too wide) in paragraph at lines 80--81
  []
 
 
-Overfull \hbox (27.24985pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 REF-
- []
-
-
-Overfull \hbox (20.01378pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 ER-
- []
-
-
-Overfull \hbox (32.41649pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 ENCE
- []
-
-
-Overfull \hbox (31.69427pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 COM-
- []
-
-
-Overfull \hbox (28.0554pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 PAR-
- []
-
-
-Overfull \hbox (8.1944pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 I-
- []
-
-
-Overfull \hbox (24.02765pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 SON
- []
-
-
-Overfull \hbox (24.47208pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 FIG-
- []
-
-
-Overfull \hbox (25.02763pt too wide) in paragraph at lines 80--81
-\OT1/cmr/bx/n/10 URE
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 80--81
+[]
  []
 
 
@@ -12747,7 +12726,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.112 \begin{figure}
-                    [htbp]\label{fig:highres_lowres}%
+                    [htbp]%
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -12922,7 +12901,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 112--116
- [][] 
+ [] 
  []
 
 
@@ -13346,7 +13325,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \end{figure}
+l.118 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -13355,7 +13334,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.117 \end{figure}
+l.118 \end{figure}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -13364,27 +13343,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (32.57623pt too wide) in paragraph at lines 116--118
+Overfull \hbox (32.57623pt too wide) in paragraph at lines 116--119
 []\OT1/cmr/bx/n/10 Figure
  []
 
 
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 116--118
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 116--119
 []\OT1/cmr/bx/n/10 :
  []
 
 
-Overfull \hbox (19.3749pt too wide) in paragraph at lines 116--118
+Overfull \hbox (19.3749pt too wide) in paragraph at lines 116--119
 \OT1/cmr/bx/n/10 Fig.
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 116--118
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 116--119
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 116--118
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 116--119
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
@@ -13533,7 +13512,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.119 ...olations of the subset condition $\Ahatcp
+l.120 ...olations of the subset condition $\Ahatcp
                                                    \subset \Ac \subset \Ahat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13542,7 +13521,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.119 ...the subset condition $\Ahatcp \subset \Ac
+l.120 ...the subset condition $\Ahatcp \subset \Ac
                                                    \subset \Ahatcm$ occur.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13551,7 +13530,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.119 ...tion $\Ahatcp \subset \Ac \subset \Ahatcm
+l.120 ...tion $\Ahatcp \subset \Ac \subset \Ahatcm
                                                   $ occur.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13719,12 +13698,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 119--121
+Overfull \hbox (20.0pt too wide) in paragraph at lines 120--122
 []
  []
 
 
-Overfull \hbox (15.5556pt too wide) in paragraph at lines 119--121
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 120--122
 \OMS/cmsy/m/n/10 ^^Z^^Z$
  []
 
@@ -13798,7 +13777,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:lowres' on page \thepage 
                                                   \space undefined\on@line .
-l.122 ...f sets displayed in Fig. \ref{fig:lowres}
+l.123 ...f sets displayed in Fig. \ref{fig:lowres}
                                                   . In this instance, suppos...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13807,7 +13786,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 122.
+LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 123.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
@@ -13870,7 +13849,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.122 ...ght half of the image corresponds to $\Ac
+l.123 ...ght half of the image corresponds to $\Ac
                                                   $ (green pixels overlapped...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13936,7 +13915,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.122 ...ow), and yellow pixels belong to $\Ahatcp
+l.123 ...ow), and yellow pixels belong to $\Ahatcp
                                                   $. We wish to determine wh...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13984,7 +13963,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.122 ... determine whether the condition $\Ahatcp
+l.123 ... determine whether the condition $\Ahatcp
                                                    \subset \Ac$ has been vio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -13993,7 +13972,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.122 ...hether the condition $\Ahatcp \subset \Ac
+l.123 ...hether the condition $\Ahatcp \subset \Ac
                                                   $ has been violated or not...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14108,7 +14087,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.122 ...uired, all pixels that belong to $\Ahatcp
+l.123 ...uired, all pixels that belong to $\Ahatcp
                                                   $ also belong to $\Ac$, an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14131,7 +14110,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.122 ...t belong to $\Ahatcp$ also belong to $\Ac
+l.123 ...t belong to $\Ahatcp$ also belong to $\Ac
                                                   $, and therefore no violat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14211,7 +14190,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:lowres' on page \thepage 
                                                   \space undefined\on@line .
-l.122 ...xample presented in Fig. \ref{fig:lowres}
+l.123 ...xample presented in Fig. \ref{fig:lowres}
                                                    has in fact been derived ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14220,7 +14199,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 122.
+LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 123.
 
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -14366,7 +14345,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:lowres' on page \thepage 
                                                   \space undefined\on@line .
-l.123 Fig. \ref{fig:lowres}
+l.124 Fig. \ref{fig:lowres}
                             displays the sets $\Ac$ and $\Ahatcp$ from the d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14375,7 +14354,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 123.
+LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 124.
 
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -14395,7 +14374,7 @@ Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.123 Fig. \ref{fig:lowres} displays the sets $\Ac
+l.124 Fig. \ref{fig:lowres} displays the sets $\Ac
                                                   $ and $\Ahatcp$ from the d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14409,7 +14388,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.123 ...res} displays the sets $\Ac$ and $\Ahatcp
+l.124 ...res} displays the sets $\Ac$ and $\Ahatcp
                                                   $ from the down-sampled, l...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14473,7 +14452,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `fig:highres' on page \thepage 
                                                   \space undefined\on@line .
-l.123 ... simulation, while Fig. \ref{fig:highres}
+l.124 ... simulation, while Fig. \ref{fig:highres}
                                                    shows the same set of res...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14482,7 +14461,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:highres' on page  undefined on input line 123.
+LaTeX Warning: Reference `fig:highres' on page  undefined on input line 124.
 
 Missing character: There is no s in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -14541,7 +14520,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...ference `fig:highres' on page \thepage 
                                                   \space undefined\on@line .
-l.123 ...nal resolution. In Fig. \ref{fig:highres}
+l.124 ...nal resolution. In Fig. \ref{fig:highres}
                                                    we see that there \textit...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14550,7 +14529,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:highres' on page  undefined on input line 123.
+LaTeX Warning: Reference `fig:highres' on page  undefined on input line 124.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -14613,7 +14592,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.123 ...f the yellow pixels belonging to $\Ahatcp
+l.124 ...f the yellow pixels belonging to $\Ahatcp
                                                   $ over the boundary of the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14680,7 +14659,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.123 ...d therefore the subset condition $\Ahatcp
+l.124 ...d therefore the subset condition $\Ahatcp
                                                    \subset \Ac$ \textit{has}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14689,7 +14668,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.123 ...the subset condition $\Ahatcp \subset \Ac
+l.124 ...the subset condition $\Ahatcp \subset \Ac
                                                   $ \textit{has} been violat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14805,7 +14784,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:lowres' on page \thepage 
                                                   \space undefined\on@line .
-l.123 ... in situations like Fig. \ref{fig:lowres}
+l.124 ... in situations like Fig. \ref{fig:lowres}
                                                   , our empirical coverage w...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14814,7 +14793,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 123.
+LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 124.
 
 Missing character: There is no , in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -14942,7 +14921,7 @@ Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.123 ...ue occurs when testing violations of $\Ac
+l.124 ...ue occurs when testing violations of $\Ac
                                                    \subset \Ahatcm$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14951,7 +14930,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.123 ...esting violations of $\Ac \subset \Ahatcm
+l.124 ...esting violations of $\Ac \subset \Ahatcm
                                                   $.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -14961,82 +14940,82 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 122--124
+Overfull \hbox (20.0pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 122--124
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 123--125
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 122--124
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/n/10 50 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (10.00003pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/n/10 50$
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 122--124
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/n/10 100 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 122--124
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/n/10 100$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (14.31104pt too wide) in paragraph at lines 122--124
+Overfull \hbox (14.31104pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/it/10 has
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 122--124
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 123--125
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
 
-Overfull \hbox (14.31104pt too wide) in paragraph at lines 122--124
+Overfull \hbox (14.31104pt too wide) in paragraph at lines 123--125
 \OT1/cmr/m/it/10 has
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 122--124
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 123--125
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 122--124
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 123--125
 \OMS/cmsy/m/n/10 ^^Z$ 
  []
 
@@ -15319,12 +15298,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 125--126
+Overfull \hbox (20.0pt too wide) in paragraph at lines 126--127
 []
  []
 
 
-Overfull \hbox (16.86658pt too wide) in paragraph at lines 125--126
+Overfull \hbox (16.86658pt too wide) in paragraph at lines 126--127
 \OT1/cmr/m/it/10 SSS
  []
 
@@ -15385,7 +15364,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.127 ...w the true continuous mean image and $\Ac
+l.128 ...w the true continuous mean image and $\Ac
                                                   $, following the method de...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15433,7 +15412,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ary_discrete_lattice' on page \thepage 
                                                   \space undefined\on@line .
-l.127 ...ction \ref{sec:boundary_discrete_lattice}
+l.128 ...ction \ref{sec:boundary_discrete_lattice}
                                                    we can obtain weights $m_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15443,7 +15422,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:boundary_discrete_lattice' on page  undefined on 
-input line 127.
+input line 128.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -15495,7 +15474,7 @@ Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.127 ... $m_2$ to interpolate between points $\bm
+l.128 ... $m_2$ to interpolate between points $\bm
                                                   {s_O}$ and $\bm{s_I}$ eith...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15509,7 +15488,7 @@ Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.127 ...polate between points $\bm{s_O}$ and $\bm
+l.128 ...polate between points $\bm{s_O}$ and $\bm
                                                   {s_I}$ either side of the ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15558,7 +15537,7 @@ Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
 <recently read> \dAc 
                      
-l.127 ...de of the true, continuous boundary $\dAc
+l.128 ...de of the true, continuous boundary $\dAc
                                                   $, in order to find a loca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15592,7 +15571,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.127 ... $\dAc$, in order to find a location $\bm
+l.128 ... $\dAc$, in order to find a location $\bm
                                                   {s^*}$ that approximately ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15704,7 +15683,7 @@ Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.127 ...ly on the boundary). To determine if $\bm
+l.128 ...ly on the boundary). To determine if $\bm
                                                   {s^*} \in \Ahatcp$, we the...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15713,7 +15692,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.127 ...y). To determine if $\bm{s^*} \in \Ahatcp
+l.128 ...y). To determine if $\bm{s^*} \in \Ahatcp
                                                   $, we then re-apply the we...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15766,57 +15745,57 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 127--128
+Overfull \hbox (20.0pt too wide) in paragraph at lines 128--129
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 127--128
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 128--129
 []
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 127--128
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 128--129
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 127--128
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 128--129
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (11.48526pt too wide) in paragraph at lines 127--128
+Overfull \hbox (11.48526pt too wide) in paragraph at lines 128--129
 []$
  []
 
 
-Overfull \hbox (9.27571pt too wide) in paragraph at lines 127--128
+Overfull \hbox (9.27571pt too wide) in paragraph at lines 128--129
 []$
  []
 
 
-Overfull \hbox (9.28473pt too wide) in paragraph at lines 127--128
+Overfull \hbox (9.28473pt too wide) in paragraph at lines 128--129
 []$
  []
 
 
-Overfull \hbox (18.72913pt too wide) in paragraph at lines 127--128
+Overfull \hbox (18.72913pt too wide) in paragraph at lines 128--129
 [] \OMS/cmsy/m/n/10 2$
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 127--128
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 128--129
 \OML/cmm/m/it/10 m[]$
  []
 
 
-Overfull \hbox (13.26627pt too wide) in paragraph at lines 127--128
+Overfull \hbox (13.26627pt too wide) in paragraph at lines 128--129
 \OML/cmm/m/it/10 m[]$
  []
 
 ! Undefined control sequence.
-l.130 \bm
+l.131 \bm
          {w}^{T}\bm{\hat{\beta}}(\bm{s^{*}}) - k\, \hat{\sigma}(\bm{s^{*}}) ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15825,7 +15804,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 \bm{w}^{T}\bm
+l.131 \bm{w}^{T}\bm
                    {\hat{\beta}}(\bm{s^{*}}) - k\, \hat{\sigma}(\bm{s^{*}}) ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15834,7 +15813,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 \bm{w}^{T}\bm{\hat{\beta}}(\bm
+l.131 \bm{w}^{T}\bm{\hat{\beta}}(\bm
                                     {s^{*}}) - k\, \hat{\sigma}(\bm{s^{*}}) ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15843,7 +15822,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...beta}}(\bm{s^{*}}) - k\, \hat{\sigma}(\bm
+l.131 ...beta}}(\bm{s^{*}}) - k\, \hat{\sigma}(\bm
                                                   {s^{*}}) v_{w} = m_1 \Bigg...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15852,7 +15831,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...sigma}(\bm{s^{*}}) v_{w} = m_1 \Bigg( \bm
+l.131 ...sigma}(\bm{s^{*}}) v_{w} = m_1 \Bigg( \bm
                                                   {w}^{T}\bm{\hat{\beta}}(\b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15861,7 +15840,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...{s^{*}}) v_{w} = m_1 \Bigg( \bm{w}^{T}\bm
+l.131 ...{s^{*}}) v_{w} = m_1 \Bigg( \bm{w}^{T}\bm
                                                   {\hat{\beta}}(\bm{s_O}) - ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15870,7 +15849,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...m_1 \Bigg( \bm{w}^{T}\bm{\hat{\beta}}(\bm
+l.131 ...m_1 \Bigg( \bm{w}^{T}\bm{\hat{\beta}}(\bm
                                                   {s_O}) - k\, \hat{\sigma}(...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15879,7 +15858,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...{\beta}}(\bm{s_O}) - k\, \hat{\sigma}(\bm
+l.131 ...{\beta}}(\bm{s_O}) - k\, \hat{\sigma}(\bm
                                                   {s_O}) v_{w} \Bigg) + m_2 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15888,7 +15867,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...}(\bm{s_O}) v_{w} \Bigg) + m_2 \Bigg( \bm
+l.131 ...}(\bm{s_O}) v_{w} \Bigg) + m_2 \Bigg( \bm
                                                   {w}^{T}\bm{\hat{\beta}}(\b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15897,7 +15876,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...) v_{w} \Bigg) + m_2 \Bigg( \bm{w}^{T}\bm
+l.131 ...) v_{w} \Bigg) + m_2 \Bigg( \bm{w}^{T}\bm
                                                   {\hat{\beta}}(\bm{s_I}) - ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15906,7 +15885,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...m_2 \Bigg( \bm{w}^{T}\bm{\hat{\beta}}(\bm
+l.131 ...m_2 \Bigg( \bm{w}^{T}\bm{\hat{\beta}}(\bm
                                                   {s_I}) - k\, \hat{\sigma}(...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15915,7 +15894,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.130 ...{\beta}}(\bm{s_I}) - k\, \hat{\sigma}(\bm
+l.131 ...{\beta}}(\bm{s_I}) - k\, \hat{\sigma}(\bm
                                                   {s_I}) v_{w} \Bigg) \geq c.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15924,7 +15903,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (363.31929pt too wide) detected at line 131
+Overfull \hbox (363.31929pt too wide) detected at line 132
 []\OML/cmm/m/it/10 w[][]\OT1/cmr/m/n/10 ([]) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it
 /10 k []\OT1/cmr/m/n/10 ([])\OML/cmm/m/it/10 v[] \OT1/cmr/m/n/10 = \OML/cmm/m/i
 t/10 m[][]w[][]\OT1/cmr/m/n/10 ([]) \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 k []\
@@ -15973,7 +15952,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.132 ...inequality holds, then by definition $\bm
+l.133 ...inequality holds, then by definition $\bm
                                                   {s^{*}} \in \Ahatcp$. Othe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15982,7 +15961,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...hen by definition $\bm{s^{*}} \in \Ahatcp
+l.133 ...hen by definition $\bm{s^{*}} \in \Ahatcp
                                                   $. Otherwise, $\bm{s^{*}} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16004,7 +15983,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.132 ...$\bm{s^{*}} \in \Ahatcp$. Otherwise, $\bm
+l.133 ...$\bm{s^{*}} \in \Ahatcp$. Otherwise, $\bm
                                                   {s^{*}} \notin \Ahatcp$, a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16013,7 +15992,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...p$. Otherwise, $\bm{s^{*}} \notin \Ahatcp
+l.133 ...p$. Otherwise, $\bm{s^{*}} \notin \Ahatcp
                                                   $, and therefore we can co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16072,7 +16051,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.132 ...nclude that the subset condition $\Ahatcp
+l.133 ...nclude that the subset condition $\Ahatcp
                                                    \subset \Ac$ has been vio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16081,7 +16060,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...the subset condition $\Ahatcp \subset \Ac
+l.133 ...the subset condition $\Ahatcp \subset \Ac
                                                   $ has been violated. By ch...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16125,7 +16104,7 @@ Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
 <recently read> \bm 
                     
-l.132 ...s been violated. By checking whether $\bm
+l.133 ...s been violated. By checking whether $\bm
                                                   {w}^{T}\bm{\hat{\beta}}(\b...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16134,7 +16113,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...lated. By checking whether $\bm{w}^{T}\bm
+l.133 ...lated. By checking whether $\bm{w}^{T}\bm
                                                   {\hat{\beta}}(\bm{s^{*}}) ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16143,7 +16122,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...g whether $\bm{w}^{T}\bm{\hat{\beta}}(\bm
+l.133 ...g whether $\bm{w}^{T}\bm{\hat{\beta}}(\bm
                                                   {s^{*}}) + k\, \hat{\sigma...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16152,7 +16131,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...beta}}(\bm{s^{*}}) + k\, \hat{\sigma}(\bm
+l.133 ...beta}}(\bm{s^{*}}) + k\, \hat{\sigma}(\bm
                                                   {s^{*}}) v_{w} \geq c$, we...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16197,7 +16176,7 @@ Missing character: There is no f in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.132 ...an similarly test for a violation of $\Ac
+l.133 ...an similarly test for a violation of $\Ac
                                                    \subset \Ahatcm$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16206,7 +16185,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.132 ...t for a violation of $\Ac \subset \Ahatcm
+l.133 ...t for a violation of $\Ac \subset \Ahatcm
                                                   $.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16216,38 +16195,38 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (18.72913pt too wide) in paragraph at lines 131--133
+Overfull \hbox (18.72913pt too wide) in paragraph at lines 132--134
        $[] \OMS/cmsy/m/n/10 2$
  []
 
 
-Overfull \hbox (18.72913pt too wide) in paragraph at lines 131--133
+Overfull \hbox (18.72913pt too wide) in paragraph at lines 132--134
 [] []$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 131--133
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 132--134
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
 
-Overfull \hbox (44.75226pt too wide) in paragraph at lines 131--133
+Overfull \hbox (44.75226pt too wide) in paragraph at lines 132--134
 \OML/cmm/m/it/10 w[][]\OT1/cmr/m/n/10 ([]) +
  []
 
 
-Overfull \hbox (52.19905pt too wide) in paragraph at lines 131--133
+Overfull \hbox (52.19905pt too wide) in paragraph at lines 132--134
 \OML/cmm/m/it/10 k []\OT1/cmr/m/n/10 ([])\OML/cmm/m/it/10 v[] \OMS/cmsy/m/n/10 
 ^^U
  []
 
 
-Overfull \hbox (4.32756pt too wide) in paragraph at lines 131--133
+Overfull \hbox (4.32756pt too wide) in paragraph at lines 132--134
 \OML/cmm/m/it/10 c$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 131--133
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 132--134
 \OMS/cmsy/m/n/10 ^^Z$ 
  []
 
@@ -16452,7 +16431,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.134 ...olations of the subset condition $\Ahatcp
+l.135 ...olations of the subset condition $\Ahatcp
                                                    \subset \Ac \ \subset \Ah...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16461,7 +16440,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.134 ...the subset condition $\Ahatcp \subset \Ac
+l.135 ...the subset condition $\Ahatcp \subset \Ac
                                                    \ \subset \Ahatcm$ for co...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16470,7 +16449,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.134 ...on $\Ahatcp \subset \Ac \ \subset \Ahatcm
+l.135 ...on $\Ahatcp \subset \Ac \ \subset \Ahatcm
                                                   $ for configurations simil...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16507,7 +16486,7 @@ Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:lowres' on page \thepage 
                                                   \space undefined\on@line .
-l.134 ...onfigurations similar to \ref{fig:lowres}
+l.135 ...onfigurations similar to \ref{fig:lowres}
                                                   . We applied this method f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16516,7 +16495,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 134.
+LaTeX Warning: Reference `fig:lowres' on page  undefined on input line 135.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
@@ -16913,7 +16892,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.134 ...rmined total empirical coverage ($\Ahatcp
+l.135 ...rmined total empirical coverage ($\Ahatcp
                                                    \subset \Ac \ \subset \Ah...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16922,7 +16901,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.134 ... empirical coverage ($\Ahatcp \subset \Ac
+l.135 ... empirical coverage ($\Ahatcp \subset \Ac
                                                    \ \subset \Ahatcm$ for al...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -16931,7 +16910,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.134 ...e ($\Ahatcp \subset \Ac \ \subset \Ahatcm
+l.135 ...e ($\Ahatcp \subset \Ac \ \subset \Ahatcm
                                                   $ for all simulation runs)...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17277,42 +17256,42 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 134--135
+Overfull \hbox (20.0pt too wide) in paragraph at lines 135--136
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 134--135
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--136
 \OMS/cmsy/m/n/10 ^^Z
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 134--135
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--136
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 134--135
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 135--136
 []
  []
 
 
-Overfull \hbox (16.86658pt too wide) in paragraph at lines 134--135
+Overfull \hbox (16.86658pt too wide) in paragraph at lines 135--136
 \OT1/cmr/m/it/10 SSS
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 134--135
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--136
 \OMS/cmsy/m/n/10 ^^Z
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 134--135
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 135--136
 \OMS/cmsy/m/n/10 ^^Z$
  []
 
 ! Undefined control sequence.
-l.136 \section
+l.137 \section
               {Method}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17327,7 +17306,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.137 \subsection
+l.138 \subsection
                  {Simulations}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17502,7 +17481,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...erence `sec:Overview' on page \thepage 
                                                   \space undefined\on@line .
-l.139 ...p described in Section \ref{sec:Overview}
+l.140 ...p described in Section \ref{sec:Overview}
                                                   , we simulate 3000 indepen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17511,7 +17490,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `sec:Overview' on page  undefined on input line 139.
+LaTeX Warning: Reference `sec:Overview' on page  undefined on input line 140.
 
 Missing character: There is no , in font nullfont!
 Missing character: There is no w in font nullfont!
@@ -17574,22 +17553,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 136--140
+Overfull \hbox (20.0pt too wide) in paragraph at lines 137--141
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 136--140
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 137--141
 []
  []
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 141--141
+Overfull \hbox (20.0pt too wide) in paragraph at lines 142--142
 [] 
  []
 
 ! Undefined control sequence.
-l.141 $$Y_{i}(\bm
+l.142 $$Y_{i}(\bm
                  {s}) = \mu(\bm{s}) + \epsilon_{i}(\bm{s}), \qquad i = 1, .....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17598,7 +17577,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.141 $$Y_{i}(\bm{s}) = \mu(\bm
+l.142 $$Y_{i}(\bm{s}) = \mu(\bm
                                {s}) + \epsilon_{i}(\bm{s}), \qquad i = 1, .....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17607,7 +17586,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.141 ...(\bm{s}) = \mu(\bm{s}) + \epsilon_{i}(\bm
+l.142 ...(\bm{s}) = \mu(\bm{s}) + \epsilon_{i}(\bm
                                                   {s}), \qquad i = 1, ..., N$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17616,7 +17595,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (133.6255pt too wide) detected at line 141
+Overfull \hbox (133.6255pt too wide) detected at line 142
 \OML/cmm/m/it/10 Y[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) = \OML
 /cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 ) + \OML/cmm
 /m/it/10 ^^O[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )\OML/cmm/m/it
@@ -17644,7 +17623,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.142 using a range of signals $\mu(\bm
+l.143 using a range of signals $\mu(\bm
                                        {s})$, Gaussian noise structures $\ep...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17677,7 +17656,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.142 ...ussian noise structures $\epsilon_{i}(\bm
+l.143 ...ussian noise structures $\epsilon_{i}(\bm
                                                   {s})$ with stationary and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17836,7 +17815,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ... `sec:wild_bootstrap' on page \thepage 
                                                   \space undefined\on@line .
-l.142 ...lined in Section \ref{sec:wild_bootstrap}
+l.143 ...lined in Section \ref{sec:wild_bootstrap}
                                                    with $B = 5000$ bootstrap...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17846,7 +17825,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:wild_bootstrap' on page  undefined on input line 
-142.
+143.
 
 Missing character: There is no w in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -17892,7 +17871,7 @@ Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
 <recently read> \dAc 
                      
-l.142 ...p samples to both the true boundary $\dAc
+l.143 ...p samples to both the true boundary $\dAc
                                                   $ and the plug-in boundary...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -17924,7 +17903,7 @@ Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
 <recently read> \dAhatc 
                         
-l.142 ... $\dAc$ and the plug-in boundary $\dAhatc
+l.143 ... $\dAc$ and the plug-in boundary $\dAhatc
                                                   $ that would be used in pr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18030,7 +18009,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...ary_discrete_lattice' on page \thepage 
                                                   \space undefined\on@line .
-l.142 ...ction \ref{sec:boundary_discrete_lattice}
+l.143 ...ction \ref{sec:boundary_discrete_lattice}
                                                   . We then compare the empi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18040,7 +18019,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:boundary_discrete_lattice' on page  undefined on 
-input line 142.
+input line 143.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
@@ -18207,7 +18186,7 @@ Missing character: There is no h in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ahatcp 
                         
-l.142 ...e. the number of times for which $\Ahatcp
+l.143 ...e. the number of times for which $\Ahatcp
                                                    \subset \Ac \subset \Ahat...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18216,7 +18195,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.142 ...r of times for which $\Ahatcp \subset \Ac
+l.143 ...r of times for which $\Ahatcp \subset \Ac
                                                    \subset \Ahatcm$) -- acro...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18225,7 +18204,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.142 ...hich $\Ahatcp \subset \Ac \subset \Ahatcm
+l.143 ...hich $\Ahatcp \subset \Ac \subset \Ahatcm
                                                   $) -- across the two sets ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18306,7 +18285,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <write> ...:coverage_assessment' on page \thepage 
                                                   \space undefined\on@line .
-l.142 ... in Section \ref{sec:coverage_assessment}
+l.143 ... in Section \ref{sec:coverage_assessment}
                                                   . In each simulation, we a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18316,7 +18295,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `sec:coverage_assessment' on page  undefined on input 
-line 142.
+line 143.
 
 Missing character: There is no . in font nullfont!
 Missing character: There is no I in font nullfont!
@@ -18423,100 +18402,100 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (18.49078pt too wide) in paragraph at lines 141--143
+Overfull \hbox (18.49078pt too wide) in paragraph at lines 142--144
      $\OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
 
  []
 
 
-Overfull \hbox (19.85362pt too wide) in paragraph at lines 141--143
+Overfull \hbox (19.85362pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (6.70831pt too wide) in paragraph at lines 141--143
+Overfull \hbox (6.70831pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10 S$
  []
 
 
-Overfull \hbox (5.52084pt too wide) in paragraph at lines 141--143
+Overfull \hbox (5.52084pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10 k$
  []
 
 
-Overfull \hbox (3.61111pt too wide) in paragraph at lines 141--143
+Overfull \hbox (3.61111pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10 t$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 141--143
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 142--144
 []
  []
 
 
-Overfull \hbox (18.64232pt too wide) in paragraph at lines 141--143
+Overfull \hbox (18.64232pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10 B \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (20.00006pt too wide) in paragraph at lines 141--143
+Overfull \hbox (20.00006pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 5000$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 141--143
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 142--144
 []
  []
 
 
-Overfull \hbox (15.5556pt too wide) in paragraph at lines 141--143
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 142--144
 \OMS/cmsy/m/n/10 ^^Z^^Z$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 141--143
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 142--144
 []
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 141--143
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (48.88895pt too wide) in paragraph at lines 141--143
+Overfull \hbox (48.88895pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 60\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 120\OML/cmm/m/it/10 ; \OT1
 /cmr/m/n/10 240$
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 141--143
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 480$
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 141--143
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (16.98955pt too wide) in paragraph at lines 141--143
+Overfull \hbox (16.98955pt too wide) in paragraph at lines 142--144
 \OML/cmm/m/it/10  \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (40.00008pt too wide) in paragraph at lines 141--143
+Overfull \hbox (40.00008pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 80\OML/cmm/m/it/10 ; \OT1/cm
 r/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 90$
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 141--143
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 142--144
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 95$ 
  []
 
 ! Undefined control sequence.
-l.144 \subsection
+l.145 \subsection
                  {2D Simulations}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18618,7 +18597,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.146 .... For the true underlying signal $\mu(\bm
+l.147 .... For the true underlying signal $\mu(\bm
                                                   {s})$ we considered two di...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18773,7 +18752,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...nce `fig:linear_ramp' on page \thepage 
                                                   \space undefined\on@line .
-l.146 ...e y-direction (Fig. \ref{fig:linear_ramp}
+l.147 ...e y-direction (Fig. \ref{fig:linear_ramp}
                                                   ). Second, a circular effe...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18782,7 +18761,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:linear_ramp' on page  undefined on input line 146
+LaTeX Warning: Reference `fig:linear_ramp' on page  undefined on input line 147
 .
 
 Missing character: There is no ) in font nullfont!
@@ -18952,7 +18931,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...eference `fig:circle' on page \thepage 
                                                   \space undefined\on@line .
-l.146 ...HM Gaussian kernel (Fig. \ref{fig:circle}
+l.147 ...HM Gaussian kernel (Fig. \ref{fig:circle}
                                                   ). If we were to assume th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -18961,7 +18940,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:circle' on page  undefined on input line 146.
+LaTeX Warning: Reference `fig:circle' on page  undefined on input line 147.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -19110,42 +19089,42 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 144--147
+Overfull \hbox (20.0pt too wide) in paragraph at lines 145--148
 []
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 144--147
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 145--148
 \OT1/cmr/m/n/10 100 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 144--147
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 145--148
 \OT1/cmr/m/n/10 100$
  []
 
 
-Overfull \hbox (18.49078pt too wide) in paragraph at lines 144--147
+Overfull \hbox (18.49078pt too wide) in paragraph at lines 145--148
 \OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 144--147
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 145--148
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 144--147
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 145--148
 []
  []
 
 
-Overfull \hbox (9.48615pt too wide) in paragraph at lines 144--147
+Overfull \hbox (9.48615pt too wide) in paragraph at lines 145--148
 \OT1/cmr/m/n/10 2$$[]$
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 144--147
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 145--148
 \OT1/cmr/m/n/10 6$
  []
 
@@ -19368,7 +19347,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ...:stationary_variance' on page \thepage 
                                                   \space undefined\on@line .
-l.148 ... of 1 (Fig. \ref{fig:stationary_variance}
+l.149 ... of 1 (Fig. \ref{fig:stationary_variance}
                                                   ), the second field had a ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19378,7 +19357,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:stationary_variance' on page  undefined on input 
-line 148.
+line 149.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -19512,7 +19491,7 @@ Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
 <write> ..._stationary_variance' on page \thepage 
                                                   \space undefined\on@line .
-l.148 ...n (Fig. \ref{fig:non_stationary_variance}
+l.149 ...n (Fig. \ref{fig:non_stationary_variance}
                                                   ). Thus, the variance of t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19522,7 +19501,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:non_stationary_variance' on page  undefined on in
-put line 148.
+put line 149.
 
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -19620,42 +19599,42 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 148--149
+Overfull \hbox (20.0pt too wide) in paragraph at lines 149--150
 []
  []
 
 
-Overfull \hbox (7.38832pt too wide) in paragraph at lines 148--149
+Overfull \hbox (7.38832pt too wide) in paragraph at lines 149--150
 \OML/cmm/m/it/10 ^^O[]$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 148--149
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 149--150
 []
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 148--149
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 149--150
 []$
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 148--149
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 149--150
 []$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 148--149
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 149--150
 []
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 148--149
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 148--149
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 149--150
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5$
  []
 
@@ -19812,7 +19791,7 @@ Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
 <recently read> \Ac 
                     
-l.150 ...ence Sets for the noise-free cluster $\Ac
+l.151 ...ence Sets for the noise-free cluster $\Ac
                                                   $ at a cluster-forming thr...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19851,17 +19830,17 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 150--151
+Overfull \hbox (20.0pt too wide) in paragraph at lines 151--152
 []
  []
 
 
-Overfull \hbox (14.88307pt too wide) in paragraph at lines 150--151
+Overfull \hbox (14.88307pt too wide) in paragraph at lines 151--152
 \OML/cmm/m/it/10 c \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 150--151
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 151--152
 \OT1/cmr/m/n/10 2$ 
  []
 
@@ -19872,7 +19851,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \begin{figure}
+l.153 \begin{figure}
                     [htbp]\label{fig:2D_signals}%
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -19885,7 +19864,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.154 \subfigure
+l.155 \subfigure
                 [\textbf{Signal 1.}]{\label{fig:linear_ramp}\includegraphics...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19896,7 +19875,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.154 ...]{\label{fig:linear_ramp}\includegraphics
+l.155 ...]{\label{fig:linear_ramp}\includegraphics
                                                   [height=2.3in]{CIB_Linear_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19924,13 +19903,13 @@ Missing character: There is no B in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.154 ..._ramp}\includegraphics[height=2.3in]{CIB_
+l.155 ..._ramp}\includegraphics[height=2.3in]{CIB_
                                                   Linear_Ramp_Signal.pdf}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.154 ...height=2.3in]{CIB_Linear_Ramp_Signal.pdf}
+l.155 ...height=2.3in]{CIB_Linear_Ramp_Signal.pdf}
                                                   }
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -19939,7 +19918,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.154 ...eight=2.3in]{CIB_Linear_Ramp_Signal.pdf}}
+l.155 ...eight=2.3in]{CIB_Linear_Ramp_Signal.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -19948,7 +19927,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.155 \subfigure
+l.156 \subfigure
                 [\textbf{Signal 2.}]{\label{fig:circle}\includegraphics[heig...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19957,7 +19936,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.155 ...l 2.}]{\label{fig:circle}\includegraphics
+l.156 ...l 2.}]{\label{fig:circle}\includegraphics
                                                   [height=2.3in]{CIB_Circle_...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -19972,7 +19951,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 \caption
+l.157 \caption
               {Linear ramp and circular signals $\mu(\bm{s})$. \\ \textbf{Fi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -19981,7 +19960,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.156 \caption{Linear ramp and circular signals $
+l.157 \caption{Linear ramp and circular signals $
                                                  \mu(\bm{s})$. \\ \textbf{Fi...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -19992,13 +19971,13 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 ...ion{Linear ramp and circular signals $\mu
+l.157 ...ion{Linear ramp and circular signals $\mu
                                                   (\bm{s})$. \\ \textbf{Figu...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.156 ...Linear ramp and circular signals $\mu(\bm
+l.157 ...Linear ramp and circular signals $\mu(\bm
                                                   {s})$. \\ \textbf{Figure \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20008,12 +19987,12 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (50.50676pt too wide) in paragraph at lines 152--156
+Overfull \hbox (50.50676pt too wide) in paragraph at lines 153--157
  [][]\OT1/cmr/bx/n/10 Signal 
  []
 
 
-Overfull \hbox (481.01285pt too wide) in paragraph at lines 152--156
+Overfull \hbox (481.01285pt too wide) in paragraph at lines 153--157
  \OT1/cmr/bx/n/10 1.[]$[]\OML/cmm/m/it/10 inear[]amp[]ignal:pdf\OT1/cmr/m/n/10 
 [[]][][]$$\OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/1
 0 )$ 
@@ -20022,7 +20001,7 @@ Overfull \hbox (481.01285pt too wide) in paragraph at lines 152--156
 ! Undefined control sequence.
 <write> ...nce `fig:linear_ramp' on page \thepage 
                                                   \space undefined\on@line .
-l.156 ...\\ \textbf{Figure \ref{fig:linear_ramp}:}
+l.157 ...\\ \textbf{Figure \ref{fig:linear_ramp}:}
                                                    \textbf{Signal 1.} A line...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20031,7 +20010,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:linear_ramp' on page  undefined on input line 156
+LaTeX Warning: Reference `fig:linear_ramp' on page  undefined on input line 157
 .
 
 Missing character: There is no A in font nullfont!
@@ -20101,34 +20080,34 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (32.57623pt too wide) in paragraph at lines 156--156
+Overfull \hbox (32.57623pt too wide) in paragraph at lines 157--157
  []\OT1/cmr/bx/n/10 Figure 
  []
 
 
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 156--156
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 157--157
  []\OT1/cmr/bx/n/10 : 
  []
 
 
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 156--156
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 157--157
  \OT1/cmr/bx/n/10 Sig- 
  []
 
 
-Overfull \hbox (15.17351pt too wide) in paragraph at lines 156--156
+Overfull \hbox (15.17351pt too wide) in paragraph at lines 157--157
  \OT1/cmr/bx/n/10 nal 
  []
 
 
-Overfull \hbox (8.9444pt too wide) in paragraph at lines 156--156
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 157--157
  \OT1/cmr/bx/n/10 1. 
  []
 
 ! Undefined control sequence.
 <write> ...eference `fig:circle' on page \thepage 
                                                   \space undefined\on@line .
-l.156 ...ion. \\ \textbf{Figure \ref{fig:circle}:}
+l.157 ...ion. \\ \textbf{Figure \ref{fig:circle}:}
                                                    \textbf{Signal 2.} A circ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20137,7 +20116,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `fig:circle' on page  undefined on input line 156.
+LaTeX Warning: Reference `fig:circle' on page  undefined on input line 157.
 
 Missing character: There is no A in font nullfont!
 Missing character: There is no c in font nullfont!
@@ -20255,7 +20234,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 \end{figure}
+l.158 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -20264,7 +20243,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.157 \end{figure}
+l.158 \end{figure}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -20273,27 +20252,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (32.57623pt too wide) in paragraph at lines 156--158
+Overfull \hbox (32.57623pt too wide) in paragraph at lines 157--159
 []\OT1/cmr/bx/n/10 Figure
  []
 
 
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 156--158
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 157--159
 []\OT1/cmr/bx/n/10 :
  []
 
 
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 156--158
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 157--159
 \OT1/cmr/bx/n/10 Sig-
  []
 
 
-Overfull \hbox (15.17351pt too wide) in paragraph at lines 156--158
+Overfull \hbox (15.17351pt too wide) in paragraph at lines 157--159
 \OT1/cmr/bx/n/10 nal
  []
 
 
-Overfull \hbox (8.9444pt too wide) in paragraph at lines 156--158
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 157--159
 \OT1/cmr/bx/n/10 2.
  []
 
@@ -20304,7 +20283,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 \begin{figure}
+l.160 \begin{figure}
                     [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -20317,7 +20296,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.162 \subfigure
+l.163 \subfigure
                 [\textbf{Signal 1.}]{\label{fig:stationary_variance}\include...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20328,7 +20307,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no [ in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.162 ...{fig:stationary_variance}\includegraphics
+l.163 ...{fig:stationary_variance}\includegraphics
                                                   [height=2.3in]{CIB_Station...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20356,13 +20335,13 @@ Missing character: There is no B in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.162 ...iance}\includegraphics[height=2.3in]{CIB_
+l.163 ...iance}\includegraphics[height=2.3in]{CIB_
                                                   Stationary_Variance.pdf}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.162 ...eight=2.3in]{CIB_Stationary_Variance.pdf}
+l.163 ...eight=2.3in]{CIB_Stationary_Variance.pdf}
                                                   }
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -20371,7 +20350,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.162 ...ight=2.3in]{CIB_Stationary_Variance.pdf}}
+l.163 ...ight=2.3in]{CIB_Stationary_Variance.pdf}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -20380,7 +20359,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.163 \subfigure
+l.164 \subfigure
                 [\textbf{Signal 2.}]{\label{fig:non_stationary_variance}\inc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20389,7 +20368,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.163 ...:non_stationary_variance}\includegraphics
+l.164 ...:non_stationary_variance}\includegraphics
                                                   [height=2.3in]{CIB_Non_sta...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20404,7 +20383,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 \caption
+l.165 \caption
               {Stationary and non-stationary standard deviation fields of th...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -20413,7 +20392,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.164 ... standard deviation fields of the noise $
+l.165 ... standard deviation fields of the noise $
                                                   \epsilon_{i}(\bm{s})$. \\ ...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -20424,13 +20403,13 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.164 ...d deviation fields of the noise $\epsilon
+l.165 ...d deviation fields of the noise $\epsilon
                                                   _{i}(\bm{s})$. \\ \textbf{...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.164 ...ion fields of the noise $\epsilon_{i}(\bm
+l.165 ...ion fields of the noise $\epsilon_{i}(\bm
                                                   {s})$. \\ \textbf{Figure \...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20440,22 +20419,22 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 159--164
+Overfull \hbox (20.0pt too wide) in paragraph at lines 160--165
  [] 
  []
 
 
-Overfull \hbox (19.16656pt too wide) in paragraph at lines 159--164
+Overfull \hbox (19.16656pt too wide) in paragraph at lines 160--165
  \OT1/cmr/bx/n/10 Sig- 
  []
 
 
-Overfull \hbox (15.17351pt too wide) in paragraph at lines 159--164
+Overfull \hbox (15.17351pt too wide) in paragraph at lines 160--165
  \OT1/cmr/bx/n/10 nal 
  []
 
 
-Overfull \hbox (694.5724pt too wide) in paragraph at lines 159--164
+Overfull \hbox (694.5724pt too wide) in paragraph at lines 160--165
  \OT1/cmr/bx/n/10 1.[]$[]\OML/cmm/m/it/10 tationary[]ariance:pdf\OT1/cmr/m/n/10
  [[]][][]$$\OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/
 n/10 )$ 
@@ -20464,7 +20443,7 @@ n/10 )$
 ! Undefined control sequence.
 <write> ...:stationary_variance' on page \thepage 
                                                   \space undefined\on@line .
-l.164 ...bf{Figure \ref{fig:stationary_variance}:}
+l.165 ...bf{Figure \ref{fig:stationary_variance}:}
                                                    \textbf{Standard Deviatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20474,7 +20453,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:stationary_variance' on page  undefined on input 
-line 164.
+line 165.
 
 Missing character: There is no S in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -20514,54 +20493,54 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (32.57623pt too wide) in paragraph at lines 164--164
+Overfull \hbox (32.57623pt too wide) in paragraph at lines 165--165
  []\OT1/cmr/bx/n/10 Figure 
  []
 
 
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 164--164
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 165--165
  []\OT1/cmr/bx/n/10 : 
  []
 
 
-Overfull \hbox (26.67345pt too wide) in paragraph at lines 164--164
+Overfull \hbox (26.67345pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 Stan- 
  []
 
 
-Overfull \hbox (23.10403pt too wide) in paragraph at lines 164--164
+Overfull \hbox (23.10403pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 dard 
  []
 
 
-Overfull \hbox (17.92352pt too wide) in paragraph at lines 164--164
+Overfull \hbox (17.92352pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 De- 
  []
 
 
-Overfull \hbox (13.09715pt too wide) in paragraph at lines 164--164
+Overfull \hbox (13.09715pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 vi- 
  []
 
 
-Overfull \hbox (9.42354pt too wide) in paragraph at lines 164--164
+Overfull \hbox (9.42354pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 a- 
  []
 
 
-Overfull \hbox (19.80545pt too wide) in paragraph at lines 164--164
+Overfull \hbox (19.80545pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 tion 
  []
 
 
-Overfull \hbox (8.9444pt too wide) in paragraph at lines 164--164
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 165--165
  \OT1/cmr/bx/n/10 1. 
  []
 
 ! Undefined control sequence.
 <write> ..._stationary_variance' on page \thepage 
                                                   \space undefined\on@line .
-l.164 ...igure \ref{fig:non_stationary_variance}:}
+l.165 ...igure \ref{fig:non_stationary_variance}:}
                                                    \textbf{Standard Deviatio...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20571,7 +20550,7 @@ and I'll forget about whatever was undefined.
 
 
 LaTeX Warning: Reference `fig:non_stationary_variance' on page  undefined on in
-put line 164.
+put line 165.
 
 Missing character: There is no N in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -20661,7 +20640,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 \end{figure}
+l.166 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -20670,7 +20649,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.165 \end{figure}
+l.166 \end{figure}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -20679,62 +20658,62 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (32.57623pt too wide) in paragraph at lines 164--166
+Overfull \hbox (32.57623pt too wide) in paragraph at lines 165--167
 []\OT1/cmr/bx/n/10 Figure
  []
 
 
-Overfull \hbox (14.05548pt too wide) in paragraph at lines 164--166
+Overfull \hbox (14.05548pt too wide) in paragraph at lines 165--167
 []\OT1/cmr/bx/n/10 :
  []
 
 
-Overfull \hbox (26.67345pt too wide) in paragraph at lines 164--166
+Overfull \hbox (26.67345pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 Stan-
  []
 
 
-Overfull \hbox (23.10403pt too wide) in paragraph at lines 164--166
+Overfull \hbox (23.10403pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 dard
  []
 
 
-Overfull \hbox (17.92352pt too wide) in paragraph at lines 164--166
+Overfull \hbox (17.92352pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 De-
  []
 
 
-Overfull \hbox (13.09715pt too wide) in paragraph at lines 164--166
+Overfull \hbox (13.09715pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 vi-
  []
 
 
-Overfull \hbox (9.42354pt too wide) in paragraph at lines 164--166
+Overfull \hbox (9.42354pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 a-
  []
 
 
-Overfull \hbox (19.80545pt too wide) in paragraph at lines 164--166
+Overfull \hbox (19.80545pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 tion
  []
 
 
-Overfull \hbox (8.9444pt too wide) in paragraph at lines 164--166
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 165--167
 \OT1/cmr/bx/n/10 2.
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 164--166
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 165--167
 []$
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 164--166
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 165--167
 []$
  []
 
 ! Undefined control sequence.
-l.167 \subsection
+l.168 \subsection
                  {3D Simulations}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -20756,7 +20735,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 167--169
+Overfull \hbox (20.0pt too wide) in paragraph at lines 168--170
 []
  []
 
@@ -20776,7 +20755,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.170 Four signal types $\mu(\bm
+l.171 Four signal types $\mu(\bm
                                 {s})$ were considered to analyze performance...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21089,7 +21068,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `tbl:3D_figures' on page \thepage 
                                                   \space undefined\on@line .
-l.170 ...WHM Gaussian kernel (\ref{tbl:3D_figures}
+l.171 ...WHM Gaussian kernel (\ref{tbl:3D_figures}
                                                   (a)). Secondly, a larger s...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21098,7 +21077,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 170.
+LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 171.
 
 
 Missing character: There is no ( in font nullfont!
@@ -21231,7 +21210,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `tbl:3D_figures' on page \thepage 
                                                   \space undefined\on@line .
-l.170 ... had a radius of 30 (\ref{tbl:3D_figures}
+l.171 ... had a radius of 30 (\ref{tbl:3D_figures}
                                                   (b)). Lastly, we created a...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21240,7 +21219,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 170.
+LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 171.
 
 
 Missing character: There is no ( in font nullfont!
@@ -21397,7 +21376,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `tbl:3D_figures' on page \thepage 
                                                   \space undefined\on@line .
-l.170 ...voxel FWHM Gaussian (\ref{tbl:3D_figures}
+l.171 ...voxel FWHM Gaussian (\ref{tbl:3D_figures}
                                                   (c)). For each of these si...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -21406,7 +21385,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 170.
+LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 171.
 
 
 Missing character: There is no ( in font nullfont!
@@ -21489,42 +21468,42 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no 3 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 170--171
+Overfull \hbox (20.0pt too wide) in paragraph at lines 171--172
 []
  []
 
 
-Overfull \hbox (18.49078pt too wide) in paragraph at lines 170--171
+Overfull \hbox (18.49078pt too wide) in paragraph at lines 171--172
 \OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 170--171
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 171--172
 \OT1/cmr/m/n/10 100 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 170--171
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 171--172
 \OT1/cmr/m/n/10 100 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (15.00005pt too wide) in paragraph at lines 170--171
+Overfull \hbox (15.00005pt too wide) in paragraph at lines 171--172
 \OT1/cmr/m/n/10 100$
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 170--171
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 171--172
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 170--171
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 171--172
 []
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 170--171
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 171--172
 []
  []
 
@@ -21932,27 +21911,27 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 172--173
+Overfull \hbox (20.0pt too wide) in paragraph at lines 173--174
 []
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 172--173
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 173--174
 []$
  []
 
 
-Overfull \hbox (21.11118pt too wide) in paragraph at lines 172--173
+Overfull \hbox (21.11118pt too wide) in paragraph at lines 173--174
 []$
  []
 
 
-Overfull \hbox (14.88307pt too wide) in paragraph at lines 172--173
+Overfull \hbox (14.88307pt too wide) in paragraph at lines 173--174
 \OML/cmm/m/it/10 c \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 172--173
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 173--174
 \OT1/cmr/m/n/10 2$ 
  []
 
@@ -22346,7 +22325,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \citet 
                        
-l.174 ...s given in \textit{\citet{Miller2016-hd}}
+l.175 ...s given in \textit{\citet{Miller2016-hd}}
                                                   , \textit{\citet{Alfaro-Al...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22358,7 +22337,7 @@ Missing character: There is no , in font nullfont!
 ! Undefined control sequence.
 <recently read> \citet 
                        
-l.174 ...}, \textit{\citet{Alfaro-Almagro2018-ip}}
+l.175 ...}, \textit{\citet{Alfaro-Almagro2018-ip}}
                                                    and the UK Biobank Showca...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22430,7 +22409,7 @@ Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 <recently read> \citet 
                        
-l.174 ...s given in \textit{\citet{Hariri2002-ns}}
+l.175 ...s given in \textit{\citet{Hariri2002-ns}}
                                                   . From these contrast maps...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22495,7 +22474,7 @@ Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 <write> ...ence `tbl:3D_figures' on page \thepage 
                                                   \space undefined\on@line .
-l.174 ...oup-level full mean (\ref{tbl:3D_figures}
+l.175 ...oup-level full mean (\ref{tbl:3D_figures}
                                                   (d)) and full standard dev...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22504,7 +22483,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 174.
+LaTeX Warning: Reference `tbl:3D_figures' on page  undefined on input line 175.
 
 
 Missing character: There is no ( in font nullfont!
@@ -22624,7 +22603,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 ! Undefined control sequence.
-l.174 ...ge as the true underlying signal $\mu(\bm
+l.175 ...ge as the true underlying signal $\mu(\bm
                                                   {s})$ for each subject, an...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -22759,7 +22738,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
 ! Undefined control sequence.
-l.174 ...ic Gaussian noise field $\epsilon_{i}(\bm
+l.175 ...ic Gaussian noise field $\epsilon_{i}(\bm
                                                   {s})$ added to the true si...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -23059,57 +23038,57 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 174--175
+Overfull \hbox (20.0pt too wide) in paragraph at lines 175--176
 []
  []
 
 
-Overfull \hbox (50.49413pt too wide) in paragraph at lines 174--175
+Overfull \hbox (50.49413pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 Miller2016-
  []
 
 
-Overfull \hbox (10.22217pt too wide) in paragraph at lines 174--175
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 hd
  []
 
 
-Overfull \hbox (30.30533pt too wide) in paragraph at lines 174--175
+Overfull \hbox (30.30533pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 Alfaro-
  []
 
 
-Overfull \hbox (60.46071pt too wide) in paragraph at lines 174--175
+Overfull \hbox (60.46071pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 Almagro2018-
  []
 
 
-Overfull \hbox (8.17773pt too wide) in paragraph at lines 174--175
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 ip
  []
 
 
-Overfull \hbox (51.13301pt too wide) in paragraph at lines 174--175
+Overfull \hbox (51.13301pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 Hariri2002-
  []
 
 
-Overfull \hbox (9.71106pt too wide) in paragraph at lines 174--175
+Overfull \hbox (9.71106pt too wide) in paragraph at lines 175--176
 \OT1/cmr/m/it/10 ns
  []
 
 
-Overfull \hbox (10.86105pt too wide) in paragraph at lines 174--175
+Overfull \hbox (10.86105pt too wide) in paragraph at lines 175--176
 []
  []
 
 
-Overfull \hbox (18.49078pt too wide) in paragraph at lines 174--175
+Overfull \hbox (18.49078pt too wide) in paragraph at lines 175--176
 \OML/cmm/m/it/10 ^^V\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (19.85362pt too wide) in paragraph at lines 174--175
+Overfull \hbox (19.85362pt too wide) in paragraph at lines 175--176
 \OML/cmm/m/it/10 ^^O[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )$
  []
 
@@ -23352,22 +23331,22 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 176--177
+Overfull \hbox (20.0pt too wide) in paragraph at lines 177--178
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 176--177
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 177--178
 []$
  []
 
 
-Overfull \hbox (14.88307pt too wide) in paragraph at lines 176--177
+Overfull \hbox (14.88307pt too wide) in paragraph at lines 177--178
 \OML/cmm/m/it/10 c \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (26.11119pt too wide) in paragraph at lines 176--177
+Overfull \hbox (26.11119pt too wide) in paragraph at lines 177--178
 \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 25%$
  []
 
@@ -23378,7 +23357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 \begin{table}
+l.179 \begin{table}
                    [htbp]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -23397,7 +23376,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \begin{adjustbox}
+l.181 \begin{adjustbox}
                        {center}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -23416,7 +23395,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -23428,7 +23407,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -23440,7 +23419,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -23452,7 +23431,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -23464,7 +23443,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -23476,13 +23455,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
+l.183     \begin{tabular}{cm{50mm}m{50mm}m{50mm}}
                                                  
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Undefined control sequence.
-l.183        \toprule
+l.184        \toprule
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -23505,7 +23484,7 @@ Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
 <recently read> \midrule 
                          
-l.185         \midrule
+l.186         \midrule
                       
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -23517,7 +23496,7 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Undefined control sequence.
-l.186 ...(a) \textbf{Signal 1.} & \includegraphics
+l.187 ...(a) \textbf{Signal 1.} & \includegraphics
                                                   [height=40mm]{CIB_Small_Sp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -23544,13 +23523,13 @@ Missing character: There is no B in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.186 ... 1.} & \includegraphics[height=40mm]{CIB_
+l.187 ... 1.} & \includegraphics[height=40mm]{CIB_
                                                   Small_Sphere_z50.pdf} & \i...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.186 ...cs[height=40mm]{CIB_Small_Sphere_z50.pdf}
+l.187 ...cs[height=40mm]{CIB_Small_Sphere_z50.pdf}
                                                    & \includegraphics[height...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23561,7 +23540,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23570,7 +23549,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23581,7 +23560,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23590,7 +23569,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23601,7 +23580,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23610,7 +23589,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23621,7 +23600,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23630,7 +23609,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23641,7 +23620,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23650,7 +23629,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23661,7 +23640,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23670,7 +23649,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23681,7 +23660,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23690,7 +23669,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23701,7 +23680,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23710,7 +23689,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23721,7 +23700,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23730,7 +23709,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23741,7 +23720,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23750,7 +23729,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23761,7 +23740,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23770,7 +23749,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23781,7 +23760,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23790,7 +23769,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23801,7 +23780,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23810,7 +23789,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23821,7 +23800,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23830,7 +23809,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23841,7 +23820,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23850,7 +23829,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23861,7 +23840,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23870,7 +23849,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23881,7 +23860,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23890,7 +23869,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23901,7 +23880,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23910,7 +23889,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23921,7 +23900,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23930,7 +23909,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23941,7 +23920,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23950,7 +23929,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23961,7 +23940,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23970,7 +23949,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -23981,7 +23960,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -23990,7 +23969,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24001,7 +23980,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24010,7 +23989,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24021,7 +24000,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24030,7 +24009,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24041,7 +24020,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24050,7 +24029,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24061,7 +24040,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24070,7 +24049,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24081,7 +24060,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24090,7 +24069,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24101,7 +24080,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24110,7 +24089,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24121,7 +24100,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24130,7 +24109,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24141,7 +24120,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24150,7 +24129,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24161,7 +24140,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24170,7 +24149,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24181,7 +24160,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24190,7 +24169,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24201,7 +24180,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24210,7 +24189,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24221,7 +24200,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24230,7 +24209,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24241,7 +24220,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24250,7 +24229,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24261,7 +24240,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24270,7 +24249,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24281,7 +24260,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24290,7 +24269,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24301,7 +24280,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24310,7 +24289,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24321,7 +24300,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24330,7 +24309,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24341,7 +24320,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24350,7 +24329,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24361,7 +24340,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24370,7 +24349,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24381,7 +24360,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24390,7 +24369,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24401,7 +24380,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -24410,7 +24389,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 <inserted text> }
                  
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -24421,14 +24400,14 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.186 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
+l.187 ...[height=40mm]{CIB_Small_Sphere_z50.pdf} &
                                                    \includegraphics[height=4...
 (That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 56 strings out of 493014
- 709 string characters out of 6133351
+ 57 strings out of 493014
+ 736 string characters out of 6133351
  74601 words of memory out of 5000000
- 3693 multiletter control sequences out of 15000+600000
+ 3694 multiletter control sequences out of 15000+600000
  5199 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  19i,8n,17p,1425b,162s stack positions out of 5000i,500n,10000p,200000b,80000s
