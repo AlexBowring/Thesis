@@ -1,3 +1,10 @@
+Functional magnetic resonance imaging (fMRI) for human brain mapping has given researchers remarkable power to probe the underpinnings of human cognition, behaviour, and emotion. As the field has evolved over the last 25 years, so to have the number of tools and techniques available to researchers, expanding our potential to gain insight into how the human brain works. However, the plurality of analysis methods has also lead to its own complications. The problem is, with numerous valid methodological strategies for analyzing a data set, this also increases the chance of yielding distorted results with inflated levels of false activations. Combined with selective reporting issues such as publication bias, where there has been evidence to suggest that studies with significant findings are disproportionately represented in the fMRI literature \citep{David2013-iz,Ioannidis2014-yn}, these conditions have created the perfect storm. In recent years, many attempts to replicate the results of published fMRI studies have been unsuccessful, in what has been deemed as an ongoing reproducibility crisis within the field \citep{Poldrack2017-rr,Gorgolewski2016-fk,Open_Science_Collaboration2015-gr}.
+
+The choice of procedures, operating system, and software version implemented to conduct an analysis have all been shown to induce variability in the final research results of an investigation. In a study examining the use of FreeSurfer to measure the cortical thickness and volume of structural brain images \citep{Gronenschild2012-gf}, a change in software version was shown to lead to increases of over 10\% in observed anatomical measurement; a switch in workstation from which the software was run also manifested significant deviations in the final result. In related work \citep{Glatard2015-ml}, changes in operating system lead to differences in the results of an independent component analysis of resting state fMRI data carried out using FSL. Here, disparities in both the number of components determined as well as information between matched components were found when the analysis was conducted on two separate computing clusters. In Chapter \ref{chap:introduction_chapter}, we referenced a handful of further studies where different choices in individual analysis procedures were found to influence the final activation maps for a task-fMRI investigation.
+
+In this chapter, we seek to find out how 
+
+
 \section{Data and Analysis Methods}
 
 \subsection{Study Description and Data Source}
@@ -25,6 +32,7 @@ In SPM, preprocessing, subject- and group-level analyses were conducted by selec
 
 Once analyses were complete, the results for each software package were exported as NIDM-Results packs (FSL and SPM only, \citep{Maumet2016-se}) and uploaded to a public collection on the NeuroVault (RRID:SCR\_003806, \citep{Gorgolewski2015-vs}) online data repository. 
 
+\begin{onehalfspace}
 \begin{table}[htbp]
 \caption{\textbf{Software Processing Steps.} Implementation of  each of the processing steps (ds000001, ds000109, ds000120) within AFNI, FSL and SPM.}
 \centering
@@ -101,6 +109,7 @@ Once analyses were complete, the results for each software package were exported
     \end{tablenotes}
     \end{threeparttable}
 \end{table}
+\end{onehalfspace}
 
 \subsubsection{Common Processing Steps}
 A number of processing steps for each package were included in all of our analyses, regardless of whether they had been implemented in the original study. While this meant deviating from an exact replication of the original pipeline, these processing steps were either fundamental to ensure that the results from each software package could be compared objectively, or steps that are widely accepted as best practices within the community. In this section we describe these steps.
@@ -274,6 +283,7 @@ The original ds000120 study found extensive activations for the main effect of t
 
 NeuroSynth association analyses conducted on the unthresholded $t$-statistic maps (Table \ref{tab:neurosynth}) show that the most strongly related term to the activation patterns displayed across all three sets of results was the same: `anterior insula' for each software's ds000001 map, `medial prefrontal' for ds000109, and `visual' for ds000120. Phrases related to the task paradigm used in each study (`goal' for ds000001, `theory mind' for ds000109, `visual' for ds000120) were found across all software's activation patterns, alongside a range of common anatomical terms. 
 
+\begin{onehalfspace}
 \begin{table}[htbp]
 \caption{\textbf{Neurosynth Analyses.} The Neurosynth analysis terms most strongly associated (via Pearson correlation) to each software's group-level statistic map across the three studies. Non-anatomical terms are shown in bold.}
 \centering
@@ -346,6 +356,7 @@ SPM & Para. vs Nonp. & 0.000 & 1.000 & 0.000 & 1.000 & & \\
 \end{tabular}
 \label{tab:mean_diff_correlation}
 \end{table}
+\end{onehalfspace}
 
 Figure \ref{fig:BA_parametric} compares statistic values across packages using Bland-Altman plots (rendered as 2D histograms) for ds000001 and ds000109. The distribution of the pairwise differences in $t$-statistics (y-axes) is generally centered about zero, indicating no particular bias, however there is substantial variation here, with $t$-statistic differences exceeding 4.0 in magnitude. Pairwise correlations ranged from 0.429 to 0.747 for inter-software comparisons (Fig. \ref{tab:mean_diff_correlation}). The Bland-Altman plots comparing percentage BOLD change maps (Fig. \ref{fig:SC_supp_BOLD_BAs}) are more conclusive, showing a clear trend for SPM to report larger effect estimates than the other two packages. Figure \ref{fig:BA_parametric_120} presents the Bland-Altman plot comparing unthresholded $F$-statistic images for ds000120, which has a very different appearance due to $F$-statistics being non-negative. The corresponding Bland-Altman plot comparing partial $R^{2}$ values (Fig. \ref{fig:SC_supp_BOLD_BAs_ds000120}) for this study is similar in shape. Broadly speaking, while there are no gross differences in sensitivity, there is a slight tendency for AFNI's extreme statistics to exceed FSL's and SPM's, and SPM's to exceed FSL's, most evident in ds000109. 
 

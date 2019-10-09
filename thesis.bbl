@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{116}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -111,6 +111,22 @@ Alexander Bowring, Camille Maumet, and Thomas Nichols.
 \newblock {NISOx-BDI/Software\_Comparison}.
 \newblock Zenodo, March 2018{\natexlab{b}}.
 
+\bibitem[Bowring et~al.(2019{\natexlab{a}})Bowring, Maumet, and
+  Nichols]{Bowring2019-fc}
+Alexander Bowring, Camille Maumet, and Thomas~E Nichols.
+\newblock Exploring the impact of analysis software on task {fMRI} results,
+  2019{\natexlab{a}}.
+
+\bibitem[Bowring et~al.(2019{\natexlab{b}})Bowring, Telschow, Schwartzman, and
+  Nichols]{BOWRING2019116187}
+Alexander Bowring, Fabian Telschow, Armin Schwartzman, and Thomas~E. Nichols.
+\newblock Spatial confidence sets for raw effect size images.
+\newblock \emph{NeuroImage}, 203:\penalty0 116187, 2019{\natexlab{b}}.
+\newblock ISSN 1053-8119.
+\newblock \doi{https://doi.org/10.1016/j.neuroimage.2019.116187}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1053811919307785}.
+
 \bibitem[Brett et~al.(2017)Brett, Hanke, C{\^o}t{\'e}, Markiewicz, Ghosh,
   Wassermann, Gerhard, Larson, Lee, Halchenko, Kastman, M, Morency, {moloney},
   Rokem, Cottaar, Millman, {jaeilepp}, Gramfort, Vincent, McCarthy, van~den
@@ -133,6 +149,15 @@ Matthew~J Brookes, Mark Woolrich, Henry Luckhoo, Darren Price, Joanne~R Hale,
   networks using magnetoencephalography.
 \newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 108\penalty0 (40):\penalty0
   16783--16788, October 2011.
+
+\bibitem[Button et~al.(2013)Button, Ioannidis, Mokrysz, Nosek, Flint, Robinson,
+  and Munaf{\`o}]{Button2013-ni}
+Katherine~S Button, John P~A Ioannidis, Claire Mokrysz, Brian~A Nosek, Jonathan
+  Flint, Emma S~J Robinson, and Marcus~R Munaf{\`o}.
+\newblock Power failure: why small sample size undermines the reliability of
+  neuroscience.
+\newblock \emph{Nat. Rev. Neurosci.}, 14\penalty0 (5):\penalty0 365--376, May
+  2013.
 
 \bibitem[Buxton(2012)]{Buxton2012-ly}
 Richard~B Buxton.
@@ -188,6 +213,25 @@ R~W Cox.
 \newblock \emph{Comput. Biomed. Res.}, 29\penalty0 (3):\penalty0 162--173, June
   1996.
 
+\bibitem[Cox et~al.(2017{\natexlab{a}})Cox, Chen, Glen, Reynolds, and
+  Taylor]{Cox2017-wr}
+Robert~W Cox, Gang Chen, Daniel~R Glen, Richard~C Reynolds, and Paul~A Taylor.
+\newblock {FMRI} clustering in {AFNI}: {False-Positive} rates redux.
+\newblock \emph{Brain Connect.}, 7\penalty0 (3):\penalty0 152--171, April
+  2017{\natexlab{a}}.
+
+\bibitem[Cox et~al.(2017{\natexlab{b}})Cox, Chen, Glen, Reynolds, and
+  Taylor]{Cox2017-ys}
+Robert~W Cox, Gang Chen, Daniel~R Glen, Richard~C Reynolds, and Paul~A Taylor.
+\newblock {fMRI} clustering and false-positive rates.
+\newblock \emph{Proc. Natl. Acad. Sci. U. S. A.}, 114\penalty0 (17):\penalty0
+  E3370--E3371, April 2017{\natexlab{b}}.
+
+\bibitem[Cremers et~al.(2017)Cremers, Wager, and Yarkoni]{Cremers2017-qk}
+Henk~R Cremers, Tor~D Wager, and Tal Yarkoni.
+\newblock The relation between statistical power and inference in {fMRI}.
+\newblock \emph{PLoS One}, 12\penalty0 (11):\penalty0 e0184923, November 2017.
+
 \bibitem[David et~al.(2013)David, Ware, Chu, Loftus, Fusar-Poli, Radua,
   Munaf{\`o}, and Ioannidis]{David2013-iz}
 Sean~P David, Jennifer~J Ware, Isabella~M Chu, Pooja~D Loftus, Paolo
@@ -233,6 +277,13 @@ Ariel~Deardorff Erin D.~Foster.
 \newblock \emph{J. Med. Libr. Assoc.}, 105\penalty0 (2):\penalty0 203, April
   2017.
 
+\bibitem[Flandin and Friston(2019)]{Flandin2019-qx}
+Guillaume Flandin and Karl~J Friston.
+\newblock Analysis of family‐wise error rates in statistical parametric
+  mapping using random field theory.
+\newblock \emph{Hum. Brain Mapp.}, 40\penalty0 (7):\penalty0 2052--2054, May
+  2019.
+
 \bibitem[Fomina et~al.(2015)Fomina, Hohmann, Scholkopf, and
   Grosse-Wentrup]{Fomina2015-ha}
 Tatiana Fomina, Matthias Hohmann, Bernhard Scholkopf, and Moritz
@@ -268,6 +319,13 @@ Matthew~F Glasser, Stamatios~N Sotiropoulos, J~Anthony Wilson, Timothy~S
   HCP Consortium}.
 \newblock The minimal preprocessing pipelines for the human connectome project.
 \newblock \emph{Neuroimage}, 80:\penalty0 105--124, October 2013.
+
+\bibitem[Glatard et~al.(2015)Glatard, Lewis, da~Silva, Adalat, Beck, Lepage,
+  and {Others}]{Glatard2015-ml}
+T~Glatard, L~B Lewis, R~F da~Silva, R~Adalat, N~Beck, C~Lepage, and {Others}.
+\newblock Reproducibility of neuroimaging analyses across operating systems.
+  front neuroinform.
+\newblock \emph{Frontiers}, 9, 2015.
 
 \bibitem[Glover(2011)]{Glover2011-at}
 Gary~H Glover.
@@ -323,6 +381,15 @@ C~Goutte, F~A Nielsen, and K~H Hansen.
 \newblock \emph{IEEE Trans. Med. Imaging}, 19\penalty0 (12):\penalty0
   1188--1201, December 2000.
 
+\bibitem[Gronenschild et~al.(2012)Gronenschild, Habets, Jacobs, Mengelers,
+  Rozendaal, van Os, and Marcelis]{Gronenschild2012-gf}
+Ed~H B~M Gronenschild, Petra Habets, Heidi I~L Jacobs, Ron Mengelers, Nico
+  Rozendaal, Jim van Os, and Machteld Marcelis.
+\newblock The effects of {FreeSurfer} version, workstation type, and macintosh
+  operating system version on anatomical volume and cortical thickness
+  measurements.
+\newblock \emph{PLoS One}, 7\penalty0 (6):\penalty0 e38234, June 2012.
+
 \bibitem[Hargreaves and Klimas(2012)]{Hargreaves2012-dz}
 Richard~J Hargreaves and Michael Klimas.
 \newblock Imaging in drug development.
@@ -337,6 +404,12 @@ Ahmad~R Hariri, Alessandro Tessitore, Venkata~S Mattay, Francesco Fera, and
   scenes.
 \newblock \emph{Neuroimage}, 17\penalty0 (1):\penalty0 317--323, September
   2002.
+
+\bibitem[Hong et~al.(2019)Hong, Yoo, Han, Wager, and Woo]{Hong2019-qr}
+Yong-Wook Hong, Yejong Yoo, Jihoon Han, Tor~D Wager, and Choong-Wan Woo.
+\newblock False-positive neuroimaging: Undisclosed flexibility in testing
+  spatial hypotheses allows presenting anything as a replicated finding.
+\newblock \emph{Neuroimage}, April 2019.
 
 \bibitem[Hunter(2007)]{Hunter2007-nu}
 John~D Hunter.
@@ -603,6 +676,10 @@ Russell~A Poldrack, Chris~I Baker, Joke Durnez, Krzysztof~J Gorgolewski, Paul~M
 \newblock \emph{Nat. Rev. Neurosci.}, 18\penalty0 (2):\penalty0 115--126,
   February 2017.
 
+\bibitem[Reddan et~al.(2017)Reddan, Lindquist, and Wager]{Reddan2017-rk}
+Marianne~C Reddan, Martin~A Lindquist, and Tor~D Wager.
+\newblock Effect size estimation in neuroimaging, 2017.
+
 \bibitem[Rozeboom(1960)]{Rozeboom1960-dp}
 William~W Rozeboom.
 \newblock The fallacy of the null-hypothesis significance test.
@@ -713,6 +790,15 @@ Fabian J~E Telschow and Armin Schwartzman.
 K~UIudag, B~M{\"u}ller-Bierl, and K~Ugurbil.
 \newblock An integrative model for neuronal activity-induced signal changes for
   gradient and spin echo functional imaging, 2009.
+
+\bibitem[Wager et~al.(2009)Wager, Lindquist, Nichols, Kober, and
+  Van~Snellenberg]{Wager2009-gm}
+Tor~D Wager, Martin~A Lindquist, Thomas~E Nichols, Hedy Kober, and Jared~X
+  Van~Snellenberg.
+\newblock Evaluating the consistency and specificity of neuroimaging data using
+  meta-analysis.
+\newblock \emph{Neuroimage}, 45\penalty0 (1 Suppl):\penalty0 S210--21, March
+  2009.
 
 \bibitem[Walt et~al.(2011)Walt, Colbert, and Varoquaux]{Walt2011-db}
 St{\'e}fan van~der Walt, S~Chris Colbert, and Ga{\"e}l Varoquaux.

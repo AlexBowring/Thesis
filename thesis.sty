@@ -775,10 +775,19 @@ rights, breach of contract or of any other right, in the thesis.
 %%% Environment to generate abstract page.
 %%%
 \newenvironment{thesisabstract}
-    {%\doublespace\small\normalsize
-     \chapter*{\@thesisabstracthead                 %!picked up from above
-         \@mkboth{\uppercase{\@thesisabstracthead}}  %!picked up from above
-                 {\uppercase{\@thesisabstracthead}}} %!picked up from above
+    {\begin{center}
+    		\textbf{\@thesisabstracthead}
+    		\linebreak
+    		\linebreak
+    		\textbf{\thesistitle} \\
+    		\textit{Alexander Bowring} \\
+    		\collegename, University of Oxford \\
+    		Submitted for the degree of Doctor of Philosophy \\
+    		Michaelmas Term, 2019
+    	 \end{center}	%\doublespace\small\normalsize
+     %\chapter*{\@thesisabstracthead                 %!picked up from above
+         %\@mkboth{\uppercase{\@thesisabstracthead}}  %!picked up from above
+          %       {\uppercase{\@thesisabstracthead}}} %!picked up from above
        \addcontentsline{toc}{chapter}{\@thesisabstracthead}
 %!     \vspace*{0mm}
 %!     \begin{center}

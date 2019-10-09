@@ -1,17 +1,17 @@
-\BOOKMARK [0][-]{chapter*.2}{Acknowledgments}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Declarations}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 3
+\BOOKMARK [0][-]{Doc-Start}{Abstract}{}% 1
+\BOOKMARK [0][-]{chapter*.1}{Acknowledgments}{}% 2
+\BOOKMARK [0][-]{chapter*.2}{Declarations}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
 \BOOKMARK [0][-]{chapter.2}{Background}{}% 5
 \BOOKMARK [1][-]{section.2.1}{The Study of Brain Function}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Blood Oxygenation Level Dependant \(BOLD\) Functional Magnetic Resonance Imagery \(fMRI\)}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Physiology of the BOLD response}{section.2.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Task-based functional Magnetic Resonance Imagery \(t-fMRI\)}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Blood-oxygen-level-dependant \(BOLD\) functional Magnetic Resonance Imaging \(fMRI\)}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Physiology of the BOLD Response}{section.2.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Task-based functional Magnetic Resonance Imaging \(t-fMRI\)}{chapter.2}% 9
 \BOOKMARK [1][-]{section.2.4}{Overview of Analysis Pipeline}{chapter.2}% 10
 \BOOKMARK [1][-]{section.2.5}{Preprocessing}{chapter.2}% 11
 \BOOKMARK [2][-]{subsection.2.5.1}{Brain Extraction}{section.2.5}% 12
 \BOOKMARK [2][-]{subsection.2.5.2}{Distortion Correction}{section.2.5}% 13
-\BOOKMARK [2][-]{subsection.2.5.3}{Slice timing Correction}{section.2.5}% 14
+\BOOKMARK [2][-]{subsection.2.5.3}{Slice Timing Correction}{section.2.5}% 14
 \BOOKMARK [2][-]{subsection.2.5.4}{Realignment}{section.2.5}% 15
 \BOOKMARK [2][-]{subsection.2.5.5}{Coregistration}{section.2.5}% 16
 \BOOKMARK [2][-]{subsection.2.5.6}{Spatial Normalization}{section.2.5}% 17
@@ -81,20 +81,23 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{Simulations}{section.5.2}% 81
 \BOOKMARK [2][-]{subsection.5.2.2}{2D Simulations}{section.5.2}% 82
 \BOOKMARK [2][-]{subsection.5.2.3}{3D Simulations}{section.5.2}% 83
-\BOOKMARK [2][-]{subsection.5.2.4}{Application to UK Biobank Data}{section.5.2}% 84
+\BOOKMARK [2][-]{subsection.5.2.4}{Application to Human Connectome Project Data}{section.5.2}% 84
 \BOOKMARK [1][-]{section.5.3}{Results}{chapter.5}% 85
 \BOOKMARK [2][-]{subsection.5.3.1}{2D Simulations}{section.5.3}% 86
 \BOOKMARK [2][-]{subsection.5.3.2}{3D Simulations}{section.5.3}% 87
 \BOOKMARK [2][-]{subsection.5.3.3}{Human Connectome Project}{section.5.3}% 88
-\BOOKMARK [2][-]{subsection.5.3.4}{Comparison to Traditional Inference Procedures}{section.5.3}% 89
-\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 90
-\BOOKMARK [2][-]{subsection.5.4.1}{Limitations}{section.5.4}% 91
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 92
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 93
-\BOOKMARK [0][-]{appendix.A}{Software Comparison Supplementary Material}{}% 94
-\BOOKMARK [1][-]{section.A.1}{Percentage BOLD change Maps}{appendix.A}% 95
-\BOOKMARK [1][-]{section.A.2}{Partial R2 Maps}{appendix.A}% 96
-\BOOKMARK [1][-]{section.A.3}{Supplementary Figures}{appendix.A}% 97
-\BOOKMARK [0][-]{appendix.B}{\045BOLD Confidence Sets Supplementary Material}{}% 98
-\BOOKMARK [1][-]{section.B.1}{Supplementary Human Connectome Project Results}{appendix.B}% 99
-\BOOKMARK [1][-]{section.B.2}{Supplementary Tables}{appendix.B}% 100
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 89
+\BOOKMARK [2][-]{subsection.5.4.1}{Spatial Inference on Cohen's d Effect Size}{section.5.4}% 90
+\BOOKMARK [2][-]{subsection.5.4.2}{Three Algorithms for Cohen's d Confidence Sets}{section.5.4}% 91
+\BOOKMARK [2][-]{subsection.5.4.3}{Limitations}{section.5.4}% 92
+\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 93
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 94
+\BOOKMARK [0][-]{appendix.A}{Software Comparison Supplementary Material}{}% 95
+\BOOKMARK [1][-]{section.A.1}{Percentage BOLD change Maps}{appendix.A}% 96
+\BOOKMARK [1][-]{section.A.2}{Partial R2 Maps}{appendix.A}% 97
+\BOOKMARK [1][-]{section.A.3}{Supplementary Figures}{appendix.A}% 98
+\BOOKMARK [0][-]{appendix.B}{\045BOLD Confidence Sets Supplementary Material}{}% 99
+\BOOKMARK [1][-]{section.B.1}{Supplementary Human Connectome Project Results}{appendix.B}% 100
+\BOOKMARK [1][-]{section.B.2}{Supplementary Tables}{appendix.B}% 101
+\BOOKMARK [0][-]{appendix.C}{Cohen's d Confidence Sets Supplementary Material}{}% 102
+\BOOKMARK [1][-]{section.C.1}{Supplementary Human Connectome Project Results}{appendix.C}% 103

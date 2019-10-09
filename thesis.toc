@@ -1,17 +1,17 @@
-\contentsline {chapter}{Acknowledgments}{v}{chapter*.2}
-\contentsline {chapter}{Declarations}{vi}{chapter*.3}
-\contentsline {chapter}{Abstract}{vii}{chapter*.4}
+\contentsline {chapter}{Abstract}{}{Doc-Start}
+\contentsline {chapter}{Acknowledgments}{i}{chapter*.1}
+\contentsline {chapter}{Declarations}{ii}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}The Study of Brain Function}{8}{section.2.1}
-\contentsline {section}{\numberline {2.2}Blood Oxygenation Level Dependant (BOLD) Functional Magnetic Resonance Imagery (fMRI)}{10}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Physiology of the BOLD response}{11}{subsection.2.2.1}
-\contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imagery (t-fMRI)}{12}{section.2.3}
+\contentsline {section}{\numberline {2.2}Blood-oxygen-level-dependant (BOLD) functional Magnetic Resonance Imaging (fMRI)}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Physiology of the BOLD Response}{11}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Task-based functional Magnetic Resonance Imaging (t-fMRI)}{12}{section.2.3}
 \contentsline {section}{\numberline {2.4}Overview of Analysis Pipeline}{14}{section.2.4}
 \contentsline {section}{\numberline {2.5}Preprocessing}{15}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Brain Extraction}{15}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Distortion Correction}{16}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Slice timing Correction}{16}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.3}Slice Timing Correction}{16}{subsection.2.5.3}
 \contentsline {subsection}{\numberline {2.5.4}Realignment}{17}{subsection.2.5.4}
 \contentsline {subsection}{\numberline {2.5.5}Coregistration}{18}{subsection.2.5.5}
 \contentsline {subsection}{\numberline {2.5.6}Spatial Normalization}{18}{subsection.2.5.6}
@@ -33,85 +33,88 @@
 \contentsline {subsection}{\numberline {2.7.2}Permutation Testing for Voxelwise FWE Correction}{32}{subsection.2.7.2}
 \contentsline {section}{\numberline {2.8}Conclusion}{34}{section.2.8}
 \contentsline {chapter}{\numberline {3}Exploring the Impact of Analysis Software on Task-fMRI Results}{35}{chapter.3}
-\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{35}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{35}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{36}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.1}Data and Analysis Methods}{36}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Study Description and Data Source}{36}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Data Analyses}{37}{subsection.3.1.2}
 \contentsline {subsubsection}{Pipeline}{37}{subsection.3.1.2}
-\contentsline {subsubsection}{Common Processing Steps}{37}{table.caption.14}
-\contentsline {subsubsection}{ds000001 Analyses}{41}{table.caption.14}
-\contentsline {subsubsection}{AFNI Implementation}{42}{table.caption.14}
-\contentsline {subsubsection}{FSL Implementation}{43}{table.caption.14}
-\contentsline {subsubsection}{SPM Implementation}{43}{table.caption.14}
-\contentsline {subsubsection}{ds000109 Analyses}{43}{table.caption.14}
-\contentsline {subsubsection}{AFNI Implementation}{43}{table.caption.14}
-\contentsline {subsubsection}{FSL Implementation}{44}{table.caption.14}
-\contentsline {subsubsection}{SPM Implementation}{44}{table.caption.14}
-\contentsline {subsubsection}{ds000120 Analyses}{44}{table.caption.14}
-\contentsline {subsubsection}{AFNI Implementation}{45}{table.caption.14}
-\contentsline {subsubsection}{FSL Implementation}{45}{table.caption.14}
-\contentsline {subsubsection}{SPM Implementation}{45}{table.caption.14}
-\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{45}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{47}{subsection.3.1.4}
-\contentsline {subsubsection}{AFNI Implementation}{48}{subsection.3.1.4}
-\contentsline {subsubsection}{FSL Implementation}{48}{subsection.3.1.4}
-\contentsline {subsubsection}{SPM Implementation}{48}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Scripting of Analyses and Figures}{48}{subsection.3.1.5}
-\contentsline {section}{\numberline {3.2}Results}{49}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{49}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Cross-Software Variability for Nonparametric Inference}{61}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Nonparametric}{62}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Discussion}{65}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Limitations}{67}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Conclusion}{69}{section.3.4}
-\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Raw Effect Size Images}{71}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{71}{section.4.1}
-\contentsline {section}{\numberline {4.2}Theory}{71}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Overview}{71}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit {k}}{74}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Approximating the Boundary on a Discrete Lattice}{75}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Assessment of Continuous Coverage on a Discrete Lattice}{76}{subsection.4.2.4}
-\contentsline {section}{\numberline {4.3}Method}{78}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Simulations}{78}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}2D Simulations}{79}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}3D Simulations}{79}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Application to Human Connectome Project Data}{81}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Results}{84}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Methodological Comparisons}{84}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}2D Simulations}{85}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}3D Simulations}{87}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Human Connectome Project}{92}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Discussion}{93}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Spatial Inference on \%BOLD Raw Effect Size}{93}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Analysis of HCP data and Simulation Results}{96}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Methodological Innovations}{97}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Limitations}{98}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Conclusion}{98}{section.4.6}
-\contentsline {chapter}{\numberline {5}Spatial Confidence Sets for Cohen's d Effect Size Images}{99}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theory}{99}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}From \%BOLD to Cohen's d}{99}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Limiting Properties of the Cohen's d Estimator}{102}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Spatial Confidence Sets for Cohen's d Effect Size Images}{103}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Modified Residuals for the Cohen's d Wild t-bootstrap}{105}{subsection.5.1.4}
-\contentsline {subsection}{\numberline {5.1.5}Finite Properties of the Cohen's d Estimator and a Variance-stabilizing Transformation}{107}{subsection.5.1.5}
-\contentsline {subsection}{\numberline {5.1.6}Three Algorithms for Computing Cohen's d CSs}{112}{subsection.5.1.6}
-\contentsline {section}{\numberline {5.2}Methods}{115}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Simulations}{115}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}2D Simulations}{115}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}3D Simulations}{117}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Application to UK Biobank Data}{120}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}Results}{120}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{120}{subsection.5.3.1}
+\contentsline {subsubsection}{Common Processing Steps}{38}{table.caption.13}
+\contentsline {subsubsection}{ds000001 Analyses}{42}{table.caption.13}
+\contentsline {subsubsection}{AFNI Implementation}{43}{table.caption.13}
+\contentsline {subsubsection}{FSL Implementation}{44}{table.caption.13}
+\contentsline {subsubsection}{SPM Implementation}{44}{table.caption.13}
+\contentsline {subsubsection}{ds000109 Analyses}{44}{table.caption.13}
+\contentsline {subsubsection}{AFNI Implementation}{44}{table.caption.13}
+\contentsline {subsubsection}{FSL Implementation}{45}{table.caption.13}
+\contentsline {subsubsection}{SPM Implementation}{45}{table.caption.13}
+\contentsline {subsubsection}{ds000120 Analyses}{45}{table.caption.13}
+\contentsline {subsubsection}{AFNI Implementation}{45}{table.caption.13}
+\contentsline {subsubsection}{FSL Implementation}{46}{table.caption.13}
+\contentsline {subsubsection}{SPM Implementation}{46}{table.caption.13}
+\contentsline {subsection}{\numberline {3.1.3}Comparison Methods}{46}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Permutation Test Methods}{48}{subsection.3.1.4}
+\contentsline {subsubsection}{AFNI Implementation}{49}{subsection.3.1.4}
+\contentsline {subsubsection}{FSL Implementation}{49}{subsection.3.1.4}
+\contentsline {subsubsection}{SPM Implementation}{49}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Scripting of Analyses and Figures}{49}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Results}{50}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Cross-Software Variability for Parametric Inference}{50}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Cross-Software Variability for Nonparametric Inference}{62}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Intra-Software Variability, Parametric vs Nonparametric}{63}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Discussion}{66}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Limitations}{68}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Conclusion}{70}{section.3.4}
+\contentsline {chapter}{\numberline {4}Spatial Confidence Sets for Raw Effect Size Images}{72}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{72}{section.4.1}
+\contentsline {section}{\numberline {4.2}Theory}{72}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Overview}{72}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}The Wild Bootstrap Method for Computation of \textit {k}}{75}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Approximating the Boundary on a Discrete Lattice}{76}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Assessment of Continuous Coverage on a Discrete Lattice}{77}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Method}{79}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Simulations}{79}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}2D Simulations}{80}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}3D Simulations}{80}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Application to Human Connectome Project Data}{82}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Results}{85}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Methodological Comparisons}{85}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}2D Simulations}{86}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}3D Simulations}{88}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Human Connectome Project}{93}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{94}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Spatial Inference on \%BOLD Raw Effect Size}{94}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Analysis of HCP data and Simulation Results}{97}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Methodological Innovations}{98}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Limitations}{99}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusion}{99}{section.4.6}
+\contentsline {chapter}{\numberline {5}Spatial Confidence Sets for Cohen's d Effect Size Images}{100}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theory}{100}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}From \%BOLD to Cohen's d}{100}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Limiting Properties of the Cohen's d Estimator}{103}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Spatial Confidence Sets for Cohen's d Effect Size Images}{104}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Modified Residuals for the Cohen's d Wild t-bootstrap}{106}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Finite Properties of the Cohen's d Estimator and a Variance-stabilizing Transformation}{108}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.6}Three Algorithms for Computing Cohen's d CSs}{113}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Methods}{116}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Simulations}{116}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}2D Simulations}{116}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}3D Simulations}{118}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Application to Human Connectome Project Data}{121}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Results}{121}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}2D Simulations}{121}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}3D Simulations}{124}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Human Connectome Project}{130}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Comparison to Traditional Inference Procedures}{133}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Discussion}{133}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Limitations}{133}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Conclusion}{133}{section.5.5}
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{134}{chapter.6}
-\contentsline {chapter}{\numberline {A}Software Comparison Supplementary Material}{135}{appendix.A}
-\contentsline {section}{\numberline {A.1}Percentage BOLD change Maps}{135}{section.A.1}
-\contentsline {section}{\numberline {A.2}Partial $R^{2}$ Maps}{137}{section.A.2}
-\contentsline {section}{\numberline {A.3}Supplementary Figures}{138}{section.A.3}
-\contentsline {chapter}{\numberline {B}\%BOLD Confidence Sets Supplementary Material}{153}{appendix.B}
-\contentsline {section}{\numberline {B.1}Supplementary Human Connectome Project Results}{153}{section.B.1}
-\contentsline {section}{\numberline {B.2}Supplementary Tables}{153}{section.B.2}
+\contentsline {subsection}{\numberline {5.4.1}Spatial Inference on Cohen's d Effect Size}{133}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Three Algorithms for Cohen's d Confidence Sets}{135}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Limitations}{136}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}Conclusion}{136}{section.5.5}
+\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{137}{chapter.6}
+\contentsline {chapter}{\numberline {A}Software Comparison Supplementary Material}{138}{appendix.A}
+\contentsline {section}{\numberline {A.1}Percentage BOLD change Maps}{138}{section.A.1}
+\contentsline {section}{\numberline {A.2}Partial $R^{2}$ Maps}{140}{section.A.2}
+\contentsline {section}{\numberline {A.3}Supplementary Figures}{141}{section.A.3}
+\contentsline {chapter}{\numberline {B}\%BOLD Confidence Sets Supplementary Material}{156}{appendix.B}
+\contentsline {section}{\numberline {B.1}Supplementary Human Connectome Project Results}{156}{section.B.1}
+\contentsline {section}{\numberline {B.2}Supplementary Tables}{156}{section.B.2}
+\contentsline {chapter}{\numberline {C}Cohen's d Confidence Sets Supplementary Material}{162}{appendix.C}
+\contentsline {section}{\numberline {C.1}Supplementary Human Connectome Project Results}{162}{section.C.1}
