@@ -589,6 +589,9 @@ INPUT Figures/SC_BA_intrasoftware.pdf
 INPUT ./Figures/SC_BA_intrasoftware.pdf
 INPUT ./Figures/SC_BA_intrasoftware.pdf
 INPUT Contour.tex
+INPUT Figures/CIB_example_fig.pdf
+INPUT ./Figures/CIB_example_fig.pdf
+INPUT ./Figures/CIB_example_fig.pdf
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecti1095.tfm
@@ -814,6 +817,7 @@ INPUT ./Figures/CIC_GLM_Algorithm3_c08.pdf
 INPUT Figures/CIC_GLM_Algorithm3_c12.pdf
 INPUT ./Figures/CIC_GLM_Algorithm3_c12.pdf
 INPUT ./Figures/CIC_GLM_Algorithm3_c12.pdf
+INPUT Conclusion.tex
 INPUT SC_appendix.tex
 INPUT SC_appendix.tex
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm

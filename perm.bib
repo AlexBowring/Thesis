@@ -2165,13 +2165,6 @@
   year     =  2017
 }
 
-@MISC{Bowring2019-fc,
-  title   = "Exploring the impact of analysis software on task {fMRI} results",
-  author  = "Bowring, Alexander and Maumet, Camille and Nichols, Thomas E",
-  journal = "Human Brain Mapping",
-  year    =  2019
-}
-
 @ARTICLE{Engel2013-nq,
   title    = "Confidence intervals for {fMRI} activation maps",
   author   = "Engel, Stephen A and Burton, Philip C",
@@ -3089,11 +3082,19 @@ author = "Alexander Bowring and Fabian Telschow and Armin Schwartzman and Thomas
 abstract = "The mass-univariate approach for functional magnetic resonance imaging (fMRI) analysis remains a widely used statistical tool within neuroimaging. However, this method suffers from at least two fundamental limitations: First, with sufficient sample sizes there is high enough statistical power to reject the null hypothesis everywhere, making it difficult if not impossible to localize effects of interest. Second, with any sample size, when cluster-size inference is used a significant p-value only indicates that a cluster is larger than chance. Therefore, no notion of confidence is available to express the size or location of a cluster that could be expected with repeated sampling from the population. In this work, we address these issues by extending on a method proposed by Sommerfeld et al. (2018) (SSS) to develop spatial Confidence Sets (CSs) on clusters found in thresholded raw effect size maps. While hypothesis testing indicates where the null, i.e. a raw effect size of zero, can be rejected, the CSs give statements on the locations where raw effect sizes exceed, and fall short of, a non-zero threshold, providing both an upper and lower CS. While the method can be applied to any mass-univariate general linear model, we motivate the method in the context of blood-oxygen-level-dependent (BOLD) fMRI contrast maps for inference on percentage BOLD change raw effects. We propose several theoretical and practical implementation advancements to the original method formulated in SSS, delivering a procedure with superior performance in sample sizes as low as N=60. We validate the method with 3D Monte Carlo simulations that resemble fMRI data. Finally, we compute CSs for the Human Connectome Project working memory task contrast images, illustrating the brain regions that show a reliable %BOLD change for a given %BOLD threshold."
 }
 
-@MISC{Bowring2019-fc,
-  title   = "Exploring the impact of analysis software on task {fMRI} results",
-  author  = "Bowring, Alexander and Maumet, Camille and Nichols, Thomas E",
-  journal = "Human Brain Mapping",
-  year    =  2019
+@article{Bowring2019-fc,
+author = {Bowring, Alexander and Maumet, Camille and Nichols, Thomas E.},
+title = {Exploring the impact of analysis software on task fMRI results},
+journal = {Human Brain Mapping},
+volume = {40},
+number = {11},
+pages = {3362-3384},
+keywords = {AFNI, analytic flexibility, analytic variability, fMRI, FSL, reproducibility, software comparison, SPM, task-fMRI},
+doi = {10.1002/hbm.24603},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.24603},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hbm.24603},
+abstract = {Abstract A wealth of analysis tools are available to fMRI researchers in order to extract patterns of task variation and, ultimately, understand cognitive function. However, this “methodological plurality” comes with a drawback. While conceptually similar, two different analysis pipelines applied on the same dataset may not produce the same scientific results. Differences in methods, implementations across software, and even operating systems or software versions all contribute to this variability. Consequently, attention in the field has recently been directed to reproducibility and data sharing. In this work, our goal is to understand how choice of software package impacts on analysis results. We use publicly shared data from three published task fMRI neuroimaging studies, reanalyzing each study using the three main neuroimaging software packages, AFNI, FSL, and SPM, using parametric and nonparametric inference. We obtain all information on how to process, analyse, and model each dataset from the publications. We make quantitative and qualitative comparisons between our replications to gauge the scale of variability in our results and assess the fundamental differences between each software package. Qualitatively we find similarities between packages, backed up by Neurosynth association analyses that correlate similar words and phrases to all three software package's unthresholded results for each of the studies we reanalyse. However, we also discover marked differences, such as Dice similarity coefficients ranging from 0.000 to 0.684 in comparisons of thresholded statistic maps between software. We discuss the challenges involved in trying to reanalyse the published studies, and highlight our efforts to make this research reproducible.},
+year = {2019}
 }
 
 @ARTICLE{Hong2019-qr,
@@ -3319,4 +3320,180 @@ abstract = "The mass-univariate approach for functional magnetic resonance imagi
   journal = "Frontiers",
   volume  =  9,
   year    =  2015
+}
+
+@ARTICLE{Carp2012-yi,
+  title    = "The secret lives of experiments: methods reporting in the {fMRI}
+              literature",
+  author   = "Carp, Joshua",
+  abstract = "Replication of research findings is critical to the progress of
+              scientific understanding. Accordingly, most scientific journals
+              require authors to report experimental procedures in sufficient
+              detail for independent researchers to replicate their work. To
+              what extent do research reports in the functional neuroimaging
+              literature live up to this standard? The present study evaluated
+              methods reporting and methodological choices across 241 recent
+              fMRI articles. Many studies did not report critical
+              methodological details with regard to experimental design, data
+              acquisition, and analysis. Further, many studies were
+              underpowered to detect any but the largest statistical effects.
+              Finally, data collection and analysis methods were highly
+              flexible across studies, with nearly as many unique analysis
+              pipelines as there were studies in the sample. Because the rate
+              of false positive results is thought to increase with the
+              flexibility of experimental designs, the field of functional
+              neuroimaging may be particularly vulnerable to false positives.
+              In sum, the present study documented significant gaps in methods
+              reporting among fMRI studies. Improved methodological
+              descriptions in research reports would yield significant benefits
+              for the field.",
+  journal  = "Neuroimage",
+  volume   =  63,
+  number   =  1,
+  pages    = "289--300",
+  month    =  oct,
+  year     =  2012,
+  language = "en"
+}
+
+@ARTICLE{Poldrack2013-ss,
+  title    = "Toward open sharing of task-based {fMRI} data: the {OpenfMRI}
+              project",
+  author   = "Poldrack, Russell A and Barch, Deanna M and Mitchell, Jason P and
+              Wager, Tor D and Wagner, Anthony D and Devlin, Joseph T and
+              Cumba, Chad and Koyejo, Oluwasanmi and Milham, Michael P",
+  abstract = "The large-scale sharing of task-based functional neuroimaging
+              data has the potential to allow novel insights into the
+              organization of mental function in the brain, but the field of
+              neuroimaging has lagged behind other areas of bioscience in the
+              development of data sharing resources. This paper describes the
+              OpenFMRI project (accessible online at http://www.openfmri.org),
+              which aims to provide the neuroimaging community with a resource
+              to support open sharing of task-based fMRI studies. We describe
+              the motivation behind the project, focusing particularly on how
+              this project addresses some of the well-known challenges to
+              sharing of task-based fMRI data. Results from a preliminary
+              analysis of the current database are presented, which demonstrate
+              the ability to classify between task contrasts with high
+              generalization accuracy across subjects, and the ability to
+              identify individual subjects from their activation maps with
+              moderately high accuracy. Clustering analyses show that the
+              similarity relations between statistical maps have a somewhat
+              orderly relation to the mental functions engaged by the relevant
+              tasks. These results highlight the potential of the project to
+              support large-scale multivariate analyses of the relation between
+              mental processes and brain function.",
+  journal  = "Front. Neuroinform.",
+  volume   =  7,
+  pages    = "12",
+  month    =  jul,
+  year     =  2013,
+  keywords = "classification; data sharing; informatics; metadata; multivariate",
+  language = "en"
+}
+
+@ARTICLE{Pauli2016-yz,
+  title    = "Exploring {fMRI} Results Space: 31 Variants of an {fMRI} Analysis
+              in {AFNI}, {FSL}, and {SPM}",
+  author   = "Pauli, Ruth and Bowring, Alexander and Reynolds, Richard and
+              Chen, Gang and Nichols, Thomas E and Maumet, Camille",
+  journal  = "Front. Neuroinform.",
+  volume   =  10,
+  pages    = "24",
+  month    =  jul,
+  year     =  2016,
+  keywords = "data sharing; fMRI analysis; functional MRI; neuroimaging;
+              provenance",
+  language = "en"
+}
+
+@ARTICLE{Nuzzo2014-wi,
+  title    = "Scientific method: statistical errors",
+  author   = "Nuzzo, Regina",
+  journal  = "Nature",
+  volume   =  506,
+  number   =  7487,
+  pages    = "150--152",
+  month    =  feb,
+  year     =  2014,
+  language = "en"
+}
+
+@ARTICLE{Wasserstein2016-hv,
+  title   = "The {ASA's} statement on p-values: context, process, and purpose",
+  author  = "Wasserstein, Ronald L and Lazar, Nicole A and {Others}",
+  journal = "Am. Stat.",
+  volume  =  70,
+  number  =  2,
+  pages   = "129--133",
+  year    =  2016
+}
+
+@ARTICLE{Nichols2017-zo,
+  title    = "Best practices in data analysis and sharing in neuroimaging using
+              {MRI}",
+  author   = "Nichols, Thomas E and Das, Samir and Eickhoff, Simon B and Evans,
+              Alan C and Glatard, Tristan and Hanke, Michael and Kriegeskorte,
+              Nikolaus and Milham, Michael P and Poldrack, Russell A and
+              Poline, Jean-Baptiste and Proal, Erika and Thirion, Bertrand and
+              Van Essen, David C and White, Tonya and Yeo, B T Thomas",
+  abstract = "Given concerns about the reproducibility of scientific findings,
+              neuroimaging must define best practices for data analysis,
+              results reporting, and algorithm and data sharing to promote
+              transparency, reliability and collaboration. We describe insights
+              from developing a set of recommendations on behalf of the
+              Organization for Human Brain Mapping and identify barriers that
+              impede these practices, including how the discipline must change
+              to fully exploit the potential of the world's neuroimaging data.",
+  journal  = "Nat. Neurosci.",
+  volume   =  20,
+  number   =  3,
+  pages    = "299--303",
+  month    =  feb,
+  year     =  2017,
+  language = "en"
+}
+
+@ARTICLE{Turner2018-xs,
+  title    = "Small sample sizes reduce the replicability of task-based {fMRI}
+              studies",
+  author   = "Turner, Benjamin O and Paul, Erick J and Miller, Michael B and
+              Barbey, Aron K",
+  abstract = "Despite a growing body of research suggesting that task-based
+              functional magnetic resonance imaging (fMRI) studies often suffer
+              from a lack of statistical power due to too-small samples, the
+              proliferation of such underpowered studies continues unabated.
+              Using large independent samples across eleven tasks, we
+              demonstrate the impact of sample size on replicability, assessed
+              at different levels of analysis relevant to fMRI researchers. We
+              find that the degree of replicability for typical sample sizes is
+              modest and that sample sizes much larger than typical (e.g., N =
+              100) produce results that fall well short of perfectly
+              replicable. Thus, our results join the existing line of work
+              advocating for larger sample sizes. Moreover, because we test
+              sample sizes over a fairly large range and use intuitive metrics
+              of replicability, our hope is that our results are more
+              understandable and convincing to researchers who may have found
+              previous results advocating for larger samples inaccessible.",
+  journal  = "Commun Biol",
+  volume   =  1,
+  pages    = "62",
+  month    =  jun,
+  year     =  2018,
+  language = "en"
+}
+
+@ARTICLE{David_C_Van_Essen2016-bt,
+  title     = "The Human Connectome Project: Progress and Prospects",
+  author    = "David C. Van Essen, Matthew F Glasser",
+  abstract  = "As the first phase of one of the most ambitious projects in the
+               history of neuroscience comes to a close, one early and
+               influential leader and his younger colleague explain its
+               evolution and underpinnings. Its goal ``is to build a `network
+               ...",
+  journal   = "Cerebrum",
+  publisher = "Dana Foundation",
+  volume    =  2016,
+  year      =  2016,
+  language  = "en"
 }

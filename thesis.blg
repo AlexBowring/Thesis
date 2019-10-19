@@ -3,59 +3,55 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: plainnat.bst
 Database file #1: perm.bib
-Repeated entry---line 3014 of file perm.bib
+Repeated entry---line 3007 of file perm.bib
  : @article{Cremers2017-qk
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3092 of file perm.bib
- : @misc{Bowring2019-fc
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3257 of file perm.bib
+Repeated entry---line 3258 of file perm.bib
  : @article{Mueller2017-pn
  :                        ,
 I'm skipping whatever remains of this entry
 Warning--empty note in Ellis2019-zi
 Warning--empty journal in Telschow2019-lg
-You've used 116 entries,
+You've used 124 entries,
             2773 wiz_defined-function locations,
-            1310 strings with 30729 characters,
-and the built_in function-call counts, 68889 in all, are:
-= -- 5663
-> -- 5820
-< -- 36
-+ -- 1955
-- -- 1836
-* -- 6640
-:= -- 10943
-add.period$ -- 341
-call.type$ -- 116
-change.case$ -- 955
-chr.to.int$ -- 113
-cite$ -- 234
-duplicate$ -- 2358
-empty$ -- 4476
-format.name$ -- 1980
-if$ -- 13826
-int.to.chr$ -- 4
+            1357 strings with 32460 characters,
+and the built_in function-call counts, 73574 in all, are:
+= -- 6055
+> -- 6198
+< -- 39
++ -- 2084
+- -- 1956
+* -- 7096
+:= -- 11700
+add.period$ -- 368
+call.type$ -- 124
+change.case$ -- 1019
+chr.to.int$ -- 120
+cite$ -- 250
+duplicate$ -- 2527
+empty$ -- 4783
+format.name$ -- 2108
+if$ -- 14763
+int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 107
-newline$ -- 580
-num.names$ -- 464
-pop$ -- 1830
+missing$ -- 116
+newline$ -- 623
+num.names$ -- 496
+pop$ -- 1937
 preamble$ -- 1
-purify$ -- 844
+purify$ -- 900
 quote$ -- 0
-skip$ -- 1974
+skip$ -- 2101
 stack$ -- 0
-substring$ -- 2320
-swap$ -- 233
+substring$ -- 2481
+swap$ -- 249
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1251
+type$ -- 1339
 warning$ -- 2
-while$ -- 508
+while$ -- 544
 width$ -- 0
-write$ -- 1474
-(There were 3 error messages)
+write$ -- 1585
+(There were 2 error messages)
