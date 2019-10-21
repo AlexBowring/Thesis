@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  19 OCT 2019 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  21 OCT 2019 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,32 +1386,32 @@ Overfull \hbox (2.08043pt too wide) detected at line 105
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 108
- []\T1/fla/m/n/10.95 142
+ []\T1/fla/m/n/10.95 143
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 109
- []\T1/fla/m/n/10.95 144
- []
-
-
-Overfull \hbox (2.08043pt too wide) detected at line 110
  []\T1/fla/m/n/10.95 145
  []
 
 
+Overfull \hbox (2.08043pt too wide) detected at line 110
+ []\T1/fla/m/n/10.95 146
+ []
+
+
 Overfull \hbox (2.08043pt too wide) detected at line 112
- []\T1/fla/m/n/10.95 160
+ []\T1/fla/m/n/10.95 161
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 113
- []\T1/fla/m/n/10.95 160
+ []\T1/fla/m/n/10.95 161
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 115
- []\T1/fla/m/n/10.95 166
+ []\T1/fla/m/n/10.95 167
  []
 
 )
@@ -2928,18 +2928,24 @@ ur-ing the emer-gence of population-
  []
 
 
-Overfull \hbox (5.99103pt too wide) in paragraph at lines 1--2
-\T1/fla/m/n/10.95 brain func-tion, and are al-ready yield-ing rich re-sults ([]
-[]Miller et al.[][], [][]2016[][]; [][]David C. Van Es-
+Overfull \hbox (0.20349pt too wide) in paragraph at lines 3--4
+\T1/fla/m/n/10.95 ef-fort. With the plu-ral-ity of tools and tech-niques be-ing
+ ap-plied to an-a-lyze population-
  []
 
-) [141
+[141
 
-]
+])
+Overfull \hbox (6.66774pt too wide) in paragraph at lines 7--470
+\T1/fla/m/n/10.95 an image-wise mean and vari-ance sim-i-lar to the in-di-vid-u
+al pack-ages' group-level statis-
+ []
+
+[142]
 Appendix A.
-(./SC_appendix.tex [142
+(./SC_appendix.tex [143
 
-] [143]
+] [144]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 70.
@@ -2958,7 +2964,7 @@ Overfull \hbox (3.0894pt too wide) in paragraph at lines 75--77
 ween $\OML/cmm/m/it/10.95 R[]$ \T1/fla/m/n/10.95 and the F-statistic given
  []
 
-[144] <Figures/SC_supp_Registration.pdf, id=4172, 719.68875pt x 904.37875pt>
+[145] <Figures/SC_supp_Registration.pdf, id=4179, 719.68875pt x 904.37875pt>
 File: Figures/SC_supp_Registration.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_Registration.pdf>
@@ -2966,7 +2972,7 @@ Package pdftex.def Info: Figures/SC_supp_Registration.pdf used on input line 95
 .
 (pdftex.def)             Requested size: 397.48499pt x 499.50742pt.
 
-<Figures/SC_supp_thresh_ds000001.pdf, id=4173, 699.61375pt x 923.45pt>
+<Figures/SC_supp_thresh_ds000001.pdf, id=4180, 699.61375pt x 923.45pt>
 File: Figures/SC_supp_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000001.pdf>
@@ -2974,7 +2980,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000001.pdf used on input line
  102.
 (pdftex.def)             Requested size: 397.48499pt x 524.66699pt.
 
-<Figures/SC_supp_perm_thresh_ds000001.pdf, id=4174, 704.6325pt x 907.39pt>
+<Figures/SC_supp_perm_thresh_ds000001.pdf, id=4181, 704.6325pt x 907.39pt>
 File: Figures/SC_supp_perm_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000001.pdf>
@@ -2982,7 +2988,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000001.pdf used on input
  line 109.
 (pdftex.def)             Requested size: 397.48499pt x 511.85942pt.
 
-<Figures/SC_supp_thresh_ds000109.pdf, id=4175, 681.54625pt x 893.3375pt>
+<Figures/SC_supp_thresh_ds000109.pdf, id=4182, 681.54625pt x 893.3375pt>
 File: Figures/SC_supp_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000109.pdf>
@@ -2990,7 +2996,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000109.pdf used on input line
  116.
 (pdftex.def)             Requested size: 397.48499pt x 521.0123pt.
 
-<Figures/SC_supp_perm_thresh_ds000109.pdf, id=4176, 693.59125pt x 898.35625pt>
+<Figures/SC_supp_perm_thresh_ds000109.pdf, id=4183, 693.59125pt x 898.35625pt>
 File: Figures/SC_supp_perm_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000109.pdf>
@@ -2998,7 +3004,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000109.pdf used on input
  line 123.
 (pdftex.def)             Requested size: 397.48499pt x 514.85106pt.
 
-<Figures/SC_supp_thresh_ds000120.pdf, id=4177, 703.62875pt x 605.26125pt>
+<Figures/SC_supp_thresh_ds000120.pdf, id=4184, 703.62875pt x 605.26125pt>
 File: Figures/SC_supp_thresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000120.pdf>
@@ -3006,7 +3012,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000120.pdf used on input line
  130.
 (pdftex.def)             Requested size: 397.48499pt x 341.90858pt.
 
-<Figures/SC_supp_unthresh_ds000001.pdf, id=4178, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_unthresh_ds000001.pdf, id=4185, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_unthresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000001.pdf>
@@ -3014,14 +3020,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000001.pdf used on input li
 ne 137.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=4179, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=4186, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000001.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000001.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000001.pdf used on inp
 ut line 144.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000109.pdf, id=4180, 555.07375pt x 662.475pt>
+<Figures/SC_supp_unthresh_ds000109.pdf, id=4187, 555.07375pt x 662.475pt>
 File: Figures/SC_supp_unthresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000109.pdf>
@@ -3029,14 +3035,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000109.pdf used on input li
 ne 151.
 (pdftex.def)             Requested size: 397.48499pt x 474.39386pt.
 
-<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=4181, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=4188, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000109.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000109.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000109.pdf used on inp
 ut line 158.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000120.pdf, id=4182, 555.07375pt x 445.665pt>
+<Figures/SC_supp_unthresh_ds000120.pdf, id=4189, 555.07375pt x 445.665pt>
 File: Figures/SC_supp_unthresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000120.pdf>
@@ -3044,87 +3050,87 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000120.pdf used on input li
 ne 165.
 (pdftex.def)             Requested size: 397.48499pt x 319.13768pt.
 
-<Figures/SC_supp_ECs.pdf, id=4183, 482.80376pt x 557.08125pt>
+<Figures/SC_supp_ECs.pdf, id=4190, 482.80376pt x 557.08125pt>
 File: Figures/SC_supp_ECs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_ECs.pdf>
 Package pdftex.def Info: Figures/SC_supp_ECs.pdf used on input line 172.
 (pdftex.def)             Requested size: 397.48499pt x 458.65416pt.
 
-<Figures/SC_supp_BOLD_BAs.pdf, id=4184, 542.025pt x 768.8725pt>
+<Figures/SC_supp_BOLD_BAs.pdf, id=4191, 542.025pt x 768.8725pt>
 File: Figures/SC_supp_BOLD_BAs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs.pdf>
 Package pdftex.def Info: Figures/SC_supp_BOLD_BAs.pdf used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 563.8533pt.
 
-<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=4185, 273.02pt x 310.15875pt>
+<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=4192, 273.02pt x 310.15875pt>
 File: Figures/SC_supp_BOLD_BAs_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs_ds000120.pdf>
 Package pdftex.def Info: Figures/SC_supp_BOLD_BAs_ds000120.pdf used on input li
 ne 187.
 (pdftex.def)             Requested size: 273.01933pt x 310.15799pt.
-) [145]
+) [146]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[146 <./Figures/SC_supp_Registration.pdf>]
+[147 <./Figures/SC_supp_Registration.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[147 <./Figures/SC_supp_thresh_ds000001.pdf>]
+[148 <./Figures/SC_supp_thresh_ds000001.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[148 <./Figures/SC_supp_perm_thresh_ds000001.pdf>]
+[149 <./Figures/SC_supp_perm_thresh_ds000001.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[149 <./Figures/SC_supp_thresh_ds000109.pdf>]
+[150 <./Figures/SC_supp_thresh_ds000109.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[150 <./Figures/SC_supp_perm_thresh_ds000109.pdf>]
+[151 <./Figures/SC_supp_perm_thresh_ds000109.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[151 <./Figures/SC_supp_thresh_ds000120.pdf>]
+[152 <./Figures/SC_supp_thresh_ds000120.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[152 <./Figures/SC_supp_unthresh_ds000001.pdf>]
+[153 <./Figures/SC_supp_unthresh_ds000001.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[153 <./Figures/SC_supp_perm_unthresh_ds000001.pdf>]
+[154 <./Figures/SC_supp_perm_unthresh_ds000001.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[154 <./Figures/SC_supp_unthresh_ds000109.pdf>]
+[155 <./Figures/SC_supp_unthresh_ds000109.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[155 <./Figures/SC_supp_perm_unthresh_ds000109.pdf>]
+[156 <./Figures/SC_supp_perm_unthresh_ds000109.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[156 <./Figures/SC_supp_unthresh_ds000120.pdf>]
+[157 <./Figures/SC_supp_unthresh_ds000120.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[157 <./Figures/SC_supp_ECs.pdf>]
+[158 <./Figures/SC_supp_ECs.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[158 <./Figures/SC_supp_BOLD_BAs.pdf>]
+[159 <./Figures/SC_supp_BOLD_BAs.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[159 <./Figures/SC_supp_BOLD_BAs_ds000120.pdf>]
+[160 <./Figures/SC_supp_BOLD_BAs_ds000120.pdf>]
 Appendix B.
 (./CI_appendix.tex
-<Figures/CIB_GLM_Fig1_c10.pdf, id=4762, 724.7075pt x 211.79124pt>
+<Figures/CIB_GLM_Fig1_c10.pdf, id=4769, 724.7075pt x 211.79124pt>
 File: Figures/CIB_GLM_Fig1_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c10.pdf>
@@ -3135,7 +3141,7 @@ Overfull \hbox (295.87045pt too wide) in paragraph at lines 12--13
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c15.pdf, id=4763, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c15.pdf, id=4770, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c15.pdf>
@@ -3146,7 +3152,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 13--14
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c20.pdf, id=4764, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c20.pdf, id=4771, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c20.pdf>
@@ -3157,7 +3163,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 14--15
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c10.pdf, id=4767, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c10.pdf, id=4774, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c10.pdf>
@@ -3168,7 +3174,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 30--31
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c15.pdf, id=4768, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c15.pdf, id=4775, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c15.pdf>
@@ -3179,7 +3185,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 31--32
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c20.pdf, id=4769, 722.7pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c20.pdf, id=4776, 722.7pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c20.pdf>
@@ -3195,23 +3201,23 @@ Overfull \hbox (30.4688pt too wide) in paragraph at lines 47--91
  []|  [] 
  []
 
-[160
+[161
 
 ]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[161 <./Figures/CIB_GLM_Fig1_c10.pdf> <./Figures/CIB_GLM_Fig1_c15.pdf> <./Figur
+[162 <./Figures/CIB_GLM_Fig1_c10.pdf> <./Figures/CIB_GLM_Fig1_c15.pdf> <./Figur
 es/CIB_GLM_Fig1_c20.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[162 <./Figures/CIB_GLM_Fig2_c10.pdf> <./Figures/CIB_GLM_Fig2_c15.pdf> <./Figur
+[163 <./Figures/CIB_GLM_Fig2_c10.pdf> <./Figures/CIB_GLM_Fig2_c15.pdf> <./Figur
 es/CIB_GLM_Fig2_c20.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[163]
+[164]
 Overfull \hbox (30.4688pt too wide) in paragraph at lines 99--143
  []|  [] 
  []
@@ -3225,14 +3231,14 @@ Overfull \hbox (30.4688pt too wide) in paragraph at lines 149--192
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[164]
+[165]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[165]
+[166]
 Appendix C.
 (./Cohen_CI_appendix.tex
-<Figures/CIC_Fig1_Algorithm1_c05.pdf, id=4938, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c05.pdf, id=4945, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c05.pdf>
@@ -3244,7 +3250,7 @@ Overfull \hbox (301.60411pt too wide) in paragraph at lines 14--15
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm1_c08.pdf, id=4939, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c08.pdf, id=4946, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c08.pdf>
@@ -3256,7 +3262,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 15--16
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm1_c12.pdf, id=4940, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c12.pdf, id=4947, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c12.pdf>
@@ -3268,7 +3274,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 16--17
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c05.pdf, id=4957, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c05.pdf, id=4964, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c05.pdf>
@@ -3280,7 +3286,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 32--33
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c08.pdf, id=4958, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c08.pdf, id=4965, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c08.pdf>
@@ -3292,7 +3298,7 @@ Overfull \hbox (301.60411pt too wide) in paragraph at lines 33--34
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c12.pdf, id=4959, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c12.pdf, id=4966, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c12.pdf>
@@ -3304,79 +3310,79 @@ Overfull \hbox (301.60411pt too wide) in paragraph at lines 34--35
 []|[]| 
  []
 
-) (./thesis.bbl [166
+) (./thesis.bbl [167
 
 ]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[167 <./Figures/CIC_Fig1_Algorithm1_c05.pdf> <./Figures/CIC_Fig1_Algorithm1_c08
+[168 <./Figures/CIC_Fig1_Algorithm1_c05.pdf> <./Figures/CIC_Fig1_Algorithm1_c08
 .pdf> <./Figures/CIC_Fig1_Algorithm1_c12.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[168 <./Figures/CIC_Fig1_Algorithm2_c05.pdf> <./Figures/CIC_Fig1_Algorithm2_c08
+[169 <./Figures/CIC_Fig1_Algorithm2_c05.pdf> <./Figures/CIC_Fig1_Algorithm2_c08
 .pdf> <./Figures/CIC_Fig1_Algorithm2_c12.pdf>]
 Underfull \hbox (badness 1237) in paragraph at lines 75--83
 \T1/fla/m/n/10.95 Bjork, Russ Pol-drack, Steve Smith, Heidi Johansen-Berg, Abra
 -ham Z Sny-der,
  []
 
-[169
+[170
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 []\T1/fla/m/n/10.95 Alexander Bowring, Camille Maumet, and Thomas Nichols.  NIS
 Ox-
  []
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 121.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 131.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 125--132
+Underfull \hbox (badness 10000) in paragraph at lines 135--142
 []\T1/fla/m/n/10.95 Alexander Bowring, Fabian Telschow, Armin Schwartz-man, and
  Thomas E.
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 125--132
+Underfull \hbox (badness 5475) in paragraph at lines 135--142
 \T1/cmr/m/n/10.95 2019 . 116187$\T1/fla/m/n/10.95 .  URL [][]$\T1/cmtt/m/n/10.9
 5 http : / / www . sciencedirect . com / science / article / pii /
  []
 
-[170] [171]
-Underfull \hbox (badness 3312) in paragraph at lines 278--283
+[171] [172]
+Underfull \hbox (badness 3312) in paragraph at lines 288--293
 []\T1/fla/m/n/10.95 Cameron El-lis, Christo-pher Bal-das-sano, Anna C Schapiro,
  Ming Bo Cai, and
  []
 
-
-Underfull \hbox (badness 2762) in paragraph at lines 304--310
+[173]
+Underfull \hbox (badness 2762) in paragraph at lines 314--320
 []\T1/fla/m/n/10.95 Tatiana Fom-ina, Matthias Hohmann, Bern-hard Scholkopf, and
  Moritz Grosse-
  []
 
-[172]
-Underfull \hbox (badness 1436) in paragraph at lines 381--391
+[174]
+Underfull \hbox (badness 1436) in paragraph at lines 391--401
 []\T1/fla/m/n/10.95 Krzysztof J Gor-golewski, Ti-bor Auer, Vince D Cal-houn, R 
 Cameron Crad-dock,
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 381--391
+Underfull \hbox (badness 1642) in paragraph at lines 391--401
 \T1/fla/m/n/10.95 John Pell-man, Jean-Baptiste Po-line, Ariel Rokem, Gun-nar Sc
 hae-fer, Vanessa
  []
 
-[173]
-Underfull \hbox (badness 1331) in paragraph at lines 416--422
+
+Underfull \hbox (badness 1331) in paragraph at lines 426--432
 []\T1/fla/m/n/10.95 Ahmad R Hariri, Alessan-dro Tes-si-tore, Venkata S Mat-tay,
  Francesco Fera, and
  []
 
-[174] [175] [176] [177] [178] [179]) [180]
+[175] [176] [177] [178] [179] [180] [181]) [182]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
  (./thesis.aux)
@@ -3387,13 +3393,13 @@ Package rerunfilecheck Info: File `thesis.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 493.
  ) 
 Here is how much of TeX's memory you used:
- 26602 strings out of 493014
- 525211 string characters out of 6133351
- 655631 words of memory out of 5000000
- 28689 multiletter control sequences out of 15000+600000
+ 26608 strings out of 493014
+ 525340 string characters out of 6133351
+ 655780 words of memory out of 5000000
+ 28692 multiletter control sequences out of 15000+600000
  160310 words of font info for 204 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,24n,80p,3648b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,24n,80p,3648b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc}{/usr/loca
 l/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc}</usr/local/texlive/
@@ -3431,10 +3437,10 @@ lic/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/cm-super/sfti0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 cm-super/sftt1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/wa
 sy2-ps/wasy10.pfb>
-Output written on thesis.pdf (188 pages, 24869282 bytes).
+Output written on thesis.pdf (190 pages, 24872833 bytes).
 PDF statistics:
- 5420 PDF objects out of 6186 (max. 8388607)
- 4082 compressed objects within 41 object streams
- 629 named destinations out of 1000 (max. 500000)
+ 5432 PDF objects out of 6186 (max. 8388607)
+ 4092 compressed objects within 41 object streams
+ 632 named destinations out of 1000 (max. 500000)
  1347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

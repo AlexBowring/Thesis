@@ -1,4 +1,4 @@
-\begin{thebibliography}{124}
+\begin{thebibliography}{125}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -98,6 +98,16 @@ Craig~M Bennett, Michael~B Miller, and George~L Wolford.
 E~L Bennett, M~C Diamond, D~Krech, and M~R Rosenzweig.
 \newblock {CHEMICAL} {AND} {ANATOMICAL} {PLASTICITY} {BRAIN}.
 \newblock \emph{Science}, 146\penalty0 (3644):\penalty0 610--619, October 1964.
+
+\bibitem[Botvinik-Nezer et~al.(2019)Botvinik-Nezer, Iwanir, Holzmeister, Huber,
+  Johannesson, Kirchler, Dreber, Camerer, Poldrack, and
+  Schonberg]{Botvinik-Nezer2019-qu}
+Rotem Botvinik-Nezer, Roni Iwanir, Felix Holzmeister, J{\"u}rgen Huber, Magnus
+  Johannesson, Michael Kirchler, Anna Dreber, Colin~F Camerer, Russell~A
+  Poldrack, and Tom Schonberg.
+\newblock {fMRI} data of mixed gambles from the neuroimaging analysis
+  replication and prediction study.
+\newblock \emph{Sci Data}, 6\penalty0 (1):\penalty0 106, July 2019.
 
 \bibitem[Bowring et~al.(2018{\natexlab{a}})Bowring, Maumet, and
   Nichols]{Bowring2018-wp}
