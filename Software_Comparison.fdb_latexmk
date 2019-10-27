@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1570642659 "Software_Comparison.tex" "Software_Comparison.pdf" "Software_Comparison" 1570642659
+["pdflatex"] 1572097188 "Software_Comparison.tex" "Software_Comparison.pdf" "Software_Comparison" 1572097188
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -9,7 +9,7 @@
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1489441121 3873397 19dc3102bfe45217f7f522616e7096b1 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "Software_Comparison.aux" 1563629364 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Software_Comparison.tex" 1570642658 81579 2bf5b0752aad8162767667f9f0d87139 ""
+  "Software_Comparison.tex" 1572097188 84658 ceeb16dde80d5f556ef9cbfac47c4ed0 ""
   (generated)
-  "Software_Comparison.pdf"
   "Software_Comparison.log"
+  "Software_Comparison.pdf"

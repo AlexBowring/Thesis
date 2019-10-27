@@ -13,45 +13,45 @@ Repeated entry---line 3258 of file perm.bib
 I'm skipping whatever remains of this entry
 Warning--empty note in Ellis2019-zi
 Warning--empty journal in Telschow2019-lg
-You've used 125 entries,
+You've used 126 entries,
             2773 wiz_defined-function locations,
-            1361 strings with 32804 characters,
-and the built_in function-call counts, 74383 in all, are:
-= -- 6114
-> -- 6291
-< -- 39
-+ -- 2115
-- -- 1986
-* -- 7183
-:= -- 11835
-add.period$ -- 371
-call.type$ -- 125
-change.case$ -- 1032
-chr.to.int$ -- 121
-cite$ -- 252
-duplicate$ -- 2548
-empty$ -- 4820
-format.name$ -- 2139
-if$ -- 14920
+            1367 strings with 32946 characters,
+and the built_in function-call counts, 74743 in all, are:
+= -- 6146
+> -- 6301
+< -- 40
++ -- 2119
+- -- 1989
+* -- 7209
+:= -- 11891
+add.period$ -- 374
+call.type$ -- 126
+change.case$ -- 1036
+chr.to.int$ -- 122
+cite$ -- 254
+duplicate$ -- 2568
+empty$ -- 4858
+format.name$ -- 2143
+if$ -- 14996
 int.to.chr$ -- 5
 int.to.str$ -- 1
-missing$ -- 117
-newline$ -- 628
-num.names$ -- 500
-pop$ -- 1961
+missing$ -- 118
+newline$ -- 633
+num.names$ -- 504
+pop$ -- 1968
 preamble$ -- 1
-purify$ -- 912
+purify$ -- 915
 quote$ -- 0
-skip$ -- 2122
+skip$ -- 2135
 stack$ -- 0
-substring$ -- 2492
-swap$ -- 251
+substring$ -- 2509
+swap$ -- 252
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1350
+type$ -- 1361
 warning$ -- 2
-while$ -- 548
+while$ -- 552
 width$ -- 0
-write$ -- 1598
+write$ -- 1611
 (There were 2 error messages)
