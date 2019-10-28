@@ -85,24 +85,24 @@
 \contentsline {subsection}{\numberline {4.4.3}Methodological Innovations}{125}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}Limitations}{126}{subsection.4.4.4}
 \contentsline {chapter}{\numberline {5}Spatial Confidence Sets for Cohen's \textit {d} Effect Size Images}{128}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}From \%BOLD to Cohen's d}{130}{subsection.5.0.1}
-\contentsline {subsection}{\numberline {5.0.2}Limiting Properties of the Cohen's d Estimator}{133}{subsection.5.0.2}
-\contentsline {subsection}{\numberline {5.0.3}Spatial Confidence Sets for Cohen's d Effect Size Images}{135}{subsection.5.0.3}
-\contentsline {subsection}{\numberline {5.0.4}Modified Residuals for the Cohen's d Wild t-bootstrap}{136}{subsection.5.0.4}
-\contentsline {subsection}{\numberline {5.0.5}Finite Properties of the Cohen's d Estimator and a Variance-stabilizing Transformation}{140}{subsection.5.0.5}
-\contentsline {subsection}{\numberline {5.0.6}Three Algorithms for Computing Cohen's d CSs}{145}{subsection.5.0.6}
+\contentsline {subsection}{\numberline {5.0.1}From \%BOLD to Cohen's \textit {d}}{130}{subsection.5.0.1}
+\contentsline {subsection}{\numberline {5.0.2}Limiting Properties of the Cohen's \textit {d} Estimator}{133}{subsection.5.0.2}
+\contentsline {subsection}{\numberline {5.0.3}Spatial Confidence Sets for Cohen's \textit {d} Effect Size Images}{135}{subsection.5.0.3}
+\contentsline {subsection}{\numberline {5.0.4}Modified Residuals for the Cohen's \textit {d} Wild \textit {t}-bootstrap}{136}{subsection.5.0.4}
+\contentsline {subsection}{\numberline {5.0.5}Finite Properties of the Cohen's \textit {d} Estimator and a Variance-stabilizing Transformation}{140}{subsection.5.0.5}
+\contentsline {subsection}{\numberline {5.0.6}Three Algorithms for Computing Cohen's \textit {d} CSs}{145}{subsection.5.0.6}
 \contentsline {section}{\numberline {5.1}Methods}{149}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Simulations}{149}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}2D Simulations}{150}{subsection.5.1.2}
 \contentsline {subsection}{\numberline {5.1.3}3D Simulations}{152}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Application to Human Connectome Project Data}{153}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.4}Application to Human Connectome Project Data}{154}{subsection.5.1.4}
 \contentsline {section}{\numberline {5.2}Results}{155}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}2D Simulations}{155}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}3D Simulations}{159}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Human Connectome Project}{165}{subsection.5.2.3}
-\contentsline {section}{\numberline {5.3}Discussion}{166}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Spatial Inference on Cohen's d Effect Size}{166}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Three Algorithms for Cohen's d Confidence Sets}{171}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.2.3}Human Connectome Project}{164}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Discussion}{168}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Spatial Inference on Cohen's \textit {d} Effect Size}{168}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Three Algorithms for Cohen's \textit {d} Confidence Sets}{171}{subsection.5.3.2}
 \contentsline {chapter}{\numberline {6}Conclusion and Future Work}{173}{chapter.6}
 \contentsline {chapter}{\numberline {A}Software Comparison Supplementary Material}{177}{appendix.A}
 \contentsline {section}{\numberline {A.1}Percentage BOLD change Maps}{177}{section.A.1}

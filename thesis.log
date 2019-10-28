@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  27 OCT 2019 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  28 OCT 2019 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,12 +1331,12 @@ Overfull \hbox (2.08043pt too wide) detected at line 81
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 82
- []\T1/fla/m/n/10.95 120
+ []\T1/fla/m/n/10.95 122
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 83
- []\T1/fla/m/n/10.95 120
+ []\T1/fla/m/n/10.95 122
  []
 
 
@@ -1408,7 +1408,7 @@ Overfull \hbox (2.08043pt too wide) detected at line 97
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 98
- []\T1/fla/m/n/10.95 153
+ []\T1/fla/m/n/10.95 154
  []
 
 
@@ -1428,17 +1428,17 @@ Overfull \hbox (2.08043pt too wide) detected at line 101
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 102
- []\T1/fla/m/n/10.95 165
+ []\T1/fla/m/n/10.95 164
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 103
- []\T1/fla/m/n/10.95 166
+ []\T1/fla/m/n/10.95 168
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 104
- []\T1/fla/m/n/10.95 166
+ []\T1/fla/m/n/10.95 168
  []
 
 
@@ -2157,9 +2157,10 @@ ge-neous and non-homogeneous
  []
 
 
-Overfull \hbox (11.7908pt too wide) in paragraph at lines 166--167
+Overfull \hbox (11.94586pt too wide) in paragraph at lines 166--167
 \T1/fla/m/n/10.95 (Fig-ure [][]4.5(b)[][]). Thus, the vari-ance of this noise f
-ield spa-tially in-creased in the y-direction
+ield spa-tially in-creased in the $\OML/cmm/m/it/10.95 y$\T1/fla/m/n/10.95 -dir
+ection
  []
 
 <Figures/CIB_Linear_Ramp_Signal.pdf, id=2580, 423.5825pt x 367.3725pt>
@@ -2527,6 +2528,12 @@ res an ap-pre-ci-a-tion of the prac-
  []
 
 
+Overfull \hbox (7.6226pt too wide) in paragraph at lines 379--380
+\T1/fla/m/n/10.95 ef-fect size maps, pro-vid-ing for-mal con-fi-dence state-men
+ts on re-gions of the brain where
+ []
+
+
 Overfull \hbox (3.46112pt too wide) in paragraph at lines 379--380
 \T1/fla/m/n/10.95 the %BOLD re-sponse mag-ni-tude has ex-ceeded a spec-i-fied a
 c-ti-va-tion thresh-old, along-
@@ -2544,13 +2551,7 @@ Overfull \hbox (3.77695pt too wide) in paragraph at lines 387--388
 -mated bound-ary method.
  []
 
-[124] [125]
-Overfull \hbox (0.49185pt too wide) in paragraph at lines 399--400
-\T1/fla/m/n/10.95 The prin-ci-pal lim-i-ta-tion of this work is one that is in-
-ten-tional and ex-plicit: Our method
- []
-
-[126]) [127]
+[124] [125] [126]) [127]
 Chapter 5.
 (./Cohen.tex [128
 
@@ -2597,9 +2598,9 @@ Overfull \hbox (4.26613pt too wide) in paragraph at lines 70--71
  []
 
 [133]
-Overfull \hbox (17.81035pt too wide) detected at line 117
+Overfull \hbox (22.67699pt too wide) detected at line 117
 \OT1/cmr/m/n/10.95 ^^F(\OML/cmm/b/it/10.95 s\OML/cmm/m/it/10.95 ; \OML/cmm/b/it
-/10.95 t\OT1/cmr/m/n/10.95 ) = []
+/10.95 t\OT1/cmr/m/n/10.95 ) = [] \OML/cmm/m/it/10.95 :
  []
 
 [134]
@@ -2610,7 +2611,7 @@ $\OML/cmm/m/it/10.95 g\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]; y[]; x[]; y[
  []
 
 [135]
-Overfull \hbox (17.44836pt too wide) detected at line 165
+Overfull \hbox (17.44836pt too wide) detected at line 167
 [] \OT1/cmr/m/n/10.95 := []\OML/cmm/b/it/10.95 s \OT1/cmr/m/n/10.95 : [](\OML/c
 mm/b/it/10.95 s\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95
  c \OT1/cmr/m/n/10.95 + [] [][]\OML/cmm/m/it/10.95 ;  [] \OT1/cmr/m/n/10.95 := 
@@ -2619,18 +2620,23 @@ mm/b/it/10.95 s\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95
 @ [] [][]\OML/cmm/m/it/10.95 :
  []
 
-[136] [137] [138]
-Overfull \hbox (8.07878pt too wide) in paragraph at lines 251--251
-|[]\T1/fla/b/n/12 Finite Prop-er-ties of the Co-hen's d Es-ti-ma-tor and a Vari
-ance-stabilizing
+[136] [137] [138] [139]
+Overfull \hbox (7.70677pt too wide) in paragraph at lines 253--253
+|[]\T1/fla/b/n/12 Finite Prop-er-ties of the Co-hen's \T1/fla/b/it/12 d \T1/fla
+/b/n/12 Es-ti-ma-tor and a Variance-stabilizing
  []
 
-[139]
 \c@cohen_theorem=\count175
- [140] [141] [142] [143] [144]
+[140] [141] [142]
+Overfull \hbox (3.46065pt too wide) in paragraph at lines 342--343
+[]\T1/fla/m/n/10.95 Numerical work pre-sented in [][]Laub-scher[][] ([][]1960[]
+[]) shows that the 90th per-centile
+ []
+
+[143] [144]
 \c@algorithm=\count176
  [145]
-Overfull \hbox (6.67331pt too wide) in paragraph at lines 408--410
+Overfull \hbox (8.33359pt too wide) in paragraph at lines 410--412
 \T1/fla/m/it/10.95 where $[]\OT1/cmr/m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m
 /n/10.95 )$ \T1/fla/m/it/10.95 is the boot-strap stan-dard de-vi-a-tion of the 
 boot-strapped resid-u-als $\OML/cmm/m/it/10.95 r[][]\OT1/cmr/m/n/10.95 (\OML/cm
@@ -2638,7 +2644,7 @@ m/b/it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/it/10.95 .
  []
 
 [146]
-Overfull \hbox (6.67331pt too wide) in paragraph at lines 428--430
+Overfull \hbox (8.33359pt too wide) in paragraph at lines 430--432
 \T1/fla/m/it/10.95 where $[]\OT1/cmr/m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m
 /n/10.95 )$ \T1/fla/m/it/10.95 is the boot-strap stan-dard de-vi-a-tion of the 
 boot-strapped resid-u-als $\OML/cmm/m/it/10.95 r[][]\OT1/cmr/m/n/10.95 (\OML/cm
@@ -2646,57 +2652,57 @@ m/b/it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/it/10.95 .
  []
 
 [147]
-Overfull \hbox (6.67331pt too wide) in paragraph at lines 446--448
+Overfull \hbox (8.33359pt too wide) in paragraph at lines 448--450
 \T1/fla/m/it/10.95 where $[]\OT1/cmr/m/n/10.95 (\OML/cmm/b/it/10.95 s\OT1/cmr/m
 /n/10.95 )$ \T1/fla/m/it/10.95 is the boot-strap stan-dard de-vi-a-tion of the 
 boot-strapped resid-u-als $\OML/cmm/m/it/10.95 r[][]\OT1/cmr/m/n/10.95 (\OML/cm
 m/b/it/10.95 s\OT1/cmr/m/n/10.95 )$\T1/fla/m/it/10.95 . 
  []
 
-
-Overfull \hbox (20.86179pt too wide) detected at line 455
+[148]
+Overfull \hbox (20.86179pt too wide) detected at line 457
  []$[] \OMS/cmsy/m/n/10.95 ^^@ []\OML/cmm/m/it/10.95 b[][]c[]\OT1/cmr/m/n/10.95
  1 \OMS/cmsy/m/n/10.95 ^^@ [][][][][][] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.9
 5 Nc[][][][][][] \OMS/cmsy/m/n/10.95 ^^F [][]\OML/cmm/m/it/10.95 :$ []  
  []
 
-[148] [149]
-Overfull \hbox (38.17244pt too wide) in paragraph at lines 472--473
+[149]
+Overfull \hbox (38.17244pt too wide) in paragraph at lines 474--475
 \T1/fla/m/n/10.95 smoothed us-ing a 3 voxel FWHM Gaus-sian ker-nel, with ho-mo-
 ge-neous and non-homogeneous
  []
 
 
-<Figures/CIC_linear_ramp_homogeneous_noise.pdf, id=3495, 423.5825pt x 367.3725p
+<Figures/CIC_linear_ramp_homogeneous_noise.pdf, id=3501, 423.5825pt x 367.3725p
 t>
 File: Figures/CIC_linear_ramp_homogeneous_noise.pdf Graphic file (type pdf)
  <use Figures/CIC_linear_ramp_homogeneous_noise.pdf>
 Package pdftex.def Info: Figures/CIC_linear_ramp_homogeneous_noise.pdf used on 
-input line 476.
+input line 478.
 (pdftex.def)             Requested size: 166.65723pt x 144.54pt.
 
-<Figures/CIC_linear_ramp_heterogeneous_noise.pdf, id=3496, 423.5825pt x 364.361
+<Figures/CIC_linear_ramp_heterogeneous_noise.pdf, id=3502, 423.5825pt x 364.361
 25pt>
 File: Figures/CIC_linear_ramp_heterogeneous_noise.pdf Graphic file (type pdf)
  <use Figures/CIC_linear_ramp_heterogeneous_noise.pdf>
 Package pdftex.def Info: Figures/CIC_linear_ramp_heterogeneous_noise.pdf used o
-n input line 477.
+n input line 479.
 (pdftex.def)             Requested size: 168.02745pt x 144.54pt.
 
-<Figures/CIC_circle_homogeneous_noise.pdf, id=3497, 423.5825pt x 367.3725pt>
+<Figures/CIC_circle_homogeneous_noise.pdf, id=3503, 423.5825pt x 367.3725pt>
 File: Figures/CIC_circle_homogeneous_noise.pdf Graphic file (type pdf)
 
 <use Figures/CIC_circle_homogeneous_noise.pdf>
 Package pdftex.def Info: Figures/CIC_circle_homogeneous_noise.pdf used on input
- line 484.
+ line 486.
 (pdftex.def)             Requested size: 166.65723pt x 144.54pt.
 
-<Figures/CIC_circle_heterogeneous_noise.pdf, id=3498, 423.5825pt x 365.365pt>
+<Figures/CIC_circle_heterogeneous_noise.pdf, id=3504, 423.5825pt x 365.365pt>
 File: Figures/CIC_circle_heterogeneous_noise.pdf Graphic file (type pdf)
 
 <use Figures/CIC_circle_heterogeneous_noise.pdf>
 Package pdftex.def Info: Figures/CIC_circle_heterogeneous_noise.pdf used on inp
-ut line 485.
+ut line 487.
 (pdftex.def)             Requested size: 167.56856pt x 144.54pt.
  [150]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
@@ -2705,110 +2711,109 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 [151 <./Figures/CIC_linear_ramp_homogeneous_noise.pdf> <./Figures/CIC_linear_ra
 mp_heterogeneous_noise.pdf> <./Figures/CIC_circle_homogeneous_noise.pdf> <./Fig
 ures/CIC_circle_heterogeneous_noise.pdf>]
-Overfull \hbox (16.40442pt too wide) in paragraph at lines 497--498
-\T1/fla/m/n/10.95 cal phan-toms over-lapped af-ter smooth-ing, the sig-nal in-t
-en-si-ties in these re-gions summed
+Overfull \hbox (1.3263pt too wide) in paragraph at lines 499--500
+\T1/fla/m/n/10.95 phan-toms over-lapped af-ter smooth-ing, the sig-nal in-ten-s
+i-ties in these re-gions summed
  []
 
+<Figures/CIC_Sig_1_Z50.pdf, id=3552, 530.98375pt x 517.935pt>
+File: Figures/CIC_Sig_1_Z50.pdf Graphic file (type pdf)
 
-Overfull \hbox (7.28093pt too wide) in paragraph at lines 501--502
+<use Figures/CIC_Sig_1_Z50.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_1_Z50.pdf used on input line 510.
+(pdftex.def)             Requested size: 116.67905pt x 113.81102pt.
+
+<Figures/CIC_Sig_1_Z60.pdf, id=3553, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_1_Z60.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_1_Z60.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_1_Z60.pdf used on input line 510.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_1_Z70.pdf, id=3554, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_1_Z70.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_1_Z70.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_1_Z70.pdf used on input line 510.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_2_Z50.pdf, id=3555, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_2_Z50.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_2_Z50.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_2_Z50.pdf used on input line 511.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_2_Z60.pdf, id=3556, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_2_Z60.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_2_Z60.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_2_Z60.pdf used on input line 511.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_2_Z70.pdf, id=3557, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_2_Z70.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_2_Z70.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_2_Z70.pdf used on input line 511.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_3_Z50.pdf, id=3558, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_3_Z50.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_3_Z50.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_3_Z50.pdf used on input line 512.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_3_Z60.pdf, id=3559, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_3_Z60.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_3_Z60.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_3_Z60.pdf used on input line 512.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_3_Z70.pdf, id=3560, 377.41pt x 364.36125pt>
+File: Figures/CIC_Sig_3_Z70.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_3_Z70.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_3_Z70.pdf used on input line 512.
+(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
+
+<Figures/CIC_Sig_4_Z50.pdf, id=3561, 314.17375pt x 364.36125pt>
+File: Figures/CIC_Sig_4_Z50.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_4_Z50.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_4_Z50.pdf used on input line 513.
+(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
+
+<Figures/CIC_Sig_4_Z60.pdf, id=3562, 314.17375pt x 364.36125pt>
+File: Figures/CIC_Sig_4_Z60.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_4_Z60.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_4_Z60.pdf used on input line 513.
+(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
+
+<Figures/CIC_Sig_4_Z70.pdf, id=3563, 314.17375pt x 364.36125pt>
+File: Figures/CIC_Sig_4_Z70.pdf Graphic file (type pdf)
+
+<use Figures/CIC_Sig_4_Z70.pdf>
+Package pdftex.def Info: Figures/CIC_Sig_4_Z70.pdf used on input line 513.
+(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
+
+
+LaTeX Warning: Float too large for page by 6.54724pt on input line 519.
+
+[152] [153 <./Figures/CIC_Sig_1_Z50.pdf> <./Figures/CIC_Sig_1_Z60.pdf> <./Figur
+es/CIC_Sig_1_Z70.pdf> <./Figures/CIC_Sig_2_Z50.pdf> <./Figures/CIC_Sig_2_Z60.pd
+f> <./Figures/CIC_Sig_2_Z70.pdf> <./Figures/CIC_Sig_3_Z50.pdf> <./Figures/CIC_S
+ig_3_Z60.pdf> <./Figures/CIC_Sig_3_Z70.pdf> <./Figures/CIC_Sig_4_Z50.pdf> <./Fi
+gures/CIC_Sig_4_Z60.pdf> <./Figures/CIC_Sig_4_Z70.pdf>]
+Overfull \hbox (7.28093pt too wide) in paragraph at lines 523--524
 \T1/fla/m/n/10.95 subject-level con-trast of pa-ram-e-ter es-ti-mate re-sult ma
 ps from the Hariri Faces/Shapes
  []
 
-[152] <Figures/CIC_Sig_1_Z50.pdf, id=3558, 530.98375pt x 517.935pt>
-File: Figures/CIC_Sig_1_Z50.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_1_Z50.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_1_Z50.pdf used on input line 512.
-(pdftex.def)             Requested size: 116.67905pt x 113.81102pt.
-
-<Figures/CIC_Sig_1_Z60.pdf, id=3559, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_1_Z60.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_1_Z60.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_1_Z60.pdf used on input line 512.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_1_Z70.pdf, id=3560, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_1_Z70.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_1_Z70.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_1_Z70.pdf used on input line 512.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_2_Z50.pdf, id=3561, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_2_Z50.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_2_Z50.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_2_Z50.pdf used on input line 513.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_2_Z60.pdf, id=3562, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_2_Z60.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_2_Z60.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_2_Z60.pdf used on input line 513.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_2_Z70.pdf, id=3563, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_2_Z70.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_2_Z70.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_2_Z70.pdf used on input line 513.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_3_Z50.pdf, id=3564, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_3_Z50.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_3_Z50.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_3_Z50.pdf used on input line 514.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_3_Z60.pdf, id=3565, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_3_Z60.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_3_Z60.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_3_Z60.pdf used on input line 514.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_3_Z70.pdf, id=3566, 377.41pt x 364.36125pt>
-File: Figures/CIC_Sig_3_Z70.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_3_Z70.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_3_Z70.pdf used on input line 514.
-(pdftex.def)             Requested size: 117.88274pt x 113.81102pt.
-
-<Figures/CIC_Sig_4_Z50.pdf, id=3567, 314.17375pt x 364.36125pt>
-File: Figures/CIC_Sig_4_Z50.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_4_Z50.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_4_Z50.pdf used on input line 515.
-(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
-
-<Figures/CIC_Sig_4_Z60.pdf, id=3568, 314.17375pt x 364.36125pt>
-File: Figures/CIC_Sig_4_Z60.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_4_Z60.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_4_Z60.pdf used on input line 515.
-(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
-
-<Figures/CIC_Sig_4_Z70.pdf, id=3569, 314.17375pt x 364.36125pt>
-File: Figures/CIC_Sig_4_Z70.pdf Graphic file (type pdf)
-
-<use Figures/CIC_Sig_4_Z70.pdf>
-Package pdftex.def Info: Figures/CIC_Sig_4_Z70.pdf used on input line 515.
-(pdftex.def)             Requested size: 116.53488pt x 135.15059pt.
-
-
-LaTeX Warning: Float too large for page by 6.54724pt on input line 521.
-
-[153] [154 <./Figures/CIC_Sig_1_Z50.pdf> <./Figures/CIC_Sig_1_Z60.pdf> <./Figur
-es/CIC_Sig_1_Z70.pdf> <./Figures/CIC_Sig_2_Z50.pdf> <./Figures/CIC_Sig_2_Z60.pd
-f> <./Figures/CIC_Sig_2_Z70.pdf> <./Figures/CIC_Sig_3_Z50.pdf> <./Figures/CIC_S
-ig_3_Z60.pdf> <./Figures/CIC_Sig_3_Z70.pdf> <./Figures/CIC_Sig_4_Z50.pdf> <./Fi
-gures/CIC_Sig_4_Z60.pdf> <./Figures/CIC_Sig_4_Z70.pdf>] [155]
-<Figures/CIC_2D_sig_1_results.pdf, id=3737, 984.67876pt x 804.00375pt>
+[154] <Figures/CIC_2D_sig_1_results.pdf, id=3734, 984.67876pt x 804.00375pt>
 File: Figures/CIC_2D_sig_1_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_2D_sig_1_results.pdf>
@@ -2820,180 +2825,182 @@ Overfull \hbox (58.67361pt too wide) in paragraph at lines 540--543
  []|  [] 
  []
 
-[156]
-Overfull \vbox (7.9059pt too high) has occurred while \output is active []
-
-
-[157 <./Figures/CIC_2D_sig_1_results.pdf>]
-<Figures/CIC_2D_sig_2_results.pdf, id=3784, 984.67876pt x 805.0075pt>
+<Figures/CIC_2D_sig_2_results.pdf, id=3741, 984.67876pt x 805.0075pt>
 File: Figures/CIC_2D_sig_2_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_2D_sig_2_results.pdf>
 Package pdftex.def Info: Figures/CIC_2D_sig_2_results.pdf used on input line 55
-2.
+1.
 (pdftex.def)             Requested size: 539.2311pt x 440.84743pt.
 
-Overfull \hbox (57.9975pt too wide) in paragraph at lines 550--553
+Overfull \hbox (57.9975pt too wide) in paragraph at lines 549--552
  []|  [] 
  []
 
-[158
+[155]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
- <./Figures/CIC_2D_sig_2_results.pdf>] [159
 
-]
-<Figures/CIC_3D_sig_1_results.pdf, id=3867, 984.67876pt x 803.0pt>
+[156 <./Figures/CIC_2D_sig_1_results.pdf>]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[157 <./Figures/CIC_2D_sig_2_results.pdf>] [158]
+<Figures/CIC_3D_sig_1_results.pdf, id=3852, 984.67876pt x 803.0pt>
 File: Figures/CIC_3D_sig_1_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_3D_sig_1_results.pdf>
 Package pdftex.def Info: Figures/CIC_3D_sig_1_results.pdf used on input line 57
-5.
+1.
 (pdftex.def)             Requested size: 540.59836pt x 440.84743pt.
 
-Overfull \hbox (59.36476pt too wide) in paragraph at lines 573--576
+Overfull \hbox (59.36476pt too wide) in paragraph at lines 569--572
  []|  [] 
  []
 
-[160]
-Overfull \vbox (7.9059pt too high) has occurred while \output is active []
-
-
-[161 <./Figures/CIC_3D_sig_1_results.pdf>]
-<Figures/CIC_3D_sig_2_results.pdf, id=3909, 984.67876pt x 803.0pt>
+<Figures/CIC_3D_sig_2_results.pdf, id=3853, 984.67876pt x 803.0pt>
 File: Figures/CIC_3D_sig_2_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_3D_sig_2_results.pdf>
-Package pdftex.def Info: Figures/CIC_3D_sig_2_results.pdf used on input line 58
-5.
+Package pdftex.def Info: Figures/CIC_3D_sig_2_results.pdf used on input line 57
+9.
 (pdftex.def)             Requested size: 540.59836pt x 440.84743pt.
 
-Overfull \hbox (59.36476pt too wide) in paragraph at lines 583--586
+Overfull \hbox (59.36476pt too wide) in paragraph at lines 577--580
  []|  [] 
  []
 
-[162
-
- <./Figures/CIC_3D_sig_2_results.pdf>]
-<Figures/CIC_3D_sig_3_results.pdf, id=3955, 984.67876pt x 803.0pt>
+<Figures/CIC_3D_sig_3_results.pdf, id=3864, 984.67876pt x 803.0pt>
 File: Figures/CIC_3D_sig_3_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_3D_sig_3_results.pdf>
-Package pdftex.def Info: Figures/CIC_3D_sig_3_results.pdf used on input line 59
-5.
+Package pdftex.def Info: Figures/CIC_3D_sig_3_results.pdf used on input line 58
+7.
 (pdftex.def)             Requested size: 540.59836pt x 440.84743pt.
 
-Overfull \hbox (59.36476pt too wide) in paragraph at lines 593--596
+Overfull \hbox (59.36476pt too wide) in paragraph at lines 585--588
  []|  [] 
  []
 
-[163
-
- <./Figures/CIC_3D_sig_3_results.pdf>]
-<Figures/CIC_3D_sig_4_results.pdf, id=3999, 984.67876pt x 458.71375pt>
+<Figures/CIC_3D_sig_4_results.pdf, id=3873, 984.67876pt x 458.71375pt>
 File: Figures/CIC_3D_sig_4_results.pdf Graphic file (type pdf)
 
 <use Figures/CIC_3D_sig_4_results.pdf>
-Package pdftex.def Info: Figures/CIC_3D_sig_4_results.pdf used on input line 60
+Package pdftex.def Info: Figures/CIC_3D_sig_4_results.pdf used on input line 59
 5.
 (pdftex.def)             Requested size: 534.79755pt x 249.14362pt.
 
-Overfull \hbox (53.56395pt too wide) in paragraph at lines 603--606
+Overfull \hbox (53.56395pt too wide) in paragraph at lines 593--596
  []|  [] 
  []
 
-[164
+[159]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
- <./Figures/CIC_3D_sig_4_results.pdf>] [165]
-<Figures/CIC_Fig1_Algorithm3_c05.pdf, id=4054, 723.70375pt x 210.7875pt>
+
+[160 <./Figures/CIC_3D_sig_1_results.pdf>]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[161 <./Figures/CIC_3D_sig_2_results.pdf>]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[162 <./Figures/CIC_3D_sig_3_results.pdf>]
+Overfull \vbox (7.9059pt too high) has occurred while \output is active []
+
+
+[163 <./Figures/CIC_3D_sig_4_results.pdf>]
+<Figures/CIC_Fig1_Algorithm3_c05.pdf, id=4042, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm3_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm3_c05.pdf>
 Package pdftex.def Info: Figures/CIC_Fig1_Algorithm3_c05.pdf used on input line
- 633.
+ 618.
 (pdftex.def)             Requested size: 444.48438pt x 129.46004pt.
 
-Overfull \hbox (302.2206pt too wide) in paragraph at lines 633--634
+Overfull \hbox (302.2206pt too wide) in paragraph at lines 618--619
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm3_c08.pdf, id=4055, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm3_c08.pdf, id=4043, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm3_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm3_c08.pdf>
 Package pdftex.def Info: Figures/CIC_Fig1_Algorithm3_c08.pdf used on input line
- 634.
+ 619.
 (pdftex.def)             Requested size: 444.48438pt x 129.46004pt.
 
-Overfull \hbox (302.2206pt too wide) in paragraph at lines 634--635
+Overfull \hbox (302.2206pt too wide) in paragraph at lines 619--620
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm3_c12.pdf, id=4056, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm3_c12.pdf, id=4044, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm3_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm3_c12.pdf>
 Package pdftex.def Info: Figures/CIC_Fig1_Algorithm3_c12.pdf used on input line
- 635.
+ 620.
 (pdftex.def)             Requested size: 444.48438pt x 129.46004pt.
 
-Overfull \hbox (302.2206pt too wide) in paragraph at lines 635--636
+Overfull \hbox (302.2206pt too wide) in paragraph at lines 620--621
 []|[]| 
  []
 
-<Figures/CIC_GLM_Algorithm3_c05.pdf, id=4059, 724.7075pt x 210.7875pt>
+<Figures/CIC_GLM_Algorithm3_c05.pdf, id=4047, 724.7075pt x 210.7875pt>
 File: Figures/CIC_GLM_Algorithm3_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_GLM_Algorithm3_c05.pdf>
 Package pdftex.def Info: Figures/CIC_GLM_Algorithm3_c05.pdf used on input line 
-651.
+636.
 (pdftex.def)             Requested size: 445.10086pt x 129.46004pt.
 
-Overfull \hbox (302.83708pt too wide) in paragraph at lines 651--652
+Overfull \hbox (302.83708pt too wide) in paragraph at lines 636--637
 []|[]| 
  []
 
-<Figures/CIC_GLM_Algorithm3_c08.pdf, id=4060, 724.7075pt x 210.7875pt>
+<Figures/CIC_GLM_Algorithm3_c08.pdf, id=4048, 724.7075pt x 210.7875pt>
 File: Figures/CIC_GLM_Algorithm3_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_GLM_Algorithm3_c08.pdf>
 Package pdftex.def Info: Figures/CIC_GLM_Algorithm3_c08.pdf used on input line 
-652.
+637.
 (pdftex.def)             Requested size: 445.10086pt x 129.46004pt.
 
-Overfull \hbox (302.83708pt too wide) in paragraph at lines 652--653
+Overfull \hbox (302.83708pt too wide) in paragraph at lines 637--638
 []|[]| 
  []
 
-<Figures/CIC_GLM_Algorithm3_c12.pdf, id=4061, 724.7075pt x 210.7875pt>
+<Figures/CIC_GLM_Algorithm3_c12.pdf, id=4049, 724.7075pt x 210.7875pt>
 File: Figures/CIC_GLM_Algorithm3_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_GLM_Algorithm3_c12.pdf>
 Package pdftex.def Info: Figures/CIC_GLM_Algorithm3_c12.pdf used on input line 
-653.
+638.
 (pdftex.def)             Requested size: 445.10086pt x 129.46004pt.
 
-Overfull \hbox (302.83708pt too wide) in paragraph at lines 653--654
+Overfull \hbox (302.83708pt too wide) in paragraph at lines 638--639
 []|[]| 
  []
 
-[166]
+[164]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[167 <./Figures/CIC_Fig1_Algorithm3_c05.pdf> <./Figures/CIC_Fig1_Algorithm3_c08
+[165 <./Figures/CIC_Fig1_Algorithm3_c05.pdf> <./Figures/CIC_Fig1_Algorithm3_c08
 .pdf> <./Figures/CIC_Fig1_Algorithm3_c12.pdf>]
 Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 
 
-[168 <./Figures/CIC_GLM_Algorithm3_c05.pdf> <./Figures/CIC_GLM_Algorithm3_c08.p
-df> <./Figures/CIC_GLM_Algorithm3_c12.pdf>] [169]
-Overfull \hbox (2.85933pt too wide) in paragraph at lines 667--668
+[166 <./Figures/CIC_GLM_Algorithm3_c05.pdf> <./Figures/CIC_GLM_Algorithm3_c08.p
+df> <./Figures/CIC_GLM_Algorithm3_c12.pdf>] [167] [168]
+Overfull \hbox (2.85933pt too wide) in paragraph at lines 660--661
 \T1/fla/m/n/10.95 change there-fore re-quires a software-dependent nor-mal-iza-
 tion, where one must take
  []
 
-[170] [171])
-Overfull \hbox (11.88327pt too wide) in paragraph at lines 676--450
+[169] [170] [171])
+Overfull \hbox (11.88327pt too wide) in paragraph at lines 669--450
 []\T1/fla/m/n/10.95 From a the-o-ret-i-cal stand-point, the variance-stabilizin
 g trans-for-ma-tion ap-proach
  []
@@ -3062,7 +3069,7 @@ Overfull \hbox (3.0894pt too wide) in paragraph at lines 75--77
 ween $\OML/cmm/m/it/10.95 R[]$ \T1/fla/m/n/10.95 and the F-statistic given
  []
 
-[180] <Figures/SC_supp_Registration.pdf, id=4339, 719.68875pt x 904.37875pt>
+[180] <Figures/SC_supp_Registration.pdf, id=4345, 719.68875pt x 904.37875pt>
 File: Figures/SC_supp_Registration.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_Registration.pdf>
@@ -3070,7 +3077,7 @@ Package pdftex.def Info: Figures/SC_supp_Registration.pdf used on input line 95
 .
 (pdftex.def)             Requested size: 397.48499pt x 499.50742pt.
 
-<Figures/SC_supp_thresh_ds000001.pdf, id=4340, 699.61375pt x 923.45pt>
+<Figures/SC_supp_thresh_ds000001.pdf, id=4346, 699.61375pt x 923.45pt>
 File: Figures/SC_supp_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000001.pdf>
@@ -3078,7 +3085,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000001.pdf used on input line
  102.
 (pdftex.def)             Requested size: 397.48499pt x 524.66699pt.
 
-<Figures/SC_supp_perm_thresh_ds000001.pdf, id=4341, 704.6325pt x 907.39pt>
+<Figures/SC_supp_perm_thresh_ds000001.pdf, id=4347, 704.6325pt x 907.39pt>
 File: Figures/SC_supp_perm_thresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000001.pdf>
@@ -3086,7 +3093,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000001.pdf used on input
  line 109.
 (pdftex.def)             Requested size: 397.48499pt x 511.85942pt.
 
-<Figures/SC_supp_thresh_ds000109.pdf, id=4342, 681.54625pt x 893.3375pt>
+<Figures/SC_supp_thresh_ds000109.pdf, id=4348, 681.54625pt x 893.3375pt>
 File: Figures/SC_supp_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000109.pdf>
@@ -3094,7 +3101,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000109.pdf used on input line
  116.
 (pdftex.def)             Requested size: 397.48499pt x 521.0123pt.
 
-<Figures/SC_supp_perm_thresh_ds000109.pdf, id=4343, 693.59125pt x 898.35625pt>
+<Figures/SC_supp_perm_thresh_ds000109.pdf, id=4349, 693.59125pt x 898.35625pt>
 File: Figures/SC_supp_perm_thresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_perm_thresh_ds000109.pdf>
@@ -3102,7 +3109,7 @@ Package pdftex.def Info: Figures/SC_supp_perm_thresh_ds000109.pdf used on input
  line 123.
 (pdftex.def)             Requested size: 397.48499pt x 514.85106pt.
 
-<Figures/SC_supp_thresh_ds000120.pdf, id=4344, 703.62875pt x 605.26125pt>
+<Figures/SC_supp_thresh_ds000120.pdf, id=4350, 703.62875pt x 605.26125pt>
 File: Figures/SC_supp_thresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_thresh_ds000120.pdf>
@@ -3110,7 +3117,7 @@ Package pdftex.def Info: Figures/SC_supp_thresh_ds000120.pdf used on input line
  130.
 (pdftex.def)             Requested size: 397.48499pt x 341.90858pt.
 
-<Figures/SC_supp_unthresh_ds000001.pdf, id=4345, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_unthresh_ds000001.pdf, id=4351, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_unthresh_ds000001.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000001.pdf>
@@ -3118,14 +3125,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000001.pdf used on input li
 ne 137.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=4346, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000001.pdf, id=4352, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000001.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000001.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000001.pdf used on inp
 ut line 144.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000109.pdf, id=4347, 555.07375pt x 662.475pt>
+<Figures/SC_supp_unthresh_ds000109.pdf, id=4353, 555.07375pt x 662.475pt>
 File: Figures/SC_supp_unthresh_ds000109.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000109.pdf>
@@ -3133,14 +3140,14 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000109.pdf used on input li
 ne 151.
 (pdftex.def)             Requested size: 397.48499pt x 474.39386pt.
 
-<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=4348, 555.07375pt x 668.4975pt>
+<Figures/SC_supp_perm_unthresh_ds000109.pdf, id=4354, 555.07375pt x 668.4975pt>
 File: Figures/SC_supp_perm_unthresh_ds000109.pdf Graphic file (type pdf)
 <use Figures/SC_supp_perm_unthresh_ds000109.pdf>
 Package pdftex.def Info: Figures/SC_supp_perm_unthresh_ds000109.pdf used on inp
 ut line 158.
 (pdftex.def)             Requested size: 397.48499pt x 478.70651pt.
 
-<Figures/SC_supp_unthresh_ds000120.pdf, id=4349, 555.07375pt x 445.665pt>
+<Figures/SC_supp_unthresh_ds000120.pdf, id=4355, 555.07375pt x 445.665pt>
 File: Figures/SC_supp_unthresh_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_unthresh_ds000120.pdf>
@@ -3148,21 +3155,21 @@ Package pdftex.def Info: Figures/SC_supp_unthresh_ds000120.pdf used on input li
 ne 165.
 (pdftex.def)             Requested size: 397.48499pt x 319.13768pt.
 
-<Figures/SC_supp_ECs.pdf, id=4350, 482.80376pt x 557.08125pt>
+<Figures/SC_supp_ECs.pdf, id=4356, 482.80376pt x 557.08125pt>
 File: Figures/SC_supp_ECs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_ECs.pdf>
 Package pdftex.def Info: Figures/SC_supp_ECs.pdf used on input line 172.
 (pdftex.def)             Requested size: 397.48499pt x 458.65416pt.
 
-<Figures/SC_supp_BOLD_BAs.pdf, id=4351, 542.025pt x 768.8725pt>
+<Figures/SC_supp_BOLD_BAs.pdf, id=4357, 542.025pt x 768.8725pt>
 File: Figures/SC_supp_BOLD_BAs.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs.pdf>
 Package pdftex.def Info: Figures/SC_supp_BOLD_BAs.pdf used on input line 179.
 (pdftex.def)             Requested size: 397.48499pt x 563.8533pt.
 
-<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=4352, 273.02pt x 310.15875pt>
+<Figures/SC_supp_BOLD_BAs_ds000120.pdf, id=4358, 273.02pt x 310.15875pt>
 File: Figures/SC_supp_BOLD_BAs_ds000120.pdf Graphic file (type pdf)
 
 <use Figures/SC_supp_BOLD_BAs_ds000120.pdf>
@@ -3228,7 +3235,7 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 [195 <./Figures/SC_supp_BOLD_BAs_ds000120.pdf>]
 Appendix B.
 (./CI_appendix.tex
-<Figures/CIB_GLM_Fig1_c10.pdf, id=4930, 724.7075pt x 211.79124pt>
+<Figures/CIB_GLM_Fig1_c10.pdf, id=4936, 724.7075pt x 211.79124pt>
 File: Figures/CIB_GLM_Fig1_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c10.pdf>
@@ -3239,7 +3246,7 @@ Overfull \hbox (295.87045pt too wide) in paragraph at lines 12--13
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c15.pdf, id=4931, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c15.pdf, id=4937, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c15.pdf>
@@ -3250,7 +3257,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 13--14
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig1_c20.pdf, id=4932, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig1_c20.pdf, id=4938, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig1_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig1_c20.pdf>
@@ -3261,7 +3268,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 14--15
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c10.pdf, id=4935, 723.70375pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c10.pdf, id=4941, 723.70375pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c10.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c10.pdf>
@@ -3272,7 +3279,7 @@ Overfull \hbox (297.33968pt too wide) in paragraph at lines 30--31
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c15.pdf, id=4936, 716.6775pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c15.pdf, id=4942, 716.6775pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c15.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c15.pdf>
@@ -3283,7 +3290,7 @@ Overfull \hbox (297.90523pt too wide) in paragraph at lines 31--32
 []|[]| 
  []
 
-<Figures/CIB_GLM_Fig2_c20.pdf, id=4937, 722.7pt x 210.7875pt>
+<Figures/CIB_GLM_Fig2_c20.pdf, id=4943, 722.7pt x 210.7875pt>
 File: Figures/CIB_GLM_Fig2_c20.pdf Graphic file (type pdf)
 
 <use Figures/CIB_GLM_Fig2_c20.pdf>
@@ -3336,7 +3343,7 @@ Overfull \vbox (7.9059pt too high) has occurred while \output is active []
 [201]
 Appendix C.
 (./Cohen_CI_appendix.tex
-<Figures/CIC_Fig1_Algorithm1_c05.pdf, id=5105, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c05.pdf, id=5111, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c05.pdf>
@@ -3348,7 +3355,7 @@ Overfull \hbox (301.60411pt too wide) in paragraph at lines 14--15
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm1_c08.pdf, id=5106, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c08.pdf, id=5112, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c08.pdf>
@@ -3360,7 +3367,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 15--16
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm1_c12.pdf, id=5107, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm1_c12.pdf, id=5113, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm1_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm1_c12.pdf>
@@ -3372,7 +3379,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 16--17
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c05.pdf, id=5124, 723.70375pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c05.pdf, id=5130, 723.70375pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c05.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c05.pdf>
@@ -3384,7 +3391,7 @@ Overfull \hbox (302.2206pt too wide) in paragraph at lines 32--33
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c08.pdf, id=5125, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c08.pdf, id=5131, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c08.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c08.pdf>
@@ -3396,7 +3403,7 @@ Overfull \hbox (301.60411pt too wide) in paragraph at lines 33--34
 []|[]| 
  []
 
-<Figures/CIC_Fig1_Algorithm2_c12.pdf, id=5126, 722.7pt x 210.7875pt>
+<Figures/CIC_Fig1_Algorithm2_c12.pdf, id=5132, 722.7pt x 210.7875pt>
 File: Figures/CIC_Fig1_Algorithm2_c12.pdf Graphic file (type pdf)
 
 <use Figures/CIC_Fig1_Algorithm2_c12.pdf>
@@ -3489,17 +3496,13 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AD9CE9271599484441D9962EFFADA2E8;7804.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
- 26654 strings out of 493014
- 525789 string characters out of 6133351
- 654445 words of memory out of 5000000
- 28696 multiletter control sequences out of 15000+600000
+ 26658 strings out of 493014
+ 525866 string characters out of 6133351
+ 654690 words of memory out of 5000000
+ 28699 multiletter control sequences out of 15000+600000
  165772 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,24n,80p,3648b,676s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3540,10 +3543,10 @@ lic/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/cm-super/sfti0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 cm-super/sftt1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/wa
 sy2-ps/wasy10.pfb>
-Output written on thesis.pdf (228 pages, 24896087 bytes).
+Output written on thesis.pdf (228 pages, 24896652 bytes).
 PDF statistics:
- 5616 PDF objects out of 6186 (max. 8388607)
- 4236 compressed objects within 43 object streams
- 671 named destinations out of 1000 (max. 500000)
+ 5622 PDF objects out of 6186 (max. 8388607)
+ 4242 compressed objects within 43 object streams
+ 672 named destinations out of 1000 (max. 500000)
  1347 words of extra memory for PDF output out of 10000 (max. 10000000)
 

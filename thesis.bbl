@@ -1,4 +1,4 @@
-\begin{thebibliography}{126}
+\begin{thebibliography}{127}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -848,6 +848,11 @@ Fabian J~E Telschow and Armin Schwartzman.
 \newblock Simultaneous confidence bands for functional data using the gaussian
   kinematic formula.
 \newblock January 2019.
+
+\bibitem[Telschow and Davenport(2019)]{FABIANSPAPER}
+Fabian~J.E. Telschow and Samuel Davenport.
+\newblock Functional delta residuals with applications to effect size measures.
+\newblock \emph{Unpublished manuscript}, 2019.
 
 \bibitem[Turner et~al.(2018)Turner, Paul, Miller, and Barbey]{Turner2018-xs}
 Benjamin~O Turner, Erick~J Paul, Michael~B Miller, and Aron~K Barbey.
