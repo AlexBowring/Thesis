@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex thesis"] 1572356684 "thesis.aux" "thesis.bbl" "thesis" 1572356684
+["bibtex thesis"] 1572356684 "thesis.aux" "thesis.bbl" "thesis" 1572356857
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "perm.bib" 1572274446 196241 500058aefff909767b9cdf8806babe0d ""
-  "thesis.aux" 1572356683 120661 17ec762ea0b448a42c4a5a66aa1d7863 ""
+  "thesis.aux" 1572356856 120661 17ec762ea0b448a42c4a5a66aa1d7863 ""
   "thesis.bcf" 0 -1 0 ""
   (generated)
-  "thesis.bbl"
   "thesis.blg"
-["pdflatex"] 1572356678 "thesis.tex" "thesis.pdf" "thesis" 1572356678
+  "thesis.bbl"
+["pdflatex"] 1572356853 "thesis.tex" "thesis.pdf" "thesis" 1572356857
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-01.enc" 1325370639 3195 3010184cc245c57bcbfd7157ad53a9bd ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lato/lato-02.enc" 1325370639 3478 809e251ae9c3b936be35dca7f06b535d ""
@@ -454,15 +454,15 @@
   "Software_Comparison.tex" 1572278844 85969 f34f497fe5e35b12e6f108e783fc684f ""
   "introduction.tex" 1571930151 16221 e38ba639732f04b233144d3489a1d8f7 ""
   "ox_brand_cmyk_pos_rect.eps" 1207651369 464876 55e754f68e1b4dec36a2ce49bcfb4879 ""
-  "thesis.aux" 1572356608 120661 8a17ccafdd1dee3f7e98e1c9d73e925c ""
-  "thesis.bbl" 1572356551 43894 e07b6147aad462e5052d0f4b8fa5ad1d "bibtex thesis"
-  "thesis.out" 1572356608 7804 ad9ce9271599484441d9962effada2e8 ""
+  "thesis.aux" 1572356856 120661 17ec762ea0b448a42c4a5a66aa1d7863 ""
+  "thesis.bbl" 1572356684 43894 e07b6147aad462e5052d0f4b8fa5ad1d "bibtex thesis"
+  "thesis.out" 1572356856 7804 ad9ce9271599484441d9962effada2e8 ""
   "thesis.sty" 1570457247 45343 163c8671bd7912ff1adce36d4bb85f02 ""
-  "thesis.tex" 1572356678 27891 0ceb2d01410d0b7ac5e520bebfe2eefa ""
-  "thesis.toc" 1572356608 10646 4b2b1a063a3f7217e0dacc5d223a992b ""
+  "thesis.tex" 1572356852 27891 0ceb2d01410d0b7ac5e520bebfe2eefa ""
+  "thesis.toc" 1572356856 10646 1e63fe7d90b5f2f77deec2b3ea2067c7 ""
   (generated)
-  "thesis.log"
   "thesis.out"
-  "thesis.aux"
   "thesis.toc"
+  "thesis.log"
   "thesis.pdf"
+  "thesis.aux"

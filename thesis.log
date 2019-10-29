@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  29 OCT 2019 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.13)  29 OCT 2019 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1468,12 +1468,12 @@ Overfull \hbox (2.08043pt too wide) detected at line 112
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 113
- []\T1/fla/m/n/10.95 195
+ []\T1/fla/m/n/10.95 198
  []
 
 
 Overfull \hbox (2.08043pt too wide) detected at line 115
- []\T1/fla/m/n/10.95 201
+ []\T1/fla/m/n/10.95 202
  []
 
 )
@@ -3488,10 +3488,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: AD9CE9271599484441D9962EFFADA2E8;7804.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
@@ -3539,7 +3535,7 @@ lic/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/cm-super/sfti0800.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 cm-super/sftt1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/wa
 sy2-ps/wasy10.pfb>
-Output written on thesis.pdf (228 pages, 24896712 bytes).
+Output written on thesis.pdf (228 pages, 24896708 bytes).
 PDF statistics:
  5622 PDF objects out of 6186 (max. 8388607)
  4242 compressed objects within 43 object streams
