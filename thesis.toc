@@ -108,8 +108,8 @@
 \contentsline {section}{\numberline {A.1}Percentage BOLD change Maps}{177}{section.A.1}
 \contentsline {section}{\numberline {A.2}Partial $R^{2}$ Maps}{180}{section.A.2}
 \contentsline {section}{\numberline {A.3}Supplementary Figures}{181}{section.A.3}
-\contentsline {chapter}{\numberline {B}\%BOLD Confidence Sets Supplementary Material}{196}{appendix.B}
-\contentsline {section}{\numberline {B.1}Supplementary Human Connectome Project Results}{196}{section.B.1}
-\contentsline {section}{\numberline {B.2}Supplementary Tables}{196}{section.B.2}
+\contentsline {chapter}{\numberline {B}\%BOLD Confidence Sets Supplementary Material}{195}{appendix.B}
+\contentsline {section}{\numberline {B.1}Supplementary Human Connectome Project Results}{195}{section.B.1}
+\contentsline {section}{\numberline {B.2}Supplementary Tables}{198}{section.B.2}
 \contentsline {chapter}{\numberline {C}Cohen's d Confidence Sets Supplementary Material}{202}{appendix.C}
 \contentsline {section}{\numberline {C.1}Supplementary Human Connectome Project Results}{202}{section.C.1}

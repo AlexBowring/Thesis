@@ -23,14 +23,14 @@
 \section{Percentage BOLD change Maps}
 \label{App:SC_supplementary_BOLD}
 
-While each of the three software packages provide contrast of parameter estimate maps (going forth ``contrast estimate''), the units of the analysis differs between software.  We first review the issue of units for fMRI then how we addressed this for each software.
+While each of the three software packages provide contrast of parameter estimate maps (going forth ``contrast estimate''), the units of the analysis differs between software.  We first review the issue of units for fMRI, before detailing how we addressed this issue for each software package.
 
 Raw fMRI data has arbitrary units, and a normalization step is required to produce effect estimates that are both comparable across subjects and give an interpretable magnitude of the BOLD effect. The final units of the contrast estimates depend on how the data, design matrix and contrast vectors are scaled.
 
-Consider arbitrary first level data at a voxel $\bm{Y}$ ($N$-vector), fMRI design matrix $\bm{X}$ ($N\times P$ matrix), related as $\mathrm{E}(\bm{Y})=\bm{X}\bm{\beta}$, where $\bm{\beta}$ ($P$-vector) are the regression coefficients and the effect of interest is $\bm{c}\hat{\bm{\beta}}$ where $\bm{c}$ ($P$-row-vector) is the contrast.  The following scaling is needed to ensure interpretable contrasts of parameter estimates.
+Consider arbitrary first level data at a voxel $\bm{Y}$ ($N$-vector) and an fMRI design matrix $\bm{X}$ ($N\times P$ matrix), related by $\mathrm{E}(\bm{Y})=\bm{X}\bm{\beta}$, where $\bm{\beta}$ ($P$-vector) are the regression coefficients and the effect of interest is $\bm{c}\hat{\bm{\beta}}$, where $\bm{c}$ ($P$-row-vector) is the contrast.  The following scaling is needed to ensure interpretable contrasts of parameter estimates.
 
 \begin{itemize}
-\item {\bf Data}: The data needs to be scaled so that 1 unit change corresponds to 1\%, 
+\item {\bf Data}: The data needs to be scaled so that 1 unit change corresponds to 1\% BOLD change, 
 \begin{equation}
 \label{eq:SC_sup_data_scale}
 \bm{Y}^{*} = \frac{100}{B} \bm{Y}
@@ -47,7 +47,7 @@ where $h$ is the (assumed common) predictor baseline-to-peak (or baseline-to-pla
 \label{eq:SC_sup_contrast_scale}
 \bm{c}^*=\frac{1}{s}\bm{c},
 \end{equation}
-where $s$ is the sum of the positive contrast elements (or, if all less than zero, minus the sum of the negative elements).
+where $s$ is the sum of the positive contrast elements (or, if all elements are less than zero, minus the sum of the negative elements).
 \end{itemize}
 
   The ideally scaled data, design and contrast gives rise to the contrast estimate $\bm{c}^*\hat{\bm{\beta}}^*$ which we can relate to the arbitrarily scaled data:
@@ -57,7 +57,7 @@ where $s$ is the sum of the positive contrast elements (or, if all less than zer
                           &=& \frac{100h}{Bp}\bm{c}(\bm{X}^{\top}\bm{X})^{-1}\bm{X}^{\top}\bm{Y} \notag\\
                           &=& \frac{100h}{Bp}\bm{c}\hat{\bm{\beta}}.
 \end{eqnarray}
-This scaling is described in terms of first level models, but can be applied to a 2nd level contrast estimate if the values of $h$, $B$ and $p$ are the same for all subjects.
+This scaling is described in terms of first-level models, but can be applied to a second-level contrast estimate if the values of $h$, $B$ and $p$ are the same for all subjects.
 
 In AFNI, a localized (i.e.\ voxelwise) approach is taken to overcome this hurdle \citep{Chen2017-sb}. By including the `scale' block in our subject-level analysis scripts, each voxel's time series was normalized (in our notation, using a voxelwise $B$) to a voxelwise mean of 100 for all subjects. Scaling of the design matrix is conducted implicitly within AFNI, and as the sum of the contrast elements was 1 in all our analyses, no contrast scaling was necessary. Because of this, the effect estimate maps obtained at the group-level in our AFNI analyses could be directly interpreted as percentage BOLD change maps. 
 
@@ -72,7 +72,7 @@ In FSL and SPM a global (i.e.\ brain-wide) approach is taken for data scaling, s
 
 Since ds000120 used a sine basis HRF, this study's general linear model contained multiple predictor variables which hampered the computation of a percent BOLD change measure.  Instead we computed partial $R^{2}$ maps to assess the explained variance (relative to data variance not already explained by other terms) of the main effect of the saccade condition.
 
-With $\nu_{1}$ and $\nu_{2}$ as the numerator and denominator degrees of freedom of the F-statistic, respectively, we used the relationship between $R^{2}$ and the F-statistic given by the identity:
+With $\nu_{1}$ and $\nu_{2}$ as the numerator and denominator degrees of freedom of the $F$-statistic, respectively, we used the relationship between $R^{2}$ and the $F$-statistic given by the identity:
 %
 \begin{equation}
 \label{eq:SC_sup_F_to_R}
@@ -90,7 +90,7 @@ which solves for $R^{2}$ as
 \section{Supplementary Figures}
 \label{App:SC_supplementary_figures}
 
-\begin{figure}[htbp]
+\begin{figure}[h!tbp]
 \centering
 	\includegraphics[width=\textwidth]{SC_supp_Registration}	
 \caption{Registration Quality Control: Mean and standard deviation of anatomical and mean functional images}
